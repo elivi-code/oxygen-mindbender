@@ -1,0 +1,12 @@
+coverage
+dist
+node_modules
+storybook
+
+// generated icon files - not relevant to lint
+packages/icon/icons
+packages/icon/novo
+packages/icon/src/novo
+packages/icon/src/icons
+packages/icon/utils
+packages/icon/stories

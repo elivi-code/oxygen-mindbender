@@ -1,0 +1,160 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "eslint-config-prettier"
+  ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": [
+    "@babel",
+    "import",
+    "jest",
+    "jsx-a11y",
+    "react",
+    "react-hooks",
+    "prettier"
+  ],
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      { "ignorePropertyModificationsFor": ["draft"] }
+    ],
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "./docs/**/*",
+          "test-setup.js",
+          "jestGlobalSetup.js",
+          "vite.config.js"
+        ]
+      }
+    ],
+    "import/no-named-as-default": "off",
+    "import/no-unresolved": [
+      "error",
+      { "ignore": ["^@8x8/oxygen-", "\\?raw$", "^storybook/"] }
+    ],
+    "import/extensions": ["error", "never", { "ignorePackages": true }],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "max-len": [
+      "error",
+      120,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "no-continue": "off",
+    "no-restricted-syntax": [
+      "off",
+      {
+        "selector": "ExportNamedDeclaration > ClassDeclaration",
+        "message": "Export should be done at the bottom of the file (found: `export class`)"
+      }
+    ],
+    "no-use-before-define": ["error", { "functions": false }],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "react/forbid-prop-types": [
+      "error",
+      {
+        "forbid": ["any"],
+        "checkContextTypes": true,
+        "checkChildContextTypes": true
+      }
+    ],
+    "lines-between-class-members": "off",
+    "import/no-relative-packages": ["error"],
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/destructuring-assignment": "off",
+    "react/sort-comp": "off",
+    "react/static-property-placement": "off",
+    "react/state-in-constructor": "off",
+    "react/function-component-definition": "off",
+    // defaultProps is going away, new docs recommend using default function values
+    // https://react.dev/learn/passing-props-to-a-component#specifying-a-default-value-for-a-prop
+    // "Defining defaultProps in class components is similar to using default values in function components." https://react.dev/reference/react/Component#static-defaultprops
+    "react/require-default-props": "off",
+    "react/prop-types": "off",
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" },
+      { "blankLine": "always", "prev": "*", "next": "if" },
+      { "blankLine": "always", "prev": "*", "next": "for" },
+      { "blankLine": "always", "prev": "*", "next": "function" },
+      { "blankLine": "always", "prev": "function", "next": "*" },
+      { "blankLine": "always", "prev": "*", "next": "export" },
+      { "blankLine": "any", "prev": "export", "next": "export" },
+      { "blankLine": "always", "prev": ["const", "let"], "next": "*" },
+      { "blankLine": "any", "prev": ["const", "let"], "next": ["const", "let"] }
+    ],
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "eslint-config-prettier"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint"],
+      "rules": {
+        "no-undef": "off",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "error",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "import/extensions": ["error", "never", { "ignorePackages": true }]
+      }
+    },
+    {
+      "files": [
+        "**/*.test.@(js|jsx|ts|tsx)",
+        "**/*.stories.@(js|tsx|ts|mdx)",
+        "packages/**/examples/**/*",
+        "packages/storybookUtils/**/*",
+        "scripts/**/*",
+        "__mocks__/**/*"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/extensions": "off"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "16.8.2"
+    }
+  },
+  "ignorePatterns": ["node_modules/"]
+}

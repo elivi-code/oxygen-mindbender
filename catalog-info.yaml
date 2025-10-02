@@ -1,0 +1,28 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: oxygen
+  title: Oxygen
+  description: Oxygen UI components library and design system
+  annotations:
+    github.com/project-slug: 8x8/oxygen
+    sonarqube.org/project-key: oxygen
+  links:
+    - url: https://oxygen-dev.8x8.com/
+      title: Storybook
+      type: storybook
+      icon: storybook
+    - url: https://oxygen.8x8.com/
+      title: Docs
+      type: docs
+      icon: docs
+    - url: https://sonar.8x8.com/dashboard?id=oxygen
+      title: Sonar Project
+      type: dashboard
+      icon: dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: platform-ui
+  system: Platform

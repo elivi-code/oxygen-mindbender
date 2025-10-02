@@ -1,0 +1,3 @@
+[submodule "packages/icon/assets"]
+	path = packages/icon/assets
+	url = git@github.com:8x8/oxygen-icons.git

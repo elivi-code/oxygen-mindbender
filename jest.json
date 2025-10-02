@@ -1,0 +1,58 @@
+{
+  "collectCoverageFrom": [
+    "<rootDir>/packages/**/*.{js,ts,tsx}",
+    "!**/examples/**/*.{js,ts,tsx}",
+    "!**/dist/**/*.js",
+    "!**/*.stories.js"
+  ],
+  "coverageReporters": ["text", "html", "lcov"],
+  "coverageDirectory": "<rootDir>/coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "resetModules": true,
+  "globalSetup": "<rootDir>/jestGlobalSetup.js",
+  "setupFilesAfterEnv": ["<rootDir>/test-setup.ts"],
+  "testEnvironment": "jsdom",
+  "testMatch": ["**/?(*.)test.(js|jsx|ts|tsx)"],
+  "testPathIgnorePatterns": ["node_modules/", "dist/"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"],
+  "transform": {
+    "\\.(ts|tsx)$": ["@swc/jest", {
+      "jsc": {
+        "parser": {
+          "syntax": "typescript",
+          "tsx": true
+        },
+        "transform": {
+          "react": {
+            "runtime": "automatic"
+          }
+        }
+      }
+    }],
+    "\\.js$": ["@swc/jest", {
+      "jsc": {
+        "parser": {
+          "syntax": "ecmascript",
+          "jsx": true
+        },
+        "transform": {
+          "react": {
+            "runtime": "automatic"
+          }
+        }
+      }
+    }],
+    "\\.svg$": "<rootDir>/svgTransform.js"
+  },
+  "logHeapUsage": true,
+  "verbose": false,
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "workerIdleMemoryLimit": "950mb"
+}
