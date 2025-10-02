@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioInput /> should render correctly with default props 1`] = `
+<RadioInputWrapper
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <RadioIcon
+    hasLabel={false}
+    isChecked={false}
+    isDisabled={false}
+    isFocused={false}
+    isHovered={false}
+  />
+  <RadioInputField
+    aria-disabled={false}
+    checked={false}
+    data-id="testId"
+    data-test-id="testId"
+    id="test-id"
+    name="test-name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    test-id="testId"
+    type="radio"
+  />
+</RadioInputWrapper>
+`;

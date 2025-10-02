@@ -1,0 +1,27 @@
+{
+  "name": "@8x8/oxygen-icon-button",
+  "version": "2.98.0",
+  "stage": "beta",
+  "description": "Oxygen - IconButton",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/iconButton",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-button": "2.98.0"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

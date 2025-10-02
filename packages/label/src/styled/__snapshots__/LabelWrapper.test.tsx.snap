@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelWrapper> should render correctly 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<LabelWrapper> should render correctly when expects to wrap 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: 24px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<LabelWrapper> should render correctly with value 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  value="Label text"
+/>
+`;

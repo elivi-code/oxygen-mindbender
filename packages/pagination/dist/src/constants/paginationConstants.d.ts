@@ -1,0 +1,4 @@
+declare const DEFAULT_PAGINATION_ROWS_PER_PAGE_VALUES: number[];
+declare const DEFAULT_PAGINATION_ROWS_PER_PAGE = 10;
+export { DEFAULT_PAGINATION_ROWS_PER_PAGE, DEFAULT_PAGINATION_ROWS_PER_PAGE_VALUES, };
+//# sourceMappingURL=paginationConstants.d.ts.map

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScreenshareSlashSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M4.4626 3h-.0252l-.7022-.7021c-.397-.3971-1.0406-.3972-1.4376-.0003-.3969.397-.3968 1.0406.0003 1.4376l.0861.0862A1.991 1.991 0 0 0 2 5v12c0 1.1046.8955 2 2 2h2.6a.6.6 0 0 0-.6.6v.8a.6.6 0 0 0 .6.6h10.8a.6.6 0 0 0 .6-.6v-.8a.5993.5993 0 0 0-.0324-.195l2.2972 2.2971c.397.3971 1.0407.3972 1.4376.0003.3969-.3969.3968-1.0406-.0003-1.4376l-1.3043-1.3044a1.285 1.285 0 0 0 .0209-.0043l-5.7616-5.7616-.014.0112L10.69 9.2526l.0201-.0051L4.4626 3Zm11.7863 8.9115 1.4614-1.1779a.3.3 0 0 0 0-.4672l-4.222-3.4029c-.1962-.1582-.4882-.0185-.4882.2336v1.5656L7.3374 3H20c1.1046 0 2 .8954 2 2v12c0 .2009-.0296.3949-.0847.5779l-5.6664-5.6664ZM7.0001 16c0-2.8906.5787-4.7202 1.7817-5.7808l2.1463 2.1462C9.6814 12.816 8.1237 13.8112 7.0001 16ZM17.4 19h.1626l.0324.0324A.5988.5988 0 0 0 17.4 19Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoogleDriveIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M8.3158 3h7.3684L21.5 13h-7L8.3158 3ZM21.5 15H11.1579L8 21h10.5l3-6ZM11 11 7 4.5 2.5 13 6 20l5-9Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

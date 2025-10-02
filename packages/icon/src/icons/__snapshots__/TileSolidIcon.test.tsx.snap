@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TileSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M3 2h7c.5523 0 1 .4477 1 1v7c0 .5523-.4477 1-1 1H3c-.5523 0-1-.4477-1-1V3c0-.5523.4477-1 1-1Zm0 11h7c.5523 0 1 .4477 1 1v7c0 .5523-.4477 1-1 1H3c-.5523 0-1-.4477-1-1v-7c0-.5523.4477-1 1-1ZM14 2h7c.5523 0 1 .4477 1 1v7c0 .5523-.4477 1-1 1h-7c-.5523 0-1-.4477-1-1V3c0-.5523.4477-1 1-1Zm0 11h7c.5523 0 1 .4477 1 1v7c0 .5523-.4477 1-1 1h-7c-.5523 0-1-.4477-1-1v-7c0-.5523.4477-1 1-1Z"
+    />
+  </g>
+</svg>
+`;

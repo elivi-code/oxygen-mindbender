@@ -1,0 +1,1 @@
+{"version":3,"file":"SecondaryTextCell.d.ts","sourceRoot":"","sources":["../../../src/table/SecondaryTextCell.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAe1B,UAAU,KAAK;IACb,IAAI,EAAE,MAAM,GAAG,MAAM,CAAC;IACtB,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB;AAED,QAAA,MAAM,iBAAiB,EAAE,KAAK,CAAC,EAAE,CAAC,KAAK,CAItC,CAAC;AAEF,OAAO,EAAE,iBAAiB,EAAE,CAAC"}

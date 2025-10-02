@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List> should render correctly 1`] = `
+<ListStyled
+  forwardedRef={null}
+  isGroup={false}
+  isOrdered={false}
+  withBackground={false}
+>
+  <li>
+    item 2
+  </li>
+  <li>
+    item 2
+  </li>
+</ListStyled>
+`;
+
+exports[`<List> should render correctly when list isGroup 1`] = `
+<ListStyled
+  forwardedRef={null}
+  isGroup={true}
+  isOrdered={false}
+  withBackground={false}
+>
+  <li>
+    item 2
+  </li>
+  <li>
+    item 2
+  </li>
+</ListStyled>
+`;
+
+exports[`<List> should render correctly when list isOrdered 1`] = `
+<ListStyled
+  forwardedRef={null}
+  isGroup={false}
+  isOrdered={true}
+  withBackground={false}
+>
+  <li>
+    item 2
+  </li>
+  <li>
+    item 2
+  </li>
+</ListStyled>
+`;
+
+exports[`<List> should render correctly withBackground 1`] = `
+<ListStyled
+  forwardedRef={null}
+  isGroup={false}
+  isOrdered={false}
+  withBackground={true}
+>
+  <li>
+    item 2
+  </li>
+  <li>
+    item 2
+  </li>
+</ListStyled>
+`;

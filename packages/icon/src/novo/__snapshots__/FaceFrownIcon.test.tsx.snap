@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FaceFrownIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M9.75 9.75c0 .8284-.6716 1.5-1.5 1.5s-1.5-.6716-1.5-1.5.6716-1.5 1.5-1.5 1.5.6716 1.5 1.5ZM15.75 11.25c.8284 0 1.5-.6716 1.5-1.5s-.6716-1.5-1.5-1.5-1.5.6716-1.5 1.5.6716 1.5 1.5 1.5ZM7.4464 16.1222c-.2294.2672-.1912.6623.0578.9114.3328.3327.8898.2629 1.2116-.0805.821-.8762 1.9887-1.4237 3.2842-1.4237 1.2956 0 2.4632.5475 3.2843 1.4237.3218.3434.8788.4132 1.2116.0805.249-.2491.2872-.6442.0577-.9114-1.1003-1.2812-2.7322-2.0928-4.5536-2.0928-1.8213 0-3.4532.8116-4.5536 2.0928Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5 1.5 6.201 1.5 12 6.201 22.5 12 22.5Zm0-1.5c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

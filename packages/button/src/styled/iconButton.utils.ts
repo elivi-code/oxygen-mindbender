@@ -1,0 +1,71 @@
+import type { IconButtonProps, IconButtonTheme } from '../types';
+
+type StyledIconButtonProps = Partial<IconButtonProps> & {
+  theme: IconButtonTheme;
+};
+
+export const getIconColor = ({
+  isActive,
+  isInverted,
+  isDisabled,
+  theme,
+}: Pick<
+  IconButtonProps,
+  'isActive' | 'isInverted' | 'isDisabled' | 'theme'
+>) => {
+  if (isDisabled) {
+    return theme.colorDisabled;
+  }
+
+  if (isActive && isInverted) {
+    return theme.color;
+  }
+
+  if (isActive) {
+    return theme.colorSelected;
+  }
+
+  if (isInverted) {
+    return theme.colorInverted;
+  }
+
+  return theme.color;
+};
+
+export const getDefaultBackground = (props: StyledIconButtonProps) => {
+  if (!props.isActive) {
+    return 'transparent';
+  }
+
+  if (props['aria-disabled']) {
+    return props.theme.backgroundSelectedDisabled;
+  }
+
+  if (props.isInverted) {
+    return props.theme.backgroundActive;
+  }
+
+  return props.theme.backgroundActiveSelected;
+};
+
+export const getHoverBackground = (props: StyledIconButtonProps) => {
+  if (
+    (props.isActive && !props.isInverted) ||
+    (!props.isActive && props.isInverted)
+  ) {
+    return props.theme.backgroundSelectedHover;
+  }
+
+  return props.theme.backgroundHover;
+};
+
+export const getActiveBackground = (props: StyledIconButtonProps) => {
+  if (
+    (props.isActive && props.isInverted) ||
+    (!props.isActive && !props.isInverted)
+  ) {
+    return props.theme.backgroundActive;
+  }
+
+  return props.theme.backgroundActiveSelected;
+};

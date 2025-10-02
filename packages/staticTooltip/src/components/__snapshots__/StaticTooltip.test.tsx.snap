@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StaticTooltip> should render correctly with custom testId 1`] = `
+<TooltipWrapper
+  data-id="CUSTOM_TEST_ID"
+  data-test-id="CUSTOM_TEST_ID"
+  test-id="CUSTOM_TEST_ID"
+>
+  <TooltipContent>
+    Lorem ipsum
+  </TooltipContent>
+</TooltipWrapper>
+`;
+
+exports[`<StaticTooltip> should render correctly with default props 1`] = `
+<TooltipWrapper
+  data-id="STATIC_TOOLTIP"
+  data-test-id="STATIC_TOOLTIP"
+  test-id="STATIC_TOOLTIP"
+>
+  <TooltipContent>
+    Lorem ipsum
+  </TooltipContent>
+</TooltipWrapper>
+`;
+
+exports[`<StaticTooltip> should render with Arrow render prop 1`] = `
+<TooltipWrapper
+  data-id="CUSTOM_TEST_ID"
+  data-test-id="CUSTOM_TEST_ID"
+  test-id="CUSTOM_TEST_ID"
+>
+  <TooltipContent>
+    Lorem ipsum
+  </TooltipContent>
+  <div
+    data-arrow-render-prop={true}
+  />
+</TooltipWrapper>
+`;

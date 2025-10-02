@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionGroup styled components should render Container 1`] = `
+.c0 {
+  background: #FFFFFF;
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+<div
+  class="c0"
+/>
+`;

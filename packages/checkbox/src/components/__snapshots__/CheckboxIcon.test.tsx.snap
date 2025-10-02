@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: false, isChecked: false, isIndeterminate: false } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M18 5H6c-.5523 0-1 .4477-1 1v12c0 .5523.4477 1 1 1h12c.5523 0 1-.4477 1-1V6c0-.5523-.4477-1-1-1ZM6 4c-1.1046 0-2 .8954-2 2v12c0 1.1046.8954 2 2 2h12c1.1046 0 2-.8954 2-2V6c0-1.1046-.8954-2-2-2H6Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: false, isChecked: false, isIndeterminate: true } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M6 4h12c1.1046 0 2 .8954 2 2v12c0 1.1046-.8954 2-2 2H6c-1.1046 0-2-.8954-2-2V6c0-1.1046.8954-2 2-2Zm0 1c-.5523 0-1 .4477-1 1v12c0 .5523.4477 1 1 1h12c.5523 0 1-.4477 1-1V6c0-.5523-.4477-1-1-1H6Zm10 6H8v2h8v-2Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: false, isChecked: true, isIndeterminate: false } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M6 4c-1.1046 0-2 .8954-2 2v12c0 1.1046.8954 2 2 2h12c1.1046 0 2-.8954 2-2V6c0-1.1046-.8954-2-2-2H6Zm11.6417 5.2553v.1311c0 .025-.0063.05-.0187.075a.2179.2179 0 0 1-.0375.0562.4531.4531 0 0 0-.0562.0655.4601.4601 0 0 1-.0562.0656 91.019 91.019 0 0 1-.7869.7775 94.0051 94.0051 0 0 0-.7869.7775 44.884 44.884 0 0 0-.7775.7588l-.7775.7775a30.2227 30.2227 0 0 0-.7776.7682c-.256.2623-.5152.5183-.7775.7681a44.5178 44.5178 0 0 1-.7588.7776l-.7775.7775c-.0499.0499-.0999.0874-.1499.1124a.332.332 0 0 1-.1498.0375.2789.2789 0 0 1-.1406-.0375c-.0437-.025-.0905-.0625-.1405-.1124a27.9935 27.9935 0 0 0-.8618-.8993l-.4496-.4497a14.228 14.228 0 0 1-.431-.4496l-.4496-.4497a14.2275 14.2275 0 0 1-.431-.4496 15.3332 15.3332 0 0 1-.4402-.459 15.0956 15.0956 0 0 0-.4403-.459.4572.4572 0 0 1-.0562-.0656.141.141 0 0 0-.0562-.0469.3039.3039 0 0 1-.0375-.0468A.1154.1154 0 0 1 7 11.9906v-.1686a.2508.2508 0 0 1 .0468-.0656.2505.2505 0 0 0 .0469-.0655.7033.7033 0 0 0 .0655-.075.4915.4915 0 0 0 .0469-.0749 6.6371 6.6371 0 0 0 .2154-.1874 4.174 4.174 0 0 1 .1968-.1686 2.6705 2.6705 0 0 1 .1967-.178c.0687-.0562.1343-.1093.1967-.1592.05-.05.1-.0843.1499-.1031a.425.425 0 0 1 .1499-.0281c.0374 0 .0812.0156.1311.0469.05.0312.1.0718.15.1217.1748.1749.3496.3529.5245.534.1749.1811.3497.3591.5246.534l.5058.5058c.1749.1749.3498.3435.5246.5059.0625.0499.1156.0905.1593.1218a.2372.2372 0 0 0 .1405.0468c.0375 0 .0812-.0156.1311-.0468.05-.0313.1-.0719.1499-.1218l.5996-.5996a28.642 28.642 0 0 1 .6182-.5995l.5996-.5995a28.408 28.408 0 0 1 .6182-.5996 55.503 55.503 0 0 0 .5996-.6089 54.618 54.618 0 0 1 1.2084-1.2084 55.863 55.863 0 0 0 .6089-.5995c.0499-.05.0999-.0875.1499-.1124.0499-.025.0936-.0375.1311-.0375.0375 0 .0812.0125.1312.0375.0499.025.0999.0624.1498.1124.075.0874.1437.1655.2061.2342a6.38 6.38 0 0 0 .2061.2154l.3935.3935a.4596.4596 0 0 1 .0562.0655.4537.4537 0 0 0 .0562.0656.613.613 0 0 0 .0375.0656.116.116 0 0 1 .0187.0656Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: false, isChecked: true, isIndeterminate: true } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M6 4c-1.1046 0-2 .8954-2 2v12c0 1.1046.8954 2 2 2h12c1.1046 0 2-.8954 2-2V6c0-1.1046-.8954-2-2-2H6Zm11.6417 5.2553v.1311c0 .025-.0063.05-.0187.075a.2179.2179 0 0 1-.0375.0562.4531.4531 0 0 0-.0562.0655.4601.4601 0 0 1-.0562.0656 91.019 91.019 0 0 1-.7869.7775 94.0051 94.0051 0 0 0-.7869.7775 44.884 44.884 0 0 0-.7775.7588l-.7775.7775a30.2227 30.2227 0 0 0-.7776.7682c-.256.2623-.5152.5183-.7775.7681a44.5178 44.5178 0 0 1-.7588.7776l-.7775.7775c-.0499.0499-.0999.0874-.1499.1124a.332.332 0 0 1-.1498.0375.2789.2789 0 0 1-.1406-.0375c-.0437-.025-.0905-.0625-.1405-.1124a27.9935 27.9935 0 0 0-.8618-.8993l-.4496-.4497a14.228 14.228 0 0 1-.431-.4496l-.4496-.4497a14.2275 14.2275 0 0 1-.431-.4496 15.3332 15.3332 0 0 1-.4402-.459 15.0956 15.0956 0 0 0-.4403-.459.4572.4572 0 0 1-.0562-.0656.141.141 0 0 0-.0562-.0469.3039.3039 0 0 1-.0375-.0468A.1154.1154 0 0 1 7 11.9906v-.1686a.2508.2508 0 0 1 .0468-.0656.2505.2505 0 0 0 .0469-.0655.7033.7033 0 0 0 .0655-.075.4915.4915 0 0 0 .0469-.0749 6.6371 6.6371 0 0 0 .2154-.1874 4.174 4.174 0 0 1 .1968-.1686 2.6705 2.6705 0 0 1 .1967-.178c.0687-.0562.1343-.1093.1967-.1592.05-.05.1-.0843.1499-.1031a.425.425 0 0 1 .1499-.0281c.0374 0 .0812.0156.1311.0469.05.0312.1.0718.15.1217.1748.1749.3496.3529.5245.534.1749.1811.3497.3591.5246.534l.5058.5058c.1749.1749.3498.3435.5246.5059.0625.0499.1156.0905.1593.1218a.2372.2372 0 0 0 .1405.0468c.0375 0 .0812-.0156.1311-.0468.05-.0313.1-.0719.1499-.1218l.5996-.5996a28.642 28.642 0 0 1 .6182-.5995l.5996-.5995a28.408 28.408 0 0 1 .6182-.5996 55.503 55.503 0 0 0 .5996-.6089 54.618 54.618 0 0 1 1.2084-1.2084 55.863 55.863 0 0 0 .6089-.5995c.0499-.05.0999-.0875.1499-.1124.0499-.025.0936-.0375.1311-.0375.0375 0 .0812.0125.1312.0375.0499.025.0999.0624.1498.1124.075.0874.1437.1655.2061.2342a6.38 6.38 0 0 0 .2061.2154l.3935.3935a.4596.4596 0 0 1 .0562.0655.4537.4537 0 0 0 .0562.0656.613.613 0 0 0 .0375.0656.116.116 0 0 1 .0187.0656Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: true, isChecked: false, isIndeterminate: false } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M16.5 4.5h-9c-1.6569 0-3 1.3431-3 3v9c0 1.6569 1.3431 3 3 3h9c1.6569 0 3-1.3431 3-3v-9c0-1.6569-1.3431-3-3-3ZM7.5 3C5.0147 3 3 5.0147 3 7.5v9C3 18.9853 5.0147 21 7.5 21h9c2.4853 0 4.5-2.0147 4.5-4.5v-9C21 5.0147 18.9853 3 16.5 3h-9Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: true, isChecked: false, isIndeterminate: true } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M3 7.5C3 5.0147 5.0147 3 7.5 3h9C18.9853 3 21 5.0147 21 7.5v9c0 2.4853-2.0147 4.5-4.5 4.5h-9C5.0147 21 3 18.9853 3 16.5v-9Zm5.25 3.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: true, isChecked: true, isIndeterminate: false } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M7.5 3C5.0147 3 3 5.0147 3 7.5v9C3 18.9853 5.0147 21 7.5 21h9c2.4853 0 4.5-2.0147 4.5-4.5v-9C21 5.0147 18.9853 3 16.5 3h-9Zm9.5303 6.5303a.75.75 0 0 0-1.0606-1.0606l-5.8447 5.8446-2.0947-2.0946a.75.75 0 0 0-1.0606 1.0606l2.625 2.625a.75.75 0 0 0 1.0606 0l6.375-6.375Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;
+
+exports[`<CheckboxIcon> renders items with role="presentation" and color="currentColor", and each to have a different icon for { novo: true, isChecked: true, isIndeterminate: true } 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+  color="currentColor"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clip-rule="evenodd"
+      d="M7.5 3C5.0147 3 3 5.0147 3 7.5v9C3 18.9853 5.0147 21 7.5 21h9c2.4853 0 4.5-2.0147 4.5-4.5v-9C21 5.0147 18.9853 3 16.5 3h-9Zm9.5303 6.5303a.75.75 0 0 0-1.0606-1.0606l-5.8447 5.8446-2.0947-2.0946a.75.75 0 0 0-1.0606 1.0606l2.625 2.625a.75.75 0 0 0 1.0606 0l6.375-6.375Z"
+      fill-rule="evenodd"
+    />
+  </g>
+</svg>
+`;

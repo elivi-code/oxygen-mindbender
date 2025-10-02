@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Value> should render correctly 1`] = `
+<ValueText
+  data-id="LABEL_VALUE"
+  data-test-id="LABEL_VALUE"
+  isDisabled={false}
+  shouldWrapText={false}
+  test-id="LABEL_VALUE"
+>
+  Action text
+</ValueText>
+`;
+
+exports[`<Value> should render correctly when expects to wrap 1`] = `
+<ValueText
+  data-id="LABEL_VALUE"
+  data-test-id="LABEL_VALUE"
+  isDisabled={false}
+  shouldWrapText={true}
+  test-id="LABEL_VALUE"
+>
+  Action text
+</ValueText>
+`;
+
+exports[`<Value> should render correctly when label is required 1`] = `
+<ValueText
+  data-id="LABEL_VALUE"
+  data-test-id="LABEL_VALUE"
+  isDisabled={false}
+  shouldWrapText={false}
+  test-id="LABEL_VALUE"
+>
+  Action text
+  <Asterisk
+    aria-hidden="true"
+  >
+    *
+  </Asterisk>
+</ValueText>
+`;

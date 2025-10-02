@@ -1,0 +1,2 @@
+var CUSTOM_RANGE_ID = 'CUSTOM';
+export default CUSTOM_RANGE_ID;

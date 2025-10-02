@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableRowFlex> should render correctly 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRowFlex
+    enableHover={false}
+    forwardedRef={null}
+    isSelected={false}
+  >
+    <span>
+      table row
+    </span>
+  </TableRowFlex>
+</TableFlex>
+`;
+
+exports[`<TableRowFlex> should render correctly when isSelectable 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRowFlex
+    enableHover={true}
+    forwardedRef={null}
+    isSelected={false}
+  >
+    <span>
+      table row
+    </span>
+  </TableRowFlex>
+</TableFlex>
+`;
+
+exports[`<TableRowFlex> should render correctly when isSelected 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRowFlex
+    enableHover={false}
+    forwardedRef={null}
+    isSelected={true}
+  >
+    <span>
+      table row
+    </span>
+  </TableRowFlex>
+</TableFlex>
+`;

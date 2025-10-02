@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2 4c0-1.1046.8954-2 2-2h16c1.1046 0 2 .8954 2 2v16c0 1.1046-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2V4Zm2 2v2h7V6H4Zm9 0v2h7V6h-7Zm-2 4H4v2h7v-2Zm9 0h-7v2h7v-2ZM4 18v2h7v-2H4Zm7-2H4v-2h7v2Zm2 2v2h7v-2h-7Zm7-2h-7v-2h7v2Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

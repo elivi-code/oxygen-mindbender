@@ -1,0 +1,1 @@
+{"version":3,"file":"TextLinkWrapper.d.ts","sourceRoot":"","sources":["../../../src/styled/TextLinkWrapper.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAQ9C;;GAEG;AACH,QAAA,MAAM,eAAe;YARX,aAAa,CAAC,OAAO,CAAC;WACvB,aAAa,CAAC,MAAM,CAAC;gBAChB,aAAa,CAAC,WAAW,CAAC;SA2HvC,CAAC;AAEF,eAAe,eAAe,CAAC"}

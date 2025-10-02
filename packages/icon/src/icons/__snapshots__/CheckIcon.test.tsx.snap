@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M4.7071 12.6929c-.3905-.3905-1.0237-.3905-1.4142 0-.3905.3905-.3905 1.0237 0 1.4142l4.8295 4.8295c.3913.3913 1.0259.3905 1.4161-.0018L20.709 7.7052c.3895-.3915.3878-1.0247-.0038-1.4142-.3915-.3895-1.0247-.3878-1.4142.0038L8.8277 16.8135 4.707 12.6929Z"
+    />
+  </g>
+</svg>
+`;

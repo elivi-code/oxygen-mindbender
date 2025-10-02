@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField> should render correctly as disabled 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+  cursor: not-allowed;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`<InputField> should render correctly as fixed 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #5E6D7A;
+  -webkit-text-fill-color: #5E6D7A;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`<InputField> should render correctly as read only 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+  readOnly={true}
+/>
+`;
+
+exports[`<InputField> should render correctly with max attribute 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+  max={99}
+  type="number"
+/>
+`;
+
+exports[`<InputField> should render correctly with maxLength attribute 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+  maxLength={10}
+/>
+`;
+
+exports[`<InputField> should render correctly with min attribute 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+  className="c0"
+  min={1}
+  type="number"
+/>
+`;

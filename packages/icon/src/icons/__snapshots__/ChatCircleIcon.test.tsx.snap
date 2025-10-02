@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatCircleIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2 12c0 5.5228 4.4771 10 10 10 5.5228 0 10-4.4772 10-10 0-5.5229-4.4772-10-10-10C6.4771 2 2 6.4771 2 12Zm18 0c0 4.4183-3.5817 8-8 8s-8-3.5817-8-8 3.5817-8 8-8 8 3.5817 8 8Zm-4.3333 3.2255v1.6152a1.0001 1.0001 0 0 1-1.7071.7071l-2.3223-2.3223H8c-.5523 0-1-.4477-1-1V9c0-.5523.4477-1 1-1h8c.5523 0 1 .4477 1 1v5.2255c0 .5523-.4477 1-1 1h-.3333Zm-6.6667-2V10h6v3.2255h-1.3333v1.201l-1.201-1.201H9Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Action> should render as \`button\` with action as function 1`] = `
+<ActionText
+  aria-disabled={false}
+  as="button"
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_self"
+  test-id="LABEL_ACTION"
+  title="Action text"
+  type="button"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_self"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly the action text when expects to wrap 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={true}
+  tabIndex={0}
+  target="_self"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly when isDisabled 1`] = `
+<ActionText
+  aria-disabled={true}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  isDisabled={true}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_self"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly with _blank link action 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  href="www.8x8.com"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_blank"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly with _parent link action 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  href="www.8x8.com"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_parent"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly with _top link action 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  href="www.8x8.com"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_top"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;
+
+exports[`<Action> should render correctly with action as a link 1`] = `
+<ActionText
+  aria-disabled={false}
+  data-id="LABEL_ACTION"
+  data-test-id="LABEL_ACTION"
+  href="www.8x8.com"
+  isDisabled={false}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex={0}
+  target="_self"
+  test-id="LABEL_ACTION"
+  title="Action text"
+>
+  Action text
+</ActionText>
+`;

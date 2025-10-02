@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoSlashIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M20.7803 3.2197a.75.75 0 0 1 0 1.0606l-3.3708 3.3708.0054-.0041L15.75 9.3119v-.0012L7.0607 18h.0012l-1.5 1.5h-.0012l-1.2804 1.2803a.75.75 0 0 1-1.0606-1.0606l.3626-.3627C2.3743 18.9693 1.5 17.8368 1.5 16.5v-9c0-1.6569 1.3432-3 3-3h9.75c1.1342 0 2.1214.6294 2.6313 1.558l2.8384-2.8383a.75.75 0 0 1 1.0606 0Zm-5.0571 3.9965C15.5905 6.5235 14.9814 6 14.25 6H4.5C3.6716 6 3 6.6716 3 7.5v9c0 .8284.6716 1.5 1.5 1.5h.4393L15.7232 7.2162Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M21 6.75a.75.75 0 0 1 1.5 0v10.4742c0 1.2455-1.4301 1.9484-2.4162 1.1877L17.25 16.2258V16.5c0 1.6569-1.3431 3-3 3H9A.75.75 0 0 1 9 18h5.25c.8284 0 1.5-.6716 1.5-1.5V12a.75.75 0 0 1 1.5 0v2.3313L21 17.2242V6.75Z"
+    />
+  </g>
+</svg>
+`;

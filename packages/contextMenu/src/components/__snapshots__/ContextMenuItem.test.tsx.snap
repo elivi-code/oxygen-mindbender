@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContextMenuItem> should render correctly 1`] = `
+<ContextMenuItem
+  data-id="CONTEXT_MENU_ITEM"
+  data-test-id="CONTEXT_MENU_ITEM"
+  forwardedRef={null}
+  isDisabled={false}
+  tabIndex="0"
+  test-id="CONTEXT_MENU_ITEM"
+>
+  <span>
+    Context Menu Item 
+  </span>
+</ContextMenuItem>
+`;

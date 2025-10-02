@@ -1,0 +1,257 @@
+import themes, { TypographySet } from '@8x8/oxygen-theme';
+
+import color from '../choices/color.const';
+import size from '../choices/size.const';
+import font from '../choices/font.const';
+import spacing from '../choices/spacing.const';
+
+const { light, dark, neoLight, neoDark } = themes;
+
+export interface CalendarTheme {
+  fontFamily: string;
+  fontSize: string;
+  lineHeight: string;
+  daySize: string;
+  dayFontSize: string;
+  dayColor: string;
+  daySelectedColor: string;
+  dayPassiveColor: string;
+  dayDisabledColor: string;
+  dayBackground: string;
+  daySelectedBackground: string;
+  daySelectedDisabledBackground: string;
+  dayPreviewBorderWidth: string | number;
+  dayPreviewBorderStyle: string;
+  dayPreviewBorderColor: string;
+  todayLineColor: string;
+  todaySelectedLineColor: string;
+  todayLineWidth: string;
+  todayLineHeight: string;
+  todayTypography?: TypographySet;
+  weekdaysTypography?: TypographySet;
+  numbersTypography?: TypographySet;
+  monthYearTypography?: TypographySet;
+  weekDaysMarginBottom: string;
+  weekDaysBorderWidth: string;
+  weekDaysBorderStyle: string;
+  weekDaysBorderColor: string;
+  weekDayColor: string;
+  monthNameFontSize: string;
+  monthNameLineHeight: string;
+  monthNameFontWeight: string | number;
+  calendarBackground: string;
+  calendarHorizontalPadding: string;
+  calendarMonthYearPickerBottomMargin: string;
+  calendarMonthYearPickerVerticalPadding: string;
+  monthSeparatorLineWidth: string;
+  monthSeparatorLineColor: string;
+  monthSeparatorLineMargin: string;
+  monthColor: string;
+  lineBorderRadius: string;
+  daySelectedEdgeBackground: string;
+  daySelectedEdgeColor: string;
+  dayPreviewBackground: string;
+  arrowColor: string;
+  isClassic: boolean;
+}
+
+const calendar: CalendarTheme = {
+  fontFamily: font.family,
+  fontSize: font.sizeSm,
+  lineHeight: font.lineHeightXs,
+
+  daySize: '2.5rem',
+  dayFontSize: font.sizeSm,
+  dayColor: color.pickledBluewood800,
+  daySelectedColor: color.white,
+  dayPassiveColor: color.cloudyBlue,
+  dayDisabledColor: color.cloudyBlue300,
+  dayBackground: 'transparent',
+  daySelectedBackground: color.dodgerBlue,
+  daySelectedDisabledBackground: color.dodgerBlue300,
+  dayPreviewBorderWidth: size.borderSizeDefault,
+  dayPreviewBorderStyle: 'solid',
+  dayPreviewBorderColor: color.dodgerBlue300,
+  todayLineColor: color.dodgerBlue300,
+  todaySelectedLineColor: color.white,
+  todayLineWidth: size.default2x,
+  todayLineHeight: size.smallest,
+
+  weekDaysMarginBottom: spacing.xxs,
+  weekDaysBorderWidth: size.borderSizeDefault,
+  weekDaysBorderStyle: 'solid',
+  weekDaysBorderColor: color.cloudyBlue300,
+  weekDayColor: color.steel700,
+
+  monthNameFontSize: font.sizeMd,
+  monthNameLineHeight: font.lineHeightMd,
+  monthNameFontWeight: font.weightAttention,
+
+  calendarBackground: 'transparent',
+  calendarHorizontalPadding: spacing.xs,
+  calendarMonthYearPickerBottomMargin: spacing.lg,
+  calendarMonthYearPickerVerticalPadding: spacing.sm,
+  monthSeparatorLineWidth: '1px',
+  monthSeparatorLineColor: color.cloudyBlue300,
+  monthSeparatorLineMargin: spacing.md,
+
+  monthColor: undefined,
+  lineBorderRadius: undefined,
+  daySelectedEdgeBackground: undefined,
+  daySelectedEdgeColor: undefined,
+  dayPreviewBackground: 'transparent',
+  arrowColor: undefined,
+
+  isClassic: true,
+};
+
+const todayTypography = light.bodyBold01;
+const weekdaysTypography = light.label01;
+const numbersTypography = light.body01;
+const monthYearTypography = light.body01;
+
+const calendarNovo: CalendarTheme = {
+  isClassic: false,
+
+  // Typography
+  fontFamily: undefined,
+  fontSize: undefined,
+  lineHeight: undefined,
+  dayFontSize: undefined,
+
+  monthNameFontSize: undefined,
+  monthNameLineHeight: undefined,
+  monthNameFontWeight: undefined,
+
+  todayTypography,
+  weekdaysTypography,
+  numbersTypography,
+  monthYearTypography,
+
+  // Structure
+  daySize: '2.5rem',
+  dayPreviewBorderWidth: 0,
+  dayPreviewBorderStyle: 'solid',
+
+  todayLineWidth: '4px',
+  todayLineHeight: '4px',
+  lineBorderRadius: '50%',
+
+  weekDaysBorderStyle: undefined,
+  weekDaysMarginBottom: undefined,
+  weekDaysBorderWidth: undefined,
+
+  calendarHorizontalPadding: light.spacing03,
+  calendarMonthYearPickerBottomMargin: light.spacing06,
+  calendarMonthYearPickerVerticalPadding: light.spacing04,
+
+  monthSeparatorLineMargin: light.spacing05,
+  monthSeparatorLineWidth: undefined,
+
+  // Colors
+  arrowColor: light.icon01,
+
+  dayColor: light.textColor01,
+  daySelectedColor: light.textColor01,
+  dayPassiveColor: light.disabled02,
+  dayDisabledColor: light.disabled02,
+  daySelectedEdgeColor: light.textColor06,
+
+  dayBackground: undefined,
+  daySelectedBackground: light.ui05,
+  daySelectedEdgeBackground: light.action04,
+  daySelectedDisabledBackground: light.ui05,
+
+  dayPreviewBorderColor: light.hover06,
+  dayPreviewBackground: light.hover06,
+
+  todayLineColor: light.icon01,
+  todaySelectedLineColor: light.icon02,
+
+  weekDaysBorderColor: undefined,
+  weekDayColor: light.textColor02,
+
+  monthColor: light.textColor01,
+  monthSeparatorLineColor: undefined,
+
+  calendarBackground: light.ui06,
+};
+
+const calendarNovoDark: CalendarTheme = {
+  ...calendarNovo,
+
+  arrowColor: dark.icon01,
+
+  dayColor: dark.textColor01,
+  daySelectedColor: dark.textColor01,
+  dayPassiveColor: dark.disabled02,
+  dayDisabledColor: dark.disabled02,
+  daySelectedEdgeColor: dark.textColor06,
+
+  dayBackground: undefined,
+  daySelectedBackground: dark.ui05,
+  daySelectedEdgeBackground: dark.action04,
+  daySelectedDisabledBackground: dark.ui05,
+
+  dayPreviewBorderColor: dark.hover06,
+  dayPreviewBackground: dark.hover06,
+
+  todayLineColor: dark.icon01,
+  todaySelectedLineColor: dark.icon02,
+
+  weekDaysBorderColor: undefined,
+  weekDayColor: dark.textColor02,
+
+  monthColor: dark.textColor01,
+  monthSeparatorLineColor: undefined,
+
+  calendarBackground: dark.ui06,
+};
+
+const calendarNeoLight: CalendarTheme = {
+  ...calendarNovo,
+  arrowColor: neoLight.icon01,
+  dayColor: neoLight.textColor01,
+  daySelectedColor: neoLight.textColor01,
+  dayPassiveColor: neoLight.disabled02,
+  dayDisabledColor: neoLight.disabled02,
+  daySelectedEdgeColor: neoLight.textColor06,
+  daySelectedBackground: neoLight.ui05,
+  daySelectedEdgeBackground: neoLight.action04,
+  daySelectedDisabledBackground: neoLight.ui05,
+  dayPreviewBorderColor: neoLight.hover06,
+  dayPreviewBackground: neoLight.hover06,
+  todayLineColor: neoLight.icon01,
+  todaySelectedLineColor: neoLight.icon02,
+  weekDayColor: neoLight.textColor02,
+  monthColor: neoLight.textColor01,
+  calendarBackground: neoLight.ui06,
+};
+
+const calendarNeoDark: CalendarTheme = {
+  ...calendarNovoDark,
+  arrowColor: neoDark.icon01,
+  dayColor: neoDark.textColor01,
+  daySelectedColor: neoDark.textColor01,
+  dayPassiveColor: neoDark.disabled02,
+  dayDisabledColor: neoDark.disabled02,
+  daySelectedEdgeColor: neoDark.textColor06,
+  daySelectedBackground: neoDark.ui05,
+  daySelectedEdgeBackground: neoDark.action04,
+  daySelectedDisabledBackground: neoDark.ui05,
+  dayPreviewBorderColor: neoDark.hover06,
+  dayPreviewBackground: neoDark.hover06,
+  todayLineColor: neoDark.icon01,
+  todaySelectedLineColor: neoDark.icon02,
+  weekDayColor: neoDark.textColor02,
+  monthColor: neoDark.textColor01,
+  calendarBackground: neoDark.ui06,
+};
+
+export {
+  calendar,
+  calendarNovo,
+  calendarNovoDark,
+  calendarNeoLight,
+  calendarNeoDark,
+};

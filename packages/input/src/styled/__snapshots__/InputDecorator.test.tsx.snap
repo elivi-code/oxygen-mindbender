@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputDecorator> should render correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F0F3F7;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #A4B8D1;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputDecorator> should render correctly as focused 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F0F3F7;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #0376DA;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputDecorator> should render correctly as prefix 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F0F3F7;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #A4B8D1;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0 0 0 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputDecorator> should render correctly as suffix 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F0F3F7;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #A4B8D1;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0 0 0 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputDecorator> should render correctly when hasError 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F0F3F7;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #E12D2D;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputDecorator> should render correctly when isReadOnly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFF;
+  border: 1px solid #A4B8D1;
+  border-right-color: #A4B8D1;
+  border-left-color: #D1DBE8;
+  box-sizing: border-box;
+  color: #5E6D7A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  text-align: left;
+  -webkit-transition: border-color 150ms;
+  transition: border-color 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  border-radius: 0;
+}
+
+.c0 > span {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+<div
+  className="c0"
+/>
+`;

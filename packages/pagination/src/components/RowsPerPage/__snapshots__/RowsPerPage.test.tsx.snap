@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowsPerPage should render component correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.c0 div[class*='-container'] {
+  min-width: 5.8125rem;
+}
+
+.c1 {
+  gap: 8px;
+}
+
+<div
+  className="c0 c1"
+>
+  <Select
+    aria-label="10 Rows per page:"
+    isClearable={false}
+    isDisabled={false}
+    isSearchable={false}
+    labelValue="Rows per page:"
+    menuPlacement="top"
+    onChange={[Function]}
+    options={
+      [
+        {
+          "label": "10",
+          "value": 10,
+        },
+        {
+          "label": "20",
+          "value": 20,
+        },
+        {
+          "label": "30",
+          "value": 30,
+        },
+      ]
+    }
+    size="small"
+    testId="PAGINATION_ROWS_PER_PAGE_SELECTOR"
+    value={
+      {
+        "label": "10",
+        "value": 10,
+      }
+    }
+  />
+</div>
+`;

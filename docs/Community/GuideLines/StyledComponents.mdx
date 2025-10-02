@@ -1,0 +1,55 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Styled-Components" />
+
+## Writing styles
+
+Styles for all components are written as a [styled-components](https://styled-components.com/)
+
+Styled-components are created inside the `styled` directory. Preferably,
+one component per file and that component are being exported as default.
+
+<br />
+
+### Structure of styled-components
+
+<hr />
+
+```
+my-component-name
+|---- src
+    |---- styled
+        |---- MyStyledComponent.js
+        |---- MyStyledComponent.test.js
+        |---- MySecondStyledComponent.js
+        |---- MySecondStyledComponent.test.js
+        |---- index.js // Should contains only import/exports
+```
+
+### Using styled-components
+
+<hr />
+
+Import everything named as _Styled_ from the styled folder.
+
+```js
+// MyComponent.js
+
+import * as Styled from '../styled';
+
+<Styled.Text>Text</Styled.Text>;
+```
+
+### Exporting styled-components
+
+<hr />
+
+Styled-components should be exported as _Styled_ from the main index.js
+
+```js
+// index.js
+
+import * as Styled from './styled';
+
+export { OtherComponents, Styled };
+```

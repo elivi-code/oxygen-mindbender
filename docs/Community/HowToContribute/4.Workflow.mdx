@@ -1,0 +1,39 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/How to contribute/4. Workflow" />
+
+## Workflow
+
+### Jira workflow
+
+- To do - ready to be worked on
+- In progress - actively working on it
+- Code review - there's a merge request for it and other devs are reviewing the code
+- To release - merge request was accepted and merged into the master branch
+- Done - implementation has been released
+
+### DoR - Definition of Ready
+
+Let's define what is necessary to start a task:
+
+- Clear and understandable acceptance criteria
+- Task is estimated (if applicable)
+- Task has no blockers
+
+**Before start let's review requirements, just as a part of backlog grooming on our [weekly meeting](https://confluence.8x8.com:8443/pages/viewpage.action?pageId=10685279)**
+
+### DoD - Definition of done
+
+Let's define when we can clearly say - **WELL DONE!**
+
+- Has a right file structure - based on standards
+- Contains necessary files - based on standards
+- ~90% UT coverage
+- If not - create a ticket for it
+- Zero warnings on linter
+- Code review is done
+- All the acceptance criteria are resolved
+- CHANGELOG.md file is updated
+- README.md file is updated
+- Component is accepted by Design Team
+- Does what is supposed to do

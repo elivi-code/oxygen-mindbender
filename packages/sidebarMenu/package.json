@@ -1,0 +1,47 @@
+{
+  "name": "@8x8/oxygen-sidebar-menu",
+  "version": "2.98.0",
+  "stage": "alpha",
+  "description": "Oxygen - Sidebar Menu",
+  "main": "dist/src/index.js",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "config": {
+    "docSourcesDeclarative": "src/components/{Sidebar/SidebarProvider,Menu/MenuItem,Menu/SubMenuItem,Menu/CollapseItem}.tsx",
+    "docSourcesConfigObj": "src/components/{Sidebar/Sidebar,}.tsx"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/sidebarMenu",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-badge": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-list": "2.98.0",
+    "@floating-ui/react": "0.26.19",
+    "lodash.noop": "3.0.1",
+    "lodash.pick": "4.4.0"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash.noop": "3.0.1",
+    "@types/lodash.pick": "4.4.9",
+    "react-router": "6.22.3",
+    "react-router-dom": "6.22.3",
+    "ts-readme": "1.1.3"
+  },
+  "scripts": {
+    "generate-docs": "npm run generate-docs-step1 && npm run generate-docs-step2",
+    "generate-docs-step1": "ts-readme --pattern $npm_package_config_docSourcesDeclarative --matcher 'TS-README-GENERATED-DECLARATIVE'",
+    "generate-docs-step2": "ts-readme --pattern $npm_package_config_docSourcesConfigObj --matcher 'TS-README-GENERATED-CONFIGOBJ'"
+  }
+}

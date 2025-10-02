@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M7.9998 4.8472a1 1 0 0 1 .8356-.9864l10-1.6666c.6095-.1016 1.1644.3684 1.1644.9864V16h-.018c-.0888 1.1714-.9229 2.4196-2.2679 3.1961-1.9132 1.1046-4.1357.8368-4.9641-.598-.8285-1.4349.0509-3.4935 1.9641-4.5981 1.101-.6357 2.3046-.8169 3.2859-.5826v-7.084l-8 1.3333V18h-.0173c.0963 1.2788-.7682 2.7318-2.2686 3.5981-1.9132 1.1045-4.1357.8368-4.9641-.5981-.8285-1.4349.0509-3.4935 1.964-4.5981 1.1011-.6357 2.3047-.8168 3.286-.5826V4.8472Z" clipRule="evenodd"/></g>, 'MusicNoteSolidIcon');

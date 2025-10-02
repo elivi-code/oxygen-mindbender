@@ -1,0 +1,48 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Naming" />
+
+## Naming
+
+Components should be named in a descriptive and straightforward way.
+
+### General principles
+
+<hr />
+
+- Choose descriptive and unambiguous names
+- Make meaningful distinction
+- Use pronounceable names
+- Use searchable names
+
+### Extensions
+
+<hr />
+
+Apart from using JSX syntax in Oxygen, we use regular javascript extension of files .js
+
+### Filename
+
+<hr />
+
+Use PascalCase for filenames. E.g., MyComponent.js
+
+### Component naming
+
+<hr />
+
+Use the filename as the component name. For example, `MyComponent.js` should have a reference name of `MyComponent`.
+However, for root components of a directory, use `index.js` as the filename and use the directory name as the component name:
+
+```js
+// Bad
+import MyComponent from './MyComponent/MyComponent';
+
+// Bad
+import MyComponent from './MyComponent/index';
+
+// The best
+import MyComponent from './MyComponent';
+```
+
+**Be aware - In codebase, you can find different conventions. Do not hesitate and change it 💪**

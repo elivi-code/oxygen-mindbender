@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SaveIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M6.75 16.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H6.75ZM6 14.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H6.75a.75.75 0 0 1-.75-.75ZM15.75 4.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M21 1.5H3c-.8284 0-1.5.6716-1.5 1.5v18c0 .8284.6716 1.5 1.5 1.5h18c.8284 0 1.5-.6716 1.5-1.5V3c0-.8284-.6716-1.5-1.5-1.5ZM21 3h-1.5v4.5c0 .8284-.6716 1.5-1.5 1.5H6c-.8284 0-1.5-.6716-1.5-1.5V3H3v18h18V3ZM6 3h12v4.5H6V3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

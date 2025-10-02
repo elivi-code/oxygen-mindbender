@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OfficeBuildingIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M9 6a.75.75 0 0 0-.75.75v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75v-.75A.75.75 0 0 0 9.75 6H9ZM13.5 6.75a.75.75 0 0 1 .75-.75H15a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75ZM9 9.75a.75.75 0 0 0-.75.75v.75A.75.75 0 0 0 9 12h.75a.75.75 0 0 0 .75-.75v-.75a.75.75 0 0 0-.75-.75H9ZM13.5 10.5a.75.75 0 0 1 .75-.75H15a.75.75 0 0 1 .75.75v.75A.75.75 0 0 1 15 12h-.75a.75.75 0 0 1-.75-.75v-.75Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M19.5 20.25v-15c0-1.6568-1.3431-3-3-3h-9c-1.6569 0-3 1.3432-3 3v15h-.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5h-.75Zm-3-16.5h-9c-.8284 0-1.5.6716-1.5 1.5v15h2.25v-4.5c0-.8284.6716-1.5 1.5-1.5h4.5c.8284 0 1.5.6716 1.5 1.5v4.5H18v-15c0-.8284-.6716-1.5-1.5-1.5Zm-2.25 16.5v-4.5h-4.5v4.5h4.5Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

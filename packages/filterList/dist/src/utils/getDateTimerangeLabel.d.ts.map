@@ -1,0 +1,1 @@
+{"version":3,"file":"getDateTimerangeLabel.d.ts","sourceRoot":"","sources":["../../../src/utils/getDateTimerangeLabel.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,oBAAoB,EAAE,UAAU,EAAE,MAAM,UAAU,CAAC;AAE5D,UAAU,0BAA0B;IAClC,gBAAgB,CAAC,EAAE,oBAAoB,CAAC;IACxC,MAAM,CAAC,EAAE,UAAU,CAAC;CACrB;AAED,iBAAS,qBAAqB,CAAC,EAC7B,gBAAgB,EAChB,MAAM,GACP,EAAE,0BAA0B,OAyC5B;AAED,eAAe,qBAAqB,CAAC"}

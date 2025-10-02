@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AudiowaveIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M9.75 2.25a.75.75 0 0 0-1.5 0v19.5a.75.75 0 0 0 1.5 0V2.25ZM6 6a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0v-12A.75.75 0 0 1 6 6ZM3 10.5a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 3 10.5ZM12 6a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0v-12A.75.75 0 0 1 12 6ZM15.75 11.25a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0v-3ZM18 6a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-1.5 0v-12A.75.75 0 0 1 18 6ZM21.75 2.25a.75.75 0 0 0-1.5 0v19.5a.75.75 0 0 0 1.5 0V2.25Z"
+    />
+  </g>
+</svg>
+`;

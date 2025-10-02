@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+<div>
+  <ul
+    class="c0"
+  />
+</div>
+`;

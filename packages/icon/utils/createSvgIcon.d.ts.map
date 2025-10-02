@@ -1,0 +1,1 @@
+{"version":3,"file":"createSvgIcon.d.ts","sourceRoot":"","sources":["../../../src/utils/createSvgIcon.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAgB,EAAE,SAAS,EAAE,MAAM,QAAQ,CAAC;AAE5C,iBAAS,aAAa,CAAC,IAAI,EAAE,KAAK,CAAC,YAAY,EAAE,WAAW,EAAE,MAAM,yFAYnE;AAED,YAAY,EAAE,SAAS,EAAE,CAAC;AAC1B,eAAe,aAAa,CAAC"}

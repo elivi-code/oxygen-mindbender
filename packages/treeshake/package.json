@@ -1,0 +1,12 @@
+{
+  "name": "@8x8/oxygen-treeshake",
+  "private": true,
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@8x8/oxygen-graphics": "*",
+    "@8x8/oxygen-icon": "*"
+  }
+}

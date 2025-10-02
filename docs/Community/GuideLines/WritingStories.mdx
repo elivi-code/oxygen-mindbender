@@ -1,0 +1,88 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Writing stories" />
+
+## Examples in StoryBook
+
+[Storybook](https://storybook.js.org/) is a UI development environment and playground for UI components.
+The tool enables you to create components independently and showcase components interactively in an isolated development environment.
+
+We want to transform typical storybook into complex platform which contains 8x8 Style Guide and core values.
+According to that we decided to call stories just Examples. Below you can see what kind of structure we need at this moment:
+
+- **Guidelines** - without any storybooks plugins. Have to be created based on our [Style Guide in Figma](https://www.figma.com/file/VRSpOSQhMekHut6COIGZTwNE/Global-Guidelines?node-id=968%3A0)
+- **Playground** - with storybook plugins like: controls, info, actions, logger
+- **Readme** - display information from README and CHANGELOG files
+
+In that kind of structure we make happy both of ours user groups - marketing, designers and developers.
+
+### File structure
+
+<hr />
+
+```
+my-component-name
+|---- examples
+    |---- MyComponentName.guidelines.js
+    |---- MyComponentName.playground.js
+    |---- MyComponentName.readme.js
+|---- dist
+|---- src
+CHANGELOG.md
+README.md
+package.json
+```
+
+### Naming convention
+
+We standardized the naming convention for our stories, which helps us to find them quickly and be consistent.
+The recommendation is to have:
+
+```
+01. Guidelines
+02. Documentation
+03. Changelog
+10. Playground
+```
+
+If there are cases where multiple guidance pages are needed, the convention is to add a dash after the base name followed by something specific, example:
+
+```
+01. Guidelines - Classic
+01. Guidelines - Novo
+```
+
+The playground is the place where we can write our examples that can be configured by using [controls](https://storybook.js.org/docs/react/essentials/controls).
+We can have multiple playground pages and the numbering starts from `10`. This allows us to have as many playgrounds as possible without influencing other pages.
+Example:
+
+```
+10. Playground Avatar
+11. Playground AvatarStack
+```
+
+### Example for MyComponentName.readme.js
+
+<hr />
+
+```js
+import React from 'react';
+import { Doc } from '@8x8/oxygen-storybook-utils';
+
+import README from '../README.md?raw';
+import CHANGELOG from '../CHANGELOG.md?raw';
+
+export default {
+  title: 'Components/MyComponent',
+};
+
+export const Documentation = () => (
+  <Doc markdown>{README}</Doc>
+);
+Documentation.storyName = '02. Documentation';
+
+export const Changelog = () => (
+  <Doc markdown>{CHANGELOG}</Doc>
+);
+Changelog.storyName = '03. Changelog';
+```

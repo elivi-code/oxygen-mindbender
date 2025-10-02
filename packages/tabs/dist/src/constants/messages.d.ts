@@ -1,0 +1,2 @@
+export declare const ARIA_CONTROLS_WARNING_MSG = "\nOxygen Tab component is missing ariaControls prop, which is required for accessibility references:\n - https://www.w3.org/WAI/ARIA/apg/patterns/tabs/\n - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-controls\n";
+//# sourceMappingURL=messages.d.ts.map

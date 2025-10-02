@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableFlex> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-variant-numeric: unset;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<TableFlex> should render correctly with zebra stripes 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-variant-numeric: unset;
+}
+
+<div
+  className="c0"
+/>
+`;

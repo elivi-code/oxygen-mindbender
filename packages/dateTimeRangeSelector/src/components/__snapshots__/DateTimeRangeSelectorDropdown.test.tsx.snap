@@ -1,0 +1,801 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Time Range Selector Dropdown should render correctly 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #D1DBE8;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 #D1DBE8;
+  background: #FFF;
+  padding: 0;
+  -webkit-animation-name: jkclzF;
+  animation-name: jkclzF;
+  -webkit-animation-duration: 150ms;
+  animation-duration: 150ms;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.c0 {
+  max-width: 100%;
+  z-index: 2500;
+}
+
+.c10 {
+  box-sizing: border-box;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 16px;
+  border-top: 1px solid #D1DBE8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #D1DBE8;
+  box-sizing: border-box;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c7 {
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+.c8 {
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+.c9 {
+  margin: 0 24px;
+}
+
+.c6 {
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  style={
+    {
+      "left": 0,
+      "opacity": 0,
+      "pointerEvents": "none",
+      "position": "absolute",
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="c1"
+    data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN"
+    data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN"
+  >
+    <div
+      className="c2"
+      data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CONTENT"
+      data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CONTENT"
+    >
+      <PredefinedList
+        onRangeSelect={[Function]}
+        ranges={[]}
+        selectedRange={
+          {
+            "id": "CUSTOM",
+          }
+        }
+        testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_PREDEFINED_LIST"
+        theme={
+          {
+            "backgroundColor": "#FFF",
+            "backgroundColorDisabled": "#F0F3F7",
+            "borderColor": "#D1DBE8",
+            "borderColorError": "#E12D2D",
+            "borderColorOpen": "#0376DA",
+            "borderRadius": 0,
+            "borderSize": "1px",
+            "calendarBottomMargin": "40px",
+            "calendarHorizontalMargin": "24px",
+            "clearIconColor": "#A4B8D1",
+            "clearIconHoverColor": "#5E6D7A",
+            "color": "#1C2025",
+            "colorDisabled": "#A4B8D1",
+            "containerAnimationDuration": "150ms",
+            "containerBackgroundColor": "#FFF",
+            "containerBorderColor": "#D1DBE8",
+            "containerBorderRadius": undefined,
+            "containerBorderSize": "1px",
+            "containerPadding": undefined,
+            "containerShadowBlurRadius": "4px",
+            "containerShadowColor": "#D1DBE8",
+            "containerZIndex": 2500,
+            "dateInputMarginRight": "12px",
+            "dateTimeInputsBorderColor": "#D1DBE8",
+            "dateTimeInputsBorderSize": "1px",
+            "dateTimeInputsMarginBottom": "12px",
+            "dateTimeInputsPadding": "12px",
+            "endTimeErrorColor": "#E12D2D",
+            "endTimeErrorFontSize": "13px",
+            "endTimeErrorLineHeight": "18px",
+            "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": undefined,
+            "footerBorderColor": "#D1DBE8",
+            "footerBorderSize": "1px",
+            "footerPadding": "16px",
+            "heightLarge": "40px",
+            "heightSmall": "32px",
+            "iconColor": "#5E6D7A",
+            "iconMargin": "8px",
+            "iconMinSize": "24px",
+            "isClassic": true,
+            "letterSpacing": undefined,
+            "lineHeight": "24px",
+            "listBackgroundColor": "#F0F3F7",
+            "listBorderRightColor": "#D1DBE8",
+            "listBorderRightSize": "1px",
+            "listInputHorizontalSpacing": "4px",
+            "listInputMarginBottom": "-6px",
+            "listInputMarginLeft": "4px",
+            "listInputMarginRight": "3px",
+            "listInputMarginTop": "-7px",
+            "listInputMinWidth": 0,
+            "listInputVerticalSpacing": 0,
+            "listInputWidth": "28px",
+            "listItemColor": "#1C2025",
+            "listItemFontSize": "13px",
+            "listItemLineHeight": "18px",
+            "listItemPaddingHorizontal": "10px",
+            "listItemPaddingVertical": "8px",
+            "listItemSelectedColor": "#0376DA",
+            "listItemSelectedWidth": "4px",
+            "listWidth": "140px",
+            "paddingHorizontal": "12px",
+            "paddingVerticalLarge": "7px",
+            "paddingVerticalSmall": "3px",
+            "placeholderColor": "#A4B8D1",
+            "timeInputContainerMarginLeft": "16px",
+            "timeInputMarginRight": "12px",
+            "transitionTiming": "150ms",
+            "width": "380px",
+          }
+        }
+      />
+      <div
+        className="c3"
+        data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_CONTAINER"
+        data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_CONTAINER"
+      >
+        <div
+          className="c4"
+          data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUTS"
+          data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUTS"
+        >
+          <div
+            className="c5"
+            data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_START"
+            data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_START"
+          >
+            <div
+              className="c6"
+            />
+            <div
+              className="c7"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START"
+            >
+              <Label
+                htmlFor="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_LABEL"
+              />
+              <Input
+                data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                fixed={true}
+                id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                size="small"
+                test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                value="02/12/1998"
+              />
+            </div>
+            <div
+              className="c8"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START"
+            >
+              <Label
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START_LABEL"
+              />
+              <TimeSelector
+                onChange={[Function]}
+                portalRef={
+                  {
+                    "current": null,
+                  }
+                }
+                size="small"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_START_TIME_SELECTOR"
+                timeDisplayFormat="hh:mm a"
+                value={
+                  {
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="c5"
+            data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_END"
+            data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_END"
+          >
+            <div
+              className="c7"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END"
+            >
+              <Label
+                htmlFor="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_LABEL"
+              />
+              <Input
+                data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                fixed={true}
+                id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                size="small"
+                test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                value="02/13/1998"
+              />
+            </div>
+            <div
+              className="c8"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END"
+            >
+              <Label
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END_LABEL"
+              />
+              <TimeSelector
+                hasError={false}
+                onChange={[Function]}
+                portalRef={
+                  {
+                    "current": null,
+                  }
+                }
+                size="small"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_END_TIME_SELECTOR"
+                timeDisplayFormat="hh:mm a"
+                value={
+                  {
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="c9"
+          data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_WRAPPER"
+          data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_WRAPPER"
+        >
+          <Calendar
+            enableMaxWidth={false}
+            onRangeChange={[Function]}
+            range={
+              {
+                "endDate": 1998-02-13T00:00:00.000Z,
+                "startDate": 1998-02-12T00:00:00.000Z,
+              }
+            }
+            showMonthYearPickers={false}
+            testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c10"
+      data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FOOTER"
+      data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FOOTER"
+    >
+      <ButtonGroup
+        data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+        data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+        small={true}
+        test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+      >
+        <Button
+          isDisabled={false}
+          onClick={[Function]}
+          testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FINISH_BUTTON"
+        >
+          Finish
+        </Button>
+        <Button
+          onClick={[Function]}
+          testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CLEAR_BUTTON"
+          variant="secondary"
+        >
+          Clear
+        </Button>
+      </ButtonGroup>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Date Time Range Selector Dropdown should render correctly with labels 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #D1DBE8;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 #D1DBE8;
+  background: #FFF;
+  padding: 0;
+  -webkit-animation-name: jkclzF;
+  animation-name: jkclzF;
+  -webkit-animation-duration: 150ms;
+  animation-duration: 150ms;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.c0 {
+  max-width: 100%;
+  z-index: 2500;
+}
+
+.c10 {
+  box-sizing: border-box;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 16px;
+  border-top: 1px solid #D1DBE8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #D1DBE8;
+  box-sizing: border-box;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c7 {
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+.c8 {
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+.c9 {
+  margin: 0 24px;
+}
+
+.c6 {
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  style={
+    {
+      "left": 0,
+      "opacity": 0,
+      "pointerEvents": "none",
+      "position": "absolute",
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="c1"
+    data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN"
+    data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN"
+  >
+    <div
+      className="c2"
+      data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CONTENT"
+      data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CONTENT"
+    >
+      <PredefinedList
+        onRangeSelect={[Function]}
+        ranges={[]}
+        selectedRange={
+          {
+            "id": "CUSTOM",
+          }
+        }
+        testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_PREDEFINED_LIST"
+        theme={
+          {
+            "backgroundColor": "#FFF",
+            "backgroundColorDisabled": "#F0F3F7",
+            "borderColor": "#D1DBE8",
+            "borderColorError": "#E12D2D",
+            "borderColorOpen": "#0376DA",
+            "borderRadius": 0,
+            "borderSize": "1px",
+            "calendarBottomMargin": "40px",
+            "calendarHorizontalMargin": "24px",
+            "clearIconColor": "#A4B8D1",
+            "clearIconHoverColor": "#5E6D7A",
+            "color": "#1C2025",
+            "colorDisabled": "#A4B8D1",
+            "containerAnimationDuration": "150ms",
+            "containerBackgroundColor": "#FFF",
+            "containerBorderColor": "#D1DBE8",
+            "containerBorderRadius": undefined,
+            "containerBorderSize": "1px",
+            "containerPadding": undefined,
+            "containerShadowBlurRadius": "4px",
+            "containerShadowColor": "#D1DBE8",
+            "containerZIndex": 2500,
+            "dateInputMarginRight": "12px",
+            "dateTimeInputsBorderColor": "#D1DBE8",
+            "dateTimeInputsBorderSize": "1px",
+            "dateTimeInputsMarginBottom": "12px",
+            "dateTimeInputsPadding": "12px",
+            "endTimeErrorColor": "#E12D2D",
+            "endTimeErrorFontSize": "13px",
+            "endTimeErrorLineHeight": "18px",
+            "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": undefined,
+            "footerBorderColor": "#D1DBE8",
+            "footerBorderSize": "1px",
+            "footerPadding": "16px",
+            "heightLarge": "40px",
+            "heightSmall": "32px",
+            "iconColor": "#5E6D7A",
+            "iconMargin": "8px",
+            "iconMinSize": "24px",
+            "isClassic": true,
+            "letterSpacing": undefined,
+            "lineHeight": "24px",
+            "listBackgroundColor": "#F0F3F7",
+            "listBorderRightColor": "#D1DBE8",
+            "listBorderRightSize": "1px",
+            "listInputHorizontalSpacing": "4px",
+            "listInputMarginBottom": "-6px",
+            "listInputMarginLeft": "4px",
+            "listInputMarginRight": "3px",
+            "listInputMarginTop": "-7px",
+            "listInputMinWidth": 0,
+            "listInputVerticalSpacing": 0,
+            "listInputWidth": "28px",
+            "listItemColor": "#1C2025",
+            "listItemFontSize": "13px",
+            "listItemLineHeight": "18px",
+            "listItemPaddingHorizontal": "10px",
+            "listItemPaddingVertical": "8px",
+            "listItemSelectedColor": "#0376DA",
+            "listItemSelectedWidth": "4px",
+            "listWidth": "140px",
+            "paddingHorizontal": "12px",
+            "paddingVerticalLarge": "7px",
+            "paddingVerticalSmall": "3px",
+            "placeholderColor": "#A4B8D1",
+            "timeInputContainerMarginLeft": "16px",
+            "timeInputMarginRight": "12px",
+            "transitionTiming": "150ms",
+            "width": "380px",
+          }
+        }
+      />
+      <div
+        className="c3"
+        data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_CONTAINER"
+        data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_CONTAINER"
+      >
+        <div
+          className="c4"
+          data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUTS"
+          data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUTS"
+        >
+          <div
+            className="c5"
+            data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_START"
+            data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_START"
+          >
+            <div
+              className="c6"
+            />
+            <div
+              className="c7"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START"
+            >
+              <Label
+                htmlFor="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_LABEL"
+              />
+              <Input
+                data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                fixed={true}
+                id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                size="small"
+                test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_START_FIELD"
+                value="02/12/1998"
+              />
+            </div>
+            <div
+              className="c8"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START"
+            >
+              <Label
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_START_LABEL"
+              />
+              <TimeSelector
+                onChange={[Function]}
+                portalRef={
+                  {
+                    "current": null,
+                  }
+                }
+                size="small"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_START_TIME_SELECTOR"
+                timeDisplayFormat="hh:mm a"
+                value={
+                  {
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="c5"
+            data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_END"
+            data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_TIME_INPUT_CONTAINER_END"
+          >
+            <div
+              className="c7"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END"
+            >
+              <Label
+                htmlFor="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_LABEL"
+              />
+              <Input
+                data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                fixed={true}
+                id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                size="small"
+                test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_DATE_INPUT_END_FIELD"
+                value="02/13/1998"
+              />
+            </div>
+            <div
+              className="c8"
+              data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END"
+              data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END"
+            >
+              <Label
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_TIME_INPUT_END_LABEL"
+              />
+              <TimeSelector
+                hasError={false}
+                onChange={[Function]}
+                portalRef={
+                  {
+                    "current": null,
+                  }
+                }
+                size="small"
+                testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_END_TIME_SELECTOR"
+                timeDisplayFormat="hh:mm a"
+                value={
+                  {
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="c9"
+          data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_WRAPPER"
+          data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR_WRAPPER"
+        >
+          <Calendar
+            enableMaxWidth={false}
+            onRangeChange={[Function]}
+            range={
+              {
+                "endDate": 1998-02-13T00:00:00.000Z,
+                "startDate": 1998-02-12T00:00:00.000Z,
+              }
+            }
+            showMonthYearPickers={false}
+            testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CALENDAR"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c10"
+      data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FOOTER"
+      data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FOOTER"
+    >
+      <ButtonGroup
+        data-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+        data-test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+        small={true}
+        test-id="DATE_TIME_RANGE_SELECTOR_DROPDOWN_BUTTON_GROUP"
+      >
+        <Button
+          isDisabled={false}
+          onClick={[Function]}
+          testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_FINISH_BUTTON"
+        >
+          Ok
+        </Button>
+        <Button
+          onClick={[Function]}
+          testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN_CLEAR_BUTTON"
+          variant="secondary"
+        >
+          Clear
+        </Button>
+      </ButtonGroup>
+    </div>
+  </div>
+</div>
+`;

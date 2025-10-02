@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertBanner renders 1`] = `
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: unset;
+  -moz-letter-spacing: unset;
+  -ms-letter-spacing: unset;
+  letter-spacing: unset;
+  -webkit-transition: background-color 150ms ease-in-out, box-shadow 150ms ease-in-out 0s;
+  transition: background-color 150ms ease-in-out, box-shadow 150ms ease-in-out 0s;
+  min-height: 32px;
+  padding: calc(4px - 1px) calc(16px - 1px);
+  box-shadow: 0 0 0 1px inset #D1DBE8;
+  border: none;
+  border-radius: 3px;
+  background-color: #FFF;
+  color: #1C2025;
+}
+
+.c6 > svg {
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+.c6::-moz-focus-inner {
+  border: none;
+}
+
+.c6:hover {
+  background-color: #F0F3F7;
+  box-shadow: 0 0 0 1px inset #D1DBE8;
+  color: undefined;
+}
+
+.c6:active {
+  background-color: #D1DBE8;
+  box-shadow: 0 0 0 1px inset #D1DBE8;
+}
+
+.c6[aria-disabled="true"] {
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px inset #D1DBE8;
+  color: #D1DBE8;
+  cursor: not-allowed;
+}
+
+.c6:focus-visible {
+  background-color: #F0F3F7;
+  border-color: #D1DBE8;
+}
+
+.c3 {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0 {
+  container-type: inline-size;
+  background: #F8AE1A;
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: top;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.c5 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<div>
+  <style>
+    @container (max-width: 576px) {
+        .alert-banner-wrapper {
+          flex-direction: column;
+          align-items: stretch;
+          padding: 16px;
+        }
+        .alert-banner-button {
+          width: 100%;
+        }
+    }
+  </style>
+  <div
+    class="c0"
+    data-id="alertBanner"
+    data-test-id="alertBanner"
+  >
+    <div
+      class="c1 alert-banner-wrapper"
+    >
+      <div
+        class="c2"
+      >
+        <svg
+          aria-label="!"
+          class="c3 c4"
+          color="#292929"
+          role="presentation"
+          size="20"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M11.25 6.75a.75.75 0 0 1 1.5 0v6a.75.75 0 0 1-1.5 0v-6ZM12 17.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12ZM21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+              fill-rule="evenodd"
+            />
+          </g>
+        </svg>
+        <div
+          class="c5"
+        >
+          warning text
+        </div>
+      </div>
+      <button
+        aria-disabled="false"
+        class="c6 alert-banner-button"
+        data-id="alertBanner_button"
+        data-test-id="alertBanner_button"
+        type="button"
+      >
+        button text
+      </button>
+    </div>
+  </div>
+</div>
+`;

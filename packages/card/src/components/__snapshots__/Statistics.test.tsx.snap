@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statistics should render correctly with default props 1`] = `
+<Container
+  testId="CARD_STATISTICS"
+>
+  <StatisticsBox>
+    <StatisticsNumbers>
+      10/50
+    </StatisticsNumbers>
+    <StatisticsText>
+      Used items
+    </StatisticsText>
+  </StatisticsBox>
+  <StatisticsBox>
+    <StatisticsNumbers
+      hasError={true}
+    >
+      80
+    </StatisticsNumbers>
+    <StatisticsText
+      hasError={true}
+    >
+      Total items
+    </StatisticsText>
+  </StatisticsBox>
+</Container>
+`;

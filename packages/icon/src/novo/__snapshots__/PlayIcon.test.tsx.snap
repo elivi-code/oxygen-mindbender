@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlayIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M6 5.4676v13.0648c0 .0284.006.0459.0186.0656.0158.0247.05.0624.1106.0957a.4562.4562 0 0 0 .4287.0054l12.8025-6.5324c.0785-.0401.1083-.0794.12-.0985A.1295.1295 0 0 0 19.5 12a.1295.1295 0 0 0-.0196-.0682c-.0117-.0191-.0415-.0584-.12-.0985L6.5579 5.3009a.4562.4562 0 0 0-.4287.0054c-.0607.0333-.0948.071-.1106.0957A.1093.1093 0 0 0 6 5.4676Zm-1.5 0v13.0648c0 1.3046 1.5076 2.1315 2.7397 1.5029l12.8025-6.5325c1.2771-.6516 1.2771-2.354 0-3.0056L7.2397 3.9648C6.0076 3.336 4.5 4.163 4.5 5.4676Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

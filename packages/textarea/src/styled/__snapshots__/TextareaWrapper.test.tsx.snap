@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextareaWrapper> should render correctly when hasError 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  background: #FFF;
+  border: solid #E12D2D;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+  -webkit-transition: border-color ease-in 150ms;
+  transition: border-color ease-in 150ms;
+}
+
+.c0:focus {
+  outline: 0;
+  border-color: #E12D2D;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<textarea
+  className="c0"
+/>
+`;
+
+exports[`<TextareaWrapper> should render correctly when isDisabled 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  background: #FFF;
+  border: solid #D1DBE8;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+  -webkit-transition: border-color ease-in 150ms;
+  transition: border-color ease-in 150ms;
+}
+
+.c0:focus {
+  outline: 0;
+  border-color: #0376DA;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<textarea
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`<TextareaWrapper> should render correctly when isReadOnly 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #5E6D7A;
+  -webkit-text-fill-color: #5E6D7A;
+  background: #FFF;
+  border: solid #D1DBE8;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin: -1px;
+  -webkit-transition: border-color ease-in 150ms;
+  transition: border-color ease-in 150ms;
+}
+
+.c0:focus {
+  outline: 0;
+  border-color: #0376DA;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<textarea
+  className="c0"
+  readOnly={true}
+/>
+`;
+
+exports[`<TextareaWrapper> should render correctly with default properties 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  background: #FFF;
+  border: solid #D1DBE8;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+  -webkit-transition: border-color ease-in 150ms;
+  transition: border-color ease-in 150ms;
+}
+
+.c0:focus {
+  outline: 0;
+  border-color: #0376DA;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<textarea
+  className="c0"
+/>
+`;

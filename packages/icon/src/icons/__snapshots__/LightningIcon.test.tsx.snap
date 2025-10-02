@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LightningIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M13.7375 3.049c.0538-.2152-.2306-.345-.3579-.1631L7.3321 11.525a.5.5 0 0 0 .186.734l3.1653 1.5826a.5.5 0 0 1 .2725.5092l-.8386 6.7088c-.0268.2146.2587.3132.37.1278l5.2347-8.7246a.5.5 0 0 0-.2051-.7045l-3.1584-1.5791a.5.5 0 0 1-.2614-.5685l1.6404-6.5617Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

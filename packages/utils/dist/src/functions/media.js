@@ -1,0 +1,67 @@
+import { css } from 'styled-components';
+import { size } from '@8x8/oxygen-constants';
+const mediaSizes = {
+    desktop: size.windowWidthDesktop,
+    tablet: size.windowWidthTablet,
+    phone: size.windowWidthPhone,
+};
+/**
+ * @description Convert pixels to em units
+ * @param {(number|string)} value Breakpoint value
+ * @returns {number} A number which was converted to em units
+ */
+const calcMediaVal = (value) => parseFloat(value) / 16;
+/**
+ * @description Append `em` to a number
+ * @param {number} value Breakpoint value
+ * @returns {string} A number which was converted to em units with `em` appended
+ */
+const getMediaVal = (value) => `${calcMediaVal(value)}em`;
+/**
+ * @param {string} [mediaRule=max] Prefix for the media rule: [min|max]
+ * @returns {(value: (number|string)) => (...args: string) => string}
+ */
+const getCssMedia = (mediaRule = 'max') => (value) => 
+// disable-next-line @typescript-eslint/no-explicit-any
+(...args) => css `
+      @media (${mediaRule}-width: ${getMediaVal(value)}) {
+        ${css(args)}
+      }
+    `;
+/**
+ * description Function to create an object containing media query functions for `styled-components`
+ * param {{ desktop: number, tablet: number, phone: number }} [sizeEntries]
+ * returns { (string) =>  { desktop: Function, tablet: Function, phone: Function }} - Utility media-query functions
+ * for `styled-components`
+ */
+const mediaFn = (sizeEntries = mediaSizes) => 
+/**
+ * @param {'min' | 'max'} [mediaRule='max'] Media query [max|min] width rule
+ */
+(mediaRule = 'max') => ({
+    desktop: getCssMedia(mediaRule)(sizeEntries.desktop),
+    tablet: getCssMedia(mediaRule)(sizeEntries.tablet),
+    phone: getCssMedia(mediaRule)(sizeEntries.phone),
+});
+/**
+ * @description Creates a min-width rule with custom value
+ * @param {(number|string)} value Breakpoint value
+ * @returns {(css: string) => string}
+ */
+const mediaMinC = getCssMedia('min');
+/**
+ * @description Creates a max-width rule with custom value
+ * @param {(number|string)} value Breakpoint value
+ * @returns {(css: string) => string}
+ */
+const mediaMaxC = getCssMedia();
+/**
+ * @description Object containing `min-width` breakpoint functions for `styled-components`
+ */
+const mediaMin = mediaFn()('min');
+/**
+ * @description Object containing `max-width` breakpoint functions for `styled-components`
+ */
+const mediaMax = mediaFn()();
+export { getCssMedia, mediaMinC, mediaMaxC, calcMediaVal, getMediaVal, mediaMin, mediaFn, mediaSizes, };
+export default mediaMax;

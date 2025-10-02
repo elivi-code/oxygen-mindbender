@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render component correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+}
+
+<nav
+  className="c0"
+  size="default"
+>
+  <PageNavigation
+    canGoBack={true}
+    canGoNext={true}
+    currentPage={1}
+    isCompactMode={true}
+    isDisabled={false}
+    numberOfPages={3}
+    onPageChange={[Function]}
+    size="default"
+    testId="PAGINATION"
+    translations={
+      {
+        "nextPage": "Next",
+        "numberOfPages": "of 50 pages",
+        "prevPage": "Prev",
+        "rowsPerPage": "Rows per page:",
+      }
+    }
+  />
+</nav>
+`;

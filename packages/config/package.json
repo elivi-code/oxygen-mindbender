@@ -1,0 +1,35 @@
+{
+  "name": "@8x8/oxygen-config",
+  "version": "2.98.0",
+  "description": "UI Component - Config Provider",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/config",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-theme": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "hoist-non-react-statics": "3.3.2",
+    "lodash.assign": "4.2.0",
+    "lodash.clonedeep": "4.5.0",
+    "lodash.isfunction": "3.0.9",
+    "lodash.isobject": "3.0.2",
+    "lodash.noop": "3.0.1",
+    "prop-types": "15.8.1",
+    "type-fest": "3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14 || ^16.2.0 || >=16.0",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

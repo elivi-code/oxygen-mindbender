@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HoldMusicIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M17.7607 3.6269c.486-.1637.9893.1979.9893.7108v9.5636a2.987 2.987 0 0 0-1.5-.4013c-1.6569 0-3 1.3431-3 3s1.3431 3 3 3 3-1.3431 3-3c0-.1456-.0104-.2887-.0304-.4287h.0304V4.3377c0-1.5387-1.5098-2.6234-2.968-2.1324l-7.5 2.5256A2.25 2.25 0 0 0 8.25 6.8632v10.0381a2.9867 2.9867 0 0 0-1.5-.4013c-1.6569 0-3 1.3431-3 3s1.3431 3 3 3 3-1.3431 3-3c0-.0001 0 .0001 0 0V6.8632a.75.75 0 0 1 .5107-.7108l7.5-2.5255ZM8.25 19.4998C8.25 18.6715 7.5784 18 6.75 18s-1.5.6716-1.5 1.5.6716 1.5 1.5 1.5 1.5-.6717 1.5-1.5002c0 0 0 .0001 0 0Zm9-1.4998c.8284 0 1.5-.6716 1.5-1.5s-.6716-1.5-1.5-1.5-1.5.6716-1.5 1.5.6716 1.5 1.5 1.5Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

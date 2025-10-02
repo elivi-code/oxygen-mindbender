@@ -1,0 +1,698 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditOverlay /> should style correctly the avatar overlay for 2xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: calc(0.3 * 80px);
+  position: absolute;
+  background: #5E6D7A;
+  opacity: 0.85;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c0 svg {
+  fill: #FFF;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+  className="c0"
+  size="2xlarge"
+/>
+`;
+
+exports[`<EditOverlay /> should style correctly the avatar overlay for 3xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: calc(0.3 * 160px);
+  position: absolute;
+  background: #5E6D7A;
+  opacity: 0.85;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c0 svg {
+  fill: #FFF;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+  className="c0"
+  size="3xlarge"
+/>
+`;
+
+exports[`<EditOverlay /> should style correctly the avatar overlay for large size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: calc(0.3 * 64px);
+  position: absolute;
+  background: #5E6D7A;
+  opacity: 0.85;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c0 svg {
+  fill: #FFF;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`<EditOverlay /> should style correctly the avatar overlay for xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: calc(0.3 * 72px);
+  position: absolute;
+  background: #5E6D7A;
+  opacity: 0.85;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.c0 svg {
+  fill: #FFF;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+  className="c0"
+  size="xlarge"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for 2xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 80px;
+  min-height: 80px;
+  width: 80px;
+  min-width: 80px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="2xlarge"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for 2xsmall size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 24px;
+  min-height: 24px;
+  width: 24px;
+  min-width: 24px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 10px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="2xsmall"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for 3xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 160px;
+  min-height: 160px;
+  width: 160px;
+  min-width: 160px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 36px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="3xlarge"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for 3xsmall size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 16px;
+  min-height: 16px;
+  width: 16px;
+  min-width: 16px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 7px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="3xsmall"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for large size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 64px;
+  min-height: 64px;
+  width: 64px;
+  min-width: 64px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for medium size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 48px;
+  min-height: 48px;
+  width: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="medium"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for small size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40px;
+  min-height: 40px;
+  width: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 13px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for xlarge size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 72px;
+  min-height: 72px;
+  width: 72px;
+  min-width: 72px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="xlarge"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the avatar for xsmall size 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 32px;
+  min-height: 32px;
+  width: 32px;
+  min-width: 32px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+<div
+  className="c0"
+  size="xsmall"
+/>
+`;
+
+exports[`<StyledAvatar /> should style correctly the interactive avatar 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 48px;
+  min-height: 48px;
+  width: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+  background: #A4B8D1;
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.c0 > svg {
+  fill: #1C2025;
+}
+
+.c0:focus-visible {
+  outline: none;
+}
+
+.c0:focus-visible::after {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  content: '';
+  z-index: 2;
+  box-shadow: inset 0 0 0 2px , inset 0 0 0 4px;
+}
+
+.c0:hover::before {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  content: '';
+  z-index: 2;
+  background: #292929;
+  opacity: 0.15;
+}
+
+<div
+  className="c0"
+  onClick={[MockFunction]}
+  size="medium"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for 2xlarge size 1`] = `
+.c0 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="2xlarge"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for 2xsmall size 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="2xsmall"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for 3xlarge size 1`] = `
+.c0 {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="3xlarge"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for 3xsmall size 1`] = `
+.c0 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="3xsmall"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for large size 1`] = `
+.c0 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for medium size 1`] = `
+.c0 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="medium"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for small size 1`] = `
+.c0 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="small"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for xlarge size 1`] = `
+.c0 {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="xlarge"
+/>
+`;
+
+exports[`<StyledAvatarImage /> should style correctly the avatar image for xsmall size 1`] = `
+.c0 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+<img
+  className="c0"
+  size="xsmall"
+/>
+`;
+
+exports[`<UserStatusWrapper /> should style correctly the avatar user status 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+<div
+  className="c0"
+/>
+`;

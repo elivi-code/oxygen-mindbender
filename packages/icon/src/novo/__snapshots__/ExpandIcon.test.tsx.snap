@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpandIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M14.1967 3.75a.75.75 0 0 1 .75-.75H20.25a.75.75 0 0 1 .75.75v5.3033a.75.75 0 0 1-1.5 0V5.5606l-6.8163 6.8162c-.2441.2441-.6794.2045-.9723-.0884-.2928-.2929-.3324-.7282-.0883-.9722L18.4393 4.5h-3.4926a.75.75 0 0 1-.75-.75Z"
+    />
+    <path
+      d="M6.75 3C4.679 3 3 4.679 3 6.75v10.5C3 19.3211 4.679 21 6.75 21h10.5c2.0711 0 3.75-1.6789 3.75-3.75v-4.5625a.75.75 0 0 0-1.5 0V17.25c0 1.2426-1.0074 2.25-2.25 2.25H6.75c-1.2426 0-2.25-1.0074-2.25-2.25V6.75c0-1.2426 1.0074-2.25 2.25-2.25h4.5625a.75.75 0 0 0 0-1.5H6.75Z"
+    />
+  </g>
+</svg>
+`;

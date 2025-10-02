@@ -1,0 +1,5 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "m4.9067 14.5671 10.1587-10.814c.5798-.6173 1.5552-.6325 2.1539-.0337l2.72 2.72c.5858.5858.5858 1.5355 0 2.1213l-10.5 10.5a1.5 1.5 0 0 1-1.0606.4393H6c-.8284 0-1.5-.6715-1.5-1.5v-2.4059a1.5 1.5 0 0 1 .4067-1.027Zm11.438-4.533 2.534-2.534-2.72-2.72-2.4549 2.6131 2.6409 2.6409Zm-1.0607 1.0606L8.3787 18H6v-2.4059l6.6763-7.107 2.6077 2.6076Z", clipRule: "evenodd" }),
+    React.createElement("path", { d: "M21.75 21.0001H2.25a.75.75 0 0 0 0 1.5h19.5a.75.75 0 0 0 0-1.5Z" })), 'PencilIcon');

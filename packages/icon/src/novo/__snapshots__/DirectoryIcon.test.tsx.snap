@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DirectoryIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M15.75 8.25c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3Zm-1.5 0c0 .8284-.6716 1.5-1.5 1.5s-1.5-.6716-1.5-1.5.6716-1.5 1.5-1.5 1.5.6716 1.5 1.5ZM12.75 18.75c2.4853 0 4.5-1.3431 4.5-3s-2.0147-3-4.5-3-4.5 1.3431-4.5 3 2.0147 3 4.5 3Zm2.3499-2.1268c.5462-.3641.6501-.7023.6501-.8732 0-.1709-.1039-.5091-.6501-.8732-.5356-.3572-1.3621-.6268-2.3499-.6268-.9878 0-1.8143.2696-2.3499.6268-.5462.3641-.6501.7023-.6501.8732 0 .1709.104.5091.6501.8732.5356.3572 1.3621.6268 2.3499.6268.9878 0 1.8143-.2696 2.3499-.6268Z"
+      fillRule="evenodd"
+    />
+    <path
+      clipRule="evenodd"
+      d="M3 12.75V15h-.75a.75.75 0 0 0 0 1.5H3V18c0 2.4853 2.0147 4.5 4.5 4.5H18c2.4853 0 4.5-2.0147 4.5-4.5V6c0-2.4853-2.0147-4.5-4.5-4.5H7.5C5.0147 1.5 3 3.5147 3 6v1.5h-.75a.75.75 0 0 0 0 1.5H3v2.25h-.75a.75.75 0 0 0 0 1.5H3ZM7.5 3H18c1.6569 0 3 1.3431 3 3v12c0 1.6569-1.3431 3-3 3H7.5c-1.6569 0-3-1.3431-3-3V6c0-1.6569 1.3431-3 3-3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

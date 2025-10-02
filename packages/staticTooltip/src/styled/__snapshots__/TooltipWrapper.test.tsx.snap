@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TooltipWrapper> should render correctly with a default theme 1`] = `
+.c0 {
+  background-color: #F0F3F7;
+  border: 1px solid #D1DBE8;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 0 rgba(28,32,37,0.1);
+  color: #1C2025;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin: 0;
+  max-height: 126px;
+  max-width: 256px;
+  padding: 8px;
+  position: relative;
+  z-index: 4000;
+  -webkit-animation: kjcwbS 150ms ease-in;
+  animation: kjcwbS 150ms ease-in;
+}
+
+<div
+  class="c0"
+/>
+`;

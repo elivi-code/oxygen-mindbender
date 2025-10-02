@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "outDir": "dist/"
+  },
+  "files": ["src/types.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "../../types/globals.d.ts"]
+}

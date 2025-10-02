@@ -1,0 +1,87 @@
+import { TypographySet } from '@8x8/oxygen-theme';
+import { TextLinkTheme } from './textLink.const';
+export interface TextLinkI extends TypographySet, TextLinkTheme {
+}
+export interface ToastTheme {
+    toastSmall: string;
+    toastMedium: string;
+    toastLarge: string;
+    animationEnterDuration: number;
+    animationEnterTimingFunction: string;
+    animationExitDuration: number;
+    animationExitTimingFunction: string;
+    animationFlipDuration: number;
+    backgroundColor: string;
+    backgroundColorError: string;
+    color: string;
+    colorError: string;
+    colorTitle: string;
+    colorDescription: string;
+    colorAction: string;
+    closeIconColor: string;
+    markingColorError: string;
+    markingIconColorError: string;
+    markingColorInfo: string;
+    markingIconColorInfo: string;
+    markingColorSuccess: string;
+    markingIconColorSuccess: string;
+    markingColorWarning: string;
+    markingIconColorWarning: string;
+    markingColorLoading: string;
+    markingIconColorLoading: string;
+    boxShadow: string;
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: string | number;
+    lineHeight: string;
+    fontFamilyTitle: string;
+    fontSizeTitle: string;
+    fontWeightTitle: string | number;
+    letterSpacingTitle: string;
+    lineHeightTitle: string;
+    fontFamilyDescription: string;
+    fontSizeDescription: string;
+    fontWeightDescription: string | number;
+    letterSpacingDescription: string;
+    lineHeightDescription: string;
+    letterSpacing: string;
+    fontStyle: string;
+    fontStretch: string;
+    textAlign: string;
+    borderRadius: string;
+    borderColor?: string;
+    padding: string;
+    maxHeight: string;
+    maxWidth: string;
+    stackMargin: string;
+    structureMargin: string;
+    zIndex: number;
+    iconSize: number;
+    textLinkAsAction?: TextLinkI;
+    marginControl: string;
+    isClassic: boolean;
+}
+declare const toast: ToastTheme;
+declare const inlineNotification: ToastTheme;
+declare const toastNovo: ToastTheme;
+declare const toastNovoDark: ToastTheme;
+declare const toastNeoLight: ToastTheme;
+declare const toastNeoDark: ToastTheme;
+declare const inlineNotificationNovo: ToastTheme;
+declare const inlineNotificationNovoDark: ToastTheme;
+declare const inlineNotificationNeoLight: ToastTheme;
+declare const inlineNotificationNeoDark: ToastTheme;
+declare const toastSizes: {
+    small: string;
+    medium: string;
+    large: string;
+};
+declare const toastTypes: {
+    success: string;
+    error: string;
+    warning: string;
+    info: string;
+    loading: string;
+};
+export { toast, inlineNotification, toastNovo, toastNovoDark, toastNeoLight, toastNeoDark, inlineNotificationNovo, inlineNotificationNovoDark, inlineNotificationNeoLight, inlineNotificationNeoDark, toastSizes, toastTypes, };
+//# sourceMappingURL=toast.const.d.ts.map

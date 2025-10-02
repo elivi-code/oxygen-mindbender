@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M12 6c1.1046 0 2-.8954 2-2s-.8954-2-2-2c-1.1045 0-2 .8954-2 2s.8955 2 2 2Zm0 16c1.1046 0 2-.8954 2-2h5.6126a.9991.9991 0 0 0 .3162-.0513c.524-.1747.8071-.741.6325-1.2649L19 14h-2l1 4H6l1-4H5l-1.5612 4.6838A.9994.9994 0 0 0 3.3874 19c0 .5523.4478 1 1 1H10c0 1.1046.8955 2 2 2Z" clipRule="evenodd"/><path d="M9.6204 15h4.75v-1.2727h-2.7387l2.75-3.6705v-.875h-4.75v1.2727h2.7387l-2.75 3.6705V15ZM18.7733 6h3.4518v-.8565h-2.1179l2.12-2.9063v-.6008h-3.4517v.8565h2.1179l-2.1201 2.9062V6Z"/><path fillRule="evenodd" d="M19 14h-2v-4c0-2.2091-1.7909-4-4-4h-2c-2.2091 0-4 1.7909-4 4v4H5v-4c0-3.3137 2.6863-6 6-6h2c3.3137 0 6 2.6863 6 6v4Z" clipRule="evenodd"/></g>, 'BellSnoozeIcon');

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content styled components <AvatarWrapper /> 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Content styled components <Icon /> 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E0E0E0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Content styled components <Text /> 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Content styled components <TextOverflow /> 1`] = `
+.c0 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Content styled components <Title /> 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  color: #292929;
+}
+
+<b
+  className="c0"
+/>
+`;

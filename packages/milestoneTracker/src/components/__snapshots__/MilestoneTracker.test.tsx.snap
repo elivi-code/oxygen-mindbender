@@ -1,0 +1,983 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MilestoneTracker /> should render the MilestoneTracker component with roads between milestones 1`] = `
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #0376DA;
+  margin: 0 auto;
+  visibility: visible;
+}
+
+.c11 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #D1DBE8;
+  margin: 0 auto;
+  visibility: visible;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #0376DA;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #F0F3F7;
+  border: 2px solid #D1DBE8;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  text-align: start;
+  cursor: default;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 48px;
+  min-width: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.c4 {
+  width: auto;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 .c7 {
+  height: initial;
+  position: absolute;
+  left: 23px;
+}
+
+.c4 .c7:first-child {
+  top: 0;
+  bottom: 50%;
+}
+
+.c4 .c7:last-child {
+  top: 50%;
+  bottom: 0;
+}
+
+.c4 .c5 {
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.c12 {
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c12 .c7 {
+  height: initial;
+  position: absolute;
+  left: 23px;
+}
+
+.c12 .c7:first-child {
+  top: 0;
+  bottom: 50%;
+}
+
+.c12 .c7:last-child {
+  top: 50%;
+  bottom: 0;
+}
+
+.c12 .c5 {
+  position: relative;
+  z-index: 1;
+}
+
+.c9 {
+  color: #1C2025;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c14 {
+  color: #A4B8D1;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  color: #5E6D7A;
+  font-size: 15px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+        size={48}
+      >
+        <div
+          className="c5 c6"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={48}
+        >
+          mockedDescription
+        </div>
+        <div
+          className="c7 c8"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c9"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      />
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c8"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c12"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c13"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={48}
+        />
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c14"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      >
+        mockedDescription
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c12"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c13"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={48}
+        />
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c14"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      >
+        mockedDescription
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c12"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c13"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={48}
+        />
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c14"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c12"
+        size={48}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c13"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={48}
+        />
+      </div>
+      <div
+        className="c14"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      />
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={48}
+      />
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MilestoneTracker /> should render the MilestoneTracker component without roads between milestones 1`] = `
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #0376DA;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+.c11 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #D1DBE8;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #0376DA;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #F0F3F7;
+  border: 2px solid #D1DBE8;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  text-align: start;
+  cursor: default;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 22px;
+  min-width: 22px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.c4 {
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 .c7 {
+  height: initial;
+  position: absolute;
+  left: 10px;
+}
+
+.c4 .c7:first-child {
+  top: 0;
+  bottom: 50%;
+}
+
+.c4 .c7:last-child {
+  top: 50%;
+  bottom: 0;
+}
+
+.c4 .c5 {
+  position: relative;
+  z-index: 1;
+}
+
+.c9 {
+  color: #1C2025;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c13 {
+  color: #A4B8D1;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  color: #5E6D7A;
+  font-size: 15px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+        size={22}
+      >
+        <div
+          className="c5 c6"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={22}
+        />
+        <div
+          className="c7 c8"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c9"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c8"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      >
+        mockedDescription
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c12"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={22}
+        />
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c13"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      >
+        mockedDescription
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c12"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={22}
+        />
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_BULLET_ROAD"
+          data-test-id="MILESTONE_BULLET_ROAD"
+        />
+      </div>
+      <div
+        className="c13"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      >
+        mockedTitle
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_ROAD"
+          data-test-id="MILESTONE_ROAD"
+        />
+      </div>
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+    data-id="MILESTONE"
+    data-test-id="MILESTONE"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_ROAD"
+          data-test-id="MILESTONE_UPPER_ROAD"
+        />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+        size={22}
+      >
+        <div
+          className="c7 c11"
+          data-id="MILESTONE_UPPER_BULLET_ROAD"
+          data-test-id="MILESTONE_UPPER_BULLET_ROAD"
+        />
+        <div
+          className="c5 c12"
+          data-id="MILESTONE_BULLET"
+          data-test-id="MILESTONE_BULLET"
+          size={22}
+        />
+      </div>
+      <div
+        className="c13"
+        data-id="MILESTONE_TITLE"
+        data-test-id="MILESTONE_TITLE"
+      />
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={22}
+      />
+      <div
+        className="c10"
+        data-id="MILESTONE_DESCRIPTION"
+        data-test-id="MILESTONE_DESCRIPTION"
+      />
+    </div>
+  </div>
+</div>
+`;

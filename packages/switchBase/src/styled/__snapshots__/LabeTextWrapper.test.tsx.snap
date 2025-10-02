@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelTextWrapper> should render correctly with default props 1`] = `
+.c0 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<span
+  className="c0"
+/>
+`;

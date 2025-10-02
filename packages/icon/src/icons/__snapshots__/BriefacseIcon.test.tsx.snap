@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BriefacseIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <defs>
+      <path
+        d="M11 14h2v-2h-2v2Zm-2 0v-2H4v-2h16v2h-5v2c0 1.1046-.8954 2-2 2h-2c-1.1046 0-2-.8954-2-2ZM6 6V4c0-1.1046.8954-2 2-2h8c1.1046 0 2 .8954 2 2v2h2c1.1046 0 2 .8954 2 2v12c0 1.1046-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2V8c0-1.1046.8954-2 2-2h2Zm2 2H4v12h16V8H8Zm0-4v2h8V4H8Z"
+        id="briefacse-a"
+      />
+    </defs>
+    <use
+      fillRule="nonzero"
+      xlinkHref="#briefacse-a"
+    />
+  </g>
+</svg>
+`;

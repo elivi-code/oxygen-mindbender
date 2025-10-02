@@ -1,0 +1,5 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "M4.5 19.5v-15h4.11c.5617 0 1.5906.1034 2.4972.7482C12.0604 5.9262 12.75 7.1096 12.75 9c0 1.8904-.6896 3.0739-1.6428 3.7518-.9066.6448-1.9355.7482-2.4972.7482H6v6H4.5ZM6 12V6h2.61c.4183 0 1.0844.084 1.6278.4706C10.7346 6.8239 11.25 7.5154 11.25 9s-.5154 2.1761-1.0122 2.5294C9.6944 11.9159 9.0283 12 8.61 12H6Z", clipRule: "evenodd" }),
+    React.createElement("path", { d: "M15.9697 20.7803a.75.75 0 0 0 1.0606 0 .75.75 0 0 0 0-1.0606L14.5607 17.25h5.8143c.3452 0 .625-.3358.625-.75s-.2798-.75-.625-.75h-5.8143l2.4696-2.4697a.75.75 0 0 0 0-1.0606.75.75 0 0 0-1.0606 0l-3.75 3.75a.75.75 0 0 0 0 1.0606l3.75 3.75Z" })), 'ParkedReturnIcon');

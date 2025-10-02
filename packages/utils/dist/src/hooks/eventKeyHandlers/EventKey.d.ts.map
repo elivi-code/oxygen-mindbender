@@ -1,0 +1,1 @@
+{"version":3,"file":"EventKey.d.ts","sourceRoot":"","sources":["../../../../src/hooks/eventKeyHandlers/EventKey.ts"],"names":[],"mappings":"AACA,aAAK,QAAQ;IACX,qDAAqD;IACrD,KAAK,UAAU;IACf,MAAM,WAAW;IACjB,KAAK,aAAa;IAClB,KAAK,UAAU;IACf,GAAG,QAAQ;IACX,CAAC,MAAM;IACP,SAAS,cAAc;IACvB,OAAO,YAAY;IACnB,SAAS,cAAc;IACvB,SAAS,cAAc;IACvB,UAAU,eAAe;CAC1B;AAED,eAAe,QAAQ,CAAC"}

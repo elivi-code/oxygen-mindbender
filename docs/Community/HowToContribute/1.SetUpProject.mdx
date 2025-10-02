@@ -1,0 +1,70 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/How to contribute/1. Set up project" />
+
+## Set up Oxygen on your computer
+
+If it's your first touch with Oxygen,
+don't worry in a few steps you can **set up the project** locally and **start coding**, however, if it's your very first time
+in a front-end ecosystem, we recommend spending some time on [tools](?path=/story/quick-start-04-requirements--page)
+which we use in Oxygen.
+
+Before you start, please ask yourself the following questions:
+
+- Am I familiar with the Oxygen [code of conduct](?path=/story/community-code-of-conduct-communication--page)?
+- Do I want to follow the [code standards](?path=/story/community-guidelines-accessibility--page)?
+- Do I have the right access for fetching and pushing code base to Oxygen?
+
+Please follow those steps to bring to life Oxygen on your computer:
+
+## 1. First-Time preparation
+
+** 1.1 Clone repository**
+
+```
+git clone git@github.com:8x8/oxygen.git oxygen
+```
+
+** 1.2 Install the latest [Yarn](https://classic.yarnpkg.com/en/docs/install)**
+
+We recommend using [Homebrew](https://docs.brew.sh/Installation) to install yarn, however you can choose whatever which you are familiar with:
+
+```
+brew install yarn
+```
+
+## 2.Run project
+
+Once you have all global tools up and running, it's time to install all project's dependencies
+
+**2.1 Install dependencies**
+
+In the cloned repository directory( by default `oxygen`) install dependencies by:
+
+```
+yarn
+```
+
+**2.2 Set internal package symlinks**
+
+```
+yarn bootstrap
+```
+
+**2.3 Build the dev version of the project**
+
+Keeping this process running, it updates the `/dist` directory of each package
+
+```
+yarn build:dev
+```
+
+**2.4 Start a local [Storybook](https://storybook.js.org/) server**
+
+```
+yarn storybook
+```
+
+At the end of the installation, you should be able to see the Oxygen storybook in your browser, by default on (`http://localhost:9000/`)
+
+** 🎉 CONGRATS 🎉 Now you can contribute to the Oxygen library**

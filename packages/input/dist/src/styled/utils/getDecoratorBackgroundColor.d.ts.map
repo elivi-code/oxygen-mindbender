@@ -1,0 +1,1 @@
+{"version":3,"file":"getDecoratorBackgroundColor.d.ts","sourceRoot":"","sources":["../../../../src/styled/utils/getDecoratorBackgroundColor.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,MAAM,wBAAwB,CAAC;AAE7D,KAAK,KAAK,GAAG,IAAI,CAAC,mBAAmB,EAAE,OAAO,GAAG,YAAY,CAAC,CAAC;AAE/D,QAAA,MAAM,2BAA2B,0BAA2B,KAAK,WAMhE,CAAC;AAEF,eAAe,2BAA2B,CAAC"}

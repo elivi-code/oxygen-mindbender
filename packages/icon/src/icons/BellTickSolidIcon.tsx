@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M20.5613 18.6838 19 14v-4c0-2.9736-2.1631-5.442-5.0017-5.9173A1.8916 1.8916 0 0 0 14 4c0-1.1046-.8954-2-2-2-1.1045 0-2 .8954-2 2 0 .0277.0006.0553.0017.0827C7.1632 4.558 5 7.0264 5 10v4l-1.5612 4.6838A.9994.9994 0 0 0 3.3874 19c0 .5523.4478 1 1 1H10c0 1.1046.8955 2 2 2 1.1046 0 2-.8954 2-2h5.6126a.9991.9991 0 0 0 .3162-.0513c.524-.1747.8071-.741.6325-1.2649Zm-5.2077-8.0374a.5001.5001 0 0 0-.7071 0L11 14.2929l-1.6464-1.6465a.5001.5001 0 0 0-.7071.7072L11 15.7071l4.3536-4.3535a.5002.5002 0 0 0 0-.7072Z" clipRule="evenodd"/></g>, 'BellTickSolidIcon');

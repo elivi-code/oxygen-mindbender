@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadcrumbsListItem> should render correctly 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+<li
+  className="c0"
+/>
+`;

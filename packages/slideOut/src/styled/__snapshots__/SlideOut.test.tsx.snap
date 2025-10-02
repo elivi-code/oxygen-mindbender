@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container> should style correctly 1`] = `
+.c0 {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  position: relative;
+  width: 0 !important;
+  margin-left: auto;
+}
+
+<div
+  aria-hidden={true}
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Container> should style correctly when it has animation 1`] = `
+.c0 {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  position: relative;
+  width: 0 !important;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+  margin-left: auto;
+}
+
+<div
+  aria-hidden={true}
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Container> should style correctly when visible 1`] = `
+.c0 {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  position: relative;
+  margin-left: auto;
+}
+
+<div
+  aria-hidden={false}
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Container> should style correctly with maxWidth specified 1`] = `
+.c0 {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  position: relative;
+  width: 0 !important;
+  margin-left: auto;
+}
+
+<div
+  aria-hidden={true}
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Container> should style correctly with minWidth specified 1`] = `
+.c0 {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  position: relative;
+  width: 0 !important;
+  margin-left: auto;
+}
+
+<div
+  aria-hidden={true}
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Content> should render correctly 1`] = `
+.c0 {
+  overflow: auto;
+}
+
+<div
+  className="c0"
+>
+  content
+</div>
+`;
+
+exports[`<Splitter> should render correctly 1`] = `
+.c0 {
+  min-width: 8px;
+  cursor: col-resize;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Splitter> should render correctly when it is resizable 1`] = `
+.c0 {
+  min-width: 8px;
+  cursor: col-resize;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserStatusIconDoNotDisturb> should render correctly 1`] = `
+.c0 {
+  display: block;
+}
+
+<svg
+  className="c0"
+  fill="none"
+  viewBox="0 0 14 14"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g>
+    <circle
+      className="presence-border"
+      cx="7"
+      cy="7"
+      fill="white"
+      r="7"
+    />
+    <circle
+      className="presence-background"
+      cx="7"
+      cy="7"
+      fill="#CB2233"
+      r="5"
+    />
+    <path
+      clipRule="evenodd"
+      d="M3.25 7C3.25 6.58579 3.58579 6.25 4 6.25H10C10.4142 6.25 10.75 6.58579 10.75 7C10.75 7.41421 10.4142 7.75 10 7.75H4C3.58579 7.75 3.25 7.41421 3.25 7Z"
+      fill="white"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

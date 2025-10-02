@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SkipIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M8.794 6.9697c.313-.293.8204-.293 1.1334 0l4.2424 3.9696c.626.5858.626 1.5356 0 2.1214l-4.2424 3.9696c-.313.2929-.8205.2929-1.1335 0-.313-.2929-.313-.7677 0-1.0606l3.4409-3.2197H4.5515c-.4426 0-.8015-.3358-.8015-.75s.3589-.75.8015-.75h7.6833L8.7939 8.0303c-.313-.2929-.313-.7677 0-1.0606Z"
+    />
+    <path
+      d="M15.5381 6.9697c-.313-.293-.8205-.293-1.1335 0-.313.2929-.313.7677 0 1.0606L18.647 12l-4.2424 3.9697c-.313.2929-.313.7677 0 1.0606.313.2929.8205.2929 1.1335 0l4.2424-3.9696c.626-.5858.626-1.5356 0-2.1214l-4.2424-3.9696Z"
+    />
+  </g>
+</svg>
+`;

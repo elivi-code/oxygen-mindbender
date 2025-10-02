@@ -1,0 +1,1 @@
+{"version":3,"file":"StyledAvatarStack.d.ts","sourceRoot":"","sources":["../../../src/styled/StyledAvatarStack.tsx"],"names":[],"mappings":"AAEA,OAAO,EAAE,gBAAgB,EAAE,MAAM,UAAU,CAAC;AAc5C,QAAA,MAAM,uBAAuB;WACpB,gBAAgB;mBACR,gBAAgB,CAAC,iBAAiB,GAAG,cAAc,CAAC,KAAK,IAAI;SAa7E,CAAC;AAEF,QAAA,MAAM,oBAAoB,oEAEzB,CAAC;AAEF,OAAO,EAAE,uBAAuB,EAAE,oBAAoB,EAAE,CAAC"}

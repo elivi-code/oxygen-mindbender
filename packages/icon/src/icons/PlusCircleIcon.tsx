@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M2 12c0 5.5228 4.4771 10 10 10 5.5228 0 10-4.4772 10-10 0-5.5229-4.4772-10-10-10C6.4771 2 2 6.4771 2 12Zm18.1818 0c0 4.5187-3.6631 8.1818-8.1818 8.1818-4.5187 0-8.1818-3.6631-8.1818-8.1818 0-4.5187 3.6631-8.1818 8.1818-8.1818 4.5187 0 8.1818 3.6631 8.1818 8.1818Zm-9.0909.9091v3.6364h1.8182v-3.6364h3.6364v-1.8182h-3.6364V7.4546h-1.8182v3.6363H7.4546v1.8182h3.6363Z" clipRule="evenodd"/></g>, 'PlusCircleIcon');

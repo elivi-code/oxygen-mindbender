@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckDoubleIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M10.8964 8.3457 4.92 15.253 3.707 14.0403c-.3905-.3906-1.0237-.3906-1.4142 0-.3905.3905-.3905 1.0237 0 1.4142l1.973 1.9729c.4105.4106 1.0833.3863 1.4632-.0528l6.6797-7.7203c.3614-.4177.3158-1.0492-.1019-1.4105-.4176-.3614-1.0492-.3158-1.4105.1019Zm10.7579-.102c-.4177-.3613-1.0492-.3157-1.4105.102l-5.9764 6.9074-1.2129-1.2128c-.3905-.3906-1.0237-.3906-1.4142 0-.3905.3905-.3905 1.0237 0 1.4142l1.9729 1.9729c.4106.4106 1.0834.3863 1.4633-.0528l6.6797-7.7203c.3614-.4177.3158-1.0492-.1019-1.4105Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

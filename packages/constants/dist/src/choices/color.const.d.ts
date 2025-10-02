@@ -1,0 +1,36 @@
+declare const color: {
+    dodgerBlue: string;
+    dodgerBlue100: string;
+    dodgerBlue300: string;
+    dodgerBlue400: string;
+    dodgerBlue700: string;
+    pickledBluewood: string;
+    pickledBluewood800: string;
+    steel700: string;
+    cloudyBlue: string;
+    cloudyBlue100: string;
+    cloudyBlue300: string;
+    cloudyBlue900: string;
+    coral: string;
+    coral200: string;
+    coral400: string;
+    coral700: string;
+    coral800: string;
+    jadeGreen: string;
+    jadeGreen200: string;
+    jadeGreen400: string;
+    jadeGreen700: string;
+    surfaceLight50: string;
+    goldenBell: string;
+    white: string;
+    candyPink: string;
+    carrotOrange: string;
+    durianYellow: string;
+    caribbeanGreen: string;
+    ballBlue: string;
+    bondiBlue: string;
+    celadonBlue: string;
+    gray10: string;
+};
+export default color;
+//# sourceMappingURL=color.const.d.ts.map

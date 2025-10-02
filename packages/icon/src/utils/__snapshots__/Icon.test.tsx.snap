@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render active 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render default 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render disabled 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: none;
+  fill: #858585;
+}
+
+<svg
+  class="c0"
+  disabled=""
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render inverted active 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render inverted default 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render inverted disabled 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: none;
+  fill: #666666;
+}
+
+<svg
+  class="c0"
+  disabled=""
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render inverted link 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+.c0:hover {
+  fill: #FFFFFF;
+}
+
+.c0:focus {
+  fill: #FFFFFF;
+}
+
+.c0[disabled] {
+  fill: #666666;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render inverted selected 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render selected 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render when link 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0:hover {
+  fill: #292929;
+}
+
+.c0:focus {
+  fill: #292929;
+}
+
+.c0[disabled] {
+  fill: #858585;
+}
+
+<svg
+  class="c0"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;
+
+exports[`Icon should render with color, part of both css and svg color attr 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FF0000;
+}
+
+<svg
+  class="c0"
+  color="#FF0000"
+  role="presentation"
+  viewBox="0 0 24 24"
+/>
+`;

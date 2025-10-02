@@ -1,0 +1,65 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="QuickStart/Installation" />
+
+## 1. Configure Oxygen
+
+Below you can find a Step-by-Step Guide how to use Oxygen in your project:
+
+**1.1 .npmrc file**
+
+Create a `.npmrc` file in the same directory as `package.json` with following content:
+
+```
+// .npmrc
+@8x8:registry=https://artifactory.es.8x8.com/artifactory/api/npm/npm-repository/
+```
+
+If you're using Nexus as registry for 8x8 scope, please read this blog post and update to Artifactory: https://oxygen.8x8.com/blog/say-hello-to-artifactory
+
+**1.2 Install Config**
+
+Install the `@8x8/oxygen-config` package using npm or yarn, depends on your needs
+
+```ssh
+yarn add @8x8/oxygen-config
+```
+
+```ssh
+npm install @8x8/oxygen-config
+```
+
+Oxygen Config is a peer dependency for all Oxygen components. As a developer, make sure, the used Oxygen Config is compatible with all of your integrated components.
+
+## 2. Add the font family
+
+Oxygen components works amazing by default with _Inter_ font-family. The _Inter_ font assets are **not** automatically loaded by Oxygen.<br />
+The classic theme of the Oxygen UI Components works with _Nunito_ font-family.<br />
+
+The developer is responsible for loading all fonts used in their application, which is suitable for the chosen theme.
+
+```html
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+```
+
+```html
+<link
+  href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&amp;subset=latin-ext"
+  rel="stylesheet"
+/>
+```
+
+## 3. Install Components
+
+Each component contains instructions on how to install and what props provide. Here you can see how to for e.g. `Button`:
+
+```ssh
+yarn add @8x8/oxygen-button
+```
+
+```ssh
+npm install @8x8/oxygen-button
+```

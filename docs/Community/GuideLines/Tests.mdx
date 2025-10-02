@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Tests" />
+
+## Testing - Components
+
+Below you can find the general guidelines:
+
+- Mock dependencies,
+- Add test case for each props,
+- Be sensitive what you have in snapshot - for the first-time snapshots are generated always with success :),
+- Auto-generate test coverage map, it is just a GUIDELINE, not an assurance,
+- Be sensitive to warring in tests - missing a required props for instance,
+
+### Run tests
+
+<hr />
+
+Tests are one of our points in the Definition of Done. We all do care and write test for our components.
+To achieve that we use [Jest](https://jestjs.io/en/) and [Enzyme](https://airbnb.io/enzyme/)
+which are recommended for React. UT Coverage should be give or take 100% if it is possible.
+
+Tests should cover all cases in a component. You can usually hit 50% of coverage just by running a blank test.
+The target is not that fancy percentage number but to properly implement a test suite.
+
+```
+$ yarn test
+```
+
+```
+$ yarn test --watch
+```
+
+### Test coverage
+
+The result of test coverage you can be found inside the `/coverage` folder by opening `index.html` in the browser.
+
+```
+$ yarn test --coverage
+```

@@ -1,0 +1,50 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Changelog" />
+
+# Changelog
+
+The main reason to keep a Changelog is for downstream consumers of Oxygen packages.
+When integrators upgrade to a new version of Oxygen, they want to know what has changed so that they can apply any relevant changes to their codebases.
+It also informs people on potentially holding off certain upgrades if they have a significant impact on their project.
+
+The Changelog is based on https://common-changelog.org/
+
+## Structure
+
+Each package has its own `CHANGELOG.md` file, located in the root of the package.
+The root `CHANGELOG.md` file is generated automatically by the release script and it pulls in all items from each package's individual changelog.
+
+### Changelog Item
+
+Each changelog item _must_ be a a single line, and it _must_ be a markdown list item (start with a `-`).
+We don't supported nested lists, so if you have a list of items, they should be separate entries.
+
+## Categories
+
+We use the following categories (keep them in this order):
+
+- `Changed` for changes in existing functionality
+- `Added` for new functionality
+- `Removed` for removed functionality
+- `Fixed` for bug fixes.
+
+After each category list each (conceptual) change and mention the Jira ticket in braces at the end.
+
+Example:
+
+```md
+## [Unreleased]
+
+### Changed
+
+- Simplify Icon Tooltip rendering (removed local state) (OX-620)
+
+### Added
+
+- Add `Tooltip` prop `offset` (OX-620)
+```
+
+**Important:** All entries need to be added under the `Unreleased` section.
+
+If the category is already listed, simply add your item to the list.

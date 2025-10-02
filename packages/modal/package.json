@@ -1,0 +1,38 @@
+{
+  "name": "@8x8/oxygen-modal",
+  "version": "2.98.0",
+  "description": "Oxygen - Modal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/modal",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-button": "2.98.0",
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-overlay": "2.98.0",
+    "@8x8/oxygen-theme": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "focus-trap-react": "10.0.0",
+    "lodash.isfunction": "3.0.9",
+    "lodash.isundefined": "3.0.1",
+    "lodash.noop": "3.0.1",
+    "polished": "4.2.2",
+    "prop-types": "15.8.1"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "react-dom": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

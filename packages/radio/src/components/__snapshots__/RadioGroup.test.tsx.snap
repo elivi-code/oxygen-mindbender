@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup> should render the RadioGroup component 1`] = `
+<Context.Provider
+  value={
+    {
+      "name": "mockedName",
+      "onChange": "mockedOnChange",
+      "selectedValue": "mockedValue",
+    }
+  }
+>
+  <RadioGroupWrapper
+    isHorizontal={true}
+    theme="mockedTheme"
+  >
+    mockedChildren
+  </RadioGroupWrapper>
+</Context.Provider>
+`;

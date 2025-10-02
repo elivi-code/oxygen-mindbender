@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxIconWrapper /> should render a cursor with "not-allowed" when isDisabled is true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(3,118,218,0.5);
+  cursor: not-allowed;
+}
+
+.c0 svg {
+  height: 24px;
+  width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<CheckboxIconWrapper /> should render a focus ring when hasLabel is false and isFocused is true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #A4B8D1;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px inset #0376DA;
+}
+
+.c0 svg {
+  height: 24px;
+  width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<CheckboxIconWrapper /> should render correctly with NovoDark theme 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #C2C2C2;
+}
+
+.c0 svg {
+  height: 24px;
+  width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<CheckboxIconWrapper /> should render correctly with default props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #A4B8D1;
+}
+
+.c0 svg {
+  height: 24px;
+  width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<CheckboxIconWrapper /> should render correctly with novo theme 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #666666;
+}
+
+.c0 svg {
+  height: 24px;
+  width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;

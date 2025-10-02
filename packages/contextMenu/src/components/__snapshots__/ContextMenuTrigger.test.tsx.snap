@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContextMenuTrigger> should be rendered correctly 1`] = `
+<span
+  onContextMenu={[Function]}
+  testId="CONTEXT_MENU_TRIGGER"
+>
+  Context Menu Trigger
+</span>
+`;

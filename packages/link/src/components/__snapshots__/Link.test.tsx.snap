@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Component matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #0056E0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:focus {
+  outline: 2px solid #0056E0;
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+.c0:active,
+.c0:link:active {
+  color: #0056E0;
+  outline: 2px solid #0056E0;
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+<a
+    class="c0"
+    data-id="LINK"
+    data-test-id="LINK"
+    href="https://example.com"
+    tabindex="0"
+  >
+    Snapshot Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link Component matches snapshot for all prop variations 1`] = `
+<DocumentFragment>
+  .c1 {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #003486;
+}
+
+.c0 {
+  color: #003486;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  gap: 4px;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:focus {
+  outline: 2px solid #0056E0;
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+.c0:active,
+.c0:link:active {
+  color: #003486;
+  outline: 2px solid #0056E0;
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+    class="c0"
+    data-id="LINK"
+    data-test-id="LINK"
+    href="https://example.com"
+    tabindex="0"
+  >
+    Complete Test Link
+    <svg
+      class="c1"
+      color="#003486"
+      role="presentation"
+      size="20"
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          clip-rule="evenodd"
+          d="M15.0293 16.09C13.5987 17.2825 11.7581 18 9.75 18 5.1936 18 1.5 14.3063 1.5 9.75c0-4.5564 3.6936-8.25 8.25-8.25C14.3063 1.5 18 5.1936 18 9.75c0 2.0081-.7175 3.8487-1.91 5.2793l6.1903 6.1904a.75.75 0 0 1 0 1.0606.75.75 0 0 1-1.0606 0L15.0293 16.09ZM16.5 9.75c0 3.7279-3.0221 6.75-6.75 6.75C6.022 16.5 3 13.4779 3 9.75 3 6.022 6.022 3 9.75 3c3.7279 0 6.75 3.022 6.75 6.75Z"
+          fill-rule="evenodd"
+        />
+      </g>
+    </svg>
+  </a>
+</DocumentFragment>
+`;

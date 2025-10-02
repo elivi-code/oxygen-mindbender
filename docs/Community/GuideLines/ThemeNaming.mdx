@@ -1,0 +1,93 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Theme naming" />
+
+## Art of naming theme properties
+
+You probably agree with the statement - the "hardest", and the most time-consuming part of programming is choosing a proper name for variables.
+Let's talk about the idea, how to make theme consistent and easy to remember.
+
+As you probably know BEM is not only for CSS it is much more complex. We can use it for folder structure,
+data, naming variables, components, etc. Let's adapt [BEM methodology](https://en.bem.info/) into our theme principles.
+
+#### What can be the BLOCK?
+
+- main components: _avatar, badge, button, tabs, userStatus_
+- internal components: _separator, icon, description_
+
+#### What can be the ELEMENT?
+
+- CSS properties: _padding, fontFamily, backgroundColor_
+
+#### What can be the MODIFIER?
+
+- States: _active, focus, hover, disabled, visited, error, warning_
+- Sizing: _small, medium, large_
+- Types: _primary, secondary_
+
+**EXCEPTION FOR ELEMENTS**: _transition-timing-function, transition-duration_ it is too long, and much more easy to remember are in order: _transitionType, transitionTime_
+
+### What do we support
+
+- Colors,
+- Offsets (padding, margins, offsets)
+- Sizes
+- Timing
+
+### Elements
+
+| Sizing    | Offset            | Text           | Color           | Border         | Animation / Transitions |
+| --------- | ----------------- | -------------- | --------------- | -------------- | ----------------------- |
+| size      | padding           | fontFamily     | color           | borderRadius   | transitionType          |
+| height    | paddingHorizontal | fontStyle      | backgroundColor | borderColor    | transitionTime          |
+| width     | paddingVertical   | fontWeight     | shadowSize      | borderWidth    | transitionDelay         |
+| maxHeight | paddingTop        | fontSize       | shadowColor     | borderStyle    |                         |
+| minHeight | paddingRight      | lineHeight     |                 | borderTopColor |                         |
+| maxWidth  | paddingLeft       | textDecoration |                 | borderTopWidth |                         |
+| minWidth  | paddingBottom     | letterSpacing  |                 | borderTopStyle |                         |
+| scale     | margin            |                |                 |                |                         |
+|           | marginHorizontal  |
+|           | marginVertical    |
+|           | marginTop         |
+|           | marginRight       |
+|           | marginLeft        |
+|           | marginBottom      |
+|           | offsetTop         |
+|           | offsetRight       |
+|           | offsetBottom      |
+|           | offsetLeft        |
+
+### States convention
+
+- active
+- focus
+- hover
+- disabled
+- visited
+- error
+- warning
+
+### Use case
+
+| Block | Element     | Modifier | Modifier | Theme property              |
+| ----- | ----------- | -------- | -------- | --------------------------- |
+| tab   | Size        | Small    |          | tabSizeSmall                |
+|       | BorderColor | Light    | Active   | tabBorderColorLightActive   |
+|       |             |          | Disabled | tabBorderColorLightDisabled |
+|       |             |          | Hover    | tabBorderColorLightHover    |
+
+_Please notice the order of the modifiers is not a coincidence.
+First is a modifier resulting from component API, the last one is referring to CSS states._
+
+### Best practices for naming
+
+- use property _background_ instead of _background-color_ (background allows to set up gradient),
+- size is **ONLY** for components which are a **circle**, **square**. In general, for elements which have equal width, height,
+- name of **BLOCK** should refer to the components name,
+
+### Bad practices of naming
+
+- Spacing,
+- Offset,
+- do NOT use TEXT as addition information: separatorTextColor => separatorColor,
+- do NOT use accent color,

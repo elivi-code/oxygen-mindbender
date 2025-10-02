@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComputerSlashIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M4.4626 3h-.0252l-.7022-.7021c-.397-.3971-1.0406-.3972-1.4376-.0003-.3969.397-.3968 1.0406.0003 1.4376l.0861.0862A1.991 1.991 0 0 0 2 5v12c0 1.1046.8954 2 2 2h3c-.5523 0-1 .4477-1 1s.4477 1 1 1h10c.5523 0 1-.4477 1-1s-.4477-1-1-1h.5626l2.7022 2.7021c.397.3971 1.0407.3972 1.4376.0003.3969-.3969.3968-1.0406-.0003-1.4376l-1.3043-1.3044a1.285 1.285 0 0 0 .0209-.0043L18.4626 17h-.0252l-12-12h.0252l-2-2ZM20 15.6626V5H9.3374l-2-2H20c1.1046 0 2 .8954 2 2v12c0 .2009-.0296.3949-.0847.5779L20 15.6626ZM4 17V5.4374L15.5626 17H4Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

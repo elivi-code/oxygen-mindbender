@@ -1,0 +1,25 @@
+{
+  "name": "@8x8/oxygen-constants",
+  "version": "2.98.0",
+  "description": "UI Component - Constants (colors, sizes...)",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/constants",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-theme": "2.98.0",
+    "polished": "4.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

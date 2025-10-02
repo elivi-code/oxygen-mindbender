@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table> should render correctly 1`] = `
+<Table
+  forwardedRef={null}
+  zebra={false}
+>
+  <span>
+    table
+  </span>
+</Table>
+`;

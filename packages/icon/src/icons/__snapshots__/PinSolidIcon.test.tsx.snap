@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PinSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M8.3808 17.9326 3.233 21.7518a.7726.7726 0 0 1-1.081-1.0809l3.8193-5.1477-2.3309-2.3308c-.781-.7811-.781-2.0474 0-2.8284l.7071-.7072c.7811-.781 2.0474-.781 2.8285 0l.5303.5304 1.3308-.605a2 2 0 0 0 .9334-.8725l1.1653-2.1641-.4243-.4243c-.781-.781-.781-2.0474 0-2.8284l.7071-.7071c.7811-.781 2.0474-.781 2.8284 0l7.0711 7.071c.7811.7811.7811 2.0474 0 2.8285l-.7071.7071c-.781.781-2.0474.781-2.8284 0l-.2829-.2829-2.1713 1.4476a2 2 0 0 0-.6056.6351l-.8293 1.3822.3535.3535c.7811.7811.7811 2.0474 0 2.8284l-.7071.7072c-.781.781-2.0473.781-2.8284 0l-2.3308-2.3309Z"
+    />
+  </g>
+</svg>
+`;

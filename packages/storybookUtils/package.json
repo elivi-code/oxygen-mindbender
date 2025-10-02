@@ -1,0 +1,26 @@
+{
+  "name": "@8x8/oxygen-storybook-utils",
+  "version": "2.98.0",
+  "private": true,
+  "description": "Storybook utils used by other packages",
+  "main": "index.tsx",
+  "types": "index.tsx",
+  "author": "8x8",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/storybookUtils",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-icon": "2.98.0",
+    "polished": "4.2.2",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "styled-components": "5.3.11",
+    "type-fest": "3.3.0"
+  }
+}

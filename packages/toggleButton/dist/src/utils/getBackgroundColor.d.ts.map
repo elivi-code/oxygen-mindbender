@@ -1,0 +1,1 @@
+{"version":3,"file":"getBackgroundColor.d.ts","sourceRoot":"","sources":["../../../src/utils/getBackgroundColor.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,uBAAuB,CAAC;AAE/D,QAAA,MAAM,kBAAkB,uDAKrB,KACD,sBAAsB,EACtB,OAAO,GAAG,WAAW,GAAG,YAAY,GAAG,iBAAiB,CACzD,uBAaA,CAAC;AAEF,eAAe,kBAAkB,CAAC"}

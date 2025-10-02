@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextFieldLabel> should render correctly 1`] = `
+<Label
+  className=""
+  theme={
+    {
+      "descriptionFontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "descriptionFontSize": "13px",
+      "descriptionFontStyle": "normal",
+      "descriptionFontWeight": 400,
+      "descriptionLineHeight": "18px",
+      "input": {
+        "backgroundColor": "#FFF",
+        "backgroundColorDisabled": "#F0F3F7",
+        "backgroundColorFixed": "transparent",
+        "backgroundColorReadOnly": "#FFF",
+        "backgroundColorSemanticBlock": "#F0F3F7",
+        "borderColor": "#D1DBE8",
+        "borderColorError": "#E12D2D",
+        "borderColorFixed": "transparent",
+        "borderColorFocused": "#0376DA",
+        "borderColorReadOnly": "#D1DBE8",
+        "borderColorSemanticBlock": "#A4B8D1",
+        "borderRadius": 0,
+        "borderRadiusReadOnly": 0,
+        "borderStyle": "solid",
+        "borderStyleDefaultSemanticBlock": "solid",
+        "borderTransitionTiming": "150ms",
+        "borderWidth": "1px",
+        "borderWidthReadOnly": "1px",
+        "borderWidthSemanticBlock": "1px",
+        "color": "#1C2025",
+        "colorDisabled": "#A4B8D1",
+        "colorFixed": "#5E6D7A",
+        "colorIcon": "#5E6D7A",
+        "colorPlaceholder": "#A4B8D1",
+        "colorReadOnly": "#1C2025",
+        "colorSemanticBlock": "#5E6D7A",
+        "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontStretch": "normal",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "height": "40px",
+        "heightLarge": "48px",
+        "heightSmall": "32px",
+        "horizontalSpacing": "8px",
+        "horizontalSpacingReadOnly": "8px",
+        "iconHorizontalSpacing": "8px",
+        "iconSize": 24,
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "minWidth": "40px",
+        "prefixSuffixHorizontalSpacing": "8px",
+        "prefixSuffixInsideInput": false,
+        "verticalSpacing": "4px",
+        "width": "296px",
+        "widthSemanticBlock": "60px",
+      },
+      "label": {
+        "labelMinWidth": "initial",
+        "labelPadding": "0 8px 0 0",
+      },
+    }
+  }
+/>
+`;

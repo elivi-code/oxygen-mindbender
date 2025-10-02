@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M4 20V4h16v16H4ZM20 2H4c-1.1046 0-2 .8954-2 2v16c0 1.1046.8954 2 2 2h16c1.1046 0 2-.8954 2-2V4c0-1.1046-.8954-2-2-2ZM9 9c0 .8815.3802 1.6742.9855 2.2231C7.7825 11.7958 7 13.4714 7 16.25 7 17.4167 7.4167 18 8.25 18h7.5c.8333 0 1.25-.5833 1.25-1.75 0-2.7786-.7824-4.4542-2.9855-5.0269C14.6198 10.6742 15 9.8815 15 9c0-1.6569-1.3431-3-3-3S9 7.3431 9 9Zm4 0c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1Zm-1 4c2.3607 0 2.9615.5876 2.9982 3H9.0018c.0367-2.4124.6376-3 2.9982-3Z" clipRule="evenodd"/></g>, 'DirectoryIcon');

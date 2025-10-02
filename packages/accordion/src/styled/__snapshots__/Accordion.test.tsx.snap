@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion styled components should render AccordionWrapper 1`] = `
+.c0 {
+  border-bottom: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render Content 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render Content with hasFixedHeight true 1`] = `
+.c0 {
+  box-sizing: border-box;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render ContentContainer with props { isExpanded: false, height: 0, hasFixedHeight: false } 1`] = `
+.c0 {
+  display: grid;
+  grid-template-rows: 0fr;
+  -webkit-transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9);
+  transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9);
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transition: unset;
+    transition: unset;
+  }
+}
+
+<div
+  class="c0"
+  height="0"
+/>
+`;
+
+exports[`Accordion styled components should render ContentContainer with props { isExpanded: false, height: 0, hasFixedHeight: true } 1`] = `
+.c0 {
+  display: grid;
+  grid-template-rows: 0fr;
+  height: 0;
+  -webkit-transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transition: unset;
+    transition: unset;
+  }
+}
+
+<div
+  class="c0"
+  height="0"
+/>
+`;
+
+exports[`Accordion styled components should render ContentContainer with props { isExpanded: false, height: 10, hasFixedHeight: true } 1`] = `
+.c0 {
+  display: grid;
+  grid-template-rows: 0fr;
+  height: 0;
+  -webkit-transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transition: unset;
+    transition: unset;
+  }
+}
+
+<div
+  class="c0"
+  height="10"
+/>
+`;
+
+exports[`Accordion styled components should render ContentContainer with props { isExpanded: true, height: 10, hasFixedHeight: false } 1`] = `
+.c0 {
+  display: grid;
+  grid-template-rows: 1fr;
+  -webkit-transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9);
+  transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9);
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transition: unset;
+    transition: unset;
+  }
+}
+
+<div
+  class="c0"
+  height="10"
+/>
+`;
+
+exports[`Accordion styled components should render ContentContainer with props { isExpanded: true, height: 10, hasFixedHeight: true } 1`] = `
+.c0 {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 10px;
+  -webkit-transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  transition: grid-template-rows 150ms cubic-bezier(0.2,0,1,0.9), height 150ms cubic-bezier(0.2,0,1,0.9);
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .c0 {
+    -webkit-transition: unset;
+    transition: unset;
+  }
+}
+
+<div
+  class="c0"
+  height="10"
+/>
+`;
+
+exports[`Accordion styled components should render IconContainer 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render InteractiveHeader 1`] = `
+.c0 {
+  all: unset;
+  box-sizing: border-box;
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  background-color: #FFFFFF;
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  cursor: pointer;
+}
+
+.c0:focus-visible {
+  box-shadow: 0 0 0 2px inset #0056E0;
+}
+
+.c0:hover {
+  background-color: #F1F1F1;
+}
+
+<button
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render NonInteractiveHeader 1`] = `
+.c0 {
+  all: unset;
+  box-sizing: border-box;
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  background-color: #FFFFFF;
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  cursor: default;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render SecondaryText 1`] = `
+.c0 {
+  color: #666666;
+  font-family: Inter,sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+<div
+  class="c0"
+/>
+`;
+
+exports[`Accordion styled components should render Title 1`] = `
+.c0 {
+  -webkit-box-flex: 4;
+  -webkit-flex-grow: 4;
+  -ms-flex-positive: 4;
+  flex-grow: 4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+<div
+  class="c0"
+/>
+`;

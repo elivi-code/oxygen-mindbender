@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecordIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M17.25 12c0 2.8995-2.3505 5.25-5.25 5.25S6.75 14.8995 6.75 12 9.1005 6.75 12 6.75s5.25 2.3505 5.25 5.25Zm-1.5 0c0 2.0711-1.6789 3.75-3.75 3.75-2.071 0-3.75-1.6789-3.75-3.75 0-2.071 1.679-3.75 3.75-3.75 2.0711 0 3.75 1.679 3.75 3.75Z"
+      fillRule="evenodd"
+    />
+    <path
+      clipRule="evenodd"
+      d="M22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12ZM21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

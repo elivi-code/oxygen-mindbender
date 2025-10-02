@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TagSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M7.047 2.0004 3.9924 2C2.8919 2 2 2.892 2 3.9924l.0004 3.0785.0004 3.0304-.0003.1258c-.0043 1.0119.0632 1.4346.5575 1.9289l9.3332 9.3334c.6799.6809 1.7841.6809 2.4645-.0004l7.1341-7.134c.6803-.6802.6803-1.7837 0-2.464l-9.3336-9.333c-.4938-.4944-.9121-.5618-1.926-.5575l-.1285.0003-3.0547-.0004ZM7 5c1.1046 0 2 .8954 2 2s-.8954 2-2 2-2-.8954-2-2 .8954-2 2-2Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

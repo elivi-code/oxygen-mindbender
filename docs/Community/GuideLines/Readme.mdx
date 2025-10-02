@@ -1,0 +1,62 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Readme" />
+
+## Working with README
+
+README should contain information about installation and instructions how to use the component. Think of it as a one-stop-shop for a component.
+Once a developer reads it, he should be able to know what the component does, how it's installed and what the API looks like.
+
+### Content:
+
+<hr />
+
+Every readme file should contain several sections to make it usable:
+
+**1. Title**
+
+**2. Installation**
+
+A copy-and-paste CLI command to add the component to your project.
+
+```
+$ yarn add @8x8/oxygen-component
+```
+
+```
+$ npm install @8x8/oxygen-component
+```
+
+**3.Usage**
+
+A copy-and-paste component usage example as a code snippets ready to use.
+
+```js
+import Component from '@8x8/oxygen-component';
+
+<Component title="Something" onClick={onComponentClick} />;
+```
+
+**Notice:**Depending on the complexity, you can write multiple examples for different use cases.
+
+**4. Available styled-components**
+
+Being able to customize the styling for a component it's usually necessary to override styles. All components should export their styled-components. Usually, it's just a list of the exported styled components names.
+
+**5. API - Props table**
+
+A table which contains the name, type, default value and short description of the component's props. If the prop is required, suffix the name with an asterisk.
+
+| Name    | Type   | Default | Description       |
+| ------- | ------ | ------- | ----------------- |
+| color\* | string | blue    | Changes the color |
+
+**6. Theme object**
+
+List all the theme properties, as an object.
+
+```js
+button = {
+  color: 'red',
+};
+```

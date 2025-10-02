@@ -1,0 +1,34 @@
+{
+  "name": "@8x8/oxygen-toaster",
+  "version": "2.98.0",
+  "description": "Oxygen - Toaster",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/toaster",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-toast": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "lodash.isundefined": "3.0.1",
+    "prop-types": "15.8.1",
+    "pubsub-js": "1.9.4",
+    "react-pose": "4.0.10",
+    "uuid": "9.0.0"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "react-dom": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

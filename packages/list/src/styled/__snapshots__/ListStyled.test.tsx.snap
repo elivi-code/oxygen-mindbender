@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListOrdered> should render correctly 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 100%;
+  border-bottom: 0 solid #D1DBE8;
+  background: transparent;
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`<ListOrdered> should render correctly when isGroup 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 100%;
+  border-bottom: 1px solid #D1DBE8;
+  background: transparent;
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`<ListOrdered> should render correctly when it is ordered list 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+  list-style: decimal;
+  max-width: 100%;
+  border-bottom: 0 solid #D1DBE8;
+  background: transparent;
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`<ListOrdered> should render correctly when it is withBackground 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 100%;
+  border-bottom: 0 solid #D1DBE8;
+  background: #FFF;
+}
+
+<ul
+  className="c0"
+/>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewEventIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M7.5 3a.75.75 0 0 1 .75.75v.75h7.5v-.75a.75.75 0 0 1 1.5 0v.75H18c1.6569 0 3 1.3431 3 3v5.25a.75.75 0 0 1-1.5 0V10.5h-15V18c0 .8284.6716 1.5 1.5 1.5h6.75a.75.75 0 0 1 0 1.5H6c-1.6569 0-3-1.3431-3-3V7.5c0-1.6569 1.3431-3 3-3h.75v-.75A.75.75 0 0 1 7.5 3Zm8.25 3v.75a.75.75 0 0 0 1.5 0V6H18c.8284 0 1.5.6716 1.5 1.5V9h-15V7.5C4.5 6.6716 5.1716 6 6 6h.75v.75a.75.75 0 0 0 1.5 0V6h7.5Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M18 15.75a.75.75 0 0 1 1.5 0V18h2.25a.75.75 0 0 1 0 1.5H19.5v2.25a.75.75 0 0 1-1.5 0V19.5h-2.25a.75.75 0 0 1 0-1.5H18v-2.25Z"
+    />
+  </g>
+</svg>
+`;

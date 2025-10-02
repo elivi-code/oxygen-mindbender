@@ -1,0 +1,6 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("defs", null,
+        React.createElement("path", { id: "arrow-right-full-a", d: "M13 6.4142v13.6311c0 .5273-.4477.9547-1 .9547s-1-.4274-1-.9547V6.4143L8.7071 8.707c-.3905.3905-1.0237.3905-1.4142 0-.3905-.3905-.3905-1.0237 0-1.4142l4-4c.3905-.3905 1.0237-.3905 1.4142 0l4 4c.3905.3905.3905 1.0237 0 1.4142-.3905.3905-1.0237.3905-1.4142 0L13 6.4142Z" })),
+    React.createElement("use", { xlinkHref: "#arrow-right-full-a", fillRule: "evenodd", transform: "rotate(90 12 12)" })), 'ArrowRightFullIcon');

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowUpFullIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <defs>
+      <path
+        d="M13 6.4142v13.6311c0 .5273-.4477.9547-1 .9547s-1-.4274-1-.9547V6.4143L8.7071 8.707c-.3905.3905-1.0237.3905-1.4142 0-.3905-.3905-.3905-1.0237 0-1.4142l4-4c.3905-.3905 1.0237-.3905 1.4142 0l4 4c.3905.3905.3905 1.0237 0 1.4142-.3905.3905-1.0237.3905-1.4142 0L13 6.4142Z"
+        id="arrow-up-full-a"
+      />
+    </defs>
+    <use
+      fillRule="evenodd"
+      xlinkHref="#arrow-up-full-a"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path d="M1.5 3a.75.75 0 0 1 .75-.75h6A.75.75 0 0 1 9 3v1.5a.75.75 0 0 1-1.5 0v-.75H6v4.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75v-4.5H3v.75a.75.75 0 0 1-1.5 0V3ZM11.25 5.25a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5h-10.5ZM10.5 9a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5h-10.5A.75.75 0 0 1 10.5 9ZM2.25 11.25a.75.75 0 0 0 0 1.5h19.5a.75.75 0 0 0 0-1.5H2.25ZM1.5 15a.75.75 0 0 1 .75-.75h19.5a.75.75 0 0 1 0 1.5H2.25A.75.75 0 0 1 1.5 15ZM2.25 17.25a.75.75 0 0 0 0 1.5h19.5a.75.75 0 0 0 0-1.5H2.25ZM1.5 21a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5h-15A.75.75 0 0 1 1.5 21ZM11.25 2.25a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5Z"/></g>, 'TextTemplateIcon');

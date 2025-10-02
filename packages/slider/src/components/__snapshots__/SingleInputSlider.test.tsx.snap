@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Singlevalue range type slider should render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c2 {
+  background-color: #D1DBE8;
+  right: 0;
+  height: 5px;
+  position: absolute;
+}
+
+.c2::before,
+.c2::after {
+  content: '';
+  position: absolute;
+  left: -16px;
+  right: 0;
+  height: 24px;
+  background-color: transparent;
+}
+
+.c2::before {
+  top: -24px;
+}
+
+.c2::after {
+  bottom: -24px;
+}
+
+.c1 {
+  background-color: #2A3A4B;
+  left: 0;
+  height: 5px;
+  position: absolute;
+}
+
+.c1::before,
+.c1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: -16px;
+  height: 24px;
+  background-color: transparent;
+}
+
+.c1::before {
+  top: -24px;
+}
+
+.c1::after {
+  bottom: -24px;
+}
+
+.c3 {
+  background-color: transparent;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  outline: none;
+  padding: 24px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c3:focus-visible {
+  z-index: 2;
+}
+
+.c3::-moz-range-thumb {
+  background: #FFF;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  pointer-events: all;
+  position: relative;
+}
+
+.c3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FFF;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  pointer-events: all;
+  position: relative;
+}
+
+.c3:disabled::-moz-range-thumb {
+  background-color: #FFF;
+  cursor: not-allowed;
+}
+
+.c3:disabled::-webkit-slider-thumb {
+  background-color: #FFF;
+  cursor: not-allowed;
+}
+
+.c3:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #0056E0;
+  background-color: #FFF;
+}
+
+.c3:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #0056E0;
+  background-color: #FFF;
+}
+
+.c3:hover::-moz-range-thumb {
+  box-shadow: 0px 0px 0px 8px #FFF3F;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.c3:hover::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px 8px #FFF3F;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.c3:active::-moz-range-thumb {
+  background-color: #FFF;
+  box-shadow: 0px 0px 0px 8px #FFF3F;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.c3:active::-webkit-slider-thumb {
+  background-color: #FFF;
+  box-shadow: 0px 0px 0px 8px #FFF3F;
+  -webkit-transition: none;
+  transition: none;
+}
+
+<div
+    class="c0"
+    data-test-id="SLIDER-CONTAINER"
+  >
+    <div
+      class="c1"
+      data-test-id="SLIDER-TRACK-BEFORE-MIN"
+      style="width: calc(10% - 1.6px);"
+      width="calc(10% - 1.6px)"
+    />
+    <div
+      class="c2"
+      data-test-id="SLIDER-TRACK-AFTER-MAX"
+      style="width: calc(90% - 14.4px);"
+      width="calc(90% - 14.4px)"
+    />
+    <input
+      aria-label="slider"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="10"
+      class="c3"
+      data-test-id="SLIDER-INPUT"
+      max="100"
+      min="0"
+      role="slider"
+      step="1"
+      type="range"
+      value="10"
+    />
+  </div>
+</DocumentFragment>
+`;

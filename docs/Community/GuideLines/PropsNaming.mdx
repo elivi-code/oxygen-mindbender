@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Props naming" />
+
+## Props naming
+
+Below you can find the general guidelines:
+
+- Always use camelCase for prop names. Avoid using DOM component prop names for different purposes.
+
+- Boolean props should be named using auxiliary verbs such as `does`, `has`, `is` and `should`.
+  Usually, we prefix our props with one of these. For example:
+  - isOpen
+  - isDisabled
+  - isActive
+  - isLoading
+  - hasValue
+  - canExecute
+  - hasShadow
+  - hideTime
+- pass rest props by `...otherProps` not `...rest` or `...restProps`
+
+### Sizing conventions
+
+<hr />
+
+Use T-shirt sizes namings for variables. Example:
+
+- xxxs
+- xxs
+- xs
+- sm
+- md
+- lg
+- xl
+- xxl
+- xxxl
+- xxxxl
+
+**Be aware - In codebase, you can find different conventions. Do not hesitate and change it 💪**

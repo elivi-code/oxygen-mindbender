@@ -1,0 +1,23 @@
+{
+  "name": "@8x8/oxygen-table-of-contents",
+  "version": "2.98.0",
+  "stage": "alpha",
+  "description": "Oxygen - Table of Contents",
+  "main": "dist/src/index.js",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/tableOfContents",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

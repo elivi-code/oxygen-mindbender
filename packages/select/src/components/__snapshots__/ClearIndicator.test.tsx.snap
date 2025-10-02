@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearIndicator /> renders correctly the clear indicator 1`] = `
+<div
+  aria-hidden="false"
+>
+  <CloseIcon
+    aria-hidden={true}
+    color="#A4B8D1"
+    data-id="undefined_CLEAR_INDICATOR"
+    data-test-id="undefined_CLEAR_INDICATOR"
+    isFocused={false}
+    test-id="undefined_CLEAR_INDICATOR"
+  />
+</div>
+`;
+
+exports[`<ClearIndicator /> renders correctly the clear indicator when input is focused 1`] = `
+<div
+  aria-hidden="false"
+>
+  <CloseIcon
+    aria-hidden={true}
+    color="#5E6D7A"
+    data-id="undefined_CLEAR_INDICATOR"
+    data-test-id="undefined_CLEAR_INDICATOR"
+    isFocused={true}
+    test-id="undefined_CLEAR_INDICATOR"
+  />
+</div>
+`;

@@ -1,0 +1,4 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "M2 8c0-1.6569 1.3432-3 3-3h2l1.4142-1.4142A2 2 0 0 1 9.8284 3h4.3432a2 2 0 0 1 1.4142.5858L17 5h2c1.6569 0 3 1.3431 3 3v9c0 1.6569-1.3431 3-3 3H5c-1.6568 0-3-1.3431-3-3V8Zm10 10c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6Zm4-6c0 2.2091-1.7909 4-4 4-2.2091 0-4-1.7909-4-4 0-2.2091 1.7909-4 4-4 2.2091 0 4 1.7909 4 4Zm-4 2c1.1046 0 2-.8954 2-2s-.8954-2-2-2-2 .8954-2 2 .8954 2 2 2Zm8-6c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1Z", clipRule: "evenodd" })), 'CameraSolidIcon');

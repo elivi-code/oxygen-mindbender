@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Actions> should render correctly 1`] = `
+.c1 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #4687ED;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: color 150ms ease-in;
+  transition: color 150ms ease-in;
+  outline: none;
+  border: none;
+}
+
+.c1:hover {
+  outline: none;
+  color: #99BBF3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:focus-visible {
+  outline: 2px solid #D7E3F9;
+  color: #4687ED;
+  border-radius: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active {
+  color: #0056E0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1"
+    data-id="TOAST_ACTION"
+    data-test-id="TOAST_ACTION"
+    tabindex="0"
+  >
+    Link 1
+  </button>
+  <button
+    class="c1"
+    data-id="TOAST_ACTION"
+    data-test-id="TOAST_ACTION"
+    tabindex="0"
+  >
+    Link 2
+  </button>
+</div>
+`;

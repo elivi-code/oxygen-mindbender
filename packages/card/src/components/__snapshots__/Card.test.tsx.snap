@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component should render correctly with default props 1`] = `
+<Container
+  forwardedRef={null}
+  testId="CARD"
+  theme={
+    {
+      "cardBackground": "#FFF",
+      "cardBorderRadius": "5px 5px 0 0",
+      "cardBorderTop": "6px solid #235C6E",
+      "cardBoxShadow": "0 4px 8px 0 #D1DBE8",
+      "cardHeaderColor": "#1C2025",
+      "cardHeaderFontSize": "19px",
+      "cardHeaderFontWeight": 600,
+      "cardHeaderLineHeight": "24px",
+      "cardHeight": "252px",
+      "cardSeparatorBackgroundColor": "#D1DBE8",
+      "cardSeparatorHeight": "1px",
+      "cardSeparatorWidth": "100%",
+      "cardWidth": "328px",
+    }
+  }
+>
+  Content
+</Container>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableCell> should render correctly 1`] = `
+.c0 {
+  border-bottom: 1px solid #D1DBE8;
+  padding: 16px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  -webkit-letter-spacing: unset;
+  -moz-letter-spacing: unset;
+  -ms-letter-spacing: unset;
+  letter-spacing: unset;
+  font-weight: unset;
+  line-height: 24px;
+  font-family: unset;
+  color: #1C2025;
+  background-color: unset;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<TableCell> should render correctly when isHead 1`] = `
+.c0 {
+  border-bottom: 1px solid #D1DBE8;
+  padding: 16px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-letter-spacing: unset;
+  -moz-letter-spacing: unset;
+  -ms-letter-spacing: unset;
+  letter-spacing: unset;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: unset;
+  color: #5E6D7A;
+  background-color: unset;
+}
+
+<td
+  className="c0"
+/>
+`;

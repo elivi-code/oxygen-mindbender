@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BellSlashSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M7.5443 5.9817a6.0726 6.0726 0 0 0-.059.0662l-3.75-3.75c-.3971-.3971-1.0408-.3972-1.4377-.0003-.3969.397-.3968 1.0406.0003 1.4376L6.401 7.8385A5.9855 5.9855 0 0 0 6 10v4l-1.5613 4.6838A.9994.9994 0 0 0 4.3874 19c0 .5523.4477 1 1 1H11c0 1.1046.8954 2 2 2s2-.8954 2-2h3.5626l1.7022 1.7021c.397.3971 1.0407.3972 1.4376.0003.3969-.3969.3968-1.0406-.0003-1.4376l-.4753-.4754a.9589.9589 0 0 0 .0676-.0576L7.5443 5.9817Zm13.237 10.3622L20 14v-4c0-2.9736-2.1631-5.442-5.0017-5.9173A2.0626 2.0626 0 0 0 15 4c0-1.1046-.8954-2-2-2s-2 .8954-2 2c0 .0277.0006.0553.0017.0827a5.9588 5.9588 0 0 0-1.8477.634l11.6273 11.6272Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

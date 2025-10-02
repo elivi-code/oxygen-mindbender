@@ -1,0 +1,21 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Accessibility - Keyboard" />
+
+## Keyboard accessibility
+
+Keep in mind, not only power users and developers love using the keyboard to navigate around the application.
+See what we can do to improve our productivity:
+
+- Do **not remove** default browser **outline** style. We all know it is awful but helpful. Ask your designer for an alternative way to show the user when an element is focused.
+- Support _forwardRef_ in components
+- Support _Tab_, _Shift+Tab_, _Spacebar_, _Enter_
+- Care for proper tab ordering
+- Make sure no function on your website requires timed keystrokes – such as double tap enter/return within two seconds to submit
+
+### How to audit
+
+<hr />
+
+The best way is to **test it manually**, put aside the mouse and try to use your application/components only by the keyboard.
+If you lost somewhere focus or get into a trap, please consider - how to fix it.

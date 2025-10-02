@@ -1,0 +1,1 @@
+{"version":3,"file":"useSliderState.d.ts","sourceRoot":"","sources":["../../../../src/components/hooks/useSliderState.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,WAAW,EAAE,MAAM,aAAa,CAAC;AA8C1C,eAAO,MAAM,cAAc;;0BAGI,OAAO;wBAIT,OAAO;sCAIO,MAAM;qCAIP,MAAM;qCAIN,MAAM;sCAIL,MAAM;qCAIP,MAAM;sCAIL,KAAK,GAAG,KAAK,GAAG,MAAM;CAehE,CAAC"}

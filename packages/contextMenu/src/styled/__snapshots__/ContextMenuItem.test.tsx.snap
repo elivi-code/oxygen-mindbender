@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContextMenuItem> should render correctly in Classic 1`] = `
+.c0 {
+  box-sizing: border-box;
+  outline: none;
+  width: 246px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+.c0:focus,
+.c0:hover,
+.c0:active {
+  background-color: #DAEBFA;
+  color: #0376DA;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ContextMenuItem> should render correctly in Novo 1`] = `
+.c0 {
+  padding: 8px 16px;
+  box-sizing: border-box;
+  outline: none;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.011rem;
+  -moz-letter-spacing: -0.011rem;
+  -ms-letter-spacing: -0.011rem;
+  letter-spacing: -0.011rem;
+  line-height: 1.5rem;
+  color: #292929;
+}
+
+.c0:focus,
+.c0:hover,
+.c0:active {
+  background-color: #F1F1F1;
+}
+
+<div
+  className="c0"
+/>
+`;

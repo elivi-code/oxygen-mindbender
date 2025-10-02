@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M3 2c-.5523 0-1 .4477-1 1v12c0 .5523.4477 1 1 1h8.5557l4.6727 5.668c.5966.7237 1.7716.3018 1.7716-.6361V16h3c.5523 0 1-.4477 1-1V3c0-.5523-.4477-1-1-1H3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

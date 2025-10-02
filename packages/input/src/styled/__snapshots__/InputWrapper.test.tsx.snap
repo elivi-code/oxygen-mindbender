@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputWrapper> should render correctly as default 1`] = `
+.c0 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+<div
+  className="c0"
+  size="default"
+/>
+`;
+
+exports[`<InputWrapper> should render correctly as disabled 1`] = `
+.c0 {
+  background: #F0F3F7;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+  cursor: not-allowed;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputWrapper> should render correctly as fixed 1`] = `
+.c0 {
+  background: transparent;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputWrapper> should render correctly as fullWidth 1`] = `
+.c0 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputWrapper> should render correctly as read only 1`] = `
+.c0 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputWrapper> should render correctly as small 1`] = `
+.c0 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;

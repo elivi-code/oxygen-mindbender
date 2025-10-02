@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiValue /> renders 1`] = `
+<Styled(Tag)
+  action={[MockFunction]}
+  actionProps={
+    {
+      "onClick": [MockFunction],
+    }
+  }
+  aria-selected={true}
+  hasError={false}
+  isFocused={false}
+  role="option"
+  testId="custom-test-id_TAG"
+  variant="dark"
+>
+  <Ellipsis
+    data-id="custom-test-id_TAG_VALUE"
+    data-test-id="custom-test-id_TAG_VALUE"
+    test-id="custom-test-id_TAG_VALUE"
+  />
+</Styled(Tag)>
+`;

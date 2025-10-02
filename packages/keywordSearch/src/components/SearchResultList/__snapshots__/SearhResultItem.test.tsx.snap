@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultItem> should render correctly search result item 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #292929;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+}
+
+.c0:hover {
+  background: #F1F1F1;
+}
+
+.c0 > span:first-of-type {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<li
+  tabIndex={-1}
+>
+  <button
+    className="c0"
+    data-test-id="mockTestId"
+    id="mockId"
+    onClick={[Function]}
+    tabIndex={-1}
+    title="MockSearchResult"
+  >
+    <span>
+      MockSearchResult
+    </span>
+  </button>
+</li>
+`;
+
+exports[`<SearchResultItem> should render correctly search result item with more keys 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #292929;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+}
+
+.c0:hover {
+  background: #F1F1F1;
+}
+
+.c0 > span:first-of-type {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<li
+  tabIndex={-1}
+>
+  <button
+    className="c0"
+    data-test-id="mockTestId"
+    id="mockId"
+    onClick={[Function]}
+    tabIndex={-1}
+    title="MockSearchResult , MockGroup"
+  >
+    <span>
+      MockSearchResult • MockGroup
+    </span>
+  </button>
+</li>
+`;

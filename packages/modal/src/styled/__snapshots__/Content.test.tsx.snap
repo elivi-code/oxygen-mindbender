@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content> in Classic should render correctly with default props 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 620px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly as big size 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 960px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+  size="big"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly as medium size 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 620px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+  size="medium"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly as small size 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 620px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly with custom height 1`] = `
+.c0 {
+  height: 300px;
+  width: 620px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+  height="300px"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly with custom width 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 900px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+  width="900px"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly with default props 1`] = `
+.c0 {
+  min-height: 0;
+  max-height: calc(100% - 32px);
+  width: 436px;
+  max-width: calc(100% - 32px);
+  background: #FFFFFF;
+  box-shadow: none;
+  border-radius: 6px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 150ms ease-in;
+  animation: kjcwbS 150ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Content> in Novo should render correctly with hasShadow property 1`] = `
+.c0 {
+  min-height: 360px;
+  max-height: calc(100% - 16px);
+  width: 620px;
+  max-width: calc(100% - 16px);
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(28,32,37,0.1);
+  border-radius: 5px;
+  position: relative;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-animation: kjcwbS 300ms ease-in;
+  animation: kjcwbS 300ms ease-in;
+  z-index: 2000;
+  overflow: auto;
+}
+
+<div
+  className="c0"
+/>
+`;

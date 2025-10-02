@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["examples/**/*", "**/*.test.*", "**/__tests__/*"],
+  "references": [
+    { "path": "../button" },
+    { "path": "../constants" },
+    { "path": "../icon" },
+    { "path": "../tooltip" },
+    { "path": "../utils" }
+  ]
+}

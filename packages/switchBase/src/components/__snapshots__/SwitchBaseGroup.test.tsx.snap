@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwitchBaseGroup /> should render the SwitchBase component 1`] = `
+<StyledSwitchBaseGroup
+  isHorizontal={false}
+>
+  mockedChildren
+</StyledSwitchBaseGroup>
+`;

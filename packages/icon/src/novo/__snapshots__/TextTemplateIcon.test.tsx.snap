@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextTemplateIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M1.5 3a.75.75 0 0 1 .75-.75h6A.75.75 0 0 1 9 3v1.5a.75.75 0 0 1-1.5 0v-.75H6v4.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75v-4.5H3v.75a.75.75 0 0 1-1.5 0V3ZM11.25 5.25a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5h-10.5ZM10.5 9a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5h-10.5A.75.75 0 0 1 10.5 9ZM2.25 11.25a.75.75 0 0 0 0 1.5h19.5a.75.75 0 0 0 0-1.5H2.25ZM1.5 15a.75.75 0 0 1 .75-.75h19.5a.75.75 0 0 1 0 1.5H2.25A.75.75 0 0 1 1.5 15ZM2.25 17.25a.75.75 0 0 0 0 1.5h19.5a.75.75 0 0 0 0-1.5H2.25ZM1.5 21a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5h-15A.75.75 0 0 1 1.5 21ZM11.25 2.25a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5Z"
+    />
+  </g>
+</svg>
+`;

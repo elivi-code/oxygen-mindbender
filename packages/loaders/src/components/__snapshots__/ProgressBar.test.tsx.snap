@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar> should render correctly 1`] = `
+<ProgressBarContainer
+  aria-labelledby="1"
+  forwardedRef={null}
+  fullWidth={false}
+  size="default"
+>
+  <Bar
+    max={100}
+    value={10}
+  />
+  <ProgressBarText
+    id="1"
+  >
+    Loading...
+  </ProgressBarText>
+</ProgressBarContainer>
+`;
+
+exports[`<ProgressBar> should render correctly when ProgressBar is fullWidth 1`] = `
+<ProgressBarContainer
+  aria-labelledby="1"
+  forwardedRef={null}
+  fullWidth={true}
+  size="default"
+>
+  <Bar
+    max={100}
+    value={10}
+  />
+  <ProgressBarText
+    id="1"
+  >
+    Loading...
+  </ProgressBarText>
+</ProgressBarContainer>
+`;
+
+exports[`<ProgressBar> should render correctly when ProgressBar is large 1`] = `
+<ProgressBarContainer
+  aria-labelledby="1"
+  forwardedRef={null}
+  fullWidth={false}
+  size="large"
+>
+  <Bar
+    max={100}
+    value={10}
+  />
+  <ProgressBarText
+    id="1"
+  >
+    Loading...
+  </ProgressBarText>
+</ProgressBarContainer>
+`;
+
+exports[`<ProgressBar> should render correctly when ProgressBar is small 1`] = `
+<ProgressBarContainer
+  aria-labelledby="1"
+  forwardedRef={null}
+  fullWidth={false}
+  size="small"
+>
+  <Bar
+    max={100}
+    value={10}
+  />
+  <ProgressBarText
+    id="1"
+  >
+    Loading...
+  </ProgressBarText>
+</ProgressBarContainer>
+`;

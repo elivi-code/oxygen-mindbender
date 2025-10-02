@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownButton renders its children 1`] = `
+.c1 {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 8px;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  color: #292929;
+  background: #FFFFFF;
+  padding: 11px 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: 2px solid #0056E0;
+  outline-offset: -2px;
+}
+
+.c0:hover {
+  border-color: #3D3D3D;
+}
+
+<button
+  class="c0"
+  data-id="DROPDOWN_BUTTON"
+  data-test-id="DROPDOWN_BUTTON"
+>
+  content
+  <svg
+    class="c1"
+    role="presentation"
+    size="20"
+    viewBox="0 0 24 24"
+  >
+    <g>
+      <path
+        clip-rule="evenodd"
+        d="M3.9697 7.7197a.75.75 0 0 1 1.0606 0L12 14.6893l6.9697-6.9696a.75.75 0 0 1 1.0606 1.0607l-7.5 7.4999a.75.75 0 0 1-1.0606 0l-7.5-7.5a.75.75 0 0 1 0-1.0606Z"
+        fill-rule="evenodd"
+      />
+    </g>
+  </svg>
+</button>
+`;

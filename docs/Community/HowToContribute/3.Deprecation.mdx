@@ -1,0 +1,69 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/How to contribute/3. Deprecations" />
+
+## Deprecation process
+
+- Use `withDeprecation` HOC from `@8x8/oxygen-config`.
+- Call the `withDeprecation` HOC with the Component and the deprecation message. If the deprecation message is missing or it's falsy, the default message will be logged.
+- To set deprecation message for the **auto-generated icon components**, please see the Icon package documentation, "Icon deprecation steps" caption.
+- Update the CHANGELOG of the component, and mention that a deprecation was added with deprecation message (start Changelog entry with _Deprecate_)
+- To deprecate constants, check the example below
+
+##### Deprecation message logger
+
+- The deprecation message is logged in console, using `console.warn`.
+- If the integrator wants to use a logger different than `console.warn`, the desired logger function can be set using the `setLogger` method from `@8x8/oxygen-config`.
+
+##### Examples
+
+- Setting up deprecation message for Oxygen components:
+
+```js
+import { withDeprecation } from '@8x8/oxygen-config';
+```
+
+```js
+// deprecate the Calendar component
+// in Calendar.js, the exported component should contain the `withDeprecation` HOC
+export default withDeprecation(withTheme(Calendar, 'calendar'));
+```
+
+```js
+// custom deprecation message for Calendar
+// in Calendar.js, the `withDeprecation` HOC should be called with the message
+export default withDeprecation(
+  withTheme(Calendar, 'calendar'),
+  'The "range" property is deprecated; Please use the "dateRange" property instead',
+);
+```
+
+- Setting up a new logger for Oxygen (replacing the default console.warn logger function)
+
+```js
+import { setLogger } from '@8x8/oxygen-config';
+```
+
+```js
+// In the main application, on app bootstrap:
+setLogger(console.error);
+// This will change the deprecation logger to `console.error`
+```
+
+- Deprecating constants properties
+
+```js
+const fontSizes = {
+  // annotate with deprecated
+  /**
+   * @deprecated
+   */
+  sizeSmall: '1px',
+  sizeXs: '1px'
+};
+// wrap object with addDeprecationWarning
+export default addDeprecationWarning(fontSizes, [{ propName: 'sizeSmall', alternative: 'sizeXs' }]);
+// each time sizeSmall is accessed 'sizeSmall is deprecated in favor of sizeXs' will be logged
+// you can pass a custom 'message' property inside the deprecation rule object
+export default addDeprecationWarning(fontSizes, [{ propName: 'sizeSmall', alternative: 'sizeXs', message: 'dont use sizeSmall' }]);
+```

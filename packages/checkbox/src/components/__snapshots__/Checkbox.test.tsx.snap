@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox> should render correctly when is checked 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={true}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={true}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={true}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly when is disabled 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={true}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={true}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly when is indeterminate 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={true}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={true}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly when the label tooltip is disabled 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={false}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with default properties 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with id 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  id="exampleId"
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with infoBoxButtonLabel 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  infoBoxButtonLabel="Checkbox Button"
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with infoBoxText 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  infoBoxText="Test"
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with label 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={true}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  label="exampleLabel"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with name 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  name="exampleName"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with testID 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="exampleTestId"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`<Checkbox> should render correctly with value 1`] = `
+<SwitchBase
+  icon={
+    <CheckboxIconWrapper
+      hasLabel={false}
+      isChecked={false}
+      isDisabled={false}
+      isFocused={false}
+      isHovered={false}
+      isIndeterminate={false}
+    >
+      <CheckboxIcon
+        isChecked={false}
+        isIndeterminate={false}
+        isNovo={false}
+      />
+    </CheckboxIconWrapper>
+  }
+  isChecked={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  showLabelTooltipOnOverflow={true}
+  testId="CHECKBOX"
+  theme={
+    {
+      "accentColor": "#A4B8D1",
+      "backgroundColor": "#A4B8D1",
+      "checkboxFocusBorderRadius": "4px",
+      "checkboxFocusBorderSize": "2px",
+      "checkboxIconColorFocus": "#6FB1EA",
+      "checkboxIconColorHover": "#6FB1EA",
+      "checkboxMargin": "8px",
+      "checkboxShadowColorFocus": "#0376DA",
+      "checkboxSize": "24px",
+      "checkedBackgroundColor": "#0376DA",
+      "disabledColor": "rgba(3,118,218,0.5)",
+      "focusColor": "#0056E0",
+      "iconSet": "classic",
+      "labelColor": "#1C2025",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "labelHeight": "24px",
+    }
+  }
+  value="exampleValue"
+/>
+`;

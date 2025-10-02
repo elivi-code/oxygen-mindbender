@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BellSnoozeSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M12 6c1.1046 0 2-.8954 2-2s-.8954-2-2-2c-1.1045 0-2 .8954-2 2s.8955 2 2 2Zm0 16c1.1046 0 2-.8954 2-2h5.6126a.9991.9991 0 0 0 .3162-.0513c.524-.1747.8071-.741.6325-1.2649L19 14h-2l1 4H6l1-4H5l-1.5612 4.6838A.9994.9994 0 0 0 3.3874 19c0 .5523.4478 1 1 1H10c0 1.1046.8955 2 2 2Z"
+      fillRule="evenodd"
+    />
+    <path
+      clipRule="evenodd"
+      d="M20.5613 18.6838 19 14v-4c0-2.9736-2.1631-5.442-5.0017-5.9173A1.8916 1.8916 0 0 0 14 4c0-1.1046-.8954-2-2-2-1.1045 0-2 .8954-2 2 0 .0277.0006.0553.0017.0827C7.1632 4.558 5 7.0264 5 10v4l-1.5612 4.6838A.9994.9994 0 0 0 3.3874 19c0 .5523.4478 1 1 1H10c0 1.1046.8955 2 2 2 1.1046 0 2-.8954 2-2h5.6126a.9991.9991 0 0 0 .3162-.0513c.524-.1747.8071-.741.6325-1.2649ZM14.3704 15h-4.75v-.875l2.75-3.6705H9.6318V9.1818h4.7499v.875l-2.75 3.6705h2.7387V15Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M18.7733 6h3.4518v-.8565h-2.1179l2.12-2.9063v-.6008h-3.4517v.8565h2.1179l-2.1201 2.9062V6Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M19 14h-2v-4c0-2.2091-1.7909-4-4-4h-2c-2.2091 0-4 1.7909-4 4v4H5v-4c0-3.3137 2.6863-6 6-6h2c3.3137 0 6 2.6863 6 6v4Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

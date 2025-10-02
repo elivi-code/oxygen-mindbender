@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnnounceIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M14.4955 4.4656 6 7.4997H4.5c-1.6568 0-3 1.3432-3 3v1.5c0 1.1104.6033 2.08 1.5 2.5987v3.4013c0 .8284.6716 1.5 1.5 1.5H6c.8284 0 1.5-.6716 1.5-1.5v-2.4643l6.9955 2.4984c.9769.3489 2.0045-.3753 2.0045-1.4126V5.8782c0-1.0373-1.0276-1.7615-2.0045-1.4126ZM7.5 13.9426l7.5 2.6786V5.8782L7.5 8.5568v5.3858Zm-3-4.9429H6v4.5H4.5c-.8284 0-1.5-.6716-1.5-1.5v-1.5c0-.8284.6716-1.5 1.5-1.5Zm0 6H6v3H4.5v-3Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M20.1591 9.4014 21.5304 8.03a.75.75 0 1 0-1.0607-1.0606l-1.3713 1.3713a.75.75 0 1 0 1.0607 1.0607ZM22.5 11.4958a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 .75.75ZM21.5304 15.0905a.75.75 0 0 1-1.0607 1.0606l-1.3713-1.3713a.75.75 0 0 1 1.0607-1.0606l1.3713 1.3713Z"
+    />
+  </g>
+</svg>
+`;

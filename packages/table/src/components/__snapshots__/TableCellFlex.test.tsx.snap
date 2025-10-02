@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableCellFlex> should render correctly 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRowFlex
+    enableHover={false}
+    forwardedRef={null}
+    isSelected={false}
+  >
+    <TableCellFlex
+      forwardedRef={null}
+      isHead={false}
+    >
+      <span>
+        table cell
+      </span>
+    </TableCellFlex>
+  </TableRowFlex>
+</TableFlex>
+`;
+
+exports[`<TableCellFlex> should render correctly when isHead 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRowFlex
+    enableHover={false}
+    forwardedRef={null}
+    isSelected={false}
+  >
+    <TableCellFlex
+      forwardedRef={null}
+      isHead={true}
+    >
+      <span>
+        table cell
+      </span>
+    </TableCellFlex>
+  </TableRowFlex>
+</TableFlex>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlusIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M12.75 3.5147a.75.75 0 0 0-1.5 0V11.25H3.5148a.75.75 0 0 0 0 1.5H11.25v7.7353a.75.75 0 0 0 1.5 0V12.75h7.7353a.75.75 0 0 0 0-1.5H12.75V3.5147Z"
+    />
+  </g>
+</svg>
+`;

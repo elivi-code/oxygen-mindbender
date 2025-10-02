@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem> should render correctly 1`] = `
+<ListItemStyled
+  isActive={false}
+  isDisabled={false}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  shouldWrapText={false}
+  tabIndex="0"
+>
+  item text
+</ListItemStyled>
+`;
+
+exports[`<ListItem> should render with no tabindex if disabled 1`] = `
+<ListItemStyled
+  aria-disabled={true}
+  isActive={false}
+  isDisabled={true}
+  onClick={[Function]}
+  shouldWrapText={false}
+  tabIndex="0"
+>
+  item text
+</ListItemStyled>
+`;

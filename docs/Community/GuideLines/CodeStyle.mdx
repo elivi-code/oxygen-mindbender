@@ -1,0 +1,35 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { REPOSITORY_URL } from '../../constants/externalLinks';
+
+<Meta title="Community/Guidelines/Code style" />
+
+## Code style
+
+Consistent and well-documented code is one of our core values.
+According to that, we want to lint our code. In Oxygen there are two levels of the linting codebase:
+
+### eslint
+
+<hr />
+
+Code style is based on [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react), with small portion of additional rules, which you can find in `.eslintrc` in [repository](https://git.8x8.com/platform/ui-components/oxygen)
+
+### stylelint
+
+<hr />
+
+Details you can find in `.stylelintrc` in the <a href={REPOSITORY_URL} target="_blank">repository</a>
+
+Consist JavaScript code style is provided by preconfigured eslint, stylelint and prettier. On every push, Jenkins pipeline runs linter.
+
+**Good practices** is to run scripts just before push your code.
+
+```
+$ yarn lint
+```
+
+```
+$ yarn test
+```
+
+Regardless of what kind of IDE you use, **we recommend installing extensions** for linters.

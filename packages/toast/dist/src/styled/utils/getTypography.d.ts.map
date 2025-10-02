@@ -1,0 +1,1 @@
+{"version":3,"file":"getTypography.d.ts","sourceRoot":"","sources":["../../../../src/styled/utils/getTypography.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,aAAa,CAAC;AAEzC,KAAK,kBAAkB,GAAG;IACxB,aAAa,EAAE,OAAO,GAAG,aAAa,CAAC;IACvC,KAAK,EAAE,KAAK,CAAC;CACd,CAAC;AAEF,QAAA,MAAM,aAAa,6BAA8B,kBAAkB;;;;;;CA8BlE,CAAC;AAEF,eAAe,aAAa,CAAC"}

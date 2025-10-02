@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField> should render correctly 1`] = `
+.c4 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c2 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-transition: border-color 150ms ease-in-out;
+  transition: border-color 150ms ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  width: 296px;
+}
+
+.c1 {
+  width: 100%;
+}
+
+<div
+  className="c0"
+  data-id="TEXT_FIELD"
+  data-test-id="TEXT_FIELD"
+>
+  
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      data-id="TEXT_FIELD_INPUT"
+      data-test-id="TEXT_FIELD_INPUT"
+      size="default"
+    >
+      
+      <div
+        className="c3"
+      >
+        
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-readonly={false}
+          aria-required={false}
+          autoFocus={false}
+          className="c4"
+          data-id="TEXT_FIELD_INPUT_FIELD"
+          data-test-id="TEXT_FIELD_INPUT_FIELD"
+          id="text-field"
+          name="text-field"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+        />
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`<TextField> should render correctly with description 1`] = `
+.c4 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c4::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c2 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-transition: border-color 150ms ease-in-out;
+  transition: border-color 150ms ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  width: 296px;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c5 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+<div
+  className="c0"
+  data-id="TEXT_FIELD"
+  data-test-id="TEXT_FIELD"
+>
+  
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      data-id="TEXT_FIELD_INPUT"
+      data-test-id="TEXT_FIELD_INPUT"
+      size="default"
+    >
+      
+      <div
+        className="c3"
+      >
+        
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-readonly={false}
+          aria-required={false}
+          autoFocus={false}
+          className="c4"
+          data-id="TEXT_FIELD_INPUT_FIELD"
+          data-test-id="TEXT_FIELD_INPUT_FIELD"
+          id="text-field"
+          name="text-field"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+        />
+        
+      </div>
+      
+    </div>
+    <div
+      className="c5"
+      data-id="TEXT_FIELD_DESCRIPTION"
+      data-test-id="TEXT_FIELD_DESCRIPTION"
+    >
+      Description text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField> should render correctly with label 1`] = `
+.c4 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: pointer;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+}
+
+.c1 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+.c8 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c8::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c8::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c8:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c8::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c6 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 296px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-transition: border-color 150ms ease-in-out;
+  transition: border-color 150ms ease-in-out;
+}
+
+.c2 {
+  min-width: initial;
+  padding: 0 8px 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  width: 296px;
+}
+
+.c5 {
+  width: 100%;
+}
+
+<div
+  className="c0"
+  data-id="TEXT_FIELD"
+  data-test-id="TEXT_FIELD"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    >
+      <label
+        className="c4"
+        data-id="TEXT_FIELD_LABEL_VALUE"
+        data-test-id="TEXT_FIELD_LABEL_VALUE"
+        htmlFor="text-field"
+      >
+        <span
+          title="Label text"
+        >
+          Label text
+        </span>
+      </label>
+    </div>
+    
+  </div>
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+      data-id="TEXT_FIELD_INPUT"
+      data-test-id="TEXT_FIELD_INPUT"
+      size="default"
+    >
+      
+      <div
+        className="c7"
+      >
+        
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-readonly={false}
+          aria-required={false}
+          autoFocus={false}
+          className="c8"
+          data-id="TEXT_FIELD_INPUT_FIELD"
+          data-test-id="TEXT_FIELD_INPUT_FIELD"
+          id="text-field"
+          name="text-field"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+        />
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+`;

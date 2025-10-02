@@ -1,0 +1,49 @@
+{
+  "name": "@8x8/oxygen-filter-list",
+  "version": "2.98.0",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "stage": "beta",
+  "description": "Oxygen - Filter List",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/filterList",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-button": "2.98.0",
+    "@8x8/oxygen-checkbox": "2.98.0",
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-date-time-range-selector": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-input": "2.98.0",
+    "@8x8/oxygen-list": "2.98.0",
+    "@8x8/oxygen-loaders": "2.98.0",
+    "@8x8/oxygen-popover": "2.98.0",
+    "@8x8/oxygen-radio": "2.98.0",
+    "@8x8/oxygen-select": "2.98.0",
+    "@8x8/oxygen-theme": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "date-fns": "2.29.3",
+    "immer": "10.0.4",
+    "lodash.debounce": "4.0.8",
+    "lodash.isempty": "4.4.0",
+    "lodash.isequal": "4.5.0",
+    "lodash.noop": "3.0.1",
+    "use-immer": "0.9.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/lodash.isempty": "^4.4.9",
+    "@types/lodash.isequal": "4.5.6"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

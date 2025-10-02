@@ -1,0 +1,1438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toaster /> renders 1`] = `
+.c0 {
+  max-width: calc(100% - 24px);
+  position: fixed;
+  top: 24px;
+  left: auto;
+  right: 24px;
+  margin: 0 auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #5E6D7A;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px 0 rgba(28,32,37,0.2);
+  border: none;
+  color: #FFF;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  padding: 12px 16px;
+  width: 480px;
+  max-width: 100%;
+}
+
+.c1 .c2 {
+  margin-bottom: 16px;
+}
+
+.c10 {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+.c9 {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.c9:hover {
+  background: #57554E;
+}
+
+.c9:active {
+  background: #6C6862;
+}
+
+.c9:focus-visible {
+  border-color: #D7E3F9;
+  box-shadow: 0 0 0 2px #141414 inset;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  gap: 6px;
+}
+
+.c8 {
+  margin: -2px;
+}
+
+.c5 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 120px;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  padding: 0 2px 2px;
+}
+
+.c7 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: color 150ms ease-in;
+  transition: color 150ms ease-in;
+  outline: none;
+  border: none;
+}
+
+.c7:hover {
+  outline: none;
+  color: inherit;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:focus-visible {
+  outline: 2px solid #0376DA;
+  color: inherit;
+  border-radius: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:active {
+  color: inherit;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+@media screen and (width <= 1200px) {
+  .c0 {
+    top: 16px;
+    right: 16px;
+    max-width: calc(100% - 16px);
+  }
+}
+
+@media screen and (width <= 320px) {
+  .c0 {
+    right: 0;
+    max-width: 100%;
+  }
+}
+
+<Toaster
+  theme={{}}
+>
+  <Portal
+    containerInfo={
+      .c0 {
+  max-width: calc(100% - 24px);
+  position: fixed;
+  top: 24px;
+  left: auto;
+  right: 24px;
+  margin: 0 auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #5E6D7A;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px 0 rgba(28,32,37,0.2);
+  border: none;
+  color: #FFF;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  padding: 12px 16px;
+  width: 480px;
+  max-width: 100%;
+}
+
+.c1 .c2 {
+  margin-bottom: 16px;
+}
+
+.c10 {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #FFFFFF;
+}
+
+.c9 {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.c9:hover {
+  background: #57554E;
+}
+
+.c9:active {
+  background: #6C6862;
+}
+
+.c9:focus-visible {
+  border-color: #D7E3F9;
+  box-shadow: 0 0 0 2px #141414 inset;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  gap: 6px;
+}
+
+.c8 {
+  margin: -2px;
+}
+
+.c5 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 120px;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  padding: 0 2px 2px;
+}
+
+.c7 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: color 150ms ease-in;
+  transition: color 150ms ease-in;
+  outline: none;
+  border: none;
+}
+
+.c7:hover {
+  outline: none;
+  color: inherit;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:focus-visible {
+  outline: 2px solid #0376DA;
+  color: inherit;
+  border-radius: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:active {
+  color: inherit;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+@media screen and (width <= 1200px) {
+  .c0 {
+    top: 16px;
+    right: 16px;
+    max-width: calc(100% - 16px);
+  }
+}
+
+@media screen and (width <= 320px) {
+  .c0 {
+    right: 0;
+    max-width: 100%;
+  }
+}
+
+<body>
+        <div
+          class="c0"
+          data-id="TOASTER_WRAPPER"
+          data-test-id="TOASTER_WRAPPER"
+        >
+          <div
+            class="c1"
+            data-id="TOAST_STACK"
+            data-test-id="TOAST_STACK"
+          >
+            <div
+              aria-live="polite"
+              class="c2 c3"
+              data-id="TOAST_SUCCESS_CONTAINER"
+              data-test-id="TOAST_SUCCESS_CONTAINER"
+              role="status"
+              style="opacity: 0;"
+              type="success"
+            >
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                  data-id="TOAST_VALUE_CONTAINER"
+                  data-test-id="TOAST_VALUE_CONTAINER"
+                >
+                  Text
+                  <div
+                    class="c6"
+                  >
+                    <button
+                      class="c7"
+                      data-id="TOAST_ACTION"
+                      data-test-id="TOAST_ACTION"
+                      tabindex="0"
+                    >
+                      Link
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="c8"
+                >
+                  <button
+                    aria-label="Close"
+                    class="c9"
+                    data-id="TOAST_CLOSE_ICON"
+                    data-test-id="TOAST_CLOSE_ICON"
+                    type="button"
+                  >
+                    <svg
+                      class="c10"
+                      color="#FFFFFF"
+                      role="presentation"
+                      size="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <g>
+                        <path
+                          d="M18.5303 6.5303a.75.75 0 0 0-1.0606-1.0606L12 10.9393 6.5303 5.4697a.75.75 0 0 0-1.0606 1.0606L10.9393 12l-5.4696 5.4697a.75.75 0 0 0 1.0607 1.0606L12 13.0607l5.4697 5.4696a.75.75 0 0 0 1.0606 0 .75.75 0 0 0 0-1.0606L13.0607 12l5.4696-5.4697Z"
+                        />
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    }
+  >
+    <Component
+      theme={{}}
+    >
+      <styled.div
+        size="medium"
+      >
+        <div
+          className="c0"
+          data-id="TOASTER_WRAPPER"
+          data-test-id="TOASTER_WRAPPER"
+          size="medium"
+        >
+          <ForwardRef
+            theme={{}}
+          >
+            <ToastStack
+              forwardedRef={null}
+              theme={
+                {
+                  "animationEnterDuration": 300,
+                  "animationEnterTimingFunction": "easeIn",
+                  "animationExitDuration": 150,
+                  "animationExitTimingFunction": "easeOut",
+                  "animationFlipDuration": 150,
+                  "backgroundColor": "#5E6D7A",
+                  "backgroundColorError": "#F1AD33",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                  "closeIconColor": undefined,
+                  "color": "#FFF",
+                  "colorAction": undefined,
+                  "colorDescription": undefined,
+                  "colorError": "#1C2025",
+                  "colorTitle": undefined,
+                  "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                  "fontFamilyDescription": undefined,
+                  "fontFamilyTitle": undefined,
+                  "fontSize": "15px",
+                  "fontSizeDescription": undefined,
+                  "fontSizeTitle": undefined,
+                  "fontStretch": "normal",
+                  "fontStyle": "normal",
+                  "fontWeight": 600,
+                  "fontWeightDescription": undefined,
+                  "fontWeightTitle": undefined,
+                  "iconSize": 20,
+                  "isClassic": true,
+                  "letterSpacing": "normal",
+                  "letterSpacingDescription": undefined,
+                  "letterSpacingTitle": undefined,
+                  "lineHeight": "24px",
+                  "lineHeightDescription": undefined,
+                  "lineHeightTitle": undefined,
+                  "marginControl": "12px",
+                  "markingColorError": undefined,
+                  "markingColorInfo": undefined,
+                  "markingColorLoading": undefined,
+                  "markingColorSuccess": undefined,
+                  "markingColorWarning": undefined,
+                  "markingIconColorError": undefined,
+                  "markingIconColorInfo": undefined,
+                  "markingIconColorLoading": undefined,
+                  "markingIconColorSuccess": undefined,
+                  "markingIconColorWarning": undefined,
+                  "maxHeight": "120px",
+                  "maxWidth": "100%",
+                  "padding": "12px 16px",
+                  "stackMargin": "16px",
+                  "structureMargin": "8px",
+                  "textAlign": "left",
+                  "textLinkAsAction": {
+                    "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontSize": "15px",
+                    "fontWeight": 400,
+                    "letterSpacing": undefined,
+                    "lineHeight": "24px",
+                    "textLinkBackgroundColorPrimarySelected": "inherit",
+                    "textLinkBorderRadiusFocus": "2px",
+                    "textLinkBorderWidthFocus": "2px",
+                    "textLinkColorPrimary": "#0376DA",
+                    "textLinkColorPrimaryActive": "#0376DA",
+                    "textLinkColorPrimaryDisabled": "#6FB1EA",
+                    "textLinkColorPrimaryHover": "#6FB1EA",
+                    "textLinkColorPrimarySelected": "inherit",
+                    "textLinkMargin": "0",
+                    "textLinkPadding": "0",
+                    "textLinkShadowColorFocus": "#0376DA",
+                  },
+                  "toastLarge": "800px",
+                  "toastMedium": "480px",
+                  "toastSmall": "368px",
+                  "zIndex": 5000,
+                }
+              }
+            >
+              <styled.div
+                theme={
+                  {
+                    "animationEnterDuration": 300,
+                    "animationEnterTimingFunction": "easeIn",
+                    "animationExitDuration": 150,
+                    "animationExitTimingFunction": "easeOut",
+                    "animationFlipDuration": 150,
+                    "backgroundColor": "#5E6D7A",
+                    "backgroundColorError": "#F1AD33",
+                    "borderRadius": "3px",
+                    "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                    "closeIconColor": undefined,
+                    "color": "#FFF",
+                    "colorAction": undefined,
+                    "colorDescription": undefined,
+                    "colorError": "#1C2025",
+                    "colorTitle": undefined,
+                    "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontFamilyDescription": undefined,
+                    "fontFamilyTitle": undefined,
+                    "fontSize": "15px",
+                    "fontSizeDescription": undefined,
+                    "fontSizeTitle": undefined,
+                    "fontStretch": "normal",
+                    "fontStyle": "normal",
+                    "fontWeight": 600,
+                    "fontWeightDescription": undefined,
+                    "fontWeightTitle": undefined,
+                    "iconSize": 20,
+                    "isClassic": true,
+                    "letterSpacing": "normal",
+                    "letterSpacingDescription": undefined,
+                    "letterSpacingTitle": undefined,
+                    "lineHeight": "24px",
+                    "lineHeightDescription": undefined,
+                    "lineHeightTitle": undefined,
+                    "marginControl": "12px",
+                    "markingColorError": undefined,
+                    "markingColorInfo": undefined,
+                    "markingColorLoading": undefined,
+                    "markingColorSuccess": undefined,
+                    "markingColorWarning": undefined,
+                    "markingIconColorError": undefined,
+                    "markingIconColorInfo": undefined,
+                    "markingIconColorLoading": undefined,
+                    "markingIconColorSuccess": undefined,
+                    "markingIconColorWarning": undefined,
+                    "maxHeight": "120px",
+                    "maxWidth": "100%",
+                    "padding": "12px 16px",
+                    "stackMargin": "16px",
+                    "structureMargin": "8px",
+                    "textAlign": "left",
+                    "textLinkAsAction": {
+                      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "letterSpacing": undefined,
+                      "lineHeight": "24px",
+                      "textLinkBackgroundColorPrimarySelected": "inherit",
+                      "textLinkBorderRadiusFocus": "2px",
+                      "textLinkBorderWidthFocus": "2px",
+                      "textLinkColorPrimary": "#0376DA",
+                      "textLinkColorPrimaryActive": "#0376DA",
+                      "textLinkColorPrimaryDisabled": "#6FB1EA",
+                      "textLinkColorPrimaryHover": "#6FB1EA",
+                      "textLinkColorPrimarySelected": "inherit",
+                      "textLinkMargin": "0",
+                      "textLinkPadding": "0",
+                      "textLinkShadowColorFocus": "#0376DA",
+                    },
+                    "toastLarge": "800px",
+                    "toastMedium": "480px",
+                    "toastSmall": "368px",
+                    "zIndex": 5000,
+                  }
+                }
+              >
+                <div
+                  className="c1"
+                  data-id="TOAST_STACK"
+                  data-test-id="TOAST_STACK"
+                >
+                  <PoseGroup
+                    flipMove={true}
+                  >
+                    <Transition
+                      enterAfterExit={false}
+                      enterPose="enter"
+                      exitPose="exit"
+                      flipMove={true}
+                      preEnterPose="exit"
+                    >
+                      <ForwardRef
+                        _pose="enter"
+                        actions={
+                          [
+                            {
+                              "callback": [Function],
+                              "id": 2,
+                              "title": "Link",
+                            },
+                          ]
+                        }
+                        hideCloseControl={false}
+                        initialPose="exit"
+                        key="1"
+                        onCloseControlClick={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        size="medium"
+                        theme={{}}
+                        type="success"
+                      >
+                        <Toast
+                          _pose="enter"
+                          actions={
+                            [
+                              {
+                                "callback": [Function],
+                                "id": 2,
+                                "title": "Link",
+                              },
+                            ]
+                          }
+                          forwardedRef={null}
+                          hideCloseControl={false}
+                          initialPose="exit"
+                          onCloseControlClick={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          size="medium"
+                          theme={
+                            {
+                              "animationEnterDuration": 300,
+                              "animationEnterTimingFunction": "easeIn",
+                              "animationExitDuration": 150,
+                              "animationExitTimingFunction": "easeOut",
+                              "animationFlipDuration": 150,
+                              "backgroundColor": "#5E6D7A",
+                              "backgroundColorError": "#F1AD33",
+                              "borderRadius": "3px",
+                              "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                              "closeIconColor": undefined,
+                              "color": "#FFF",
+                              "colorAction": undefined,
+                              "colorDescription": undefined,
+                              "colorError": "#1C2025",
+                              "colorTitle": undefined,
+                              "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                              "fontFamilyDescription": undefined,
+                              "fontFamilyTitle": undefined,
+                              "fontSize": "15px",
+                              "fontSizeDescription": undefined,
+                              "fontSizeTitle": undefined,
+                              "fontStretch": "normal",
+                              "fontStyle": "normal",
+                              "fontWeight": 600,
+                              "fontWeightDescription": undefined,
+                              "fontWeightTitle": undefined,
+                              "iconSize": 20,
+                              "isClassic": true,
+                              "letterSpacing": "normal",
+                              "letterSpacingDescription": undefined,
+                              "letterSpacingTitle": undefined,
+                              "lineHeight": "24px",
+                              "lineHeightDescription": undefined,
+                              "lineHeightTitle": undefined,
+                              "marginControl": "12px",
+                              "markingColorError": undefined,
+                              "markingColorInfo": undefined,
+                              "markingColorLoading": undefined,
+                              "markingColorSuccess": undefined,
+                              "markingColorWarning": undefined,
+                              "markingIconColorError": undefined,
+                              "markingIconColorInfo": undefined,
+                              "markingIconColorLoading": undefined,
+                              "markingIconColorSuccess": undefined,
+                              "markingIconColorWarning": undefined,
+                              "maxHeight": "120px",
+                              "maxWidth": "100%",
+                              "padding": "12px 16px",
+                              "stackMargin": "16px",
+                              "structureMargin": "8px",
+                              "textAlign": "left",
+                              "textLinkAsAction": {
+                                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                "fontSize": "15px",
+                                "fontWeight": 400,
+                                "letterSpacing": undefined,
+                                "lineHeight": "24px",
+                                "textLinkBackgroundColorPrimarySelected": "inherit",
+                                "textLinkBorderRadiusFocus": "2px",
+                                "textLinkBorderWidthFocus": "2px",
+                                "textLinkColorPrimary": "#0376DA",
+                                "textLinkColorPrimaryActive": "#0376DA",
+                                "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                "textLinkColorPrimaryHover": "#6FB1EA",
+                                "textLinkColorPrimarySelected": "inherit",
+                                "textLinkMargin": "0",
+                                "textLinkPadding": "0",
+                                "textLinkShadowColorFocus": "#0376DA",
+                              },
+                              "toastLarge": "800px",
+                              "toastMedium": "480px",
+                              "toastSmall": "368px",
+                              "zIndex": 5000,
+                            }
+                          }
+                          type="success"
+                        >
+                          <ToastTemplate
+                            _pose="enter"
+                            actions={
+                              [
+                                {
+                                  "callback": [Function],
+                                  "id": 2,
+                                  "title": "Link",
+                                },
+                              ]
+                            }
+                            closeButtonLabel="Close"
+                            forwardedRef={null}
+                            hideCloseControl={false}
+                            initialPose="exit"
+                            isToast={true}
+                            onCloseControlClick={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            size="medium"
+                            theme={
+                              {
+                                "animationEnterDuration": 300,
+                                "animationEnterTimingFunction": "easeIn",
+                                "animationExitDuration": 150,
+                                "animationExitTimingFunction": "easeOut",
+                                "animationFlipDuration": 150,
+                                "backgroundColor": "#5E6D7A",
+                                "backgroundColorError": "#F1AD33",
+                                "borderRadius": "3px",
+                                "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                                "closeIconColor": undefined,
+                                "color": "#FFF",
+                                "colorAction": undefined,
+                                "colorDescription": undefined,
+                                "colorError": "#1C2025",
+                                "colorTitle": undefined,
+                                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                "fontFamilyDescription": undefined,
+                                "fontFamilyTitle": undefined,
+                                "fontSize": "15px",
+                                "fontSizeDescription": undefined,
+                                "fontSizeTitle": undefined,
+                                "fontStretch": "normal",
+                                "fontStyle": "normal",
+                                "fontWeight": 600,
+                                "fontWeightDescription": undefined,
+                                "fontWeightTitle": undefined,
+                                "iconSize": 20,
+                                "isClassic": true,
+                                "letterSpacing": "normal",
+                                "letterSpacingDescription": undefined,
+                                "letterSpacingTitle": undefined,
+                                "lineHeight": "24px",
+                                "lineHeightDescription": undefined,
+                                "lineHeightTitle": undefined,
+                                "marginControl": "12px",
+                                "markingColorError": undefined,
+                                "markingColorInfo": undefined,
+                                "markingColorLoading": undefined,
+                                "markingColorSuccess": undefined,
+                                "markingColorWarning": undefined,
+                                "markingIconColorError": undefined,
+                                "markingIconColorInfo": undefined,
+                                "markingIconColorLoading": undefined,
+                                "markingIconColorSuccess": undefined,
+                                "markingIconColorWarning": undefined,
+                                "maxHeight": "120px",
+                                "maxWidth": "100%",
+                                "padding": "12px 16px",
+                                "stackMargin": "16px",
+                                "structureMargin": "8px",
+                                "textAlign": "left",
+                                "textLinkAsAction": {
+                                  "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                  "fontSize": "15px",
+                                  "fontWeight": 400,
+                                  "letterSpacing": undefined,
+                                  "lineHeight": "24px",
+                                  "textLinkBackgroundColorPrimarySelected": "inherit",
+                                  "textLinkBorderRadiusFocus": "2px",
+                                  "textLinkBorderWidthFocus": "2px",
+                                  "textLinkColorPrimary": "#0376DA",
+                                  "textLinkColorPrimaryActive": "#0376DA",
+                                  "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                  "textLinkColorPrimaryHover": "#6FB1EA",
+                                  "textLinkColorPrimarySelected": "inherit",
+                                  "textLinkMargin": "0",
+                                  "textLinkPadding": "0",
+                                  "textLinkShadowColorFocus": "#0376DA",
+                                },
+                                "toastLarge": "800px",
+                                "toastMedium": "480px",
+                                "toastSmall": "368px",
+                                "zIndex": 5000,
+                              }
+                            }
+                            type="success"
+                          >
+                            <Component
+                              theme={
+                                {
+                                  "animationEnterDuration": 300,
+                                  "animationEnterTimingFunction": "easeIn",
+                                  "animationExitDuration": 150,
+                                  "animationExitTimingFunction": "easeOut",
+                                  "animationFlipDuration": 150,
+                                  "backgroundColor": "#5E6D7A",
+                                  "backgroundColorError": "#F1AD33",
+                                  "borderRadius": "3px",
+                                  "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                                  "closeIconColor": undefined,
+                                  "color": "#FFF",
+                                  "colorAction": undefined,
+                                  "colorDescription": undefined,
+                                  "colorError": "#1C2025",
+                                  "colorTitle": undefined,
+                                  "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                  "fontFamilyDescription": undefined,
+                                  "fontFamilyTitle": undefined,
+                                  "fontSize": "15px",
+                                  "fontSizeDescription": undefined,
+                                  "fontSizeTitle": undefined,
+                                  "fontStretch": "normal",
+                                  "fontStyle": "normal",
+                                  "fontWeight": 600,
+                                  "fontWeightDescription": undefined,
+                                  "fontWeightTitle": undefined,
+                                  "iconSize": 20,
+                                  "isClassic": true,
+                                  "letterSpacing": "normal",
+                                  "letterSpacingDescription": undefined,
+                                  "letterSpacingTitle": undefined,
+                                  "lineHeight": "24px",
+                                  "lineHeightDescription": undefined,
+                                  "lineHeightTitle": undefined,
+                                  "marginControl": "12px",
+                                  "markingColorError": undefined,
+                                  "markingColorInfo": undefined,
+                                  "markingColorLoading": undefined,
+                                  "markingColorSuccess": undefined,
+                                  "markingColorWarning": undefined,
+                                  "markingIconColorError": undefined,
+                                  "markingIconColorInfo": undefined,
+                                  "markingIconColorLoading": undefined,
+                                  "markingIconColorSuccess": undefined,
+                                  "markingIconColorWarning": undefined,
+                                  "maxHeight": "120px",
+                                  "maxWidth": "100%",
+                                  "padding": "12px 16px",
+                                  "stackMargin": "16px",
+                                  "structureMargin": "8px",
+                                  "textAlign": "left",
+                                  "textLinkAsAction": {
+                                    "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                    "fontSize": "15px",
+                                    "fontWeight": 400,
+                                    "letterSpacing": undefined,
+                                    "lineHeight": "24px",
+                                    "textLinkBackgroundColorPrimarySelected": "inherit",
+                                    "textLinkBorderRadiusFocus": "2px",
+                                    "textLinkBorderWidthFocus": "2px",
+                                    "textLinkColorPrimary": "#0376DA",
+                                    "textLinkColorPrimaryActive": "#0376DA",
+                                    "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                    "textLinkColorPrimaryHover": "#6FB1EA",
+                                    "textLinkColorPrimarySelected": "inherit",
+                                    "textLinkMargin": "0",
+                                    "textLinkPadding": "0",
+                                    "textLinkShadowColorFocus": "#0376DA",
+                                  },
+                                  "toastLarge": "800px",
+                                  "toastMedium": "480px",
+                                  "toastSmall": "368px",
+                                  "zIndex": 5000,
+                                }
+                              }
+                            >
+                              <Styled(Component)
+                                _pose="enter"
+                                aria-live="polite"
+                                data-id="TOAST_SUCCESS_CONTAINER"
+                                data-test-id="TOAST_SUCCESS_CONTAINER"
+                                forwardedRef={null}
+                                initialPose="exit"
+                                isToast={true}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                role="status"
+                                size="medium"
+                                test-id="TOAST_SUCCESS_CONTAINER"
+                                type="success"
+                              >
+                                <ForwardRef
+                                  _pose="enter"
+                                  aria-live="polite"
+                                  className="c2 c3"
+                                  data-id="TOAST_SUCCESS_CONTAINER"
+                                  data-test-id="TOAST_SUCCESS_CONTAINER"
+                                  forwardedRef={null}
+                                  initialPose="exit"
+                                  isToast={true}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  role="status"
+                                  size="medium"
+                                  test-id="TOAST_SUCCESS_CONTAINER"
+                                  type="success"
+                                >
+                                  <PoseElement
+                                    _pose="enter"
+                                    aria-live="polite"
+                                    className="c2 c3"
+                                    data-id="TOAST_SUCCESS_CONTAINER"
+                                    data-test-id="TOAST_SUCCESS_CONTAINER"
+                                    elementType="div"
+                                    forwardedRef={null}
+                                    initialPose="exit"
+                                    innerRef={null}
+                                    isToast={true}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    poseConfig={
+                                      {
+                                        "enter": {
+                                          "opacity": 1,
+                                          "transition": {
+                                            "duration": 300,
+                                            "ease": "easeIn",
+                                          },
+                                        },
+                                        "exit": {
+                                          "opacity": 0,
+                                          "transition": {
+                                            "duration": 150,
+                                            "ease": "easeOut",
+                                          },
+                                        },
+                                        "flip": {
+                                          "transition": {
+                                            "duration": 150,
+                                            "type": "tween",
+                                          },
+                                        },
+                                      }
+                                    }
+                                    role="status"
+                                    size="medium"
+                                    test-id="TOAST_SUCCESS_CONTAINER"
+                                    type="success"
+                                  >
+                                    <div
+                                      aria-live="polite"
+                                      className="c2 c3"
+                                      data-id="TOAST_SUCCESS_CONTAINER"
+                                      data-test-id="TOAST_SUCCESS_CONTAINER"
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                      role="status"
+                                      size="medium"
+                                      type="success"
+                                    >
+                                      <StructureWrapper>
+                                        <div
+                                          className="c4"
+                                        >
+                                          <ContentWrapper
+                                            data-id="TOAST_VALUE_CONTAINER"
+                                            data-test-id="TOAST_VALUE_CONTAINER"
+                                            test-id="TOAST_VALUE_CONTAINER"
+                                          >
+                                            <div
+                                              className="c5"
+                                              data-id="TOAST_VALUE_CONTAINER"
+                                              data-test-id="TOAST_VALUE_CONTAINER"
+                                            >
+                                              Text
+                                              <Actions
+                                                actions={
+                                                  [
+                                                    {
+                                                      "callback": [Function],
+                                                      "id": 2,
+                                                      "title": "Link",
+                                                    },
+                                                  ]
+                                                }
+                                                theme={
+                                                  {
+                                                    "animationEnterDuration": 300,
+                                                    "animationEnterTimingFunction": "easeIn",
+                                                    "animationExitDuration": 150,
+                                                    "animationExitTimingFunction": "easeOut",
+                                                    "animationFlipDuration": 150,
+                                                    "backgroundColor": "#5E6D7A",
+                                                    "backgroundColorError": "#F1AD33",
+                                                    "borderRadius": "3px",
+                                                    "boxShadow": "0 1px 5px 0 rgba(28,32,37,0.2)",
+                                                    "closeIconColor": undefined,
+                                                    "color": "#FFF",
+                                                    "colorAction": undefined,
+                                                    "colorDescription": undefined,
+                                                    "colorError": "#1C2025",
+                                                    "colorTitle": undefined,
+                                                    "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                                    "fontFamilyDescription": undefined,
+                                                    "fontFamilyTitle": undefined,
+                                                    "fontSize": "15px",
+                                                    "fontSizeDescription": undefined,
+                                                    "fontSizeTitle": undefined,
+                                                    "fontStretch": "normal",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": 600,
+                                                    "fontWeightDescription": undefined,
+                                                    "fontWeightTitle": undefined,
+                                                    "iconSize": 20,
+                                                    "isClassic": true,
+                                                    "letterSpacing": "normal",
+                                                    "letterSpacingDescription": undefined,
+                                                    "letterSpacingTitle": undefined,
+                                                    "lineHeight": "24px",
+                                                    "lineHeightDescription": undefined,
+                                                    "lineHeightTitle": undefined,
+                                                    "marginControl": "12px",
+                                                    "markingColorError": undefined,
+                                                    "markingColorInfo": undefined,
+                                                    "markingColorLoading": undefined,
+                                                    "markingColorSuccess": undefined,
+                                                    "markingColorWarning": undefined,
+                                                    "markingIconColorError": undefined,
+                                                    "markingIconColorInfo": undefined,
+                                                    "markingIconColorLoading": undefined,
+                                                    "markingIconColorSuccess": undefined,
+                                                    "markingIconColorWarning": undefined,
+                                                    "maxHeight": "120px",
+                                                    "maxWidth": "100%",
+                                                    "padding": "12px 16px",
+                                                    "stackMargin": "16px",
+                                                    "structureMargin": "8px",
+                                                    "textAlign": "left",
+                                                    "textLinkAsAction": {
+                                                      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                                      "fontSize": "15px",
+                                                      "fontWeight": 400,
+                                                      "letterSpacing": undefined,
+                                                      "lineHeight": "24px",
+                                                      "textLinkBackgroundColorPrimarySelected": "inherit",
+                                                      "textLinkBorderRadiusFocus": "2px",
+                                                      "textLinkBorderWidthFocus": "2px",
+                                                      "textLinkColorPrimary": "#0376DA",
+                                                      "textLinkColorPrimaryActive": "#0376DA",
+                                                      "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                                      "textLinkColorPrimaryHover": "#6FB1EA",
+                                                      "textLinkColorPrimarySelected": "inherit",
+                                                      "textLinkMargin": "0",
+                                                      "textLinkPadding": "0",
+                                                      "textLinkShadowColorFocus": "#0376DA",
+                                                    },
+                                                    "toastLarge": "800px",
+                                                    "toastMedium": "480px",
+                                                    "toastSmall": "368px",
+                                                    "zIndex": 5000,
+                                                  }
+                                                }
+                                              >
+                                                <styled.div>
+                                                  <div
+                                                    className="c6"
+                                                  >
+                                                    <ForwardRef
+                                                      as="button"
+                                                      color="inherit"
+                                                      data-id="TOAST_ACTION"
+                                                      data-test-id="TOAST_ACTION"
+                                                      key="2"
+                                                      onClick={[Function]}
+                                                      test-id="TOAST_ACTION"
+                                                      theme={
+                                                        {
+                                                          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                                          "fontSize": "15px",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": undefined,
+                                                          "lineHeight": "24px",
+                                                          "textLinkBackgroundColorPrimarySelected": "inherit",
+                                                          "textLinkBorderRadiusFocus": "2px",
+                                                          "textLinkBorderWidthFocus": "2px",
+                                                          "textLinkColorPrimary": "#0376DA",
+                                                          "textLinkColorPrimaryActive": "#0376DA",
+                                                          "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                                          "textLinkColorPrimaryHover": "#6FB1EA",
+                                                          "textLinkColorPrimarySelected": "inherit",
+                                                          "textLinkMargin": "0",
+                                                          "textLinkPadding": "0",
+                                                          "textLinkShadowColorFocus": "#0376DA",
+                                                        }
+                                                      }
+                                                      underline="always"
+                                                    >
+                                                      <TextLink
+                                                        as="button"
+                                                        color="inherit"
+                                                        data-id="TOAST_ACTION"
+                                                        data-test-id="TOAST_ACTION"
+                                                        forwardedRef={null}
+                                                        onClick={[Function]}
+                                                        test-id="TOAST_ACTION"
+                                                        theme={
+                                                          {
+                                                            "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                                            "fontSize": "15px",
+                                                            "fontWeight": 400,
+                                                            "letterSpacing": undefined,
+                                                            "lineHeight": "24px",
+                                                            "textLinkBackgroundColorPrimarySelected": "inherit",
+                                                            "textLinkBorderRadiusFocus": "2px",
+                                                            "textLinkBorderWidthFocus": "2px",
+                                                            "textLinkColorPrimary": "#0376DA",
+                                                            "textLinkColorPrimaryActive": "#0376DA",
+                                                            "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                                            "textLinkColorPrimaryHover": "#6FB1EA",
+                                                            "textLinkColorPrimarySelected": "inherit",
+                                                            "textLinkMargin": "0",
+                                                            "textLinkPadding": "0",
+                                                            "textLinkShadowColorFocus": "#0376DA",
+                                                          }
+                                                        }
+                                                        underline="always"
+                                                      >
+                                                        <Component
+                                                          theme={
+                                                            {
+                                                              "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                                                              "fontSize": "15px",
+                                                              "fontWeight": 400,
+                                                              "letterSpacing": undefined,
+                                                              "lineHeight": "24px",
+                                                              "textLinkBackgroundColorPrimarySelected": "inherit",
+                                                              "textLinkBorderRadiusFocus": "2px",
+                                                              "textLinkBorderWidthFocus": "2px",
+                                                              "textLinkColorPrimary": "#0376DA",
+                                                              "textLinkColorPrimaryActive": "#0376DA",
+                                                              "textLinkColorPrimaryDisabled": "#6FB1EA",
+                                                              "textLinkColorPrimaryHover": "#6FB1EA",
+                                                              "textLinkColorPrimarySelected": "inherit",
+                                                              "textLinkMargin": "0",
+                                                              "textLinkPadding": "0",
+                                                              "textLinkShadowColorFocus": "#0376DA",
+                                                            }
+                                                          }
+                                                        >
+                                                          <styled.a
+                                                            $color="inherit"
+                                                            $size="default"
+                                                            $underline="always"
+                                                            as="button"
+                                                            data-id="TOAST_ACTION"
+                                                            data-test-id="TOAST_ACTION"
+                                                            onClick={[Function]}
+                                                            tabIndex={0}
+                                                            test-id="TOAST_ACTION"
+                                                          >
+                                                            <button
+                                                              className="c7"
+                                                              data-id="TOAST_ACTION"
+                                                              data-test-id="TOAST_ACTION"
+                                                              onClick={[Function]}
+                                                              tabIndex={0}
+                                                            >
+                                                              Link
+                                                            </button>
+                                                          </styled.a>
+                                                        </Component>
+                                                      </TextLink>
+                                                    </ForwardRef>
+                                                  </div>
+                                                </styled.div>
+                                              </Actions>
+                                            </div>
+                                          </ContentWrapper>
+                                          <styled.div>
+                                            <div
+                                              className="c8"
+                                            >
+                                              <ForwardRef
+                                                aria-label="Close"
+                                                isInverted={true}
+                                                onClick={[Function]}
+                                                testId="TOAST_CLOSE_ICON"
+                                                theme={{}}
+                                              >
+                                                <IconButton
+                                                  aria-label="Close"
+                                                  forwardedRef={null}
+                                                  isActive={false}
+                                                  isDisabled={false}
+                                                  isInverted={true}
+                                                  onClick={[Function]}
+                                                  size="default"
+                                                  testId="TOAST_CLOSE_ICON"
+                                                  theme={
+                                                    {
+                                                      "backgroundActive": "#E0E0E0",
+                                                      "backgroundActiveInverted": "#E0E0E0",
+                                                      "backgroundActiveSelected": "#6C6862",
+                                                      "backgroundHover": "#F1F1F1",
+                                                      "backgroundHoverInverted": "#57554E",
+                                                      "backgroundSelectedDisabled": "#C2C2C2",
+                                                      "backgroundSelectedHover": "#57554E",
+                                                      "borderFocus": "#0056E0",
+                                                      "borderFocusInverted": "#D7E3F9",
+                                                      "color": "#292929",
+                                                      "colorDisabled": "#858585",
+                                                      "colorInverted": "#FFFFFF",
+                                                      "colorInvertedDisabled": "#666666",
+                                                      "colorSelected": "#FFFFFF",
+                                                      "shadowFocus": "#FFFFFF",
+                                                      "shadowFocusInverted": "#141414",
+                                                    }
+                                                  }
+                                                >
+                                                  <Component
+                                                    theme={
+                                                      {
+                                                        "backgroundActive": "#E0E0E0",
+                                                        "backgroundActiveInverted": "#E0E0E0",
+                                                        "backgroundActiveSelected": "#6C6862",
+                                                        "backgroundHover": "#F1F1F1",
+                                                        "backgroundHoverInverted": "#57554E",
+                                                        "backgroundSelectedDisabled": "#C2C2C2",
+                                                        "backgroundSelectedHover": "#57554E",
+                                                        "borderFocus": "#0056E0",
+                                                        "borderFocusInverted": "#D7E3F9",
+                                                        "color": "#292929",
+                                                        "colorDisabled": "#858585",
+                                                        "colorInverted": "#FFFFFF",
+                                                        "colorInvertedDisabled": "#666666",
+                                                        "colorSelected": "#FFFFFF",
+                                                        "shadowFocus": "#FFFFFF",
+                                                        "shadowFocusInverted": "#141414",
+                                                      }
+                                                    }
+                                                  >
+                                                    <styled.button
+                                                      $iconButtonSize=""
+                                                      aria-label="Close"
+                                                      data-id="TOAST_CLOSE_ICON"
+                                                      data-test-id="TOAST_CLOSE_ICON"
+                                                      isActive={false}
+                                                      isInverted={true}
+                                                      onClick={[Function]}
+                                                      onKeyDown={[Function]}
+                                                      test-id="TOAST_CLOSE_ICON"
+                                                      type="button"
+                                                    >
+                                                      <button
+                                                        aria-label="Close"
+                                                        className="c9"
+                                                        data-id="TOAST_CLOSE_ICON"
+                                                        data-test-id="TOAST_CLOSE_ICON"
+                                                        onClick={[Function]}
+                                                        onKeyDown={[Function]}
+                                                        type="button"
+                                                      >
+                                                        <CloseLargeIcon
+                                                          color="#FFFFFF"
+                                                          key=".0"
+                                                          size={20}
+                                                        >
+                                                          <ForwardRef
+                                                            color="#FFFFFF"
+                                                            size={20}
+                                                            theme={{}}
+                                                          >
+                                                            <Icon
+                                                              active={false}
+                                                              color="#FFFFFF"
+                                                              disabled={false}
+                                                              forwardedRef={null}
+                                                              invertColors={false}
+                                                              link={false}
+                                                              selected={false}
+                                                              size={20}
+                                                              theme={
+                                                                {
+                                                                  "color": "#1C2025",
+                                                                  "disabledColor": "#6FB1EA",
+                                                                  "disabledInvertColor": "#5E6D7A",
+                                                                  "hoverColor": "#0376DA",
+                                                                  "hoverInvertColor": "#FFF",
+                                                                  "linkColor": "#5E6D7A",
+                                                                  "linkInvertColor": "#A4B8D1",
+                                                                  "noLinkInvertColor": "#FFF",
+                                                                  "selectedColor": "#0376DA",
+                                                                  "selectedInvertColor": "#FFF",
+                                                                  "size": "24px",
+                                                                  "viewBox": "0 0 24 24",
+                                                                }
+                                                              }
+                                                            >
+                                                              <styled.svg
+                                                                active={false}
+                                                                color="#FFFFFF"
+                                                                disabled={false}
+                                                                invertColors={false}
+                                                                link={false}
+                                                                role="presentation"
+                                                                selected={false}
+                                                                size={20}
+                                                                theme={
+                                                                  {
+                                                                    "color": "#1C2025",
+                                                                    "disabledColor": "#6FB1EA",
+                                                                    "disabledInvertColor": "#5E6D7A",
+                                                                    "hoverColor": "#0376DA",
+                                                                    "hoverInvertColor": "#FFF",
+                                                                    "linkColor": "#5E6D7A",
+                                                                    "linkInvertColor": "#A4B8D1",
+                                                                    "noLinkInvertColor": "#FFF",
+                                                                    "selectedColor": "#0376DA",
+                                                                    "selectedInvertColor": "#FFF",
+                                                                    "size": "24px",
+                                                                    "viewBox": "0 0 24 24",
+                                                                  }
+                                                                }
+                                                                viewBox="0 0 24 24"
+                                                              >
+                                                                <svg
+                                                                  className="c10"
+                                                                  color="#FFFFFF"
+                                                                  disabled={false}
+                                                                  role="presentation"
+                                                                  selected={false}
+                                                                  size={20}
+                                                                  viewBox="0 0 24 24"
+                                                                >
+                                                                  <g>
+                                                                    <path
+                                                                      d="M18.5303 6.5303a.75.75 0 0 0-1.0606-1.0606L12 10.9393 6.5303 5.4697a.75.75 0 0 0-1.0606 1.0606L10.9393 12l-5.4696 5.4697a.75.75 0 0 0 1.0607 1.0606L12 13.0607l5.4697 5.4696a.75.75 0 0 0 1.0606 0 .75.75 0 0 0 0-1.0606L13.0607 12l5.4696-5.4697Z"
+                                                                    />
+                                                                  </g>
+                                                                </svg>
+                                                              </styled.svg>
+                                                            </Icon>
+                                                          </ForwardRef>
+                                                        </CloseLargeIcon>
+                                                      </button>
+                                                    </styled.button>
+                                                  </Component>
+                                                </IconButton>
+                                              </ForwardRef>
+                                            </div>
+                                          </styled.div>
+                                        </div>
+                                      </StructureWrapper>
+                                    </div>
+                                  </PoseElement>
+                                </ForwardRef>
+                              </Styled(Component)>
+                            </Component>
+                          </ToastTemplate>
+                        </Toast>
+                      </ForwardRef>
+                    </Transition>
+                  </PoseGroup>
+                </div>
+              </styled.div>
+            </ToastStack>
+          </ForwardRef>
+        </div>
+      </styled.div>
+    </Component>
+  </Portal>
+</Toaster>
+`;

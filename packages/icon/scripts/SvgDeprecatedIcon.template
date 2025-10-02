@@ -1,0 +1,5 @@
+import React from 'react';
+import { withDeprecation } from '@8x8/oxygen-config';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export default withDeprecation(createSvgIcon(<g>$paths$</g>, '$componentName$'), '$deprecatedIconWarning$');

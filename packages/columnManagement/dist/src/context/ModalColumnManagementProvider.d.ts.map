@@ -1,0 +1,1 @@
+{"version":3,"file":"ModalColumnManagementProvider.d.ts","sourceRoot":"","sources":["../../../src/context/ModalColumnManagementProvider.tsx"],"names":[],"mappings":";AACA,OAAO,EAAE,eAAe,EAAE,MAAM,2BAA2B,CAAC;AAE5D,MAAM,WAAW,iCAAiC;IAChD,mBAAmB,CAAC,EAAE,OAAO,CAAC;IAC9B,cAAc,CAAC,EAAE,eAAe,EAAE,CAAC;IACnC,qBAAqB,EAAE,eAAe,EAAE,CAAC;CAC1C;AAED,eAAO,MAAM,4BAA4B,4DAKrC,CAAC"}

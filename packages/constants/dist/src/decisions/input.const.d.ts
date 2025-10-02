@@ -1,0 +1,62 @@
+export interface InputTheme {
+    backgroundColor: string;
+    backgroundColorDisabled: string;
+    backgroundColorFixed: string;
+    backgroundColorReadOnly: string;
+    backgroundColorSemanticBlock: string;
+    borderColor: string;
+    borderColorError: string;
+    borderColorFixed: string;
+    borderColorFocused: string;
+    borderColorReadOnly: string;
+    borderColorDisabled?: string;
+    borderColorSemanticBlock: string;
+    borderRadius: string | number;
+    borderRadiusReadOnly: string | number;
+    borderStyle: string;
+    borderStyleDefaultSemanticBlock: string;
+    borderTransitionTiming: string;
+    borderWidth: string;
+    borderWidthReadOnly: string;
+    borderWidthSemanticBlock: string;
+    color: string;
+    colorDisabled: string;
+    colorFixed: string;
+    colorIcon: string;
+    colorPlaceholder: string;
+    colorReadOnly: string;
+    colorSemanticBlock: string;
+    fontFamily: string;
+    fontSize: string;
+    fontStretch: string;
+    fontStyle: string;
+    fontWeight: string | number;
+    height: string;
+    heightLarge: string;
+    heightSmall: string;
+    horizontalSpacing: string;
+    horizontalSpacingReadOnly: string;
+    iconHorizontalSpacing: string;
+    iconSize: number;
+    letterSpacing: string;
+    lineHeight: string;
+    minWidth: string;
+    prefixSuffixHorizontalSpacing: string;
+    prefixSuffixInsideInput: boolean;
+    verticalSpacing: string;
+    width: string;
+    widthSemanticBlock: string;
+}
+declare const input: InputTheme;
+declare const inputNovo: InputTheme;
+declare const inputNovoDark: InputTheme;
+declare const inputNeoLight: InputTheme;
+declare const inputNeoDark: InputTheme;
+/** @deprecated use exported type `import { InputSize } from @8x8/oxygen-input` instead */
+declare const inputSize: {
+    small: string;
+    default: string;
+    large: string;
+};
+export { input, inputNovo, inputNovoDark, inputNeoLight, inputNeoDark, inputSize, };
+//# sourceMappingURL=input.const.d.ts.map

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBarContainer> should render correctly 1`] = `
+.c0 {
+  display: inline-block;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressBarContainer> should render correctly when ProgressBar  is fullWidth 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressBarContainer> should render correctly when ProgressBar has custom size as number 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 123px;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  size={123}
+/>
+`;
+
+exports[`<ProgressBarContainer> should render correctly when ProgressBar has custom size as string 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 123px;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  size="123px"
+/>
+`;
+
+exports[`<ProgressBarContainer> should render correctly when ProgressBar is large 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`<ProgressBarContainer> should render correctly when ProgressBar is small 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 100px;
+  min-width: 100px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;

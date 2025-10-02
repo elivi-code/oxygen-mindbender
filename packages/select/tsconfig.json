@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist/",
+    "noImplicitAny": true,
+  },
+  "files": ["src/types.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "../../types/globals.d.ts"],
+}

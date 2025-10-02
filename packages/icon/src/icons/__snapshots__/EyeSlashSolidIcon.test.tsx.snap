@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EyeSlashSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M8.1455 6.6829a10.1805 10.1805 0 0 0-.0186.0066L3.7352 2.298c-.397-.3971-1.0406-.3972-1.4376-.0003-.3969.397-.3968 1.0406.0003 1.4376l3.8518 3.852C3.636 8.988 2 10.9637 2 12c0 1.7143 4.4771 6 10 6 1.3733 0 2.6819-.265 3.8731-.6895l4.3917 4.3916c.397.3971 1.0407.3972 1.4376.0003.3969-.3969.3968-1.0406-.0003-1.4376l-3.8518-3.8519.0162-.0091-3.1434-3.1433a.903.903 0 0 1-.008.0172l-3.9928-3.9928a1.5291 1.5291 0 0 1 .0172-.008l-2.594-2.594Zm11.4452 8.5704C21.0925 14.0648 22 12.7718 22 12c0-1.7143-4.4772-6-10-6-.5276 0-1.0457.0391-1.5512.1114l9.1419 9.1419ZM9 12c0-.457.1022-.8901.285-1.2777l3.9927 3.9928A2.9888 2.9888 0 0 1 12 15c-1.6569 0-3-1.3431-3-3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

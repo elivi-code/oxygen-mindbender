@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JoinMeetingSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2.0493 13C2.551 18.0533 6.8146 22 12 22c5.5229 0 10-4.4772 10-10 0-5.5229-4.4771-10-10-10-5.1853 0-9.4489 3.9467-9.9506 9h10.5975l-2.2929-2.2929c-.3906-.3905-.3906-1.0237 0-1.4142.3905-.3905 1.0237-.3905 1.4142 0l4 4c.3905.3905.3905 1.0237 0 1.4142l-4 4c-.3905.3905-1.0237.3905-1.4142 0-.3906-.3905-.3906-1.0237 0-1.4142L12.6468 13H2.0493Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

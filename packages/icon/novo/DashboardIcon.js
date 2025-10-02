@@ -1,0 +1,4 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "M1.5 3c0-.8284.6716-1.5 1.5-1.5h6.75c.8284 0 1.5.6716 1.5 1.5v10.5c0 .8284-.6716 1.5-1.5 1.5H3c-.8284 0-1.5-.6716-1.5-1.5V3ZM3 3h6.75v10.5H3V3ZM12.75 3c0-.8284.6716-1.5 1.5-1.5H21c.8284 0 1.5.6716 1.5 1.5v3c0 .8284-.6716 1.5-1.5 1.5h-6.75c-.8284 0-1.5-.6716-1.5-1.5V3Zm1.5 0H21v3h-6.75V3ZM14.25 9c-.8284 0-1.5.6716-1.5 1.5V21c0 .8284.6716 1.5 1.5 1.5H21c.8284 0 1.5-.6716 1.5-1.5V10.5c0-.8284-.6716-1.5-1.5-1.5h-6.75ZM21 10.5h-6.75V21H21V10.5ZM1.5 18c0-.8284.6716-1.5 1.5-1.5h6.75c.8284 0 1.5.6716 1.5 1.5v3c0 .8284-.6716 1.5-1.5 1.5H3c-.8284 0-1.5-.6716-1.5-1.5v-3ZM3 18h6.75v3H3v-3Z", clipRule: "evenodd" })), 'DashboardIcon');

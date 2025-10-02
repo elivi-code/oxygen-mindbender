@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledBullet> should style correctly the bullet for a completed milestone 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #0376DA;
+}
+
+<div
+  className="c0"
+  size={48}
+/>
+`;
+
+exports[`<StyledBullet> should style correctly the bullet for an uncompleted milestone 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #F0F3F7;
+  border: 2px solid #D1DBE8;
+}
+
+<div
+  className="c0"
+  size={48}
+/>
+`;
+
+exports[`<StyledBulletContainer> should style correctly the bullet container for a milestone with inner description 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 48px;
+  min-width: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.c1 {
+  width: auto;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  className="c0 c1"
+  size={48}
+/>
+`;
+
+exports[`<StyledBulletContainer> should style correctly the bullet container for a milestone without inner description 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 48px;
+  min-width: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.c1 {
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  className="c0 c1"
+  size={48}
+/>
+`;
+
+exports[`<StyledDescription> should style correctly the description 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  color: #5E6D7A;
+  font-size: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledGraphicContainer> should style correctly the graphics container 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 48px;
+  min-width: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+<div
+  className="c0"
+  size={48}
+/>
+`;
+
+exports[`<StyledMilestoneContainer> should style correctly the milestone container 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledMilestoneTrackerContainer> should style correctly the milestone tracker container 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledRoad> should style correctly a completed road 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #0376DA;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledRoad> should style correctly a visible road 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #D1DBE8;
+  margin: 0 auto;
+  visibility: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledRoad> should style correctly an invisible road 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #D1DBE8;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledRoad> should style correctly an uncompleted road 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 2px;
+  min-width: 2px;
+  min-height: calc(40px / 2);
+  background-color: #D1DBE8;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledRow> should style correctly a row with onClick 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  text-align: start;
+  cursor: pointer;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+/>
+`;
+
+exports[`<StyledRow> should style correctly a row without onClick 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  text-align: start;
+  cursor: default;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledTitle> should style correctly the title for a completed milestone 1`] = `
+.c0 {
+  color: #1C2025;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<StyledTitle> should style correctly the title for an uncompleted milestone 1`] = `
+.c0 {
+  color: #A4B8D1;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<div
+  className="c0"
+/>
+`;

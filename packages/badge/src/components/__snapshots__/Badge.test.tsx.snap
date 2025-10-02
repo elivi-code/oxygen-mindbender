@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge> should render correctly as type primary 1`] = `
+<BadgeWrapper
+  forwardedRef={null}
+  isInner={false}
+  position="top-start"
+  size="medium"
+  testId="BADGE"
+  theme={
+    {
+      "backgroundColorPrimary": "#E54B4B",
+      "backgroundColorSecondary": "#F1AD33",
+      "fontColorPrimary": "#FFF",
+      "fontColorSecondary": "#1C2025",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSizeBig": "13px",
+      "fontSizeMedium": "13px",
+      "fontSizeSmall": 0,
+      "fontWeight": 400,
+      "lineHeightBig": "24px",
+      "lineHeightMedium": "18px",
+      "lineHeightSmall": 0,
+      "paddingBig": "4px",
+      "paddingMedium": "4px",
+      "paddingSmall": 0,
+      "positionOuterBig": "10px",
+      "positionOuterMedium": "8px",
+      "positionOuterSmall": "3px",
+      "sizeBig": "24px",
+      "sizeMedium": "18px",
+      "sizeSmall": "8px",
+    }
+  }
+  type="primary"
+>
+  2
+</BadgeWrapper>
+`;
+
+exports[`<Badge> should render correctly as type secondary 1`] = `
+<BadgeWrapper
+  forwardedRef={null}
+  isInner={false}
+  size="medium"
+  testId="BADGE"
+  theme={
+    {
+      "backgroundColorPrimary": "#E54B4B",
+      "backgroundColorSecondary": "#F1AD33",
+      "fontColorPrimary": "#FFF",
+      "fontColorSecondary": "#1C2025",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSizeBig": "13px",
+      "fontSizeMedium": "13px",
+      "fontSizeSmall": 0,
+      "fontWeight": 400,
+      "lineHeightBig": "24px",
+      "lineHeightMedium": "18px",
+      "lineHeightSmall": 0,
+      "paddingBig": "4px",
+      "paddingMedium": "4px",
+      "paddingSmall": 0,
+      "positionOuterBig": "10px",
+      "positionOuterMedium": "8px",
+      "positionOuterSmall": "3px",
+      "sizeBig": "24px",
+      "sizeMedium": "18px",
+      "sizeSmall": "8px",
+    }
+  }
+  type="secondary"
+>
+  2
+</BadgeWrapper>
+`;

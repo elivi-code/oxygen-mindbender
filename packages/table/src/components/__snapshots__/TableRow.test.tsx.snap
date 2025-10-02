@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableRow> should render correctly 1`] = `
+<Table
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRow
+    enableHover={false}
+    isSelected={false}
+  >
+    <span>
+      table row
+    </span>
+  </TableRow>
+</Table>
+`;
+
+exports[`<TableRow> should render correctly when isSelectable 1`] = `
+<Table
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRow
+    enableHover={true}
+    isSelected={false}
+  >
+    <span>
+      table row
+    </span>
+  </TableRow>
+</Table>
+`;
+
+exports[`<TableRow> should render correctly when isSelected 1`] = `
+<Table
+  forwardedRef={null}
+  zebra={false}
+>
+  <TableRow
+    enableHover={false}
+    isSelected={true}
+  >
+    <span>
+      table row
+    </span>
+  </TableRow>
+</Table>
+`;

@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SlideOut> should not start drag if not clicked with left click 1`] = `
+<SlideOut
+  defaultWidth={400}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={false}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should render 1`] = `
+<SlideOut
+  defaultWidth={400}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={false}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={false}
+      resizeInProgress={false}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should render correctly when visible 1`] = `
+<SlideOut
+  defaultWidth={400}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={false}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should render correctly with default width null 1`] = `
+<SlideOut
+  defaultWidth={null}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={false}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should render correctly with default width specified 1`] = `
+<SlideOut
+  defaultWidth={300}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={false}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should start drag when Splitter is left clicked 1`] = `
+<SlideOut
+  defaultWidth={400}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={true}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;
+
+exports[`<SlideOut> should update Splitter width when left click is held and mouse is moved 1`] = `
+<SlideOut
+  defaultWidth={400}
+  hasAnimation={true}
+  isResizable={true}
+  isVisible={true}
+  onResize={[Function]}
+  testId="SLIDE_OUT"
+  theme={
+    {
+      "animationSpeed": "150ms",
+      "background": "#FFF",
+      "boxShadowColor": "#000",
+      "boxShadowOpacity": 0.25,
+      "boxShadowSize": "0 4px 8px 0",
+      "splitterCursor": "col-resize",
+      "splitterSize": "8px",
+    }
+  }
+>
+  <Component
+    theme={
+      {
+        "animationSpeed": "150ms",
+        "background": "#FFF",
+        "boxShadowColor": "#000",
+        "boxShadowOpacity": 0.25,
+        "boxShadowSize": "0 4px 8px 0",
+        "splitterCursor": "col-resize",
+        "splitterSize": "8px",
+      }
+    }
+  >
+    <mock-container
+      data-id="SLIDE_OUT_CONTAINER"
+      data-test-id="SLIDE_OUT_CONTAINER"
+      hasAnimation={true}
+      isVisible={true}
+      resizeInProgress={true}
+      test-id="SLIDE_OUT_CONTAINER"
+    >
+      <mock-splitter
+        data-id="SLIDE_OUT_SPLITTER"
+        data-test-id="SLIDE_OUT_SPLITTER"
+        onMouseDown={[Function]}
+        test-id="SLIDE_OUT_SPLITTER"
+      />
+      <mock-content
+        data-id="SLIDE_OUT_CONTENT"
+        data-test-id="SLIDE_OUT_CONTENT"
+        test-id="SLIDE_OUT_CONTENT"
+      >
+        Children
+      </mock-content>
+    </mock-container>
+  </Component>
+</SlideOut>
+`;

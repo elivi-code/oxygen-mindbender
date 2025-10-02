@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> should render correctly with default props 1`] = `
+<RadioContainer
+  isDisabled={false}
+  isFocused={false}
+>
+  <Label
+    htmlFor={null}
+    isDisabled={false}
+    shouldWrapText={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <RadioInput
+          hasLabel={false}
+          isChecked={false}
+          isDisabled={false}
+          isFocused={false}
+          isHovered={false}
+          isPressed={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          testId="RADIO"
+        />
+      </Unknown>
+    }
+  />
+</RadioContainer>
+`;
+
+exports[`<Radio /> should render correctly with infoBoxButtonLabel 1`] = `
+<RadioContainer
+  isDisabled={false}
+  isFocused={false}
+>
+  <Label
+    htmlFor={null}
+    infoBoxButtonLabel="Radio Button Label"
+    isDisabled={false}
+    shouldWrapText={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <RadioInput
+          hasLabel={false}
+          isChecked={false}
+          isDisabled={false}
+          isFocused={false}
+          isHovered={false}
+          isPressed={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          testId="RADIO"
+        />
+      </Unknown>
+    }
+  />
+</RadioContainer>
+`;
+
+exports[`<Radio /> should render correctly with infoBoxText 1`] = `
+<RadioContainer
+  isDisabled={false}
+  isFocused={false}
+>
+  <Label
+    htmlFor={null}
+    infoBoxText="Test"
+    isDisabled={false}
+    shouldWrapText={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <RadioInput
+          hasLabel={false}
+          isChecked={false}
+          isDisabled={false}
+          isFocused={false}
+          isHovered={false}
+          isPressed={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          testId="RADIO"
+        />
+      </Unknown>
+    }
+  />
+</RadioContainer>
+`;
+
+exports[`<Radio /> should render correctly with label 1`] = `
+<RadioContainer
+  isDisabled={false}
+  isFocused={false}
+>
+  <Label
+    htmlFor={null}
+    isDisabled={false}
+    shouldWrapText={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <RadioInput
+          hasLabel={true}
+          isChecked={false}
+          isDisabled={false}
+          isFocused={false}
+          isHovered={false}
+          isPressed={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          testId="RADIO"
+        />
+        <LabelTextWrapper
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          Label text
+        </LabelTextWrapper>
+      </Unknown>
+    }
+  />
+</RadioContainer>
+`;

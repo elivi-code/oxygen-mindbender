@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M9 2h8v.0003a2 2 0 0 1 1.3246.53l2.032 1.8758c.4101.3786.6434.9114.6434 1.4696V18c0 .5523-.4477 1-1 1h-2.4486l.0559.2086c.1429.5334-.1736 1.0818-.7071 1.2247l-9.6593 2.5882c-.5334.1429-1.0818-.1736-1.2247-.7071L2.3927 8.7914c-.143-.5334.1737-1.0818.7071-1.2247L8 6.2537V3c0-.5523.4477-1 1-1ZM8 18V8.3242l-3.4166.9155 3.1058 11.5911L14.522 19H9c-.5523 0-1-.4477-1-1Zm4-8h5v2h-5v-2Zm5 3h-5v2h5v-2Z" clipRule="evenodd"/></g>, 'UploadSolidIcon');

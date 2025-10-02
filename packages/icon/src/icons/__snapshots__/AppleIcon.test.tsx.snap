@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppleIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M19.5525 16.3066c-.4272.918-.631 1.3282-1.1758 2.1368-.7623 1.1328-1.8421 2.5449-3.1747 2.5546-1.1836.0098-1.4893-.7539-3.0982-.7402-1.6069.0078-1.942.7539-3.1276.7402-1.3326-.0097-2.3516-1.2832-3.1159-2.4121-2.136-3.1699-2.3613-6.8847-1.0405-8.8613.9328-1.4004 2.4104-2.2227 3.7978-2.2227 1.4129 0 2.3026.756 3.4686.756 1.1366 0 1.8264-.7579 3.4607-.7579 1.2366 0 2.5437.6563 3.4765 1.7871-3.0551 1.6309-2.5593 5.8809.5291 7.0195ZM14.5162 6.0352c-.682.8476-1.8539 1.498-2.9866 1.4629-.2077-1.084.3253-2.2051.9681-2.961.7094-.8281 1.9244-1.4687 2.963-1.5371.1744 1.1348-.3077 2.248-.9445 3.0352Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

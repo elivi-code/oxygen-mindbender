@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should match snapshot with Classic theme 1`] = `
+.c0 {
+  height: 252px;
+  width: 328px;
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 #D1DBE8;
+  border-top: 6px solid #235C6E;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+<div
+  className="c0"
+  data-test-id="card-test-id"
+/>
+`;
+
+exports[`Card component should match snapshot with Novo theme 1`] = `
+.c0 {
+  height: 252px;
+  width: 328px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px 0px #29292940;
+  border: 1px solid #E0E0E0;
+  border-top: 1px solid #E0E0E0;
+  border-radius: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+<div
+  className="c0"
+  data-test-id="card-test-id"
+/>
+`;
+
+exports[`Card component should match snapshot with NovoDark theme 1`] = `
+.c0 {
+  height: 252px;
+  width: 328px;
+  background: #171719;
+  box-shadow: 0px 2px 8px 2px #141414;
+  border: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-radius: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+<div
+  className="c0"
+  data-test-id="card-test-id"
+/>
+`;

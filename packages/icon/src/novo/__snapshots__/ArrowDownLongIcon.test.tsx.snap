@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowDownLongIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M15.9697 16.7197a.75.75 0 0 1 1.0606 0 .75.75 0 0 1 0 1.0606l-4.5 4.5a.75.75 0 0 1-1.0606 0l-4.5-4.5a.75.75 0 0 1 1.0607-1.0606l3.2196 3.2196V2.1964c0-.3846.3358-.6964.75-.6964s.75.3118.75.6964v17.7429l3.2197-3.2196Z"
+    />
+  </g>
+</svg>
+`;

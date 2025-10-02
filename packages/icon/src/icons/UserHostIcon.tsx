@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M8 7c0 2.2091 1.7909 4 4 4 2.2091 0 4-1.7909 4-4 0-2.2091-1.7909-4-4-4-2.2091 0-4 1.7909-4 4Zm4 2c1.1046 0 2-.8954 2-2s-.8954-2-2-2-2 .8954-2 2 .8954 2 2 2Zm-.6766 5.0089C7.1759 14.1228 6 15.3517 6 18.75c0 .1092.0038.1914.007.25H7c.5523 0 1 .4477 1 1s-.4477 1-1 1H6c-1.3333 0-2-.75-2-2.25C4 14.25 5.9863 12 12 12s8 2.25 8 6.75c0 1.5-.6667 2.25-2 2.25h-1c-.5523 0-1-.4477-1-1s.4477-1 1-1h.9931A4.533 4.533 0 0 0 18 18.75c0-3.3983-1.1759-4.6272-5.3234-4.7411l1.3347 5.5707a1.0003 1.0003 0 0 1-.2823.9566L12 22.1855l-1.729-1.6493a1 1 0 0 1-.2823-.9566l1.3347-5.5707Z" clipRule="evenodd"/></g>, 'UserHostIcon');

@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs> should render correctly 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 6px;
+  color: #1C2025;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+>
+  <BreadcrumbsList>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          1
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <li
+      className="c0"
+    >
+      <span
+        className="c1"
+      >
+        <TextLink
+          onClick={[Function]}
+          size="inherit"
+          title="Example title"
+        >
+          ...
+        </TextLink>
+        <span
+          className="c2"
+          role="separator"
+        >
+          /
+        </span>
+      </span>
+    </li>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          7
+        </div>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+  </BreadcrumbsList>
+</nav>
+`;
+
+exports[`<Breadcrumbs> should render correctly with custom separator 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 6px;
+  color: #1C2025;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+>
+  <BreadcrumbsList>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          1
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          *
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <li
+      className="c0"
+    >
+      <span
+        className="c1"
+      >
+        <TextLink
+          onClick={[Function]}
+          size="inherit"
+          title="Example title"
+        >
+          ...
+        </TextLink>
+        <span
+          className="c2"
+          role="separator"
+        >
+          *
+        </span>
+      </span>
+    </li>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          7
+        </div>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+  </BreadcrumbsList>
+</nav>
+`;
+
+exports[`<Breadcrumbs> should render correctly with three items after collapse 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 6px;
+  color: #1C2025;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+>
+  <BreadcrumbsList>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          1
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <li
+      className="c0"
+    >
+      <span
+        className="c1"
+      >
+        <TextLink
+          onClick={[Function]}
+          size="inherit"
+          title="Example title"
+        >
+          ...
+        </TextLink>
+        <span
+          className="c2"
+          role="separator"
+        >
+          /
+        </span>
+      </span>
+    </li>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          5
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          6
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          7
+        </div>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+  </BreadcrumbsList>
+</nav>
+`;
+
+exports[`<Breadcrumbs> should render correctly with three items before collapse 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 6px;
+  color: #1C2025;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+>
+  <BreadcrumbsList>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          1
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          2
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          3
+        </div>
+        <BreadcrumbsSeparator
+          role="separator"
+        >
+          /
+        </BreadcrumbsSeparator>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+    <li
+      className="c0"
+    >
+      <span
+        className="c1"
+      >
+        <TextLink
+          onClick={[Function]}
+          size="inherit"
+          title="Example title"
+        >
+          ...
+        </TextLink>
+        <span
+          className="c2"
+          role="separator"
+        >
+          /
+        </span>
+      </span>
+    </li>
+    <BreadcrumbsListItem>
+      <BreadcrumbContent>
+        <div>
+          7
+        </div>
+      </BreadcrumbContent>
+    </BreadcrumbsListItem>
+  </BreadcrumbsList>
+</nav>
+`;

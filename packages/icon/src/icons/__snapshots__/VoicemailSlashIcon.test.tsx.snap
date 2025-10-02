@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VoicemailSlashIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2.737 2.7369c-.3917.3917-.3917 1.0267 0 1.4184L5.5975 7.016C3.0243 7.2209 1 9.3739 1 11.9999c0 2.7614 2.2386 5 5 5h9.5816l4.263 4.263c.3917.3917 1.0267.3917 1.4184 0 .3917-.3917.3917-1.0267 0-1.4184L4.1554 2.7369c-.3917-.3917-1.0267-.3917-1.4184 0Zm10.8446 12.263-2.5976-2.5975a4.974 4.974 0 0 1-.9836 2.5975h3.5812Zm9.4184-3c0 1.8389-.9927 3.4459-2.4714 4.3144l-1.4966-1.4966C20.1804 14.3969 21 13.2941 21 11.9999c0-1.6569-1.3431-3-3-3-1.2942 0-2.397.8195-2.8178 1.968l-1.4966-1.4966C14.5541 7.9926 16.1611 6.9999 18 6.9999c2.7614 0 5 2.2386 5 5Zm-14 0c0 1.6568-1.3431 3-3 3s-3-1.3432-3-3c0-1.6569 1.3431-3 3-3s3 1.3431 3 3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M9 12c-2.7614 0-5-2.2386-5-5s2.2386-5 5-5 5 2.2386 5 5c0 1.019-.3049 1.967-.8284 2.7574L20 16.5858c.3111.3111.3744.7763.1897 1.15a.9954.9954 0 0 1-.24.3855l-2.8284 2.8284c-.3905.3906-1.0237.3906-1.4142 0-.3905-.3905-.3905-1.0236 0-1.4142l2.2071-2.2071-1.5858-1.5858-1.0858 1.0858c-.3905.3906-1.0236.3906-1.4142 0-.3905-.3905-.3905-1.0237 0-1.4142l1.0858-1.0858-3.1568-3.1568C10.967 11.6951 10.0191 12 9 12Zm0-2c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3431-3 3 1.3431 3 3 3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

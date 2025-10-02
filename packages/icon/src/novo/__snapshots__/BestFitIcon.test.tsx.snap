@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BestFitIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M12 18c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6Zm0 1.5c4.1421 0 7.5-3.3579 7.5-7.5S16.1421 4.5 12 4.5 4.5 7.8579 4.5 12s3.3579 7.5 7.5 7.5Z"
+      fillRule="evenodd"
+    />
+    <path
+      clipRule="evenodd"
+      d="M12 13.5c.8284 0 1.5-.6716 1.5-1.5s-.6716-1.5-1.5-1.5-1.5.6716-1.5 1.5.6716 1.5 1.5 1.5Zm0 1.5c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3431-3 3 1.3431 3 3 3Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M11.25 2.25a.75.75 0 0 1 1.5 0V4.5a.75.75 0 0 1-1.5 0V2.25ZM11.25 19.5a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0V19.5ZM2.25 12.75a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 0 1.5h-3ZM19.5 12.75a.75.75 0 0 1 0-1.5h2.25a.75.75 0 0 1 0 1.5H19.5Z"
+    />
+  </g>
+</svg>
+`;

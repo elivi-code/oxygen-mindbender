@@ -1,0 +1,1 @@
+{"version":3,"file":"getIconColor.d.ts","sourceRoot":"","sources":["../../../src/utils/getIconColor.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,oCAAoC,CAAC;AAC9E,OAAO,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAEzC,KAAK,KAAK,GAAG,OAAO,CAAC,wBAAwB,CAAC,GAAG;IAC/C,KAAK,EAAE,aAAa,CAAC;CACtB,CAAC;AAEF,eAAO,MAAM,YAAY,6EAOtB,KAAK,uBAmBP,CAAC;AAEF,eAAe,YAAY,CAAC"}

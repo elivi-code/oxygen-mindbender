@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Textarea> should render correctly when hasError 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={true}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly when isDisabled 1`] = `
+<TextareaWrapper
+  aria-disabled={true}
+  aria-readonly={true}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={true}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={true}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly when isReadOnly 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={true}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={true}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with autoComplete 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="on"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with cols 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  cols={10}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with default properties 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with id 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  id="custom_id"
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with maxLength 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  maxLength={100}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with minLength 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  minLength={10}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with name 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  name="custom_name"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with placeholder 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  placeholder="custom_placeholder"
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with resize 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="none"
+  rows={3}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with rows 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={10}
+  test-id="TEXTAREA"
+/>
+`;
+
+exports[`<Textarea> should render correctly with testId 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="custom_test_id"
+  data-test-id="custom_test_id"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="custom_test_id"
+/>
+`;
+
+exports[`<Textarea> should render correctly with value 1`] = `
+<TextareaWrapper
+  aria-disabled={false}
+  aria-readonly={false}
+  autoComplete="off"
+  autoFocus={false}
+  data-id="TEXTAREA"
+  data-test-id="TEXTAREA"
+  hasError={false}
+  isDisabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  readOnly={false}
+  resize="vertical"
+  rows={3}
+  test-id="TEXTAREA"
+  value="custom_value"
+/>
+`;

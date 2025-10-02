@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalContent> in Classic should render correctly with default props 1`] = `
+.c0 {
+  padding: 16px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow: auto;
+  min-height: 42px;
+}
+
+<div
+  className="c0"
+  data-id="MODAL_CONTENT"
+  data-test-id="MODAL_CONTENT"
+/>
+`;
+
+exports[`<ModalContent> in Novo should render correctly with default props 1`] = `
+.c0 {
+  color: #292929;
+  padding: 0 16px;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  overflow: auto;
+  min-height: 42px;
+}
+
+<div
+  className="c0"
+  data-id="MODAL_CONTENT"
+  data-test-id="MODAL_CONTENT"
+/>
+`;

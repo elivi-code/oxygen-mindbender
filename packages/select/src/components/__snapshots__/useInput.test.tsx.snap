@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useInput should return custom component with hasSelectableInput 1`] = `
+{
+  "components": {
+    "Input": [Function],
+  },
+  "selectProps": {
+    "filterOption": [Function],
+    "inputValue": "foo",
+    "onChange": [Function],
+    "onFocus": [Function],
+    "onInputChange": [Function],
+    "value": {
+      "label": "foo",
+      "value": "bar",
+    },
+  },
+}
+`;
+
+exports[`useInput should return default component if hasSelectableInput=false 1`] = `
+{
+  "components": {
+    "Input": [Function],
+  },
+  "selectProps": {},
+}
+`;
+
+exports[`useInput should return default component with isMulti 1`] = `
+{
+  "components": {
+    "Input": [Function],
+  },
+  "selectProps": {},
+}
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+.c0 {
+  background: #FFFFFF;
+  border: 0;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  width: 100%;
+  list-style: none;
+  min-height: 2.5rem;
+}
+
+.c0:focus-visible {
+  outline: 2px solid #0056E0;
+  outline-offset: -2px;
+}
+
+.c0:hover {
+  background: #F1F1F1;
+}
+
+.c1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+
+<li
+  class="c0"
+  role="menuitem"
+>
+  <span
+    class="c1"
+  />
+</li>
+`;

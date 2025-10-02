@@ -1,0 +1,43 @@
+{
+  "name": "@8x8/oxygen-select",
+  "version": "2.98.0",
+  "description": "Oxygen - Select",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/select",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-avatar": "2.98.0",
+    "@8x8/oxygen-checkbox": "2.98.0",
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-label": "2.98.0",
+    "@8x8/oxygen-loaders": "2.98.0",
+    "@8x8/oxygen-radio": "2.98.0",
+    "@8x8/oxygen-tag": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "lodash.noop": "3.0.1",
+    "polished": "4.2.2",
+    "prop-types": "15.8.1",
+    "react-select": "5.8.0",
+    "react-window": "1.8.8"
+  },
+  "devDependencies": {
+    "@types/react-window": "1.8.8"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "react-dom": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

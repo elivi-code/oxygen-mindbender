@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tab> renders the Tab 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #1C2025;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0376DA;
+  border-color: transparent;
+  background: transparent;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+.c1 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+<div>
+  <button
+    aria-selected="false"
+    class="c0"
+    color="light"
+    data-id="TABS_TAB"
+    data-test-id="TABS_TAB"
+    role="tab"
+    type="button"
+  >
+    <span
+      class="c1"
+    >
+      Tab 1
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<Tab> renders the tab when isActive 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #0376DA;
+  border-color: #0376DA;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: #0376DA;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+.c1 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+<button
+  aria-selected="true"
+  class="c0"
+  color="light"
+  data-id="TABS_TAB"
+  data-test-id="TABS_TAB"
+  role="tab"
+  type="button"
+>
+  <span
+    class="c1"
+  >
+    Tab 1
+  </span>
+</button>
+`;
+
+exports[`<Tab> renders the tab when isDisabled 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: not-allowed;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #A4B8D1;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+.c1 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+<button
+  aria-selected="false"
+  class="c0"
+  color="light"
+  data-id="TABS_TAB"
+  data-test-id="TABS_TAB"
+  disabled=""
+  role="tab"
+  type="button"
+>
+  <span
+    class="c1"
+  >
+    Tab 1
+  </span>
+</button>
+`;

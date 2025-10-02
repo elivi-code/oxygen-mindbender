@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner> should render correctly 1`] = `
+.c0 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+<svg
+  className="c0"
+  data-id="SPINNER"
+  data-test-id="SPINNER"
+  fill="none"
+  height="40px"
+  preserveAspectRatio="xMidYMid"
+  role="img"
+  viewBox="0 0 20 20"
+  width="40px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx={10}
+    cy={10}
+    fill="none"
+    r={8.333333333333334}
+    stroke="#F0F3F7"
+    strokeWidth={1.6666666666666667}
+  />
+  <circle
+    cx={10}
+    cy={10}
+    fill="none"
+    r={8.333333333333334}
+    stroke="#0376DA"
+    strokeDasharray={43.45869837465881}
+    strokeLinecap="round"
+    strokeWidth={1.6666666666666667}
+  />
+</svg>
+`;
+
+exports[`<Spinner> should render correctly when Spinner has custom size 1`] = `
+.c0 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+<svg
+  className="c0"
+  data-id="SPINNER"
+  data-test-id="SPINNER"
+  fill="none"
+  height="123px"
+  preserveAspectRatio="xMidYMid"
+  role="img"
+  viewBox="0 0 61 61"
+  width="123px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx={30}
+    cy={30}
+    fill="none"
+    r={24.875}
+    stroke="#F0F3F7"
+    strokeWidth={5.125}
+  />
+  <circle
+    cx={30}
+    cy={30}
+    fill="none"
+    r={24.875}
+    stroke="#0376DA"
+    strokeDasharray={129.72421464835654}
+    strokeLinecap="round"
+    strokeWidth={5.125}
+  />
+</svg>
+`;
+
+exports[`<Spinner> should render correctly when Spinner has custom stroke width 1`] = `
+.c0 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+<svg
+  className="c0"
+  data-id="SPINNER"
+  data-test-id="SPINNER"
+  fill="none"
+  height="40px"
+  preserveAspectRatio="xMidYMid"
+  role="img"
+  viewBox="0 0 20 20"
+  width="40px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx={10}
+    cy={10}
+    fill="none"
+    r={9}
+    stroke="#F0F3F7"
+    strokeWidth={1}
+  />
+  <circle
+    cx={10}
+    cy={10}
+    fill="none"
+    r={9}
+    stroke="#0376DA"
+    strokeDasharray={46.93539424463151}
+    strokeLinecap="round"
+    strokeWidth={1}
+  />
+</svg>
+`;
+
+exports[`<Spinner> should render correctly when Spinner is large2x 1`] = `
+.c0 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+<svg
+  className="c0"
+  data-id="SPINNER"
+  data-test-id="SPINNER"
+  fill="none"
+  height="72px"
+  preserveAspectRatio="xMidYMid"
+  role="img"
+  viewBox="0 0 36 36"
+  width="72px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx={18}
+    cy={18}
+    fill="none"
+    r={15}
+    stroke="#F0F3F7"
+    strokeWidth={3}
+  />
+  <circle
+    cx={18}
+    cy={18}
+    fill="none"
+    r={15}
+    stroke="#0376DA"
+    strokeDasharray={78.22565707438584}
+    strokeLinecap="round"
+    strokeWidth={3}
+  />
+</svg>
+`;
+
+exports[`<Spinner> should render correctly when Spinner is small 1`] = `
+.c0 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+<svg
+  className="c0"
+  data-id="SPINNER"
+  data-test-id="SPINNER"
+  fill="none"
+  height="24px"
+  preserveAspectRatio="xMidYMid"
+  role="img"
+  viewBox="0 0 12 12"
+  width="24px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx={6}
+    cy={6}
+    fill="none"
+    r={5}
+    stroke="#F0F3F7"
+    strokeWidth={1}
+  />
+  <circle
+    cx={6}
+    cy={6}
+    fill="none"
+    r={5}
+    stroke="#0376DA"
+    strokeDasharray={26.07521902479528}
+    strokeLinecap="round"
+    strokeWidth={1}
+  />
+</svg>
+`;

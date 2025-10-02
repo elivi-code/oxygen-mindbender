@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StrikethroughIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M7.5 7.062c0-2.6576 2.1544-4.812 4.812-4.812h.438c2.4853 0 4.5 2.0147 4.5 4.5v.2046a.75.75 0 0 1-1.5 0V6.75c0-1.6569-1.3431-3-3-3h-.438C10.4828 3.75 9 5.2328 9 7.062c0 1.5397.8862 2.942 2.2769 3.6028l1.2314.5852H20.25a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1 0-1.5h4.9405A5.4894 5.4894 0 0 1 7.5 7.062ZM14.682 14.25a3.9656 3.9656 0 0 1 1.068 2.7077c0 1.8183-1.474 3.2923-3.2923 3.2923H12c-1.6569 0-3-1.3431-3-3v-.2045a.75.75 0 0 0-.75-.75.75.75 0 0 0-.75.75v.2045c0 2.4853 2.0147 4.5 4.5 4.5h.4577c2.6467 0 4.7923-2.1456 4.7923-4.7923a5.4604 5.4604 0 0 0-.7177-2.7077H14.682Z"
+    />
+  </g>
+</svg>
+`;

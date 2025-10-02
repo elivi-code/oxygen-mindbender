@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowLeftDoubleIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <defs>
+      <path
+        d="m12 11.125 6.1707-5.3994A.5.5 0 0 1 19 6.1019V17.898a.5.5 0 0 1-.8293.3763L12 12.875v5.0231a.5.5 0 0 1-.8293.3763L4.43 12.3763a.5.5 0 0 1 0-.7526l6.7407-5.8981A.5.5 0 0 1 12 6.1019v5.0231Z"
+        id="arrow-left-double-a"
+      />
+    </defs>
+    <use
+      fillRule="evenodd"
+      xlinkHref="#arrow-left-double-a"
+    />
+  </g>
+</svg>
+`;

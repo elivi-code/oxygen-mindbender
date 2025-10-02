@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customStyles snapshots control should match snapshot 1`] = `
+{
+  ":hover": {
+    "background": "backgroundColorHover",
+    "borderColor": "borderColorHover",
+  },
+  "background": "backgroundColor",
+  "borderColor": "borderColor",
+  "borderWidth": "borderWidth",
+  "boxShadow": undefined,
+  "cursor": "pointer",
+  "customProp": "customValue",
+  "minHeight": "inputBoxSizeDefault",
+}
+`;
+
+exports[`customStyles snapshots dropdownIndicator should match snapshot 1`] = `
+{
+  "color": "dropdownIndicatorColor",
+  "customProp": "customValue",
+}
+`;
+
+exports[`customStyles snapshots groupHeading should match snapshot 1`] = `
+{
+  "borderBottom": "headingBorderSize headingBorderStyle headingBorderColor",
+  "color": "headingTextColor",
+  "customProp": "customValue",
+  "display": "block",
+  "fontFamily": "fontFamily",
+  "fontSize": "headingTextFontSize",
+  "fontWeight": "headingTextFontWeight",
+  "margin": "headingMargin",
+  "maxWidth": "100%",
+  "overflow": "hidden",
+  "padding": "headingPadding",
+  "textAlign": "initial",
+  "textOverflow": "ellipsis",
+  "textTransform": undefined,
+  "whiteSpace": "nowrap",
+  "wordWrap": "normal",
+}
+`;
+
+exports[`customStyles snapshots indicatorSeparator should match snapshot 1`] = `
+{
+  "customProp": "customValue",
+  "display": "none",
+}
+`;
+
+exports[`customStyles snapshots indicatorsContainer should match snapshot 1`] = `
+{
+  "alignSelf": "center",
+  "customProp": "customValue",
+  "padding": "6px indicatorsContainerPaddingHorizontal",
+}
+`;
+
+exports[`customStyles snapshots input should match snapshot 1`] = `
+{
+  "color": "inputColor",
+  "customProp": "customValue",
+}
+`;
+
+exports[`customStyles snapshots menu should match snapshot 1`] = `
+{
+  "background": "menuBackgroundColor",
+  "border": "menuBorderSize menuBorderStyle menuBorderColor",
+  "boxShadow": "menuBoxShadowSize menuBoxShadowColor",
+  "customProp": "customValue",
+  "marginTop": 0,
+  "zIndex": "menuZindex",
+}
+`;
+
+exports[`customStyles snapshots menuPortal should match snapshot 1`] = `
+{
+  "customProp": "customValue",
+  "zIndex": "menuZindex",
+}
+`;
+
+exports[`customStyles snapshots noOptionsMessage should match snapshot 1`] = `
+{
+  "color": "noOptionTextColor",
+  "customProp": "customValue",
+  "fontFamily": "fontFamily",
+  "fontSize": "noOptionTextFontSize",
+  "padding": "optionPaddingVertical optionPaddingHorizontal",
+}
+`;
+
+exports[`customStyles snapshots option should match snapshot 1`] = `
+{
+  ":active": {
+    "background": "optionActiveBackgroundColor",
+  },
+  "alignItems": "center",
+  "background": "transparent",
+  "color": "optionTextColor",
+  "cursor": "pointer",
+  "customProp": "customValue",
+  "display": "flex",
+  "fontFamily": "fontFamily",
+  "fontSize": "optionTextFontSize",
+  "opacity": undefined,
+  "padding": "optionPaddingVertical optionPaddingHorizontal",
+  "position": "relative",
+  "textAlign": "initial",
+}
+`;
+
+exports[`customStyles snapshots placeholder should match snapshot 1`] = `
+{
+  "color": "placeholderTextColor",
+  "customProp": "customValue",
+  "display": "inline-block",
+  "fontSize": "optionTextFontSize",
+  "maxWidth": "100%",
+  "overflow": "hidden",
+  "position": "relative",
+  "textOverflow": "ellipsis",
+  "top": 0,
+  "transform": "0",
+  "whiteSpace": "nowrap",
+  "wordWrap": "normal",
+}
+`;
+
+exports[`customStyles snapshots singleValue should match snapshot 1`] = `
+{
+  "color": "selectedOptionTextColor",
+  "customProp": "customValue",
+  "position": "relative",
+  "top": 0,
+  "transform": "0",
+}
+`;
+
+exports[`customStyles snapshots valueContainer should match snapshot 1`] = `
+{
+  "customProp": "customValue",
+  "display": "flex",
+  "flexWrap": "nowrap",
+  "maxWidth": "100%",
+  "overflow": "hidden",
+  "padding": "valueContainerPadding",
+  "textOverflow": "ellipsis",
+  "whiteSpace": "nowrap",
+  "wordWrap": "normal",
+}
+`;

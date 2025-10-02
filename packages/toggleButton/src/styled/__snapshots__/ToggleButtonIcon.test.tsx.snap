@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleButtonIcon/> should add a focus ring on the icon when isFocused is true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A4B8D1;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the checked state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #0376DA;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  -webkit-transform: translate(calc(32px - 14px - 2 * 4px));
+  -ms-transform: translate(calc(32px - 14px - 2 * 4px));
+  transform: translate(calc(32px - 14px - 2 * 4px));
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the disabled checked state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #0376DA;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  -webkit-transform: translate(calc(32px - 14px - 2 * 4px));
+  -ms-transform: translate(calc(32px - 14px - 2 * 4px));
+  transform: translate(calc(32px - 14px - 2 * 4px));
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the disabled indeterminate state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A4B8D1;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  -webkit-transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+  -ms-transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+  transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the disabled unchecked state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A4B8D1;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the indeterminate state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A4B8D1;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  -webkit-transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+  -ms-transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+  transform: translate(calc(32px / 2 - 14px / 2 - 4px));
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<ToggleButtonIcon/> should style correctly the toggle-button icon for the unchecked state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A4B8D1;
+  max-width: 32px;
+  min-width: 32px;
+  height: 20px;
+  border-radius: calc(20px / 2);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.c0::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #FFF;
+  visibility: visible;
+  border-radius: 100%;
+  margin-left: 4px;
+  cursor: inherit;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+<span
+  className="c0"
+/>
+`;

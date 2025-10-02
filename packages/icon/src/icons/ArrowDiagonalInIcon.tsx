@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M16.2703 9.0816h2.4896c.5302 0 .96.4294.96.9592 0 .5297-.4298.9592-.96.9592h-4.8c-.5301 0-.9599-.4295-.9599-.9592V5.2447c0-.5298.4298-.9592.9599-.9592.5302 0 .96.4294.96.9592v2.473l5.4412-5.4367c.3749-.3747.9828-.3747 1.3577 0a.9587.9587 0 0 1 0 1.3565l-5.4485 5.444ZM5 13c-.5523 0-1 .4477-1 1s.4477 1 1 1h2.5933l-5.6755 5.6755c-.3905.3905-.3905 1.0237 0 1.4142.3905.3905 1.0237.3905 1.4142 0L9 16.4217V19c0 .5523.4477 1 1 1 .5522 0 1-.4477 1-1v-5c0-.5523-.4478-1-1-1H5Z" clipRule="evenodd"/></g>, 'ArrowDiagonalInIcon');

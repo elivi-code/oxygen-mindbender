@@ -1,0 +1,5 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { d: "M12 3C9.335 3 6.9404 4.1578 5.2916 6H8.25a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 3 6.75v-4.5a.75.75 0 0 1 1.5 0v2.4016C6.4051 2.7076 9.0615 1.5 12 1.5c5.799 0 10.5 4.701 10.5 10.5S17.799 22.5 12 22.5 1.5 17.799 1.5 12A.75.75 0 0 1 3 12c0 4.9706 4.0294 9 9 9s9-4.0294 9-9-4.0294-9-9-9Z" }),
+    React.createElement("path", { d: "M12.75 6.75a.75.75 0 0 0-1.5 0V12c0 .1989.079.3897.2197.5303l3.75 3.75a.75.75 0 0 0 1.0606 0 .75.75 0 0 0 0-1.0606L12.75 11.6893V6.75Z" })), 'HistoryIcon');

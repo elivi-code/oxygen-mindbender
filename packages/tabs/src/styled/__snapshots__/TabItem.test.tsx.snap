@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabItem> in Classic should render correctly when is \`dark\` 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #A4B8D1;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #FFF;
+  border-color: transparent;
+  background: transparent;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  color="dark"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Classic should render correctly when is active 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #0376DA;
+  border-color: #0376DA;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: #0376DA;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  aria-selected={true}
+  className="c0"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Classic should render correctly when is disabled 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: not-allowed;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #A4B8D1;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Classic should render correctly when is stretched 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #1C2025;
+  border-color: transparent;
+  background: transparent;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0376DA;
+  border-color: transparent;
+  background: transparent;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Novo should render correctly when is active 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4px;
+  height: calc(52px - 4px);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 8px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #0056E0;
+  border-color: #0056E0;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: #0056E0;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: 2px solid #0056E0;
+  outline-offset: -2px;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  aria-selected={true}
+  className="c0"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Novo should render correctly when is disabled 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4px;
+  height: calc(52px - 4px);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 8px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: not-allowed;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #C2C2C2;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: 2px solid #0056E0;
+  outline-offset: -2px;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> in Novo should render correctly when is stretched 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4px;
+  height: calc(52px - 4px);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 8px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #666666;
+  border-color: transparent;
+  background: transparent;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover {
+  color: #292929;
+  border-color: #292929;
+  background: transparent;
+}
+
+.c0:hover::after {
+  background: #292929;
+}
+
+.c0:focus-visible {
+  color: #292929;
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: 2px solid #0056E0;
+  outline-offset: -2px;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`<TabItem> should render correctly 1`] = `
+.c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  position: relative;
+  display: inline-block;
+  height: calc(40px - undefined);
+  max-width: initial;
+  min-width: initial;
+  padding: 0 16px;
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: default;
+  -webkit-transition-property: border-color,color,background,box-shadow;
+  transition-property: border-color,color,background,box-shadow;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  color: #1C2025;
+  border-color: transparent;
+  background: transparent;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: auto;
+  overflow-x: clip;
+}
+
+.c0::after {
+  background: transparent;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0376DA;
+  border-color: transparent;
+  background: transparent;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  background: transparent;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: solid;
+  outline-offset: -;
+}
+
+.c0::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: background 150ms ease-in;
+  transition: background 150ms ease-in;
+  z-index: 2;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  type="button"
+/>
+`;

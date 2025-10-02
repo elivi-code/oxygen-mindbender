@@ -1,0 +1,4 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "M23 14c0-3.3137-2.6863-6-6-6-.4442 0-.8772.0483-1.2939.1399C14.9232 5.7367 12.6644 4 10 4 7.1232 4 4.7193 6.0246 4.1354 8.7267 2.2676 9.7435 1 11.7237 1 14c0 3.3137 2.6863 6 6 6h10c3.3137 0 6-2.6863 6-6Zm-8.6343-3.5178 1.7697-.389A4.026 4.026 0 0 1 17 10c2.2091 0 4 1.7909 4 4 0 2.2091-1.7909 4-4 4H7c-2.2091 0-4-1.7909-4-4 0-1.4824.812-2.8201 2.0916-3.5167l.805-.4383.1937-.8959C6.4843 7.3254 8.1076 6 10 6c1.7447 0 3.2728 1.1275 3.8044 2.7594l.5613 1.7228ZM6 12h2v4H6v-4Zm5-3H9v7h2V9Zm1 3h2v4h-2v-4Zm5 2h-2v2h2v-2Z", clipRule: "evenodd" })), 'CloudBarsIcon');

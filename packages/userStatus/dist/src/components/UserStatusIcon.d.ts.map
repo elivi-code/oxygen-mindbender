@@ -1,0 +1,1 @@
+{"version":3,"file":"UserStatusIcon.d.ts","sourceRoot":"","sources":["../../../src/components/UserStatusIcon.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,OAAO,EAAE,MAAM,EAAE,MAAM,qBAAqB,CAAC;AA0C7C,UAAU,KAAK;IACb,MAAM,EAAE,MAAM,CAAC;CAChB;AAED,wBAAgB,cAAc,CAAC,EAAE,MAAM,EAAE,EAAE,KAAK,4BAI/C;AAED,eAAe,cAAc,CAAC"}

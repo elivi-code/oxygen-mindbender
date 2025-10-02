@@ -1,0 +1,32 @@
+declare const typography: {
+    fontFamilyPrimary: string;
+    fontFamilySecondary: string;
+    fontSize4xs: string;
+    fontSize3xs: string;
+    fontSize2xs: string;
+    fontSizeXs: string;
+    fontSizeSm: string;
+    fontSizeMd: string;
+    fontSizeLg: string;
+    fontSizeXl: string;
+    fontSize2xl: string;
+    fontSize3xl: string;
+    fontSize4xl: string;
+    fontSize5xl: string;
+    fontWeightThin: number;
+    fontWeightLight: number;
+    fontWeightRegular: number;
+    fontWeightMedium: number;
+    fontWeightSemiBold: number;
+    fontWeightBold: number;
+    fontWeightBlack: number;
+    lineHeightXs: string;
+    lineHeightSm: string;
+    lineHeightMd: string;
+    lineHeightLg: string;
+    lineHeightXl: string;
+    lineHeight2xl: string;
+    lineHeight3xl: string;
+};
+export default typography;
+//# sourceMappingURL=typography.d.ts.map

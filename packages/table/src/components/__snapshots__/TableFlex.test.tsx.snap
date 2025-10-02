@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableFlex> should render correctly 1`] = `
+<TableFlex
+  forwardedRef={null}
+  zebra={false}
+>
+  <span>
+    table
+  </span>
+</TableFlex>
+`;

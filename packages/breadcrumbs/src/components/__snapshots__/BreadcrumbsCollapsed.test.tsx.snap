@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadcrumbsCollapsed> should render correctly 1`] = `
+<BreadcrumbsListItem>
+  <BreadcrumbContent>
+    <TextLink
+      onClick={[Function]}
+      size="inherit"
+      title="Show links"
+    >
+      ...
+    </TextLink>
+    <BreadcrumbsSeparator
+      role="separator"
+    >
+      /
+    </BreadcrumbsSeparator>
+  </BreadcrumbContent>
+</BreadcrumbsListItem>
+`;

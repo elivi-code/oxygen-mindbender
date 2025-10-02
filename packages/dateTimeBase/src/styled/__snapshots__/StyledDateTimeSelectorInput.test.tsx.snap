@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputContainer> should style correctly by default 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when input is closed 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when input is disabled 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #F0F3F7;
+  color: #A4B8D1;
+  pointer-events: none;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when input is not disabled 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when input is open 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #0376DA;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when size is large 1`] = `
+.c0 {
+  position: relative;
+  padding: 7px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 40px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`<InputContainer> should style correctly when size is small 1`] = `
+.c0 {
+  position: relative;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  width: 380px;
+  min-height: 32px;
+  background: #FFF;
+  color: #1C2025;
+  cursor: pointer;
+  -webkit-transition: border-color 150ms ease-in-out,background 150ms linear;
+  transition: border-color 150ms ease-in-out,background 150ms linear;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;
+
+exports[`<InputIcon> should style correctly by default 1`] = `
+.c0 {
+  color: #5E6D7A;
+  cursor: pointer;
+  min-width: 24px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<InputIcon> should style correctly when not reversed 1`] = `
+.c0 {
+  color: #5E6D7A;
+  cursor: pointer;
+  min-width: 24px;
+}
+
+<span
+  className="c0"
+  reversed={false}
+/>
+`;
+
+exports[`<InputIcon> should style correctly when reversed 1`] = `
+.c0 {
+  color: #5E6D7A;
+  cursor: pointer;
+  min-width: 24px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+}
+
+<span
+  className="c0"
+  reversed={true}
+/>
+`;
+
+exports[`<InputTitle> default styles 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<InputTitle> should change color when isPlaceholder is true 1`] = `
+.c0 {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;

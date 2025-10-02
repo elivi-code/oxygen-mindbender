@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table> should render correctly 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-variant-numeric: unset;
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Table> should render correctly with zebra stripes 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-variant-numeric: unset;
+}
+
+<table
+  className="c0"
+/>
+`;

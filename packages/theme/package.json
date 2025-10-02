@@ -1,0 +1,24 @@
+{
+  "name": "@8x8/oxygen-theme",
+  "version": "2.98.0",
+  "description": "Oxygen - Theme",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/theme",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "scripts": {
+    "generateJSON": "tsx scripts/generateJSON.ts"
+  },
+  "dependencies": {
+    "polished": "4.2.2"
+  }
+}

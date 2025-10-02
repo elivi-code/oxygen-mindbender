@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNavigation should render component correctly 1`] = `
+.c3 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #C2C2C2;
+}
+
+.c4 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.c0 div[class*='-container'] {
+  min-width: 5.8125rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+}
+
+.c1 {
+  gap: 24px;
+  color: #292929;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+}
+
+<div
+  className="c0 c1"
+>
+  <TextLink
+    className="c2"
+    color="inherit"
+    data-id="PAGINATION_PREVIOUS_PAGE_BUTTON"
+    data-test-id="PAGINATION_PREVIOUS_PAGE_BUTTON"
+    isDisabled={true}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    test-id="PAGINATION_PREVIOUS_PAGE_BUTTON"
+  >
+    <svg
+      aria-hidden="true"
+      className="c3"
+      color="#C2C2C2"
+      disabled={false}
+      role="presentation"
+      selected={false}
+      size={null}
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          d="M7.2803 8.0303a.75.75 0 0 0-1.0606-1.0606l-4.5 4.5a.75.75 0 0 0 0 1.0606l4.5 4.5a.75.75 0 0 0 1.0606-1.0606L4.0607 12.75h17.7429c.3846 0 .6964-.3358.6964-.75s-.3118-.75-.6964-.75H4.0606l3.2197-3.2197Z"
+        />
+      </g>
+    </svg>
+    Prev
+  </TextLink>
+  <div
+    className="c0"
+  >
+    <Select
+      aria-label="1 of 50 pages"
+      isClearable={false}
+      isDisabled={false}
+      menuPlacement="top"
+      onChange={[Function]}
+      options={
+        [
+          {
+            "label": "1",
+            "value": 1,
+          },
+          {
+            "label": "2",
+            "value": 2,
+          },
+          {
+            "label": "3",
+            "value": 3,
+          },
+          {
+            "label": "4",
+            "value": 4,
+          },
+          {
+            "label": "5",
+            "value": 5,
+          },
+          {
+            "label": "6",
+            "value": 6,
+          },
+          {
+            "label": "7",
+            "value": 7,
+          },
+          {
+            "label": "8",
+            "value": 8,
+          },
+          {
+            "label": "9",
+            "value": 9,
+          },
+          {
+            "label": "10",
+            "value": 10,
+          },
+        ]
+      }
+      size="default"
+      testId="PAGINATION_CURRENT_PAGE_SELECTOR"
+      value={
+        {
+          "label": "1",
+          "value": 1,
+        }
+      }
+    />
+    <span>
+      of 50 pages
+    </span>
+  </div>
+  <TextLink
+    className="c2"
+    color="inherit"
+    data-id="PAGINATION_NEXT_PAGE_BUTTON"
+    data-test-id="PAGINATION_NEXT_PAGE_BUTTON"
+    isDisabled={false}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    test-id="PAGINATION_NEXT_PAGE_BUTTON"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      className="c4"
+      color="#292929"
+      disabled={false}
+      role="presentation"
+      selected={false}
+      size={null}
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          d="M16.7197 15.9697a.75.75 0 0 0 0 1.0606.75.75 0 0 0 1.0606 0l4.5-4.5a.75.75 0 0 0 0-1.0606l-4.5-4.5a.75.75 0 0 0-1.0606 1.0607l3.2196 3.2196H2.1964c-.3846 0-.6964.3358-.6964.75s.3118.75.6964.75h17.7429l-3.2196 3.2197Z"
+        />
+      </g>
+    </svg>
+  </TextLink>
+</div>
+`;

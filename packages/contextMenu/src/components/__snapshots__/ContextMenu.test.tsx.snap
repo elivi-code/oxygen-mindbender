@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContextMenu> should render correctly 1`] = `
+<Manager>
+  <Popper
+    placement="bottom-start"
+    positionFixed={true}
+    referenceElement={
+      VirtualReference {
+        "clientRect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        },
+      }
+    }
+  >
+    <Component />
+  </Popper>
+</Manager>
+`;

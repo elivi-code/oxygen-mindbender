@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopoverMenuComponents renders EmptyState correctly 1`] = `
+.c2 {
+  -webkit-animation: fvtopB 900ms linear infinite;
+  animation: fvtopB 900ms linear infinite;
+}
+
+.c0 {
+  padding: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  margin-bottom: 11px;
+}
+
+.c3 {
+  color: #292929;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  text-align: center;
+  margin: 0 0 2px;
+}
+
+.c4 {
+  color: #666666;
+  font-family: Inter,sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  text-align: center;
+  margin: 0 0 2px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        aria-label="Loading"
+        class="c2"
+        color="#858585"
+        data-id="SPINNER"
+        data-test-id="SPINNER"
+        fill="none"
+        height="32px"
+        preserveAspectRatio="xMidYMid"
+        role="img"
+        viewBox="0 0 16 16"
+        width="32px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="none"
+          r="6.666666666666667"
+          stroke="none"
+          stroke-width="1.3333333333333333"
+        />
+        <circle
+          cx="8"
+          cy="8"
+          fill="none"
+          r="6.666666666666667"
+          stroke="#0056E0"
+          stroke-dasharray="34.76695869972704"
+          stroke-linecap="round"
+          stroke-width="1.3333333333333333"
+        />
+      </svg>
+    </div>
+    <p
+      class="c3"
+    >
+      No results found
+    </p>
+    <p
+      class="c4"
+    >
+      Try a different search item
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PopoverMenuComponents renders SectionHeader with isBold correctly 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  color: #292929;
+  padding: 8px 12px;
+  margin: 0;
+}
+
+<div>
+  <h3
+    class="c0"
+    role="none"
+  />
+</div>
+`;
+
+exports[`PopoverMenuComponents renders correctly 1`] = `
+.c0 {
+  font-family: Inter,sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  color: #666666;
+  padding: 8px 12px;
+  margin: 0;
+}
+
+.c1 {
+  border: none;
+  border-top: 1px solid #E0E0E0;
+  padding: 0;
+  margin: 4px 0;
+}
+
+.c2 {
+  padding: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div>
+  <h3
+    class="c0"
+    role="none"
+  />
+  <hr
+    class="c1"
+  />
+  <div
+    class="c2"
+  />
+</div>
+`;

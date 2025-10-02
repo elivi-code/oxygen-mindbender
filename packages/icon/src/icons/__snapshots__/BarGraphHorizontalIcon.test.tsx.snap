@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarGraphHorizontalIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M4 5c0-.5523.4477-1 1-1h2c.5523 0 1 .4477 1 1v2c0 .5523-.4477 1-1 1H5c-.5523 0-1-.4477-1-1V5Zm0 6c0-.5523.4477-1 1-1h8c.5523 0 1 .4477 1 1v2c0 .5523-.4477 1-1 1H5c-.5523 0-1-.4477-1-1v-2Zm1 5c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h14c.5523 0 1-.4477 1-1v-2c0-.5523-.4477-1-1-1H5Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

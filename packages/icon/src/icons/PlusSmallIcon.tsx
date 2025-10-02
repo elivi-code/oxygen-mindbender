@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M12 6c-.5523 0-1 .4477-1 1v4H7c-.5523 0-1 .4477-1 1s.4477 1 1 1h4v4c0 .5523.4477 1 1 1s1-.4477 1-1v-4h4c.5523 0 1-.4477 1-1s-.4477-1-1-1h-4V7c0-.5523-.4477-1-1-1Z" clipRule="evenodd"/></g>, 'PlusSmallIcon');

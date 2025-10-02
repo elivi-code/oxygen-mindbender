@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrashIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M9 9.75a.75.75 0 0 1 1.5 0v7.5a.75.75 0 0 1-1.5 0v-7.5ZM14.25 9a.75.75 0 0 0-.75.75v7.5a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M15.75 4.5c0-1.6568-1.3431-3-3-3h-1.5c-1.6569 0-3 1.3432-3 3h-4.5a.75.75 0 0 0 0 1.5h.75v13.5c0 1.6569 1.3431 3 3 3h9c1.6569 0 3-1.3431 3-3V6h.75a.75.75 0 0 0 0-1.5h-4.5Zm-3-1.5h-1.5c-.8284 0-1.5.6716-1.5 1.5h4.5c0-.8284-.6716-1.5-1.5-1.5ZM18 6H6v13.5c0 .8284.6716 1.5 1.5 1.5h9c.8284 0 1.5-.6716 1.5-1.5V6Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,150 @@
+import themes from '@8x8/oxygen-theme';
+
+import color from '../choices/color.const';
+import font from '../choices/font.const';
+import timing from '../choices/timing.const';
+import spacing from '../choices/spacing.const';
+
+const { light, dark, neoLight, neoDark } = themes;
+
+export interface TextareaTheme {
+  textareaFontFamily: string;
+  textareaFontSize: string;
+  textareaFontStyle: string;
+  textareaFontWeight: string | number;
+  textareaLetterSpacing: string;
+  textareaLineHeight: string;
+  textareaWidth: string;
+  textareaColor: string;
+  textareaColorReadOnly: string;
+  textareaColorDisabled: string;
+  textareaPlaceholderColor: string;
+  textareaBackgroundColor: string;
+  textareaBackgroundColorDisabled: string;
+  textareaBackgroundColorReadOnly: string;
+  textareaBorderColor: string;
+  textareaBorderColorReadOnly: string;
+  textareaBorderColorDisabled: string;
+  textareaBorderColorFocus: string;
+  textareaBorderColorError: string;
+  textareaBorderRadius: string | number;
+  textareaBorderRadiusReadOnly: string | number;
+  borderWidth: string;
+  borderWidthReadOnly: string;
+  textareaPadding: string;
+  textareaPaddingReadOnly: string;
+  textareaTransitionTiming: string;
+}
+
+const textarea: TextareaTheme = {
+  textareaFontFamily: font.family,
+  textareaFontSize: font.sizeSm,
+  textareaFontStyle: 'normal',
+  textareaFontWeight: font.weightDefault,
+  textareaLetterSpacing: 'normal',
+  textareaLineHeight: font.lineHeightSm,
+  textareaWidth: '100%',
+  textareaColor: color.pickledBluewood800,
+  textareaColorReadOnly: color.steel700,
+  textareaColorDisabled: color.cloudyBlue,
+  textareaPlaceholderColor: color.cloudyBlue,
+  textareaBackgroundColor: color.white,
+  textareaBackgroundColorDisabled: color.cloudyBlue100,
+  textareaBackgroundColorReadOnly: color.white,
+  textareaBorderColor: color.cloudyBlue300,
+  textareaBorderColorReadOnly: color.cloudyBlue300,
+  textareaBorderColorDisabled: color.cloudyBlue300,
+  textareaBorderColorFocus: color.dodgerBlue,
+  textareaBorderColorError: color.coral,
+  textareaBorderRadius: 0,
+  textareaBorderRadiusReadOnly: 0,
+  borderWidth: '1px',
+  borderWidthReadOnly: '1px',
+  textareaPadding: spacing.xs,
+  textareaPaddingReadOnly: spacing.xs,
+  textareaTransitionTiming: timing.fast,
+};
+
+const textareaNovo: TextareaTheme = {
+  textareaFontFamily: light.body01.fontFamily,
+  textareaFontSize: light.body01.fontSize,
+  textareaFontStyle: 'normal',
+  textareaFontWeight: light.body01.fontWeight,
+  textareaLetterSpacing: light.body01.letterSpacing,
+  textareaLineHeight: light.body01.lineHeight,
+  textareaWidth: '100%',
+  textareaColor: light.textColor01,
+  textareaColorReadOnly: light.textColor01,
+  textareaColorDisabled: light.disabled02,
+  textareaPlaceholderColor: light.textColor02,
+  textareaBackgroundColor: light.ui05,
+  textareaBackgroundColorDisabled: light.ui05,
+  textareaBackgroundColorReadOnly: light.ui06,
+  textareaBorderColor: light.ui05,
+  textareaBorderColorReadOnly: 'transparent',
+  textareaBorderColorDisabled: light.ui05,
+  textareaBorderColorFocus: light.focus01,
+  textareaBorderColorError: light.action03,
+  borderWidth: '2px',
+  borderWidthReadOnly: '2px',
+  textareaBorderRadius: '6px',
+  textareaBorderRadiusReadOnly: '6px',
+  textareaPadding: '6px 14px',
+  textareaPaddingReadOnly: '6px 0',
+  textareaTransitionTiming: '150ms',
+};
+
+const textareaNovoDark: TextareaTheme = {
+  ...textareaNovo,
+  textareaColor: dark.textColor01,
+  textareaColorReadOnly: dark.textColor01,
+  textareaColorDisabled: dark.disabled02,
+  textareaPlaceholderColor: dark.textColor02,
+  textareaBackgroundColor: dark.ui05,
+  textareaBackgroundColorDisabled: dark.ui05,
+  textareaBackgroundColorReadOnly: dark.ui06,
+  textareaBorderColor: dark.ui05,
+  textareaBorderColorReadOnly: dark.ui01,
+  textareaBorderColorDisabled: dark.ui05,
+  textareaBorderColorFocus: dark.focus01,
+  textareaBorderColorError: dark.action03,
+};
+
+const textareaNeoLight: TextareaTheme = {
+  ...textareaNovo,
+  textareaColor: neoLight.textColor01,
+  textareaColorReadOnly: neoLight.textColor01,
+  textareaColorDisabled: neoLight.disabled02,
+  textareaPlaceholderColor: neoLight.textColor02,
+  textareaBackgroundColor: neoLight.ui05,
+  textareaBackgroundColorDisabled: neoLight.ui05,
+  textareaBackgroundColorReadOnly: neoLight.ui06,
+  textareaBorderColor: neoLight.ui05,
+  textareaBorderColorDisabled: neoLight.ui05,
+  textareaBorderColorFocus: neoLight.focus01,
+  textareaBorderColorError: neoLight.action03,
+};
+
+const textareaNeoDark: TextareaTheme = {
+  ...textareaNovoDark,
+  textareaColor: neoDark.textColor01,
+  textareaColorReadOnly: neoDark.textColor01,
+  textareaColorDisabled: neoDark.disabled02,
+  textareaPlaceholderColor: neoDark.textColor02,
+  textareaBackgroundColor: neoDark.ui05,
+  textareaBackgroundColorDisabled: neoDark.ui05,
+  textareaBackgroundColorReadOnly: neoDark.ui06,
+  textareaBorderColor: neoDark.ui05,
+  textareaBorderColorReadOnly: neoDark.ui01,
+  textareaBorderColorDisabled: neoDark.ui05,
+  textareaBorderColorFocus: neoDark.focus01,
+  textareaBorderColorError: neoDark.action03,
+};
+
+export {
+  textarea,
+  textareaNovo,
+  textareaNovoDark,
+  textareaNeoLight,
+  textareaNeoDark,
+};

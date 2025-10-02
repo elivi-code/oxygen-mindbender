@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InboxTrayIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M6.9697 9.2197a.75.75 0 0 1 1.0606 0l3.2197 3.2196V2.1964c0-.3846.3358-.6964.75-.6964s.75.3118.75.6964v10.2429l3.2197-3.2196a.75.75 0 1 1 1.0606 1.0606l-4.5 4.5a.75.75 0 0 1-1.0606 0l-4.5-4.5a.75.75 0 0 1 0-1.0606Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M5.25 15C4.0074 15 3 16.0074 3 17.25v3c0 1.2426 1.0074 2.25 2.25 2.25h13.5c1.2426 0 2.25-1.0074 2.25-2.25v-3c0-1.2426-1.0074-2.25-2.25-2.25h-3a.7499.7499 0 0 0-.6708.4146l-.6708 1.3416A2.2501 2.2501 0 0 1 12.3959 18h-1.5418a2.25 2.25 0 0 1-2.0125-1.2438l-.6708-1.3416A.75.75 0 0 0 7.5 15H5.25Zm-.75 2.25a.75.75 0 0 1 .75-.75h1.7865l.4635.9271A3.75 3.75 0 0 0 10.8541 19.5h1.5418a3.75 3.75 0 0 0 3.3541-2.0729l.4635-.9271H18.75a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75H5.25a.75.75 0 0 1-.75-.75v-3Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

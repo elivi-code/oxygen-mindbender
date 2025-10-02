@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> renders correctly the select 1`] = `
+<Component
+  theme={
+    {
+      "avatarPaddingRight": "8px",
+      "backgroundColor": "#FFF",
+      "backgroundColorDisabled": "#F0F3F7",
+      "backgroundColorHover": "#FFF",
+      "baseUnit": 0,
+      "borderColor": "#D1DBE8",
+      "borderColorDisabled": "#D1DBE8",
+      "borderColorError": "#E12D2D",
+      "borderColorFocus": "#0376DA",
+      "borderColorHover": "#D1DBE8",
+      "borderRadius": 0,
+      "borderWidth": "1px",
+      "checkboxPaddingRight": "8px",
+      "clearIconColor": "#A4B8D1",
+      "clearIconFocusedColor": "#5E6D7A",
+      "clearIconFocusedHoverColor": "#2A3A4B",
+      "clearIconHoverColor": "#5E6D7A",
+      "controlFocusBoxShadow": "none",
+      "dropdownIndicatorColor": "#5E6D7A",
+      "dropdownIndicatorColorDisabled": "#5E6D7A",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "headingBorderColor": "#D1DBE8",
+      "headingBorderSize": "1px",
+      "headingBorderStyle": "solid",
+      "headingMargin": 0,
+      "headingPadding": "8px",
+      "headingTextColor": "#2A3A4B",
+      "headingTextFontSize": "15px",
+      "headingTextFontWeight": 600,
+      "iconHeight": "24px",
+      "iconMargin": 0,
+      "iconPaddingRight": "8px",
+      "iconSize": 24,
+      "indicatorsContainerPaddingHorizontal": "8px",
+      "inputBoxSizeDefault": "40px",
+      "inputBoxSizeLarge": "48px",
+      "inputBoxSizeSmall": "32px",
+      "inputColor": "#2A3A4B",
+      "labelFontWeight": 600,
+      "lineHeight": "24px",
+      "marginTop": "4px",
+      "menuBackgroundColor": "#FFF",
+      "menuBorderColor": "#D1DBE8",
+      "menuBorderSize": "1px",
+      "menuBorderStyle": "solid",
+      "menuBoxShadowColor": "rgba(28,32,37,0.1)",
+      "menuBoxShadowSize": "0 2px 2px 0",
+      "menuGutter": 1,
+      "menuZindex": 1000,
+      "multiValueChipPaddingVerticalDefault": "6px",
+      "multiValueChipPaddingVerticalLarge": "8px",
+      "multiValueChipPaddingVerticalSmall": "2px",
+      "noOptionTextColor": "#A4B8D1",
+      "noOptionTextFontSize": "15px",
+      "optionActiveBackgroundColor": "#D1DBE8",
+      "optionHoveredBackgroundColor": "#F0F3F7",
+      "optionIconColor": "#2A3A4B",
+      "optionPaddingHorizontal": "8px",
+      "optionPaddingVertical": "4px",
+      "optionSelectedBackground": "color",
+      "optionTextColor": "#2A3A4B",
+      "optionTextFontSize": "15px",
+      "optionTextFontWeightSelected": 600,
+      "optionTextSelectedColor": "#0376DA",
+      "placeholderIconColor": "#A4B8D1",
+      "placeholderTextColor": "#A4B8D1",
+      "placeholderTextColorDisabled": "#A4B8D1",
+      "selectedOptionTextColor": "#5E6D7A",
+      "selectedOptionTextColorDisabled": "#A4B8D1",
+      "shortMultiDisplayPadding": "4px",
+      "valueContainerPadding": "0 8px",
+    }
+  }
+>
+  <SelectContainer
+    aria-hidden={false}
+    data-id="SELECT_CONTAINER"
+    data-test-id="SELECT_CONTAINER"
+    hasLabel={false}
+    isDisabled={false}
+    test-id="SELECT_CONTAINER"
+  >
+    <ReactSelect
+      aria-label="Select..."
+      clearIconAriaLabel="Select..."
+      closeMenuOnSelect={true}
+      components={
+        {
+          "ClearIndicator": undefined,
+          "DropdownIndicator": "DropdownIndicator",
+          "Input": [Function],
+          "LoadingIndicator": undefined,
+          "MultiValue": [Function],
+          "Option": undefined,
+          "SingleValue": [Function],
+          "ValueContainer": undefined,
+        }
+      }
+      hasCheckbox={false}
+      hasError={false}
+      hasIcons={false}
+      hasShortMultiDisplay={false}
+      hideSelectedOptions={false}
+      inputProps={{}}
+      isClearable={true}
+      isReadOnly={false}
+      loadingMessage={[Function]}
+      menuPlacement="auto"
+      multipleSelectMaxRows={1}
+      noOptionsMessage={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Select..."
+      size="default"
+      styles={
+        {
+          "control": [Function],
+          "dropdownIndicator": [Function],
+          "groupHeading": [Function],
+          "indicatorSeparator": [Function],
+          "indicatorsContainer": [Function],
+          "input": [Function],
+          "menu": [Function],
+          "menuPortal": [Function],
+          "noOptionsMessage": [Function],
+          "option": [Function],
+          "placeholder": [Function],
+          "singleValue": [Function],
+          "valueContainer": [Function],
+        }
+      }
+      testId="SELECT"
+      theme={[Function]}
+    />
+  </SelectContainer>
+</Component>
+`;
+
+exports[`<Select /> renders correctly the select when hasError 1`] = `
+<Component
+  theme={
+    {
+      "avatarPaddingRight": "8px",
+      "backgroundColor": "#FFF",
+      "backgroundColorDisabled": "#F0F3F7",
+      "backgroundColorHover": "#FFF",
+      "baseUnit": 0,
+      "borderColor": "#D1DBE8",
+      "borderColorDisabled": "#D1DBE8",
+      "borderColorError": "#E12D2D",
+      "borderColorFocus": "#0376DA",
+      "borderColorHover": "#D1DBE8",
+      "borderRadius": 0,
+      "borderWidth": "1px",
+      "checkboxPaddingRight": "8px",
+      "clearIconColor": "#A4B8D1",
+      "clearIconFocusedColor": "#5E6D7A",
+      "clearIconFocusedHoverColor": "#2A3A4B",
+      "clearIconHoverColor": "#5E6D7A",
+      "controlFocusBoxShadow": "none",
+      "dropdownIndicatorColor": "#5E6D7A",
+      "dropdownIndicatorColorDisabled": "#5E6D7A",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "headingBorderColor": "#D1DBE8",
+      "headingBorderSize": "1px",
+      "headingBorderStyle": "solid",
+      "headingMargin": 0,
+      "headingPadding": "8px",
+      "headingTextColor": "#2A3A4B",
+      "headingTextFontSize": "15px",
+      "headingTextFontWeight": 600,
+      "iconHeight": "24px",
+      "iconMargin": 0,
+      "iconPaddingRight": "8px",
+      "iconSize": 24,
+      "indicatorsContainerPaddingHorizontal": "8px",
+      "inputBoxSizeDefault": "40px",
+      "inputBoxSizeLarge": "48px",
+      "inputBoxSizeSmall": "32px",
+      "inputColor": "#2A3A4B",
+      "labelFontWeight": 600,
+      "lineHeight": "24px",
+      "marginTop": "4px",
+      "menuBackgroundColor": "#FFF",
+      "menuBorderColor": "#D1DBE8",
+      "menuBorderSize": "1px",
+      "menuBorderStyle": "solid",
+      "menuBoxShadowColor": "rgba(28,32,37,0.1)",
+      "menuBoxShadowSize": "0 2px 2px 0",
+      "menuGutter": 1,
+      "menuZindex": 1000,
+      "multiValueChipPaddingVerticalDefault": "6px",
+      "multiValueChipPaddingVerticalLarge": "8px",
+      "multiValueChipPaddingVerticalSmall": "2px",
+      "noOptionTextColor": "#A4B8D1",
+      "noOptionTextFontSize": "15px",
+      "optionActiveBackgroundColor": "#D1DBE8",
+      "optionHoveredBackgroundColor": "#F0F3F7",
+      "optionIconColor": "#2A3A4B",
+      "optionPaddingHorizontal": "8px",
+      "optionPaddingVertical": "4px",
+      "optionSelectedBackground": "color",
+      "optionTextColor": "#2A3A4B",
+      "optionTextFontSize": "15px",
+      "optionTextFontWeightSelected": 600,
+      "optionTextSelectedColor": "#0376DA",
+      "placeholderIconColor": "#A4B8D1",
+      "placeholderTextColor": "#A4B8D1",
+      "placeholderTextColorDisabled": "#A4B8D1",
+      "selectedOptionTextColor": "#5E6D7A",
+      "selectedOptionTextColorDisabled": "#A4B8D1",
+      "shortMultiDisplayPadding": "4px",
+      "valueContainerPadding": "0 8px",
+    }
+  }
+>
+  <SelectContainer
+    aria-hidden={false}
+    data-id="SELECT_CONTAINER"
+    data-test-id="SELECT_CONTAINER"
+    hasLabel={false}
+    isDisabled={false}
+    test-id="SELECT_CONTAINER"
+  >
+    <ReactSelect
+      aria-label="Select..."
+      clearIconAriaLabel="Select..."
+      closeMenuOnSelect={true}
+      components={
+        {
+          "ClearIndicator": undefined,
+          "DropdownIndicator": "DropdownIndicator",
+          "Input": [Function],
+          "LoadingIndicator": undefined,
+          "MultiValue": [Function],
+          "Option": undefined,
+          "SingleValue": [Function],
+          "ValueContainer": undefined,
+        }
+      }
+      hasCheckbox={false}
+      hasError={true}
+      hasIcons={false}
+      hasShortMultiDisplay={false}
+      hideSelectedOptions={false}
+      inputProps={{}}
+      isClearable={true}
+      isReadOnly={false}
+      loadingMessage={[Function]}
+      menuPlacement="auto"
+      multipleSelectMaxRows={1}
+      noOptionsMessage={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Select..."
+      size="default"
+      styles={
+        {
+          "control": [Function],
+          "dropdownIndicator": [Function],
+          "groupHeading": [Function],
+          "indicatorSeparator": [Function],
+          "indicatorsContainer": [Function],
+          "input": [Function],
+          "menu": [Function],
+          "menuPortal": [Function],
+          "noOptionsMessage": [Function],
+          "option": [Function],
+          "placeholder": [Function],
+          "singleValue": [Function],
+          "valueContainer": [Function],
+        }
+      }
+      testId="SELECT"
+      theme={[Function]}
+    />
+  </SelectContainer>
+</Component>
+`;

@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Label> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+<LabelWrapper
+  forwardedRef={null}
+>
+  <div
+    className="c0"
+  >
+    <Value
+      isDisabled={false}
+      isRequired={false}
+      shouldWrapText={false}
+      showTooltipOnOverflow={true}
+      testId="LABEL"
+      value="Label text"
+    />
+  </div>
+  
+</LabelWrapper>
+`;
+
+exports[`<Label> should render correctly info icon with infoBoxButtonLabel 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+<LabelWrapper
+  forwardedRef={null}
+>
+  <div
+    className="c0"
+  >
+    <Value
+      isDisabled={false}
+      isRequired={false}
+      shouldWrapText={false}
+      showTooltipOnOverflow={true}
+      testId="LABEL"
+      value="Label text"
+    />
+  </div>
+  
+</LabelWrapper>
+`;
+
+exports[`<Label> should render correctly info icon with infoBoxText 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+<LabelWrapper
+  forwardedRef={null}
+>
+  <div
+    className="c0"
+  >
+    <Value
+      isDisabled={false}
+      isRequired={false}
+      shouldWrapText={false}
+      showTooltipOnOverflow={true}
+      testId="LABEL"
+      value="Label text"
+    />
+    <Icon
+      infoBoxShowOn="hover"
+      infoBoxText="Test"
+      testId="LABEL"
+      theme={
+        {
+          "actionLinkPaddingHorizontal": "2px",
+          "actionLinkPaddingVertical": "4px",
+          "borderColorFocus": "#0376DA",
+          "borderSizeFocus": "2px",
+          "fontColor": "#1C2025",
+          "fontColorAction": "#0376DA",
+          "fontColorActionDisabled": "#6FB1EA",
+          "fontColorActionHover": "#6FB1EA",
+          "fontColorStarRequired": "#E12D2D",
+          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "fontSize": "15px",
+          "fontStretch": "normal",
+          "fontWeight": 400,
+          "height": "24px",
+          "iconColor": "#5E6D7A",
+          "iconSet": "classic",
+          "iconSize": 18,
+          "letterSpacing": "normal",
+          "lineHeight": "24px",
+        }
+      }
+    />
+  </div>
+  
+</LabelWrapper>
+`;
+
+exports[`<Label> should render correctly when expects to wrap 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+<LabelWrapper
+  forwardedRef={null}
+>
+  <div
+    className="c0"
+  >
+    <Value
+      isDisabled={false}
+      isRequired={false}
+      shouldWrapText={true}
+      showTooltipOnOverflow={true}
+      testId="LABEL"
+      value="Label text"
+    />
+  </div>
+  
+</LabelWrapper>
+`;
+
+exports[`<Label> should render correctly with action 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+<LabelWrapper
+  forwardedRef={null}
+>
+  <div
+    className="c0"
+  >
+    <Value
+      isDisabled={false}
+      isRequired={false}
+      shouldWrapText={false}
+      showTooltipOnOverflow={true}
+      testId="LABEL"
+      value="Label text"
+    />
+  </div>
+  <Action
+    action={[MockFunction]}
+    shouldWrapText={false}
+    testId="LABEL"
+  >
+    ActionText text
+  </Action>
+</LabelWrapper>
+`;

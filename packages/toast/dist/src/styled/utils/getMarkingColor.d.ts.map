@@ -1,0 +1,1 @@
+{"version":3,"file":"getMarkingColor.d.ts","sourceRoot":"","sources":["../../../../src/styled/utils/getMarkingColor.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAGpD,KAAK,oBAAoB,GAAG;IAC1B,IAAI,EAAE,SAAS,CAAC;IAChB,KAAK,EAAE,KAAK,CAAC;CACd,CAAC;AAEF,eAAO,MAAM,eAAe,oBAAqB,oBAAoB,WAmBpE,CAAC;AAEF,eAAO,MAAM,mBAAmB,oBAAqB,oBAAoB,WAmBxE,CAAC"}

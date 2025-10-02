@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M9 12c-2.7614 0-5-2.2386-5-5s2.2386-5 5-5 5 2.2386 5 5c0 1.019-.3049 1.967-.8284 2.7574L20 16.5858c.3111.3111.3744.7763.1897 1.15a.9954.9954 0 0 1-.24.3855l-2.8284 2.8284c-.3905.3906-1.0237.3906-1.4142 0-.3905-.3905-.3905-1.0236 0-1.4142l2.2071-2.2071-1.5858-1.5858-1.0858 1.0858c-.3905.3906-1.0236.3906-1.4142 0-.3905-.3905-.3905-1.0237 0-1.4142l1.0858-1.0858-3.1568-3.1568C10.967 11.6951 10.0191 12 9 12Zm0-2c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3431-3 3 1.3431 3 3 3Z" clipRule="evenodd"/></g>, 'KeyIcon');

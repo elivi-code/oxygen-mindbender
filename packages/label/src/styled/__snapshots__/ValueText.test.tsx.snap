@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValueText> should render correctly 1`] = `
+.c0 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: default;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`<ValueText> should render correctly the label text when expects to wrap 1`] = `
+.c0 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-wrap: anywhere;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`<ValueText> should render correctly when it is disabled 1`] = `
+.c0 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: not-allowed;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`<ValueText> should render correctly when it is required with classic theme 1`] = `
+.c0 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: default;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`<ValueText> should render correctly when it is required with novo theme 1`] = `
+.c0 {
+  font-style: normal;
+  text-align: left;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  outline: none;
+  color: #1C2025;
+  cursor: default;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+}
+
+<label
+  className="c0"
+/>
+`;

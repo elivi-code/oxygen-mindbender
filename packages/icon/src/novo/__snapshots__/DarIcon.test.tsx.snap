@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DarIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M18.5303 10.2803a.75.75 0 0 1-1.0606 0l-3.75-3.75a.75.75 0 0 1 0-1.0606l3.75-3.75a.75.75 0 0 1 1.0606 1.0607L16.0607 5.25H21.75a.75.75 0 0 1 0 1.5h-5.6893l2.4696 2.4697a.75.75 0 0 1 0 1.0606Z"
+    />
+    <path
+      clipRule="evenodd"
+      d="M11.25 9.75c0 2.0711-1.679 3.75-3.75 3.75-2.071 0-3.75-1.6789-3.75-3.75C3.75 7.679 5.429 6 7.5 6c2.071 0 3.75 1.679 3.75 3.75Zm-1.5 0C9.75 10.9926 8.7426 12 7.5 12s-2.25-1.0074-2.25-2.25S6.2574 7.5 7.5 7.5s2.25 1.0074 2.25 2.25ZM13.5 18.75c0 2.0711-2.6863 3.75-6 3.75s-6-1.6789-6-3.75S4.1863 15 7.5 15s6 1.6789 6 3.75Zm-1.5 0c0 .3317-.2193.859-1.0524 1.3797C10.1357 20.6371 8.9207 21 7.5 21s-2.6357-.3629-3.4476-.8703C3.2193 19.609 3 19.0817 3 18.75c0-.3317.2193-.859 1.0524-1.3797C4.8643 16.8629 6.0793 16.5 7.5 16.5s2.6357.3629 3.4476.8703C11.7807 17.891 12 18.4183 12 18.75Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

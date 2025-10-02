@@ -1,0 +1,57 @@
+import * as EXPORTS from '.';
+
+describe('constants', () => {
+  it.each([
+    ['alertBanner'],
+    ['avatar'],
+    ['avatarStack'],
+    ['badge'],
+    ['breadcrumbs'],
+    ['button'],
+    ['calendar'],
+    ['card'],
+    ['checkbox'],
+    ['checkboxGroup'],
+    ['contextMenu'],
+    ['dateTimeRangeSelector'],
+    ['dateTimeSelector'],
+    ['dropdownButton'],
+    ['eventCard'],
+    ['graphics'],
+    ['icon'],
+    ['iconButton'],
+    ['inlineNotification'],
+    ['input'],
+    ['label'],
+    ['list'],
+    ['loaders'],
+    ['milestoneTracker'],
+    ['modal'],
+    ['overlay'],
+    ['radio'],
+    ['radioGroup'],
+    ['select'],
+    ['slideOut'],
+    ['slider'],
+    ['staticTooltip'],
+    ['statistics'],
+    ['table'],
+    ['tabs'],
+    ['tag'],
+    ['textField'],
+    ['textLink'],
+    ['textarea'],
+    ['timeSelector'],
+    ['toast'],
+    ['toggleButton'],
+    ['toggleButtonGroup'],
+    ['typography'],
+    ['userStatus'],
+  ])('exports constants for %s', component => {
+    expect(EXPORTS[component]).toBeDefined();
+    expect(EXPORTS[`${component}Novo`]).toBeDefined();
+    expect(EXPORTS[`${component}NovoDark`]).toBeDefined();
+    expect(EXPORTS[`${component}NeoLight`]).toBeDefined();
+    expect(EXPORTS[`${component}NeoDark`]).toBeDefined();
+  });
+});

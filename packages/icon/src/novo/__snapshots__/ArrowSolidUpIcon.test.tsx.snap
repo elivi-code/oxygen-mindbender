@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowSolidUpIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M6.1577 16.5036 11.271 6.4133c.3519-.551 1.1065-.551 1.458 0l5.1133 10.0903c.4045.6336-.016 1.4964-.729 1.4964H6.8867c-.713 0-1.1335-.8633-.729-1.4964Z"
+    />
+  </g>
+</svg>
+`;

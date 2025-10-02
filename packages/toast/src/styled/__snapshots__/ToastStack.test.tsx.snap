@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToastStack> should render correctly 1`] = `
+<div
+  className=""
+  data-id="TOAST_STACK"
+  data-test-id="TOAST_STACK"
+/>
+`;

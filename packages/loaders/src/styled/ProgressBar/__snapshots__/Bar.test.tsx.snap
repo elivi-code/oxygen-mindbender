@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bar> should render correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  height: 8px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #D1DBE8;
+  background-color: #F0F3F7;
+  border-radius: 4px;
+}
+
+.c0::-webkit-progress-bar {
+  background-color: #F0F3F7;
+  border-radius: 4px;
+}
+
+.c0::-webkit-progress-value {
+  background: #0376DA;
+  border-radius: 4px;
+  -webkit-transition: 300ms width linear;
+  transition: 300ms width linear;
+}
+
+.c0::-moz-progress-bar {
+  background: #0376DA;
+  border-radius: 4px;
+  -webkit-transition: 300ms width linear;
+  transition: 300ms width linear;
+}
+
+<progress
+  className="c0"
+/>
+`;
+
+exports[`<Bar> should use a different color when at 100 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  height: 8px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #D1DBE8;
+  background-color: #F0F3F7;
+  border-radius: 4px;
+}
+
+.c0::-webkit-progress-bar {
+  background-color: #F0F3F7;
+  border-radius: 4px;
+}
+
+.c0::-webkit-progress-value {
+  background: #127440;
+  border-radius: 4px;
+  -webkit-transition: 300ms width linear;
+  transition: 300ms width linear;
+}
+
+.c0::-moz-progress-bar {
+  background: #127440;
+  border-radius: 4px;
+  -webkit-transition: 300ms width linear;
+  transition: 300ms width linear;
+}
+
+<progress
+  className="c0"
+  value={100}
+/>
+`;

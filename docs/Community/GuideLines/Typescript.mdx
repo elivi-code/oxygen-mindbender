@@ -1,0 +1,118 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Typescript" />
+
+# Typescript
+
+Oxygen is currently written in Javascript, but a migration to Typescript is on the way.
+
+**Important:** any new component should be written in Typescript.
+
+## Current migration status
+
+### Packages migrated to Typescript
+
+Packages migrated to Typescript:
+
+- `config`
+- `constants`
+- `utils`
+
+Packages migrated to Typescript have are built directly via `tsc` and need to referenced in the `package.json` build scripts as ignored from the regular js packages.
+Their `d.ts` files are automatically generated and published.
+
+**Important:** when a packages if migrated ensure that the build scripts are updated as well.
+
+The migration is done bottom to top, starting with the leaves. This is why generic packages used by all others were migrated first.
+
+### Packages still in Javascript
+
+Packages still in Javascript:
+
+- `avatar`
+- `badge`
+- `breadcrumbs`
+- `button`
+- `calendar`
+- `card`
+- `checkbox`
+- `contextMenu`
+- `dateTimeBase`
+- `dateTimeRangeSelector`
+- `dateTimeSelector`
+- `dropdownButton`
+- `eventCard`
+- `flyout`
+- `graphics`
+- `icon`
+- `input`
+- `label`
+- `list`
+- `loaders`
+- `milestoneTracker`
+- `modal`
+- `overlay`
+- `radio`
+- `select`
+- `slideOut`
+- `slider`
+- `staticTooltip`
+- `table`
+- `tabs`
+- `tag`
+- `textarea`
+- `textField`
+- `textLink`
+- `theme`
+- `timeSelector`
+- `toast`
+- `toaster`
+- `toggleButton`
+- `tooltip`
+- `typography`
+- `userStatus`
+
+Packages that are still in JS have a manually provided _typings_ file. See the next part for info on them.
+
+[TypeScript Declaration File](<(https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)>) (`file.d.ts`) tells the compiler about the libraries you load.
+TypeScript-aware editors leverage these same definition files to display type information about library features.
+
+#### What should contain d.ts file?
+
+<hr />
+
+All `props` should be defined in the `index.d.ts`, with a description of usage.
+Please think about it as a dedicated documentation for integrators, what would you expect from it?
+
+#### Example
+
+<hr />
+
+Let's give an example. We've got the `Button`, which is a function component, has two props, `isDisabled`
+and `size`. The `isDisabled` props is a boolean and `size` is a string which accept three values, `small`, `medium` and `big`.
+
+```js
+export const Button = () => {};
+
+Button.propTypes = {
+  isDisabled: PropTypes.bool.isRequired,
+  size: PropTypes.oneOf(['small', 'medium', 'big']),
+};
+```
+
+Below is an example of writing typings for the `Button` component we just made:
+
+```ts
+type Sizes = 'small' | 'medium' | 'big';
+
+interface ButtonProps {
+  button: boolean;
+  size: Sizes;
+}
+
+declare const Button: React.FunctionComponent<ButtonProps>;
+
+export default Button;
+```
+
+**Notice:** For a better understanding of typings it's recommended to read a [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)

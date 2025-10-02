@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="m2.4855 7.7087 9-5.4a1 1 0 0 1 1.029 0l9 5.4A1 1 0 0 1 22 8.5662V21c0 .5523-.4477 1-1 1H3c-.5523 0-1-.4477-1-1V8.5662a1 1 0 0 1 .4855-.8575ZM4 10.9558V20h16v-9.0442l-7.4145 5.3549a1.0001 1.0001 0 0 1-1.171 0L4 10.9558Zm.4868-2.1155L12 14.2665l7.5132-5.4262L12 4.3323l-7.5132 4.508Zm5.3884.6589c-.469.2917-1.0856.148-1.3773-.321-.2917-.469-.148-1.0857.321-1.3774l2.653-1.65a1 1 0 0 1 1.0581.0012l2.6474 1.6547c.4684.2927.6107.9096.318 1.378-.2927.4683-.9096.6107-1.378.318L13 8.8042V12c0 .5523-.4477 1-1 1s-1-.4477-1-1V8.7996l-1.1248.6996Z" clipRule="evenodd"/></g>, 'FeedbackIcon');

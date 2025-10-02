@@ -1,0 +1,48 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="QuickStart/Usage" />
+
+## Usage
+
+The simplest way to start using Oxygen it's just to [install](?path=/story/quick-start-02-installation--page#3-install-components)
+all components you need and import them to your project.
+
+```jsx
+// userNameForm.js
+
+import React from 'react';
+
+// Import Oxygen components
+import TextField from '@8x8/oxygen-text-field';
+import Button, { ButtonGroup, buttonVariant } from '@8x8/oxygen-button';
+
+export const userNameForm = () => {
+  return (
+    <>
+      <TextField label="User name:" />
+      <ButtonGroup>
+        <Button>Submit</Button>
+        <Button variant={buttonVariant.secondary}>Cancel</Button>
+      </ButtonGroup>
+    </>
+  );
+};
+
+export default userNameForm;
+```
+
+**Notice:** The recommended solution is to wrap up the Oxygen component into your own component,
+instead of importing directly oxygen packages in different places. The following example shows how it can look like:
+
+```jsx
+// Button.js
+
+import React from 'react';
+import OxygenButton from '@8x8/oxygen-button';
+
+const Button = ({ children, ...otherProps }) => {
+  return <OxygenButton {...otherProps}>{children}</OxygenButton>;
+};
+
+export default Button;
+```

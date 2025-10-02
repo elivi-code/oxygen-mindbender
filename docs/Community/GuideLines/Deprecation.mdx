@@ -1,0 +1,104 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Deprecation" />
+
+## Deprecation process
+
+Once you decide to deprecate some props or whole component you have to follow those few steps:
+
+**1. Use `withDeprecation` HOC** -If the deprecation message is missing, or it's falsy, the default message will be logged.
+
+**2. Update the CHANGELOG** - Start Changelog item with `_Deprecate_`
+
+**Notice:** To set deprecation message for the **auto-generated icon components**,
+please see the `Icon` package documentation, "Icon deprecation steps" caption.
+
+### Deprecation message logger
+
+<hr />
+
+- The deprecation message is logged in console, using `console.warn`.
+- If the integrator wants to use a logger different than `console.warn`, the desired logger function can be set using the `setLogger` method from `@8x8/oxygen-config`.
+
+### How to set up deprecation message
+
+<hr />
+
+**Within a default message**
+
+```js
+// MyComponent.js
+
+import { withDeprecation } from '@8x8/oxygen-config';
+
+export default withDeprecation(MyComponent);
+```
+
+**Within a custom message**
+
+```js
+// MyComponent.js
+
+import { withDeprecation } from '@8x8/oxygen-config';
+
+export default withDeprecation(
+  MyComponent,
+  'The "disabled" property is deprecated; Please use the "isDisabled" property instead',
+);
+```
+
+**Deprecate constants properties**
+
+```js
+// packages/constants/src/choices/font.const.js
+
+const fontSizes = {
+  // annotate with deprecated
+  /**
+   * @deprecated
+   */
+  sizeSmall: '1px',
+  sizeXs: '1px',
+};
+// wrap object with addDeprecationWarning
+// each time sizeSmall is accessed 'sizeSmall is deprecated in favor of sizeXs' will be logged
+export default addDeprecationWarning(fontSizes, [
+  { propName: 'sizeSmall', alternative: 'sizeXs' },
+]);
+```
+
+**Constants properties within a custom message**
+
+```js
+// packages/constants/src/choices/font.const.js
+
+const fontSizes = {
+  // annotate with deprecated
+  /**
+   * @deprecated
+   */
+  sizeSmall: '1px',
+  sizeXs: '1px',
+};
+// wrap object with addDeprecationWarning
+// each time sizeSmall is accessed 'sizeSmall is deprecated in favor of sizeXs' will be logged
+export default addDeprecationWarning(fontSizes, [
+  {
+    propName: 'sizeSmall',
+    alternative: 'sizeXs',
+    message: 'dont use sizeSmall',
+  },
+]);
+```
+
+### Custom logger in you application:
+
+<hr />
+
+```js
+// App.js
+import { setLogger } from '@8x8/oxygen-config';
+
+setLogger(console.error);
+// This will change the deprecation logger to `console.error`
+```

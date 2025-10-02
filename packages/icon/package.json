@@ -1,0 +1,47 @@
+{
+  "name": "@8x8/oxygen-icon",
+  "version": "2.98.0",
+  "description": "Oxygen - Icon",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "icons/*.svg",
+    "icons/*.js",
+    "icons/*.d.ts",
+    "icons/*.d.ts.map",
+    "novo/*.svg",
+    "novo/*.js",
+    "novo/*.d.ts",
+    "novo/*.d.ts.map",
+    "utils/*.svg",
+    "utils/*.js",
+    "utils/*.d.ts",
+    "utils/*.d.ts.map"
+  ],
+  "repository": {
+    "directory": "packages/icon",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-constants": "2.98.0",
+    "prop-types": "15.8.1"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  },
+  "devDependencies": {
+    "path": "0.12.7",
+    "recursive-readdir": "2.2.3",
+    "svgo": "3.0.0"
+  },
+  "scripts": {
+    "generate:svg:components": "rimraf icons/ novo/ && node ./scripts/builder.mjs"
+  }
+}

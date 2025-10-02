@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography> default render 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> should add extra bottom padding when setting \`isParagraph\` prop 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1C2025;
+  padding-bottom: 8px;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> should change the component type when setting the \`as\` prop 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<p
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</p>
+`;
+
+exports[`<Typography> should not add ellipsis when shouldWrap is false 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> should set the align CSS rule 1`] = `
+.c0 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> should set the display CSS rule 1`] = `
+.c0 {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  display="flex"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes lg size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="lg"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes md size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="md"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes should work with any string value 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 80px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="80px"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes sm size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="sm"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes xl size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="xl"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes xs size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="xs"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> sizes xxl size 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 64px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+  size="xxl"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> weights attention weight 1`] = `
+.c0 {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> weights default weight 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> weights max weight 1`] = `
+.c0 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;
+
+exports[`<Typography> weights should work with any string value 1`] = `
+.c0 {
+  font-weight: 1000;
+  font-size: 15px;
+  color: #1C2025;
+}
+
+<div
+  className="c0"
+  data-id="TYPOGRAPHY"
+  data-test-id="TYPOGRAPHY"
+>
+  Text
+</div>
+`;

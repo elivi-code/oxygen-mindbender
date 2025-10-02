@@ -1,0 +1,4 @@
+import React from 'react';
+import createSvgIcon from '../utils/createSvgIcon';
+export default createSvgIcon(React.createElement("g", null,
+    React.createElement("path", { fillRule: "evenodd", d: "M6 9v11h12V9h.4c.8837 0 1.6.6467 1.6 1.4444v10.1112C20 21.3533 19.2837 22 18.4 22H5.6c-.8837 0-1.6-.6467-1.6-1.4444V10.4444C4 9.6467 4.7163 9 5.6 9H6Zm7-3.5858v8.6311c0 .5273-.4477.9547-1 .9547s-1-.4274-1-.9547v-8.631L8.7071 7.707c-.3905.3905-1.0237.3905-1.4142 0-.3905-.3905-.3905-1.0237 0-1.4142l4-4c.3905-.3905 1.0237-.3905 1.4142 0l4 4c.3905.3905.3905 1.0237 0 1.4142-.3905.3905-1.0237.3905-1.4142 0L13 5.4142Z", clipRule: "evenodd" })), 'ShareIosIcon');

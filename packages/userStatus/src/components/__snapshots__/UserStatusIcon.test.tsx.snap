@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserStatusIcon> should render correctly when status is available 1`] = `
+<UserStatusIconAvailable
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is away 1`] = `
+<UserStatusIconAway
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is busy 1`] = `
+<UserStatusIconBusy
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is doNotDisturb 1`] = `
+<UserStatusIconDoNotDisturb
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is offline 1`] = `
+<UserStatusIconOffline
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is onBreak 1`] = `
+<UserStatusIconOnBreak
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is onCall 1`] = `
+<UserStatusIconOnCall
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is onDirectCall 1`] = `
+<UserStatusIconOnDirectCall
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is workingOffline 1`] = `
+<UserStatusIconWorkingOffline
+  aria-hidden="true"
+/>
+`;
+
+exports[`<UserStatusIcon> should render correctly when status is wrapUp 1`] = `
+<UserStatusIconWrapUp
+  aria-hidden="true"
+/>
+`;

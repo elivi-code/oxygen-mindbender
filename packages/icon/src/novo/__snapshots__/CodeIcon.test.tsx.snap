@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CodeIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M14.3082 2.755a.75.75 0 0 1 .546.9093l-4.253 17.0341a.7499.7499 0 0 1-.9093.546.75.75 0 0 1-.546-.9093l4.253-17.0342a.75.75 0 0 1 .9093-.546ZM7.2805 6.2196a.75.75 0 0 1 0 1.0606L3.3108 11.25l3.9697 3.9697a.75.75 0 0 1-1.0607 1.0606l-3.9697-3.9696c-.5858-.5858-.5858-1.5356 0-2.1214l3.9697-3.9696a.75.75 0 0 1 1.0607 0ZM16.7197 15.2196a.75.75 0 0 0 0 1.0606.75.75 0 0 0 1.0606 0l3.9697-3.9696c.5858-.5858.5858-1.5356 0-2.1214l-3.9697-3.9696a.75.75 0 0 0-1.0606 1.0607l3.9696 3.9696-3.9696 3.9697Z"
+    />
+  </g>
+</svg>
+`;

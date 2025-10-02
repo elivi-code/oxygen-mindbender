@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path d="M12.75 16.2993c.4484-.2593.75-.7441.75-1.2993 0-.8284-.6716-1.5-1.5-1.5s-1.5.6716-1.5 1.5c0 .5552.3016 1.04.75 1.2993v.9507a.75.75 0 0 0 1.5 0v-.9507Z"/><path fillRule="evenodd" d="M6 9.75v-1.5c0-3.3137 2.6863-6 6-6s6 2.6863 6 6v1.5h.75c.8284 0 1.5.6716 1.5 1.5v9c0 .8284-.6716 1.5-1.5 1.5H5.25c-.8284 0-1.5-.6716-1.5-1.5v-9c0-.8284.6716-1.5 1.5-1.5H6Zm10.5-1.5v1.5h-9v-1.5c0-2.4853 2.0147-4.5 4.5-4.5s4.5 2.0147 4.5 4.5Zm-11.25 3v9h13.5v-9H5.25Z" clipRule="evenodd"/></g>, 'LockIcon');

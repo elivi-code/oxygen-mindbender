@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderOpenIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2 5v14c0 1.1046.8954 2 2 2h15.2548a2 2 0 0 0 1.9648-1.6268l1.3296-7c.0234-.123.0352-.248.0352-.3732 0-1.1046-.8955-2-2-2H20V8c0-1.1046-.8954-2-2-2h-5.7l-1.2174-2.029A2 2 0 0 0 9.3676 3H4c-1.1046 0-2 .8954-2 2Zm3.7951 6.2898L4 16.0153V8h14v2H7.6648a2 2 0 0 0-1.8697 1.2898ZM4 6h5.8l-.6-1H4v1Zm1.0056 13 2.6592-7h12.9196l-1.3296 7H5.0056Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

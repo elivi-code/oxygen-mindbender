@@ -1,0 +1,33 @@
+{
+  "name": "@8x8/oxygen-calendar",
+  "version": "2.98.0",
+  "description": "Oxygen - Calendar",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/calendar",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-dropdown-button": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-list": "2.98.0",
+    "date-fns": "2.29.3",
+    "lodash.noop": "3.0.1",
+    "memoize-one": "6.0.0",
+    "prop-types": "15.8.1"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

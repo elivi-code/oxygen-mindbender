@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleButton> should render correctly when the label tooltip is disabled 1`] = `
+<SwitchBase
+  icon={
+    <Unknown
+      theme={
+        {
+          "backgroundColor": "#A4B8D1",
+          "backgroundColorFocus": "#6FB1EA",
+          "backgroundColorSelected": "#0376DA",
+          "focusColor": "#0056E0",
+          "height": "20px",
+          "iconSet": "classic",
+          "knobColor": "#FFF",
+          "knobColorDisabled": "#FFF",
+          "knobMargin": "4px",
+          "knobSize": "14px",
+          "labelDisabledColor": "rgba(28,32,37,0.5)",
+          "margin": "8px",
+          "outlineColorFocus": "#6FB1EA",
+          "width": "32px",
+        }
+      }
+    >
+      <ToggleButtonIcon
+        hasLabel={true}
+        isChecked={false}
+        isDisabled={false}
+        isFocused={false}
+        isHovered={false}
+        isIndeterminate={false}
+      />
+    </Unknown>
+  }
+  id="mockedId"
+  isChecked={false}
+  isDisabled={false}
+  isToggleButton={true}
+  label="mockedLabel"
+  name="mockedName"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="switch"
+  showLabelTooltipOnOverflow={false}
+  testId="TOGGLE_BUTTON"
+  theme={
+    {
+      "backgroundColor": "#A4B8D1",
+      "backgroundColorFocus": "#6FB1EA",
+      "backgroundColorSelected": "#0376DA",
+      "focusColor": "#0056E0",
+      "height": "20px",
+      "iconSet": "classic",
+      "knobColor": "#FFF",
+      "knobColorDisabled": "#FFF",
+      "knobMargin": "4px",
+      "knobSize": "14px",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "margin": "8px",
+      "outlineColorFocus": "#6FB1EA",
+      "width": "32px",
+    }
+  }
+  value="mockedValue"
+/>
+`;
+
+exports[`<ToggleButton> should render correctly with infoBoxButtonLabel 1`] = `
+<SwitchBase
+  icon={
+    <Unknown
+      theme={
+        {
+          "backgroundColor": "#A4B8D1",
+          "backgroundColorFocus": "#6FB1EA",
+          "backgroundColorSelected": "#0376DA",
+          "focusColor": "#0056E0",
+          "height": "20px",
+          "iconSet": "classic",
+          "knobColor": "#FFF",
+          "knobColorDisabled": "#FFF",
+          "knobMargin": "4px",
+          "knobSize": "14px",
+          "labelDisabledColor": "rgba(28,32,37,0.5)",
+          "margin": "8px",
+          "outlineColorFocus": "#6FB1EA",
+          "width": "32px",
+        }
+      }
+    >
+      <ToggleButtonIcon
+        hasLabel={true}
+        isChecked={false}
+        isDisabled={false}
+        isFocused={false}
+        isHovered={false}
+        isIndeterminate={false}
+      />
+    </Unknown>
+  }
+  id="mockedId"
+  infoBoxButtonLabel="Button Label"
+  isChecked={false}
+  isDisabled={false}
+  isToggleButton={true}
+  label="mockedLabel"
+  name="mockedName"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="switch"
+  showLabelTooltipOnOverflow={true}
+  testId="TOGGLE_BUTTON"
+  theme={
+    {
+      "backgroundColor": "#A4B8D1",
+      "backgroundColorFocus": "#6FB1EA",
+      "backgroundColorSelected": "#0376DA",
+      "focusColor": "#0056E0",
+      "height": "20px",
+      "iconSet": "classic",
+      "knobColor": "#FFF",
+      "knobColorDisabled": "#FFF",
+      "knobMargin": "4px",
+      "knobSize": "14px",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "margin": "8px",
+      "outlineColorFocus": "#6FB1EA",
+      "width": "32px",
+    }
+  }
+  value="mockedValue"
+/>
+`;
+
+exports[`<ToggleButton> should render correctly with infoBoxText 1`] = `
+<SwitchBase
+  icon={
+    <Unknown
+      theme={
+        {
+          "backgroundColor": "#A4B8D1",
+          "backgroundColorFocus": "#6FB1EA",
+          "backgroundColorSelected": "#0376DA",
+          "focusColor": "#0056E0",
+          "height": "20px",
+          "iconSet": "classic",
+          "knobColor": "#FFF",
+          "knobColorDisabled": "#FFF",
+          "knobMargin": "4px",
+          "knobSize": "14px",
+          "labelDisabledColor": "rgba(28,32,37,0.5)",
+          "margin": "8px",
+          "outlineColorFocus": "#6FB1EA",
+          "width": "32px",
+        }
+      }
+    >
+      <ToggleButtonIcon
+        hasLabel={true}
+        isChecked={false}
+        isDisabled={false}
+        isFocused={false}
+        isHovered={false}
+        isIndeterminate={false}
+      />
+    </Unknown>
+  }
+  id="mockedId"
+  infoBoxText="Test"
+  isChecked={false}
+  isDisabled={false}
+  isToggleButton={true}
+  label="mockedLabel"
+  name="mockedName"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="switch"
+  showLabelTooltipOnOverflow={true}
+  testId="TOGGLE_BUTTON"
+  theme={
+    {
+      "backgroundColor": "#A4B8D1",
+      "backgroundColorFocus": "#6FB1EA",
+      "backgroundColorSelected": "#0376DA",
+      "focusColor": "#0056E0",
+      "height": "20px",
+      "iconSet": "classic",
+      "knobColor": "#FFF",
+      "knobColorDisabled": "#FFF",
+      "knobMargin": "4px",
+      "knobSize": "14px",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "margin": "8px",
+      "outlineColorFocus": "#6FB1EA",
+      "width": "32px",
+    }
+  }
+  value="mockedValue"
+/>
+`;
+
+exports[`<ToggleButton> should render the toggle-button component 1`] = `
+<SwitchBase
+  icon={
+    <Unknown
+      theme={
+        {
+          "backgroundColor": "#A4B8D1",
+          "backgroundColorFocus": "#6FB1EA",
+          "backgroundColorSelected": "#0376DA",
+          "focusColor": "#0056E0",
+          "height": "20px",
+          "iconSet": "classic",
+          "knobColor": "#FFF",
+          "knobColorDisabled": "#FFF",
+          "knobMargin": "4px",
+          "knobSize": "14px",
+          "labelDisabledColor": "rgba(28,32,37,0.5)",
+          "margin": "8px",
+          "outlineColorFocus": "#6FB1EA",
+          "width": "32px",
+        }
+      }
+    >
+      <ToggleButtonIcon
+        hasLabel={true}
+        isChecked={false}
+        isDisabled={false}
+        isFocused={false}
+        isHovered={false}
+        isIndeterminate={false}
+      />
+    </Unknown>
+  }
+  id="mockedId"
+  isChecked={false}
+  isDisabled={false}
+  isToggleButton={true}
+  label="mockedLabel"
+  name="mockedName"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  role="switch"
+  showLabelTooltipOnOverflow={true}
+  testId="TOGGLE_BUTTON"
+  theme={
+    {
+      "backgroundColor": "#A4B8D1",
+      "backgroundColorFocus": "#6FB1EA",
+      "backgroundColorSelected": "#0376DA",
+      "focusColor": "#0056E0",
+      "height": "20px",
+      "iconSet": "classic",
+      "knobColor": "#FFF",
+      "knobColorDisabled": "#FFF",
+      "knobMargin": "4px",
+      "knobSize": "14px",
+      "labelDisabledColor": "rgba(28,32,37,0.5)",
+      "margin": "8px",
+      "outlineColorFocus": "#6FB1EA",
+      "width": "32px",
+    }
+  }
+  value="mockedValue"
+/>
+`;

@@ -1,0 +1,33 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Component structure" />
+
+## Component structure
+
+Every single part of the components should be as simple as possible.
+Divide components when it is possible and keep them in separate files
+
+```
+my-component-name
+|---- examples
+    |---- MyComponentName.guidelines.js
+    |---- MyComponentName.playground.js
+    |---- MyComponentName.readme.js
+|---- dist
+|---- src
+    |---- components
+        |---- MyComponentName.js
+        |---- MyComponentName.test.js
+    |---- constants
+        |---- defaultTheme.js
+    |---- styled
+        |---- utils (if applicable)
+        |---- MyComponentName.js
+        |---- MyComponentName.test.js
+    |---- utils (if applicable)
+    |---- index.js // Should contains only import/exports
+    |---- index.d.ts // Type definitions
+CHANGELOG.md
+README.md
+package.json
+```

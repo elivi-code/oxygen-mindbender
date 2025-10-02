@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs> should render correctly 1`] = `
+<TabsBar
+  color="light"
+  role="tablist"
+>
+  Content
+</TabsBar>
+`;
+
+exports[`<Tabs> should render correctly when is \`dark\` 1`] = `
+<TabsBar
+  color="dark"
+  role="tablist"
+>
+  Content
+</TabsBar>
+`;

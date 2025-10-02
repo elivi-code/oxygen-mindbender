@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M3.2197 8.4697a.75.75 0 0 0 1.0606 1.0606L6.75 7.0607V21.75a.75.75 0 0 0 1.5 0V7.0607l2.4697 2.4696a.75.75 0 0 0 1.0606-1.0607l-3.75-3.75a.75.75 0 0 0-1.0606 0l-3.75 3.75ZM20.7803 14.4697a.75.75 0 0 1 0 1.0606l-3.75 3.75a.75.75 0 0 1-1.0606 0l-3.75-3.75a.75.75 0 0 1 0-1.0606.75.75 0 0 1 1.0606 0l2.4697 2.4696V2.25a.75.75 0 0 1 1.5 0v14.6893l2.4697-2.4696a.75.75 0 0 1 1.0606 0Z"
+    />
+  </g>
+</svg>
+`;

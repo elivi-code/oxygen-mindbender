@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardAddIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M8.25 3H4.5C3.6716 3 3 3.6716 3 4.5v3.75c0 .8284.6716 1.5 1.5 1.5h3.75c.8284 0 1.5-.6716 1.5-1.5V4.5c0-.8284-.6716-1.5-1.5-1.5ZM4.5 1.5c-1.6568 0-3 1.3432-3 3v3.75c0 1.6569 1.3432 3 3 3h3.75c1.6569 0 3-1.3431 3-3V4.5c0-1.6568-1.3431-3-3-3H4.5ZM19.5 3h-3.75c-.8284 0-1.5.6716-1.5 1.5v3.75c0 .8284.6716 1.5 1.5 1.5h3.75c.8284 0 1.5-.6716 1.5-1.5V4.5c0-.8284-.6716-1.5-1.5-1.5Zm-3.75-1.5c-1.6569 0-3 1.3432-3 3v3.75c0 1.6569 1.3431 3 3 3h3.75c1.6569 0 3-1.3431 3-3V4.5c0-1.6568-1.3431-3-3-3h-3.75ZM8.25 14.25H4.5c-.8284 0-1.5.6716-1.5 1.5v3.75c0 .8284.6716 1.5 1.5 1.5h3.75c.8284 0 1.5-.6716 1.5-1.5v-3.75c0-.8284-.6716-1.5-1.5-1.5Zm-3.75-1.5c-1.6568 0-3 1.3431-3 3v3.75c0 1.6569 1.3432 3 3 3h3.75c1.6569 0 3-1.3431 3-3v-3.75c0-1.6569-1.3431-3-3-3H4.5Z"
+      fillRule="evenodd"
+    />
+    <path
+      d="M17.25 13.5a.75.75 0 0 1 1.5 0v8.25a.75.75 0 0 1-1.5 0V13.5Z"
+    />
+    <path
+      d="M13.875 18.375a.75.75 0 0 1 0-1.5h8.25a.75.75 0 0 1 0 1.5h-8.25Z"
+    />
+  </g>
+</svg>
+`;

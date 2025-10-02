@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PredefinedList> should style correctly by default 1`] = `
+.c0 {
+  background: #F0F3F7;
+  border-right: 1px solid #D1DBE8;
+  width: 140px;
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<PredefinedListInputWrapper> should style correctly by default 1`] = `
+.c0 {
+  width: 28px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: -7px 3px -6px 4px;
+  text-align: center;
+  position: relative;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<PredefinedListItem> should style correctly by default 1`] = `
+.c0 {
+  all: unset;
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #1C2025;
+  cursor: default;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+
+.c0:focus-visible {
+  box-shadow: inset 0 0 0 2px #0376DA;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  background: #0376DA;
+  width: 4px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: none;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<PredefinedListItem> should style correctly when not selected 1`] = `
+.c0 {
+  all: unset;
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #1C2025;
+  cursor: default;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+
+.c0:focus-visible {
+  box-shadow: inset 0 0 0 2px #0376DA;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  background: #0376DA;
+  width: 4px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: block;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<PredefinedListItem> should style correctly when selected 1`] = `
+.c0 {
+  all: unset;
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #1C2025;
+  cursor: default;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+
+.c0:focus-visible {
+  box-shadow: inset 0 0 0 2px #0376DA;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  background: #0376DA;
+  width: 4px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: block;
+}
+
+<button
+  className="c0"
+/>
+`;

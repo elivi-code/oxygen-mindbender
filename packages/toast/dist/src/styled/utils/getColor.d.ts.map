@@ -1,0 +1,1 @@
+{"version":3,"file":"getColor.d.ts","sourceRoot":"","sources":["../../../../src/styled/utils/getColor.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAGpD,KAAK,aAAa,GAAG;IACnB,IAAI,EAAE,SAAS,CAAC;IAChB,KAAK,EAAE,KAAK,CAAC;CACd,CAAC;AACF;;GAEG;AACH,QAAA,MAAM,QAAQ,oBAAqB,aAAa,WAG/B,CAAC;AAElB,eAAe,QAAQ,CAAC"}

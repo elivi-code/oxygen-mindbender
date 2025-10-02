@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableRow> should render correctly 1`] = `
+<tr
+  className=""
+/>
+`;
+
+exports[`<TableRow> should render correctly when enableHover 1`] = `
+.c0 {
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #F0F3F7;
+  color: #1C2025;
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`<TableRow> should render correctly when isSelected 1`] = `
+.c0 {
+  background-color: #D1DBE8;
+}
+
+<tr
+  className="c0"
+/>
+`;

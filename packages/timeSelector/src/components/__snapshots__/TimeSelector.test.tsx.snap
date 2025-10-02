@@ -1,0 +1,802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeSelector should render correctly 1`] = `
+.c2 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c2::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c2:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c2::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0 {
+  background: #FFF;
+  border-radius: 0;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4px 0;
+  min-width: 40px;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #D1DBE8;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-transition: border-color 150ms ease-in-out;
+  transition: border-color 150ms ease-in-out;
+}
+
+<ForwardRef
+  theme={
+    {
+      "dropdownAnimationDuration": "150ms",
+      "dropdownBorderColor": "#D1DBE8",
+      "dropdownBorderRadius": 0,
+      "dropdownBorderSize": "1px",
+      "dropdownFontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "dropdownFontSize": "15px",
+      "dropdownLineHeight": "24px",
+      "dropdownMaxHeight": "160px",
+      "dropdownPadding": "0px",
+      "dropdownShadow": undefined,
+      "dropdownShadowBlurRadius": "4px",
+      "dropdownShadowColor": "rgba(209,219,232,0.6)",
+      "dropdownWidth": "140px",
+      "dropdownZIndex": 3000,
+      "input": {
+        "backgroundColor": "#FFF",
+        "backgroundColorDisabled": "#F0F3F7",
+        "backgroundColorFixed": "transparent",
+        "backgroundColorReadOnly": "#FFF",
+        "backgroundColorSemanticBlock": "#F0F3F7",
+        "borderColor": "#D1DBE8",
+        "borderColorError": "#E12D2D",
+        "borderColorFixed": "transparent",
+        "borderColorFocused": "#0376DA",
+        "borderColorReadOnly": "#D1DBE8",
+        "borderColorSemanticBlock": "#A4B8D1",
+        "borderRadius": 0,
+        "borderRadiusReadOnly": 0,
+        "borderStyle": "solid",
+        "borderStyleDefaultSemanticBlock": "solid",
+        "borderTransitionTiming": "150ms",
+        "borderWidth": "1px",
+        "borderWidthReadOnly": "1px",
+        "borderWidthSemanticBlock": "1px",
+        "color": "#1C2025",
+        "colorDisabled": "#A4B8D1",
+        "colorFixed": "#5E6D7A",
+        "colorIcon": "#5E6D7A",
+        "colorPlaceholder": "#A4B8D1",
+        "colorReadOnly": "#1C2025",
+        "colorSemanticBlock": "#5E6D7A",
+        "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontStretch": "normal",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "height": "40px",
+        "heightLarge": "48px",
+        "heightSmall": "32px",
+        "horizontalSpacing": "8px",
+        "horizontalSpacingReadOnly": "8px",
+        "iconHorizontalSpacing": "8px",
+        "iconSize": 24,
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "minWidth": "40px",
+        "prefixSuffixHorizontalSpacing": "8px",
+        "prefixSuffixInsideInput": false,
+        "verticalSpacing": "4px",
+        "width": "296px",
+        "widthSemanticBlock": "60px",
+      },
+      "listItemBackground": "#FFF",
+      "listItemBackgroundHover": "#F0F3F7",
+      "listItemBackgroundSelected": "#DAEBFA",
+      "listItemColor": "#2A3A4B",
+      "listItemPadding": "4px 8px",
+    }
+  }
+>
+  <TimeSelector
+    forwardedRef={null}
+    hasError={false}
+    iconLeft={
+      {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    isDisabled={false}
+    isLeftIconVisible={false}
+    onChange={[Function]}
+    onClose={[Function]}
+    onOpen={[Function]}
+    placeholder=""
+    size="default"
+    testId="TIME_SELECTOR"
+    theme={
+      {
+        "dropdownAnimationDuration": "150ms",
+        "dropdownBorderColor": "#D1DBE8",
+        "dropdownBorderRadius": 0,
+        "dropdownBorderSize": "1px",
+        "dropdownFontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "dropdownFontSize": "15px",
+        "dropdownLineHeight": "24px",
+        "dropdownMaxHeight": "160px",
+        "dropdownPadding": "0px",
+        "dropdownShadow": undefined,
+        "dropdownShadowBlurRadius": "4px",
+        "dropdownShadowColor": "rgba(209,219,232,0.6)",
+        "dropdownWidth": "140px",
+        "dropdownZIndex": 3000,
+        "input": {
+          "backgroundColor": "#FFF",
+          "backgroundColorDisabled": "#F0F3F7",
+          "backgroundColorFixed": "transparent",
+          "backgroundColorReadOnly": "#FFF",
+          "backgroundColorSemanticBlock": "#F0F3F7",
+          "borderColor": "#D1DBE8",
+          "borderColorError": "#E12D2D",
+          "borderColorFixed": "transparent",
+          "borderColorFocused": "#0376DA",
+          "borderColorReadOnly": "#D1DBE8",
+          "borderColorSemanticBlock": "#A4B8D1",
+          "borderRadius": 0,
+          "borderRadiusReadOnly": 0,
+          "borderStyle": "solid",
+          "borderStyleDefaultSemanticBlock": "solid",
+          "borderTransitionTiming": "150ms",
+          "borderWidth": "1px",
+          "borderWidthReadOnly": "1px",
+          "borderWidthSemanticBlock": "1px",
+          "color": "#1C2025",
+          "colorDisabled": "#A4B8D1",
+          "colorFixed": "#5E6D7A",
+          "colorIcon": "#5E6D7A",
+          "colorPlaceholder": "#A4B8D1",
+          "colorReadOnly": "#1C2025",
+          "colorSemanticBlock": "#5E6D7A",
+          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "fontSize": "15px",
+          "fontStretch": "normal",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "height": "40px",
+          "heightLarge": "48px",
+          "heightSmall": "32px",
+          "horizontalSpacing": "8px",
+          "horizontalSpacingReadOnly": "8px",
+          "iconHorizontalSpacing": "8px",
+          "iconSize": 24,
+          "letterSpacing": "normal",
+          "lineHeight": "24px",
+          "minWidth": "40px",
+          "prefixSuffixHorizontalSpacing": "8px",
+          "prefixSuffixInsideInput": false,
+          "verticalSpacing": "4px",
+          "width": "296px",
+          "widthSemanticBlock": "60px",
+        },
+        "listItemBackground": "#FFF",
+        "listItemBackgroundHover": "#F0F3F7",
+        "listItemBackgroundSelected": "#DAEBFA",
+        "listItemColor": "#2A3A4B",
+        "listItemPadding": "4px 8px",
+      }
+    }
+    timeDisplayFormat="h:mm a"
+  >
+    <Component
+      theme={
+        {
+          "dropdownAnimationDuration": "150ms",
+          "dropdownBorderColor": "#D1DBE8",
+          "dropdownBorderRadius": 0,
+          "dropdownBorderSize": "1px",
+          "dropdownFontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "dropdownFontSize": "15px",
+          "dropdownLineHeight": "24px",
+          "dropdownMaxHeight": "160px",
+          "dropdownPadding": "0px",
+          "dropdownShadow": undefined,
+          "dropdownShadowBlurRadius": "4px",
+          "dropdownShadowColor": "rgba(209,219,232,0.6)",
+          "dropdownWidth": "140px",
+          "dropdownZIndex": 3000,
+          "input": {
+            "backgroundColor": "#FFF",
+            "backgroundColorDisabled": "#F0F3F7",
+            "backgroundColorFixed": "transparent",
+            "backgroundColorReadOnly": "#FFF",
+            "backgroundColorSemanticBlock": "#F0F3F7",
+            "borderColor": "#D1DBE8",
+            "borderColorError": "#E12D2D",
+            "borderColorFixed": "transparent",
+            "borderColorFocused": "#0376DA",
+            "borderColorReadOnly": "#D1DBE8",
+            "borderColorSemanticBlock": "#A4B8D1",
+            "borderRadius": 0,
+            "borderRadiusReadOnly": 0,
+            "borderStyle": "solid",
+            "borderStyleDefaultSemanticBlock": "solid",
+            "borderTransitionTiming": "150ms",
+            "borderWidth": "1px",
+            "borderWidthReadOnly": "1px",
+            "borderWidthSemanticBlock": "1px",
+            "color": "#1C2025",
+            "colorDisabled": "#A4B8D1",
+            "colorFixed": "#5E6D7A",
+            "colorIcon": "#5E6D7A",
+            "colorPlaceholder": "#A4B8D1",
+            "colorReadOnly": "#1C2025",
+            "colorSemanticBlock": "#5E6D7A",
+            "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": 400,
+            "height": "40px",
+            "heightLarge": "48px",
+            "heightSmall": "32px",
+            "horizontalSpacing": "8px",
+            "horizontalSpacingReadOnly": "8px",
+            "iconHorizontalSpacing": "8px",
+            "iconSize": 24,
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "minWidth": "40px",
+            "prefixSuffixHorizontalSpacing": "8px",
+            "prefixSuffixInsideInput": false,
+            "verticalSpacing": "4px",
+            "width": "296px",
+            "widthSemanticBlock": "60px",
+          },
+          "listItemBackground": "#FFF",
+          "listItemBackgroundHover": "#F0F3F7",
+          "listItemBackgroundSelected": "#DAEBFA",
+          "listItemColor": "#2A3A4B",
+          "listItemPadding": "4px 8px",
+        }
+      }
+    >
+      <ForwardRef
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        autoComplete="off"
+        data-id="TIME_SELECTOR_INPUT"
+        data-test-id="TIME_SELECTOR_INPUT"
+        hasError={false}
+        iconLeft={null}
+        inputRef={
+          {
+            "current": .c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+              aria-disabled="false"
+              aria-invalid="false"
+              aria-readonly="false"
+              aria-required="false"
+              autocomplete="off"
+              class="c0"
+              data-id="INPUT_FIELD"
+              data-test-id="INPUT_FIELD"
+              maxlength="16"
+              placeholder=""
+              type="text"
+              value=""
+            />,
+          }
+        }
+        isDisabled={false}
+        maxLength={16}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onPointerDown={[Function]}
+        placeholder=""
+        role="combobox"
+        size="default"
+        test-id="TIME_SELECTOR_INPUT"
+        theme={
+          {
+            "backgroundColor": "#FFF",
+            "backgroundColorDisabled": "#F0F3F7",
+            "backgroundColorFixed": "transparent",
+            "backgroundColorReadOnly": "#FFF",
+            "backgroundColorSemanticBlock": "#F0F3F7",
+            "borderColor": "#D1DBE8",
+            "borderColorError": "#E12D2D",
+            "borderColorFixed": "transparent",
+            "borderColorFocused": "#0376DA",
+            "borderColorReadOnly": "#D1DBE8",
+            "borderColorSemanticBlock": "#A4B8D1",
+            "borderRadius": 0,
+            "borderRadiusReadOnly": 0,
+            "borderStyle": "solid",
+            "borderStyleDefaultSemanticBlock": "solid",
+            "borderTransitionTiming": "150ms",
+            "borderWidth": "1px",
+            "borderWidthReadOnly": "1px",
+            "borderWidthSemanticBlock": "1px",
+            "color": "#1C2025",
+            "colorDisabled": "#A4B8D1",
+            "colorFixed": "#5E6D7A",
+            "colorIcon": "#5E6D7A",
+            "colorPlaceholder": "#A4B8D1",
+            "colorReadOnly": "#1C2025",
+            "colorSemanticBlock": "#5E6D7A",
+            "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": 400,
+            "height": "40px",
+            "heightLarge": "48px",
+            "heightSmall": "32px",
+            "horizontalSpacing": "8px",
+            "horizontalSpacingReadOnly": "8px",
+            "iconHorizontalSpacing": "8px",
+            "iconSize": 24,
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "minWidth": "40px",
+            "prefixSuffixHorizontalSpacing": "8px",
+            "prefixSuffixInsideInput": false,
+            "verticalSpacing": "4px",
+            "width": "296px",
+            "widthSemanticBlock": "60px",
+          }
+        }
+        value=""
+      >
+        <Input
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autoComplete="off"
+          autoFocus={false}
+          autoPrefixWidth={false}
+          autoSuffixWidth={false}
+          data-id="TIME_SELECTOR_INPUT"
+          data-test-id="TIME_SELECTOR_INPUT"
+          fixed={false}
+          focus={false}
+          forwardedRef={[Function]}
+          fullWidth={true}
+          hasError={false}
+          iconLeft={null}
+          inputRef={
+            {
+              "current": .c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+                aria-disabled="false"
+                aria-invalid="false"
+                aria-readonly="false"
+                aria-required="false"
+                autocomplete="off"
+                class="c0"
+                data-id="INPUT_FIELD"
+                data-test-id="INPUT_FIELD"
+                maxlength="16"
+                placeholder=""
+                type="text"
+                value=""
+              />,
+            }
+          }
+          isDisabled={false}
+          isReadOnly={false}
+          isRequired={false}
+          maxLength={16}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onPointerDown={[Function]}
+          placeholder=""
+          prefix=""
+          role="combobox"
+          size="default"
+          suffix=""
+          test-id="TIME_SELECTOR_INPUT"
+          testId="INPUT"
+          theme={
+            {
+              "backgroundColor": "#FFF",
+              "backgroundColorDisabled": "#F0F3F7",
+              "backgroundColorFixed": "transparent",
+              "backgroundColorReadOnly": "#FFF",
+              "backgroundColorSemanticBlock": "#F0F3F7",
+              "borderColor": "#D1DBE8",
+              "borderColorError": "#E12D2D",
+              "borderColorFixed": "transparent",
+              "borderColorFocused": "#0376DA",
+              "borderColorReadOnly": "#D1DBE8",
+              "borderColorSemanticBlock": "#A4B8D1",
+              "borderRadius": 0,
+              "borderRadiusReadOnly": 0,
+              "borderStyle": "solid",
+              "borderStyleDefaultSemanticBlock": "solid",
+              "borderTransitionTiming": "150ms",
+              "borderWidth": "1px",
+              "borderWidthReadOnly": "1px",
+              "borderWidthSemanticBlock": "1px",
+              "color": "#1C2025",
+              "colorDisabled": "#A4B8D1",
+              "colorFixed": "#5E6D7A",
+              "colorIcon": "#5E6D7A",
+              "colorPlaceholder": "#A4B8D1",
+              "colorReadOnly": "#1C2025",
+              "colorSemanticBlock": "#5E6D7A",
+              "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+              "fontSize": "15px",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": 400,
+              "height": "40px",
+              "heightLarge": "48px",
+              "heightSmall": "32px",
+              "horizontalSpacing": "8px",
+              "horizontalSpacingReadOnly": "8px",
+              "iconHorizontalSpacing": "8px",
+              "iconSize": 24,
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "minWidth": "40px",
+              "prefixSuffixHorizontalSpacing": "8px",
+              "prefixSuffixInsideInput": false,
+              "verticalSpacing": "4px",
+              "width": "296px",
+              "widthSemanticBlock": "60px",
+            }
+          }
+          type="text"
+          value=""
+        >
+          <Component
+            theme={
+              {
+                "backgroundColor": "#FFF",
+                "backgroundColorDisabled": "#F0F3F7",
+                "backgroundColorFixed": "transparent",
+                "backgroundColorReadOnly": "#FFF",
+                "backgroundColorSemanticBlock": "#F0F3F7",
+                "borderColor": "#D1DBE8",
+                "borderColorError": "#E12D2D",
+                "borderColorFixed": "transparent",
+                "borderColorFocused": "#0376DA",
+                "borderColorReadOnly": "#D1DBE8",
+                "borderColorSemanticBlock": "#A4B8D1",
+                "borderRadius": 0,
+                "borderRadiusReadOnly": 0,
+                "borderStyle": "solid",
+                "borderStyleDefaultSemanticBlock": "solid",
+                "borderTransitionTiming": "150ms",
+                "borderWidth": "1px",
+                "borderWidthReadOnly": "1px",
+                "borderWidthSemanticBlock": "1px",
+                "color": "#1C2025",
+                "colorDisabled": "#A4B8D1",
+                "colorFixed": "#5E6D7A",
+                "colorIcon": "#5E6D7A",
+                "colorPlaceholder": "#A4B8D1",
+                "colorReadOnly": "#1C2025",
+                "colorSemanticBlock": "#5E6D7A",
+                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "fontSize": "15px",
+                "fontStretch": "normal",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "height": "40px",
+                "heightLarge": "48px",
+                "heightSmall": "32px",
+                "horizontalSpacing": "8px",
+                "horizontalSpacingReadOnly": "8px",
+                "iconHorizontalSpacing": "8px",
+                "iconSize": 24,
+                "letterSpacing": "normal",
+                "lineHeight": "24px",
+                "minWidth": "40px",
+                "prefixSuffixHorizontalSpacing": "8px",
+                "prefixSuffixInsideInput": false,
+                "verticalSpacing": "4px",
+                "width": "296px",
+                "widthSemanticBlock": "60px",
+              }
+            }
+          >
+            <InputWrapper
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              data-id="TIME_SELECTOR_INPUT"
+              data-test-id="TIME_SELECTOR_INPUT"
+              fixed={false}
+              focus={false}
+              fullWidth={true}
+              inputRef={
+                {
+                  "current": .c0 {
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #1C2025;
+  -webkit-text-fill-color: #1C2025;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::-moz-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+.c0::placeholder {
+  color: #A4B8D1;
+  -webkit-text-fill-color: #A4B8D1;
+}
+
+<input
+                    aria-disabled="false"
+                    aria-invalid="false"
+                    aria-readonly="false"
+                    aria-required="false"
+                    autocomplete="off"
+                    class="c0"
+                    data-id="INPUT_FIELD"
+                    data-test-id="INPUT_FIELD"
+                    maxlength="16"
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />,
+                }
+              }
+              isDisabled={false}
+              isReadOnly={false}
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onPointerDown={[Function]}
+              role="combobox"
+              size="default"
+              test-id="TIME_SELECTOR_INPUT"
+              testId="INPUT"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                className="c0"
+                data-id="TIME_SELECTOR_INPUT"
+                data-test-id="TIME_SELECTOR_INPUT"
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onPointerDown={[Function]}
+                role="combobox"
+                size="default"
+              >
+                <InputFieldWrapper
+                  fixed={false}
+                  focused={false}
+                  hasError={false}
+                  iconLeft={false}
+                  iconRight={false}
+                  isDisabled={false}
+                  isReadOnly={false}
+                  withPrefix={false}
+                  withSuffix={false}
+                >
+                  <div
+                    className="c1"
+                  >
+                    <InputField
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-readonly={false}
+                      aria-required={false}
+                      autoComplete="off"
+                      autoFocus={false}
+                      data-id="INPUT_FIELD"
+                      data-test-id="INPUT_FIELD"
+                      fixed={false}
+                      isDisabled={false}
+                      maxLength={16}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      placeholder=""
+                      readOnly={false}
+                      test-id="INPUT_FIELD"
+                      type="text"
+                      value=""
+                    >
+                      <input
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-readonly={false}
+                        aria-required={false}
+                        autoComplete="off"
+                        autoFocus={false}
+                        className="c2"
+                        data-id="INPUT_FIELD"
+                        data-test-id="INPUT_FIELD"
+                        maxLength={16}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        placeholder=""
+                        readOnly={false}
+                        type="text"
+                        value=""
+                      />
+                    </InputField>
+                  </div>
+                </InputFieldWrapper>
+              </div>
+            </InputWrapper>
+          </Component>
+        </Input>
+      </ForwardRef>
+    </Component>
+  </TimeSelector>
+</ForwardRef>
+`;

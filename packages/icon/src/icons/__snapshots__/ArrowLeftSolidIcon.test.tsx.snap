@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowLeftSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <defs>
+      <path
+        d="m5.7256 8.8293 5.8981 6.7407a.5.5 0 0 0 .7526 0l5.8981-6.7407A.5.5 0 0 0 17.8981 8H6.102a.5.5 0 0 0-.3763.8293Z"
+        id="arrow-left-solid-a"
+      />
+    </defs>
+    <use
+      fillRule="evenodd"
+      transform="rotate(90 12 12)"
+      xlinkHref="#arrow-left-solid-a"
+    />
+  </g>
+</svg>
+`;

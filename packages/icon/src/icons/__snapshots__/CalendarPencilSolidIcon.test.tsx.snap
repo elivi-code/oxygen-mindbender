@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CalendarPencilSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M6 3c0-.5523.4477-1 1-1s1 .4477 1 1v1h8V3c0-.5523.4477-1 1-1s1 .4477 1 1v1h2c1.1046 0 2 .8954 2 2v14c0 1.1046-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2V6c0-1.1046.8954-2 2-2h2V3Zm10.5962 4.4896 1.4142 1.4142c.7811.781.7811 2.0474 0 2.8284l-5.5784 5.5785-5.7353 1.4926 1.7426-5.9853 5.3285-5.3284c.781-.781 2.0473-.781 2.8284 0Zm0 2.8284-5.194 5.1941-1.8006.4686.6146-2.1111 4.9658-4.9658 1.4142 1.4142Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

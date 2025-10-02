@@ -1,0 +1,79 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { REPOSITORY_URL } from '../../constants/externalLinks';
+
+<Meta title="Community/How to contribute/2. Release new version" />
+
+## Automatically release a new version
+
+Please follow those few steps to release a new version of Oxygen:
+
+**1. Make sure you are on the `master` branch, and you have the latest codebase locally**
+
+```
+$ git checkout master
+```
+
+```
+$ git pull origin master
+```
+
+** 2. Make sure you do NOT have any local changes**
+
+```
+$ git status
+```
+
+```
+$ git reset --hard
+```
+
+** 3. Run release script**
+
+```
+yarn create:release --version-to-release=SEMANTIC_RELEASE_NUMBERS
+```
+
+where the `SEMANTIC_RELEASE_NUMBERS` is the new version of the Oxygen library.
+The command does all the necessary steps for set a release:
+
+- create release branch,
+- update versions,
+- generate changelog,
+- commit changes,
+- generate tag,
+- push the release and tag to remote
+
+** 4. Coffee time - wait for Hyperloop pipelines**
+
+Wait for the [Hyperloop Pipeline](https://oxygen-jenkins.es.8x8.com/job/oxygen/) to publish the new packages and Storybook
+
+** 5.Create a pull request **
+
+Visit <a href={REPOSITORY_URL} target="_blank">repository</a> and create a pull request from `release/SEMANTIC_RELEASE_NUMBERS` into `master` branch
+
+** 6. Clean up **
+
+Delete the `release/SEMANTIC_RELEASE_NUMBERS` branch once the pull request is merged
+
+🎉 **CONGRATS** 🎉 You have released the new version of Oxygen library!
+
+## Release manually (not recommended)
+
+- Create a new release branch (locally) with name `release/SEMANTIC_RELEASE_NUMBERS` where the `SEMANTIC_RELEASE_NUMBERS` is the new version of the Oxygen library
+- Update manually version in root `./package.json` and the `@8x8/oxygen-config` peer dependencies
+- Run `yarn run changelog:update-version` command to update the CHANGELOG.md file for each package
+- Run `yarn run changelog` command to merge together the CHANGELOG.md files from each package into the global CHANGELOG.md
+- Commit the changes (without pushing to remote) using `[NO-TICKET] Update version in package.json and changelog docs to SEMANTIC_RELEASE_NUMBERS`
+- Run `yarn run update:version` command to update the version of the packages.
+- The version of packages will be in sync. The version of each package will be incremented even if they are not modified since the last update. (same workflow as Angular, React, Babel... uses)
+- _Note_: the version of packages must match with the `SEMANTIC_RELEASE_NUMBERS` in release branch name.
+  In case of mismatch the build will automatically fail
+- During the package version update a VCS commit is created with a tag and a message like `[NO-TICKET] Updated version to SEMANTIC_RELEASE_NUMBERS`
+- Push the local branch and the created tag to remote in order to trigger the Jenkins2 pipeline to release the packages to Artifactory
+- CI will do the following things for the created release branch:
+- Set up dependencies
+- Validate the source code (lint + tests)
+- Build the production code and Storybook
+- Publish the packages to Artifactory
+- Publish Storybook into ./release/SEMANTIC_RELEASE_NUMBERS/ directory
+- Merge the release branch into master via merge request

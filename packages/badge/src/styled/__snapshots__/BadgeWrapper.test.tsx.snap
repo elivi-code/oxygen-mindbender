@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge> should render correctly as a big size 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 0 4px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="big"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly as a medium size 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly as a small size 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 8px;
+  min-height: 8px;
+  border-radius: 999rem;
+  font-size: 0;
+  line-height: 0;
+  padding: 0 0;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="small"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly as primary type 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly as secondary type 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  color: #1C2025;
+  background-color: #F1AD33;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="secondary"
+/>
+`;
+
+exports[`<Badge> should render correctly with bottom-left position 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly with bottom-right position 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly with isInner props set on false 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly with isInner props set on true 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly with top-left position 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;
+
+exports[`<Badge> should render correctly with top-right position 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  min-width: 18px;
+  min-height: 18px;
+  border-radius: 999rem;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 4px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: #FFF;
+  background-color: #E54B4B;
+}
+
+<div
+  className="c0"
+  data-id="BADGE"
+  data-test-id="BADGE"
+  size="medium"
+  type="primary"
+/>
+`;

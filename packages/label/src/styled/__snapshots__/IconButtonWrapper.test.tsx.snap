@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconButtonWrapper> should render correctly 1`] = `
+.c2 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0 {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background: #F1F1F1;
+}
+
+.c0:active {
+  background: #E0E0E0;
+}
+
+.c0:focus-visible {
+  border-color: #0056E0;
+  box-shadow: 0 0 0 2px #FFFFFF inset;
+}
+
+.c1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<button
+  className="c0 c1"
+  data-id="iconButton"
+  data-test-id="iconButton"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  type="button"
+>
+  <svg
+    className="c2"
+    color="#292929"
+    disabled={false}
+    role="presentation"
+    selected={false}
+    size={24}
+    viewBox="0 0 24 24"
+  >
+    <g>
+      <path
+        d="M12 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 12h.75v5.25A.75.75 0 0 0 12 18h1.5a.75.75 0 0 0 0-1.5h-.75v-5.25a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5Z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5 1.5 6.201 1.5 12 6.201 22.5 12 22.5Zm0-1.5c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+        fillRule="evenodd"
+      />
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`<IconButtonWrapper> should render correctly when aria label is provided 1`] = `
+.c2 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #292929;
+}
+
+.c0 {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background: #F1F1F1;
+}
+
+.c0:active {
+  background: #E0E0E0;
+}
+
+.c0:focus-visible {
+  border-color: #0056E0;
+  box-shadow: 0 0 0 2px #FFFFFF inset;
+}
+
+.c1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<button
+  aria-label="iconWrapper"
+  className="c0 c1"
+  data-id="iconButton"
+  data-test-id="iconButton"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  type="button"
+>
+  <svg
+    className="c2"
+    color="#292929"
+    disabled={false}
+    role="presentation"
+    selected={false}
+    size={24}
+    viewBox="0 0 24 24"
+  >
+    <g>
+      <path
+        d="M12 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 12h.75v5.25A.75.75 0 0 0 12 18h1.5a.75.75 0 0 0 0-1.5h-.75v-5.25a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5Z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5 1.5 6.201 1.5 12 6.201 22.5 12 22.5Zm0-1.5c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+        fillRule="evenodd"
+      />
+    </g>
+  </svg>
+</button>
+`;

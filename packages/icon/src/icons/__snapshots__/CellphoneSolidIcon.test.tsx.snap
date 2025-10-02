@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CellphoneSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M16 2H8c-1.1046 0-2 .8954-2 2v16c0 1.1046.8954 2 2 2h8c1.1046 0 2-.8954 2-2V4c0-1.1046-.8954-2-2-2Zm0 14H8v2h3v2h2v-2h3v-2Zm0-10H8v2h8V6Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

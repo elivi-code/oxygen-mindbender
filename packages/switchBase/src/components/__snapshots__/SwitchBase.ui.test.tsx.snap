@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwitchBase /> should render correctly is disabled 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={true}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={true}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly when is checked 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={true}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly when the label tooltip is disabled 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={false}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with a label 1`] = `
+<SwitchBaseWrapper
+  hasLabel={true}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+        <LabelTextWrapper>
+          Test Label
+        </LabelTextWrapper>
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with default properties 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with htmlFor 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with icon 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          icon="IconComponent"
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with id 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="exampleId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="exampleId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with infoBox 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    infoBoxText="Test"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with infoBoxButtonLabel 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    infoBoxButtonLabel="Button Label"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with label 1`] = `
+<SwitchBaseWrapper
+  hasLabel={true}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+        <LabelTextWrapper>
+          exampleLabel
+        </LabelTextWrapper>
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with name 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          name="exampleName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with testID 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="exampleTestId"
+          value=""
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;
+
+exports[`<SwitchBase /> should render correctly with value 1`] = `
+<SwitchBaseWrapper
+  hasLabel={false}
+  isDisabled={false}
+  isFocused={false}
+  isToggleButton={false}
+  theme={{}}
+>
+  <Label
+    htmlFor="mockedId"
+    isDisabled={false}
+    shouldWrapText={true}
+    showTooltipOnOverflow={true}
+    value={
+      <Unknown
+        theme={{}}
+      >
+        <SwitchBaseInput
+          id="mockedId"
+          isChecked={false}
+          isDisabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          testId="SWITCH"
+          value="exampleValue"
+        />
+      </Unknown>
+    }
+  />
+</SwitchBaseWrapper>
+`;

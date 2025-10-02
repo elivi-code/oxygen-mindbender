@@ -1,0 +1,94 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Theme" />
+
+## Working with theme
+
+In the beginning, we should understand, why do we need a theme and especially how to work with it.
+Our main goal is to have a unified and consistent look and feel across all of the 8x8 products.
+However, in some cases, it is necessary to have the opportunity to create your own version of the component for eg.
+with different padding or font size, but still have the same user experience.
+
+The most important thing is fact, **theme is for global visual aspects** for our application,
+in addition it should be design in that way which provide us to create:
+dark mode, high contrast etc. However, we have to keep in mind theme is for all of components
+in our application, **not just for overriding styles per instance**.
+
+### Theme definition
+
+<hr />
+
+Every component provides a default theme object with well-designed properties,
+which are defined in `@8x8/oxygen-constants` package in the `decisions` directory.
+For example default theme declaration for the `Button` component will be in `/constants/src/decisions/button.const.js`
+
+The properties describe visual aspects of the component. For more information on how to change components styles,
+go to Overriding styles chapter.
+
+**Theme definition example:**
+
+```js
+/// textLink.const.js
+
+import { color, font, timing } from '@8x8/oxygen-constants';
+
+const textLink: {
+  textLinkFontFamily: font.family,
+  textLinkFontSize: font.sizeSm,
+  textLinkFontWeight: font.weightDefault,
+  textLinkLineHeight: font.lineHeightSm,
+  textLinkColorPrimary: color.dodgerBlue,
+  textLinkColorPrimaryHover: color.dodgerBlue300,
+  textLinkColorPrimaryActive: color.dodgerBlue,
+  textLinkColorPrimaryDisabled: color.dodgerBlue300,
+  textLinkColorPrimarySelected: 'inherit',
+  textLinkBackgroundColorPrimarySelected: 'inherit',
+  textLinkMargin: '0',
+  textLinkPadding: '0',
+  textLinkTransitionTime: timing.fast,
+};
+
+export default textLink;
+```
+
+### How to use theme in a component
+
+<hr />
+
+**There are two the most important things in component structure:**
+
+- component is wrapped in `ThemeProvider` from `styled-component`
+- component is exported `withTheme` HOC applied
+
+```js
+// TextLink.js
+
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ThemeProvider, withTheme } from 'styled-components';
+
+import { colors, defaultTheme, sizes, targets, underlines } from '../constants';
+
+export const TextLink = ({ theme, children, ...otherProps }) => (
+  <ThemeProvider theme={theme}>
+    <div {...otherProps}>{children}</div>
+  </ThemeProvider>
+);
+
+TextLink.propTypes = {
+  /**
+   * `TextLink` theme
+   */
+  theme: PropTypes.object,
+  /**
+   * Rendered nodes inside the TextLink
+   */
+  children: PropTypes.node.isRequired,
+};
+
+TextLink.defaultProps = {
+  theme: {},
+};
+
+export default withTheme(TextLink);
+```

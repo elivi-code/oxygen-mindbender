@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      d="M15.5303 3.2197a.75.75 0 0 0-1.0606 1.0607L16.9393 6.75H2.25a.75.75 0 0 0 0 1.5h14.6893l-2.4696 2.4697a.75.75 0 0 0 0 1.0606.75.75 0 0 0 1.0606 0l3.75-3.75a.75.75 0 0 0 0-1.0606l-3.75-3.75ZM9.5303 20.7803a.75.75 0 0 1-1.0606 0l-3.75-3.75a.75.75 0 0 1 0-1.0606l3.75-3.75a.75.75 0 0 1 1.0606 1.0606L7.0607 15.75H21.75a.75.75 0 0 1 0 1.5H7.0607l2.4696 2.4697a.75.75 0 0 1 0 1.0606Z"
+    />
+  </g>
+</svg>
+`;

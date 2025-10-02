@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneSolidIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M2.4206 3.2703C.869 5.7919 3.8476 12.8974 7.476 16.5258l.004-.0042c3.6286 3.6282 10.7282 6.6096 13.2497 5.0581 1.7313-1.0653 1.5694-5.2711.2579-6.5492-.8672-.845-3.522-1.2821-4.6167-1.0632-.343.0686-1.301 1.0586-1.8349 1.6103-.1045.108-.1927.1992-.2569.2634-.3922.3922-2.8977-1.7467-3.6404-2.4894l-2.7495 2.7582c.857-.8615 2.7492-2.7607 2.7492-2.7607-.7427-.7427-2.8713-3.236-2.479-3.6282.0641-.0642.1553-.1524.2633-.2569.5516-.5338 1.5417-1.492 1.6103-1.8349.2189-1.0947-.2182-3.7495-1.0632-4.6167-1.2781-1.3115-5.484-1.4734-6.5492.2579Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

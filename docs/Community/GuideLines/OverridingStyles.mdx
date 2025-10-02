@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Overriding styles" />
+
+## Overriding components
+
+One way to change our components styles is to use ThemeProvider from styled-components.
+Wrap you application in ThemeProvider and just pass new theme object. Success.
+
+```js
+import { ThemeProvider } from 'styled-components';
+
+const mainTheme = {
+  textLink: {
+    textLinkFontSize: '10px',
+  },
+  label: {},
+};
+
+const App = () => (
+  <div>
+    <ThemeProvider theme={mainTheme}>// Render here App</ThemeProvider>
+  </div>
+);
+```
+
+### Override component instance
+
+Based on styled-components documentation the most efficient way to have new version of component is to create new styled-components and override it
+
+```js
+import styled from 'styled-components';
+import { Tab as OxygenTab } from '@8x8/oxygen-tabs';
+
+const Tab = styled(OxygenTab)`
+  margin-top: 10px;
+`;
+
+export default Tab;
+```
+
+_If you use the styled(MyComponent) notation and MyComponent does not render the passed-in className prop, then no styles will be applied. To avoid this issue, make sure your component attaches the passed-in className to a DOM node._

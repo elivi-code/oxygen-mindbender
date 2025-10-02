@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Time Selector Input should change iconLeft color when isValueSelected is true 1`] = `
+<InputContainer
+  aria-disabled={false}
+  aria-invalid={false}
+  data-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  hasError={false}
+  isClearable={false}
+  isDisabled={false}
+  isOpen={false}
+  isPlaceholder={false}
+  onClick={[Function]}
+  size="large"
+  test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  title=""
+>
+  <InputTitle>
+    
+  </InputTitle>
+  <InputIcon
+    as={
+      {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    color="#5E6D7A"
+    data-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    isDisabled={false}
+    reverse={false}
+    test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+  />
+</InputContainer>
+`;
+
+exports[`Date Time Selector Input should change isPlaceholder prop for InputTitle to false when isValueSelected is true 1`] = `
+<InputContainer
+  aria-disabled={false}
+  aria-invalid={false}
+  data-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  hasError={false}
+  isClearable={false}
+  isDisabled={false}
+  isOpen={false}
+  isPlaceholder={false}
+  onClick={[Function]}
+  size="large"
+  test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  title=""
+>
+  <InputTitle>
+    
+  </InputTitle>
+  <InputIcon
+    as={
+      {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    color="#5E6D7A"
+    data-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    isDisabled={false}
+    reverse={false}
+    test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+  />
+</InputContainer>
+`;
+
+exports[`Date Time Selector Input should render correctly 1`] = `
+<InputContainer
+  aria-disabled={false}
+  aria-invalid={false}
+  data-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  hasError={false}
+  isClearable={false}
+  isDisabled={false}
+  isOpen={false}
+  isPlaceholder={true}
+  onClick={[Function]}
+  size="large"
+  test-id="DATE_TIME_RANGE_SELECTOR_INPUT"
+  title=""
+>
+  <InputTitle>
+    
+  </InputTitle>
+  <InputIcon
+    as={
+      {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    color="#5E6D7A"
+    data-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    data-test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+    isDisabled={false}
+    reverse={false}
+    test-id="DATE_TIME_RANGE_SELECTOR_INPUT_ICON"
+  />
+</InputContainer>
+`;

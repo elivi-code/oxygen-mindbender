@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterContainer> in Classic should render correctly with default props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 0;
+  padding: 16px 24px;
+  box-shadow: none;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<FooterContainer> in Novo should render correctly as small 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 0;
+  padding: 16px 16px;
+  box-shadow: none;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<FooterContainer> in Novo should render correctly with default props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 0;
+  padding: 16px;
+  box-shadow: none;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<FooterContainer> in Novo should render correctly with hasBorderTop property 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 0;
+  padding: 16px 24px;
+  box-shadow: inset 0 1px 0 0 #D1DBE8;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<FooterContainer> in Novo should render correctly with hasButtonSpacing property 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+  box-shadow: none;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<FooterContainer> in Novo should render correctly with modalHasContent property 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 0;
+  padding: 16px 24px;
+  box-shadow: none;
+}
+
+<div
+  className="c0"
+/>
+`;

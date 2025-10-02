@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoteIcon> should render correctly 1`] = `
+.c0 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  pointer-events: auto;
+  fill: #1C2025;
+}
+
+<svg
+  className="c0"
+  color={null}
+  disabled={false}
+  role="presentation"
+  selected={false}
+  size={null}
+  viewBox="0 0 24 24"
+>
+  <g>
+    <path
+      clipRule="evenodd"
+      d="M15 2h.5858a1 1 0 0 1 .7071.2929l3.4142 3.4142c.1875.1875.2929.4419.2929.7071V21c0 .5523-.4477 1-1 1H5c-.5523 0-1-.4477-1-1V3c0-.5523.4477-1 1-1h10Zm-2 2v3c0 1.1046.8954 2 2 2h3v11H6V4h7Zm5 3h-3V4h.1716L18 6.8284V7Zm-9 9c-.5523 0-1 .4477-1 1s.4477 1 1 1h6c.5523 0 1-.4477 1-1s-.4477-1-1-1H9Zm-1-2c0-.5523.4477-1 1-1h6c.5523 0 1 .4477 1 1s-.4477 1-1 1H9c-.5523 0-1-.4477-1-1Zm1-4c-.5523 0-1 .4477-1 1s.4477 1 1 1h6c.5523 0 1-.4477 1-1s-.4477-1-1-1H9Z"
+      fillRule="evenodd"
+    />
+  </g>
+</svg>
+`;

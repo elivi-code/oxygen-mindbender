@@ -1,0 +1,60 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Community/Guidelines/Accessibility - Semantic Code" />
+
+## Accessibility - Semantic HTML
+
+I'm able to style div tag as I want, so why should I care about proper / **semantic structure**?
+Semantic HTML is the foundation of accessibility, using the various HTML (especially HTML5) elements in our websites
+will give us **accessibility for free**.
+
+- Use HTML5 tags instead of putting everywhere _div / span_ tags:
+
+```html
+<nav>
+  <ul>
+    …
+  </ul>
+</nav>
+```
+
+```html
+<header>
+  …
+  <img src="8x8_logotype.png" alt="8x8 Logotype" />
+  …
+</header>
+```
+
+- Use [React Fragments](https://reactjs.org/docs/fragments.html) to avoid unnecessary HTML elements and to avoid breaking HTML semantics. It is extremely important in:
+
+```html
+<table>
+  ,
+  <ul>
+    ,
+    <ol></ol>
+  </ul>
+</table>
+```
+
+```js
+import React, { Fragment } from 'react';
+```
+
+- Add title attribute with full text
+- always when you're going to use CSS _text-overflow: ellipsis_
+- for the element which is based on colors: e.g. UserStatus
+- Provide text alternatives for non-text content:
+- Add an _alt_ attribute to all of your images.
+- Add an _alt_ attribute to your audio and video
+- Use button tag for interactive elements (eg. with onClick event) or aria role from WAI-ARIA
+- [Follow good practice](https://www.w3.org/WAI/tutorials/page-structure/regions/) - how to build the structure of your application/components
+
+### How to validate your HTML:
+
+<hr />
+
+- [WAVE extension](http://wave.webaim.org/extension/)
+- IDE Support
+- [Dev Tool / Audit in Chrome : Lighthouse](https://developers.google.com/web/tools/lighthouse/)

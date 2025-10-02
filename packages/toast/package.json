@@ -1,0 +1,35 @@
+{
+  "name": "@8x8/oxygen-toast",
+  "version": "2.98.0",
+  "description": "Oxygen - Toast",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "8x8",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/toast",
+    "type": "git",
+    "url": "git@github.com:8x8/oxygen.git"
+  },
+  "dependencies": {
+    "@8x8/oxygen-button": "2.98.0",
+    "@8x8/oxygen-constants": "2.98.0",
+    "@8x8/oxygen-icon": "2.98.0",
+    "@8x8/oxygen-loaders": "2.98.0",
+    "@8x8/oxygen-text-link": "2.98.0",
+    "@8x8/oxygen-theme": "2.98.0",
+    "@8x8/oxygen-utils": "2.98.0",
+    "prop-types": "15.8.1",
+    "react-pose": "4.0.10",
+    "uuid": "9.0.0"
+  },
+  "peerDependencies": {
+    "@8x8/oxygen-config": "^2.98.0 || >=2.98.0",
+    "react": "^16.8.2 || ^17 || ^18",
+    "styled-components": "^4.1.2 || >=4.1.2"
+  }
+}

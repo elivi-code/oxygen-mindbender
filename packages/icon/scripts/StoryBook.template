@@ -1,0 +1,33 @@
+import React from 'react';
+
+import { Label, Section, ComponentSection } from '@8x8/oxygen-storybook-utils';
+
+$imports$;
+
+export default {
+  title: 'Components/Icon',
+  parameters: {
+    chromatic: { disable: false },
+  },
+};
+
+export const Story = () => (
+    <Section>
+      <ComponentSection>
+        <div
+          style={{
+            marginBottom: '32px',
+            padding: '12px 8px',
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-around',
+          }}
+        >
+          $componentList$
+        </div>
+      </ComponentSection>
+    </Section>
+  );
+
+Story.storyName = '$iconSet$'
+/* eslint-enable */

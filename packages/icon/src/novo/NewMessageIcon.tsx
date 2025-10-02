@@ -1,0 +1,6 @@
+import React from 'react';
+import type { IconProps } from '../utils/createSvgIcon';
+import createSvgIcon from '../utils/createSvgIcon';
+
+export type { IconProps };
+export default createSvgIcon(<g><path fillRule="evenodd" d="M18.0654 1.7533 7.9067 12.5673a1.5001 1.5001 0 0 0-.4067 1.027v2.406c0 .8284.6716 1.5 1.5 1.5h2.3787c.3978 0 .7793-.158 1.0606-.4393l10.5-10.5c.5858-.5858.5858-1.5356 0-2.1214l-2.72-2.72c-.5987-.5988-1.5741-.5835-2.1539.0337Zm3.8133 3.747-2.534 2.534-2.6409-2.6408 2.4549-2.6132 2.72 2.72Zm-10.5 10.5L18.284 9.095l-2.6077-2.6077L9 13.5943v2.406h2.3787ZM19.5 18v-5.8144l1.5-1.4703V18c0 1.6569-1.3431 3-3 3H6c-1.6569 0-3-1.3431-3-3V6c0-1.6569 1.3431-3 3-3h8.6455L13.208 4.5H6c-.8284 0-1.5.6716-1.5 1.5v12c0 .8284.6716 1.5 1.5 1.5h12c.8284 0 1.5-.6716 1.5-1.5Z" clipRule="evenodd"/></g>, 'NewMessageIcon');

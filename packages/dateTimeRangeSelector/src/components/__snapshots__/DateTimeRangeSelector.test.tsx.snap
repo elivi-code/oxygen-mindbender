@@ -1,0 +1,1475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Time Range Selector should render correctly 1`] = `
+<ForwardRef
+  dateTimeRange={
+    {
+      "endDate": 1998-02-13T00:00:00.000Z,
+      "startDate": 1998-02-12T00:00:00.000Z,
+    }
+  }
+  theme={
+    {
+      "backgroundColor": "#FFF",
+      "backgroundColorDisabled": "#F0F3F7",
+      "borderColor": "#D1DBE8",
+      "borderColorError": "#E12D2D",
+      "borderColorOpen": "#0376DA",
+      "borderRadius": 0,
+      "borderSize": "1px",
+      "calendarBottomMargin": "40px",
+      "calendarHorizontalMargin": "24px",
+      "clearIconColor": "#A4B8D1",
+      "clearIconHoverColor": "#5E6D7A",
+      "color": "#1C2025",
+      "colorDisabled": "#A4B8D1",
+      "containerAnimationDuration": "150ms",
+      "containerBackgroundColor": "#FFF",
+      "containerBorderColor": "#D1DBE8",
+      "containerBorderRadius": undefined,
+      "containerBorderSize": "1px",
+      "containerPadding": undefined,
+      "containerShadowBlurRadius": "4px",
+      "containerShadowColor": "#D1DBE8",
+      "containerZIndex": 2500,
+      "dateInputMarginRight": "12px",
+      "dateTimeInputsBorderColor": "#D1DBE8",
+      "dateTimeInputsBorderSize": "1px",
+      "dateTimeInputsMarginBottom": "12px",
+      "dateTimeInputsPadding": "12px",
+      "endTimeErrorColor": "#E12D2D",
+      "endTimeErrorFontSize": "13px",
+      "endTimeErrorLineHeight": "18px",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": undefined,
+      "footerBorderColor": "#D1DBE8",
+      "footerBorderSize": "1px",
+      "footerPadding": "16px",
+      "heightLarge": "40px",
+      "heightSmall": "32px",
+      "iconColor": "#5E6D7A",
+      "iconMargin": "8px",
+      "iconMinSize": "24px",
+      "isClassic": true,
+      "letterSpacing": undefined,
+      "lineHeight": "24px",
+      "listBackgroundColor": "#F0F3F7",
+      "listBorderRightColor": "#D1DBE8",
+      "listBorderRightSize": "1px",
+      "listInputHorizontalSpacing": "4px",
+      "listInputMarginBottom": "-6px",
+      "listInputMarginLeft": "4px",
+      "listInputMarginRight": "3px",
+      "listInputMarginTop": "-7px",
+      "listInputMinWidth": 0,
+      "listInputVerticalSpacing": 0,
+      "listInputWidth": "28px",
+      "listItemColor": "#1C2025",
+      "listItemFontSize": "13px",
+      "listItemLineHeight": "18px",
+      "listItemPaddingHorizontal": "10px",
+      "listItemPaddingVertical": "8px",
+      "listItemSelectedColor": "#0376DA",
+      "listItemSelectedWidth": "4px",
+      "listWidth": "140px",
+      "paddingHorizontal": "12px",
+      "paddingVerticalLarge": "7px",
+      "paddingVerticalSmall": "3px",
+      "placeholderColor": "#A4B8D1",
+      "timeInputContainerMarginLeft": "16px",
+      "timeInputMarginRight": "12px",
+      "transitionTiming": "150ms",
+      "width": "380px",
+    }
+  }
+>
+  <DateTimeRangeSelector
+    clearButtonLabel="Clear"
+    customCloseHandlers={[]}
+    customPredefinedRangeLabel="Custom"
+    dateFormat="MM/dd/yyyy"
+    dateTimeRange={
+      {
+        "endDate": 1998-02-13T00:00:00.000Z,
+        "startDate": 1998-02-12T00:00:00.000Z,
+      }
+    }
+    endTimeErrorMessage="Cannot be before start time"
+    endTimeLabel="End Time"
+    finishButtonLabel="Finish"
+    forwardedRef={null}
+    fromLabel="From"
+    hasError={false}
+    hidePredefinedRanges={false}
+    hideTime={false}
+    iconLeft={null}
+    isDisabled={false}
+    onClose={[Function]}
+    onOpen={[Function]}
+    onRangeChange={[Function]}
+    otherCalendarProps={{}}
+    placeholder="Select Date Range"
+    predefinedRange={
+      {
+        "id": "CUSTOM",
+      }
+    }
+    predefinedRanges={
+      [
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Today",
+          "id": "TODAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Hour",
+          "id": "LAST_HOUR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Yesterday",
+          "id": "YESTERDAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Days",
+          "hasArgument": true,
+          "id": "LAST_X_DAYS",
+          "selectedDisplayName": [
+            "Last",
+            "Days",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Week",
+          "id": "THIS_WEEK",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Month",
+          "id": "THIS_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Month",
+          "id": "LAST_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Months",
+          "hasArgument": true,
+          "id": "LAST_X_MONTHS",
+          "selectedDisplayName": [
+            "Last",
+            "Months",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Year",
+          "id": "THIS_YEAR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Year",
+          "id": "LAST_YEAR",
+        },
+      ]
+    }
+    size="large"
+    startTimeLabel="Start Time"
+    testId="DATE_TIME_RANGE_SELECTOR"
+    theme={
+      {
+        "backgroundColor": "#FFF",
+        "backgroundColorDisabled": "#F0F3F7",
+        "borderColor": "#D1DBE8",
+        "borderColorError": "#E12D2D",
+        "borderColorOpen": "#0376DA",
+        "borderRadius": 0,
+        "borderSize": "1px",
+        "calendarBottomMargin": "40px",
+        "calendarHorizontalMargin": "24px",
+        "clearIconColor": "#A4B8D1",
+        "clearIconHoverColor": "#5E6D7A",
+        "color": "#1C2025",
+        "colorDisabled": "#A4B8D1",
+        "containerAnimationDuration": "150ms",
+        "containerBackgroundColor": "#FFF",
+        "containerBorderColor": "#D1DBE8",
+        "containerBorderRadius": undefined,
+        "containerBorderSize": "1px",
+        "containerPadding": undefined,
+        "containerShadowBlurRadius": "4px",
+        "containerShadowColor": "#D1DBE8",
+        "containerZIndex": 2500,
+        "dateInputMarginRight": "12px",
+        "dateTimeInputsBorderColor": "#D1DBE8",
+        "dateTimeInputsBorderSize": "1px",
+        "dateTimeInputsMarginBottom": "12px",
+        "dateTimeInputsPadding": "12px",
+        "endTimeErrorColor": "#E12D2D",
+        "endTimeErrorFontSize": "13px",
+        "endTimeErrorLineHeight": "18px",
+        "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": undefined,
+        "footerBorderColor": "#D1DBE8",
+        "footerBorderSize": "1px",
+        "footerPadding": "16px",
+        "heightLarge": "40px",
+        "heightSmall": "32px",
+        "iconColor": "#5E6D7A",
+        "iconMargin": "8px",
+        "iconMinSize": "24px",
+        "isClassic": true,
+        "letterSpacing": undefined,
+        "lineHeight": "24px",
+        "listBackgroundColor": "#F0F3F7",
+        "listBorderRightColor": "#D1DBE8",
+        "listBorderRightSize": "1px",
+        "listInputHorizontalSpacing": "4px",
+        "listInputMarginBottom": "-6px",
+        "listInputMarginLeft": "4px",
+        "listInputMarginRight": "3px",
+        "listInputMarginTop": "-7px",
+        "listInputMinWidth": 0,
+        "listInputVerticalSpacing": 0,
+        "listInputWidth": "28px",
+        "listItemColor": "#1C2025",
+        "listItemFontSize": "13px",
+        "listItemLineHeight": "18px",
+        "listItemPaddingHorizontal": "10px",
+        "listItemPaddingVertical": "8px",
+        "listItemSelectedColor": "#0376DA",
+        "listItemSelectedWidth": "4px",
+        "listWidth": "140px",
+        "paddingHorizontal": "12px",
+        "paddingVerticalLarge": "7px",
+        "paddingVerticalSmall": "3px",
+        "placeholderColor": "#A4B8D1",
+        "timeInputContainerMarginLeft": "16px",
+        "timeInputMarginRight": "12px",
+        "transitionTiming": "150ms",
+        "width": "380px",
+      }
+    }
+    timeFormat="hh:mm a"
+    toLabel="To"
+  >
+    <Component
+      theme={
+        {
+          "backgroundColor": "#FFF",
+          "backgroundColorDisabled": "#F0F3F7",
+          "borderColor": "#D1DBE8",
+          "borderColorError": "#E12D2D",
+          "borderColorOpen": "#0376DA",
+          "borderRadius": 0,
+          "borderSize": "1px",
+          "calendarBottomMargin": "40px",
+          "calendarHorizontalMargin": "24px",
+          "clearIconColor": "#A4B8D1",
+          "clearIconHoverColor": "#5E6D7A",
+          "color": "#1C2025",
+          "colorDisabled": "#A4B8D1",
+          "containerAnimationDuration": "150ms",
+          "containerBackgroundColor": "#FFF",
+          "containerBorderColor": "#D1DBE8",
+          "containerBorderRadius": undefined,
+          "containerBorderSize": "1px",
+          "containerPadding": undefined,
+          "containerShadowBlurRadius": "4px",
+          "containerShadowColor": "#D1DBE8",
+          "containerZIndex": 2500,
+          "dateInputMarginRight": "12px",
+          "dateTimeInputsBorderColor": "#D1DBE8",
+          "dateTimeInputsBorderSize": "1px",
+          "dateTimeInputsMarginBottom": "12px",
+          "dateTimeInputsPadding": "12px",
+          "endTimeErrorColor": "#E12D2D",
+          "endTimeErrorFontSize": "13px",
+          "endTimeErrorLineHeight": "18px",
+          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": undefined,
+          "footerBorderColor": "#D1DBE8",
+          "footerBorderSize": "1px",
+          "footerPadding": "16px",
+          "heightLarge": "40px",
+          "heightSmall": "32px",
+          "iconColor": "#5E6D7A",
+          "iconMargin": "8px",
+          "iconMinSize": "24px",
+          "isClassic": true,
+          "letterSpacing": undefined,
+          "lineHeight": "24px",
+          "listBackgroundColor": "#F0F3F7",
+          "listBorderRightColor": "#D1DBE8",
+          "listBorderRightSize": "1px",
+          "listInputHorizontalSpacing": "4px",
+          "listInputMarginBottom": "-6px",
+          "listInputMarginLeft": "4px",
+          "listInputMarginRight": "3px",
+          "listInputMarginTop": "-7px",
+          "listInputMinWidth": 0,
+          "listInputVerticalSpacing": 0,
+          "listInputWidth": "28px",
+          "listItemColor": "#1C2025",
+          "listItemFontSize": "13px",
+          "listItemLineHeight": "18px",
+          "listItemPaddingHorizontal": "10px",
+          "listItemPaddingVertical": "8px",
+          "listItemSelectedColor": "#0376DA",
+          "listItemSelectedWidth": "4px",
+          "listWidth": "140px",
+          "paddingHorizontal": "12px",
+          "paddingVerticalLarge": "7px",
+          "paddingVerticalSmall": "3px",
+          "placeholderColor": "#A4B8D1",
+          "timeInputContainerMarginLeft": "16px",
+          "timeInputMarginRight": "12px",
+          "transitionTiming": "150ms",
+          "width": "380px",
+        }
+      }
+    >
+      <Manager>
+        <Reference>
+          <Input
+            hasError={false}
+            iconLeft={null}
+            isDisabled={false}
+            isOpen={false}
+            isValueSelected={true}
+            onClick={[Function]}
+            setInputRef={[Function]}
+            size="large"
+            testId="DATE_TIME_RANGE_SELECTOR_INPUT"
+            theme={
+              {
+                "backgroundColor": "#FFF",
+                "backgroundColorDisabled": "#F0F3F7",
+                "borderColor": "#D1DBE8",
+                "borderColorError": "#E12D2D",
+                "borderColorOpen": "#0376DA",
+                "borderRadius": 0,
+                "borderSize": "1px",
+                "calendarBottomMargin": "40px",
+                "calendarHorizontalMargin": "24px",
+                "clearIconColor": "#A4B8D1",
+                "clearIconHoverColor": "#5E6D7A",
+                "color": "#1C2025",
+                "colorDisabled": "#A4B8D1",
+                "containerAnimationDuration": "150ms",
+                "containerBackgroundColor": "#FFF",
+                "containerBorderColor": "#D1DBE8",
+                "containerBorderRadius": undefined,
+                "containerBorderSize": "1px",
+                "containerPadding": undefined,
+                "containerShadowBlurRadius": "4px",
+                "containerShadowColor": "#D1DBE8",
+                "containerZIndex": 2500,
+                "dateInputMarginRight": "12px",
+                "dateTimeInputsBorderColor": "#D1DBE8",
+                "dateTimeInputsBorderSize": "1px",
+                "dateTimeInputsMarginBottom": "12px",
+                "dateTimeInputsPadding": "12px",
+                "endTimeErrorColor": "#E12D2D",
+                "endTimeErrorFontSize": "13px",
+                "endTimeErrorLineHeight": "18px",
+                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "fontSize": "15px",
+                "fontWeight": undefined,
+                "footerBorderColor": "#D1DBE8",
+                "footerBorderSize": "1px",
+                "footerPadding": "16px",
+                "heightLarge": "40px",
+                "heightSmall": "32px",
+                "iconColor": "#5E6D7A",
+                "iconMargin": "8px",
+                "iconMinSize": "24px",
+                "isClassic": true,
+                "letterSpacing": undefined,
+                "lineHeight": "24px",
+                "listBackgroundColor": "#F0F3F7",
+                "listBorderRightColor": "#D1DBE8",
+                "listBorderRightSize": "1px",
+                "listInputHorizontalSpacing": "4px",
+                "listInputMarginBottom": "-6px",
+                "listInputMarginLeft": "4px",
+                "listInputMarginRight": "3px",
+                "listInputMarginTop": "-7px",
+                "listInputMinWidth": 0,
+                "listInputVerticalSpacing": 0,
+                "listInputWidth": "28px",
+                "listItemColor": "#1C2025",
+                "listItemFontSize": "13px",
+                "listItemLineHeight": "18px",
+                "listItemPaddingHorizontal": "10px",
+                "listItemPaddingVertical": "8px",
+                "listItemSelectedColor": "#0376DA",
+                "listItemSelectedWidth": "4px",
+                "listWidth": "140px",
+                "paddingHorizontal": "12px",
+                "paddingVerticalLarge": "7px",
+                "paddingVerticalSmall": "3px",
+                "placeholderColor": "#A4B8D1",
+                "timeInputContainerMarginLeft": "16px",
+                "timeInputMarginRight": "12px",
+                "transitionTiming": "150ms",
+                "width": "380px",
+              }
+            }
+            title="02/12/1998 12:00 AM - 02/13/1998 12:00 AM"
+          />
+        </Reference>
+      </Manager>
+    </Component>
+  </DateTimeRangeSelector>
+</ForwardRef>
+`;
+
+exports[`Date Time Range Selector should render correctly when dropdown is open 1`] = `
+<ForwardRef
+  dateTimeRange={
+    {
+      "endDate": 1998-02-13T00:00:00.000Z,
+      "startDate": 1998-02-12T00:00:00.000Z,
+    }
+  }
+  theme={
+    {
+      "backgroundColor": "#FFF",
+      "backgroundColorDisabled": "#F0F3F7",
+      "borderColor": "#D1DBE8",
+      "borderColorError": "#E12D2D",
+      "borderColorOpen": "#0376DA",
+      "borderRadius": 0,
+      "borderSize": "1px",
+      "calendarBottomMargin": "40px",
+      "calendarHorizontalMargin": "24px",
+      "clearIconColor": "#A4B8D1",
+      "clearIconHoverColor": "#5E6D7A",
+      "color": "#1C2025",
+      "colorDisabled": "#A4B8D1",
+      "containerAnimationDuration": "150ms",
+      "containerBackgroundColor": "#FFF",
+      "containerBorderColor": "#D1DBE8",
+      "containerBorderRadius": undefined,
+      "containerBorderSize": "1px",
+      "containerPadding": undefined,
+      "containerShadowBlurRadius": "4px",
+      "containerShadowColor": "#D1DBE8",
+      "containerZIndex": 2500,
+      "dateInputMarginRight": "12px",
+      "dateTimeInputsBorderColor": "#D1DBE8",
+      "dateTimeInputsBorderSize": "1px",
+      "dateTimeInputsMarginBottom": "12px",
+      "dateTimeInputsPadding": "12px",
+      "endTimeErrorColor": "#E12D2D",
+      "endTimeErrorFontSize": "13px",
+      "endTimeErrorLineHeight": "18px",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": undefined,
+      "footerBorderColor": "#D1DBE8",
+      "footerBorderSize": "1px",
+      "footerPadding": "16px",
+      "heightLarge": "40px",
+      "heightSmall": "32px",
+      "iconColor": "#5E6D7A",
+      "iconMargin": "8px",
+      "iconMinSize": "24px",
+      "isClassic": true,
+      "letterSpacing": undefined,
+      "lineHeight": "24px",
+      "listBackgroundColor": "#F0F3F7",
+      "listBorderRightColor": "#D1DBE8",
+      "listBorderRightSize": "1px",
+      "listInputHorizontalSpacing": "4px",
+      "listInputMarginBottom": "-6px",
+      "listInputMarginLeft": "4px",
+      "listInputMarginRight": "3px",
+      "listInputMarginTop": "-7px",
+      "listInputMinWidth": 0,
+      "listInputVerticalSpacing": 0,
+      "listInputWidth": "28px",
+      "listItemColor": "#1C2025",
+      "listItemFontSize": "13px",
+      "listItemLineHeight": "18px",
+      "listItemPaddingHorizontal": "10px",
+      "listItemPaddingVertical": "8px",
+      "listItemSelectedColor": "#0376DA",
+      "listItemSelectedWidth": "4px",
+      "listWidth": "140px",
+      "paddingHorizontal": "12px",
+      "paddingVerticalLarge": "7px",
+      "paddingVerticalSmall": "3px",
+      "placeholderColor": "#A4B8D1",
+      "timeInputContainerMarginLeft": "16px",
+      "timeInputMarginRight": "12px",
+      "transitionTiming": "150ms",
+      "width": "380px",
+    }
+  }
+>
+  <DateTimeRangeSelector
+    clearButtonLabel="Clear"
+    customCloseHandlers={[]}
+    customPredefinedRangeLabel="Custom"
+    dateFormat="MM/dd/yyyy"
+    dateTimeRange={
+      {
+        "endDate": 1998-02-13T00:00:00.000Z,
+        "startDate": 1998-02-12T00:00:00.000Z,
+      }
+    }
+    endTimeErrorMessage="Cannot be before start time"
+    endTimeLabel="End Time"
+    finishButtonLabel="Finish"
+    forwardedRef={null}
+    fromLabel="From"
+    hasError={false}
+    hidePredefinedRanges={false}
+    hideTime={false}
+    iconLeft={null}
+    isDisabled={false}
+    onClose={[Function]}
+    onOpen={[Function]}
+    onRangeChange={[Function]}
+    otherCalendarProps={{}}
+    placeholder="Select Date Range"
+    predefinedRange={
+      {
+        "id": "CUSTOM",
+      }
+    }
+    predefinedRanges={
+      [
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Today",
+          "id": "TODAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Hour",
+          "id": "LAST_HOUR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Yesterday",
+          "id": "YESTERDAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Days",
+          "hasArgument": true,
+          "id": "LAST_X_DAYS",
+          "selectedDisplayName": [
+            "Last",
+            "Days",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Week",
+          "id": "THIS_WEEK",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Month",
+          "id": "THIS_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Month",
+          "id": "LAST_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Months",
+          "hasArgument": true,
+          "id": "LAST_X_MONTHS",
+          "selectedDisplayName": [
+            "Last",
+            "Months",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Year",
+          "id": "THIS_YEAR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Year",
+          "id": "LAST_YEAR",
+        },
+      ]
+    }
+    size="large"
+    startTimeLabel="Start Time"
+    testId="DATE_TIME_RANGE_SELECTOR"
+    theme={
+      {
+        "backgroundColor": "#FFF",
+        "backgroundColorDisabled": "#F0F3F7",
+        "borderColor": "#D1DBE8",
+        "borderColorError": "#E12D2D",
+        "borderColorOpen": "#0376DA",
+        "borderRadius": 0,
+        "borderSize": "1px",
+        "calendarBottomMargin": "40px",
+        "calendarHorizontalMargin": "24px",
+        "clearIconColor": "#A4B8D1",
+        "clearIconHoverColor": "#5E6D7A",
+        "color": "#1C2025",
+        "colorDisabled": "#A4B8D1",
+        "containerAnimationDuration": "150ms",
+        "containerBackgroundColor": "#FFF",
+        "containerBorderColor": "#D1DBE8",
+        "containerBorderRadius": undefined,
+        "containerBorderSize": "1px",
+        "containerPadding": undefined,
+        "containerShadowBlurRadius": "4px",
+        "containerShadowColor": "#D1DBE8",
+        "containerZIndex": 2500,
+        "dateInputMarginRight": "12px",
+        "dateTimeInputsBorderColor": "#D1DBE8",
+        "dateTimeInputsBorderSize": "1px",
+        "dateTimeInputsMarginBottom": "12px",
+        "dateTimeInputsPadding": "12px",
+        "endTimeErrorColor": "#E12D2D",
+        "endTimeErrorFontSize": "13px",
+        "endTimeErrorLineHeight": "18px",
+        "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": undefined,
+        "footerBorderColor": "#D1DBE8",
+        "footerBorderSize": "1px",
+        "footerPadding": "16px",
+        "heightLarge": "40px",
+        "heightSmall": "32px",
+        "iconColor": "#5E6D7A",
+        "iconMargin": "8px",
+        "iconMinSize": "24px",
+        "isClassic": true,
+        "letterSpacing": undefined,
+        "lineHeight": "24px",
+        "listBackgroundColor": "#F0F3F7",
+        "listBorderRightColor": "#D1DBE8",
+        "listBorderRightSize": "1px",
+        "listInputHorizontalSpacing": "4px",
+        "listInputMarginBottom": "-6px",
+        "listInputMarginLeft": "4px",
+        "listInputMarginRight": "3px",
+        "listInputMarginTop": "-7px",
+        "listInputMinWidth": 0,
+        "listInputVerticalSpacing": 0,
+        "listInputWidth": "28px",
+        "listItemColor": "#1C2025",
+        "listItemFontSize": "13px",
+        "listItemLineHeight": "18px",
+        "listItemPaddingHorizontal": "10px",
+        "listItemPaddingVertical": "8px",
+        "listItemSelectedColor": "#0376DA",
+        "listItemSelectedWidth": "4px",
+        "listWidth": "140px",
+        "paddingHorizontal": "12px",
+        "paddingVerticalLarge": "7px",
+        "paddingVerticalSmall": "3px",
+        "placeholderColor": "#A4B8D1",
+        "timeInputContainerMarginLeft": "16px",
+        "timeInputMarginRight": "12px",
+        "transitionTiming": "150ms",
+        "width": "380px",
+      }
+    }
+    timeFormat="hh:mm a"
+    toLabel="To"
+  >
+    <Component
+      theme={
+        {
+          "backgroundColor": "#FFF",
+          "backgroundColorDisabled": "#F0F3F7",
+          "borderColor": "#D1DBE8",
+          "borderColorError": "#E12D2D",
+          "borderColorOpen": "#0376DA",
+          "borderRadius": 0,
+          "borderSize": "1px",
+          "calendarBottomMargin": "40px",
+          "calendarHorizontalMargin": "24px",
+          "clearIconColor": "#A4B8D1",
+          "clearIconHoverColor": "#5E6D7A",
+          "color": "#1C2025",
+          "colorDisabled": "#A4B8D1",
+          "containerAnimationDuration": "150ms",
+          "containerBackgroundColor": "#FFF",
+          "containerBorderColor": "#D1DBE8",
+          "containerBorderRadius": undefined,
+          "containerBorderSize": "1px",
+          "containerPadding": undefined,
+          "containerShadowBlurRadius": "4px",
+          "containerShadowColor": "#D1DBE8",
+          "containerZIndex": 2500,
+          "dateInputMarginRight": "12px",
+          "dateTimeInputsBorderColor": "#D1DBE8",
+          "dateTimeInputsBorderSize": "1px",
+          "dateTimeInputsMarginBottom": "12px",
+          "dateTimeInputsPadding": "12px",
+          "endTimeErrorColor": "#E12D2D",
+          "endTimeErrorFontSize": "13px",
+          "endTimeErrorLineHeight": "18px",
+          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": undefined,
+          "footerBorderColor": "#D1DBE8",
+          "footerBorderSize": "1px",
+          "footerPadding": "16px",
+          "heightLarge": "40px",
+          "heightSmall": "32px",
+          "iconColor": "#5E6D7A",
+          "iconMargin": "8px",
+          "iconMinSize": "24px",
+          "isClassic": true,
+          "letterSpacing": undefined,
+          "lineHeight": "24px",
+          "listBackgroundColor": "#F0F3F7",
+          "listBorderRightColor": "#D1DBE8",
+          "listBorderRightSize": "1px",
+          "listInputHorizontalSpacing": "4px",
+          "listInputMarginBottom": "-6px",
+          "listInputMarginLeft": "4px",
+          "listInputMarginRight": "3px",
+          "listInputMarginTop": "-7px",
+          "listInputMinWidth": 0,
+          "listInputVerticalSpacing": 0,
+          "listInputWidth": "28px",
+          "listItemColor": "#1C2025",
+          "listItemFontSize": "13px",
+          "listItemLineHeight": "18px",
+          "listItemPaddingHorizontal": "10px",
+          "listItemPaddingVertical": "8px",
+          "listItemSelectedColor": "#0376DA",
+          "listItemSelectedWidth": "4px",
+          "listWidth": "140px",
+          "paddingHorizontal": "12px",
+          "paddingVerticalLarge": "7px",
+          "paddingVerticalSmall": "3px",
+          "placeholderColor": "#A4B8D1",
+          "timeInputContainerMarginLeft": "16px",
+          "timeInputMarginRight": "12px",
+          "transitionTiming": "150ms",
+          "width": "380px",
+        }
+      }
+    >
+      <Manager>
+        <Reference>
+          <Input
+            hasError={false}
+            iconLeft={null}
+            isDisabled={false}
+            isOpen={true}
+            isValueSelected={true}
+            onClick={[Function]}
+            setInputRef={[Function]}
+            size="large"
+            testId="DATE_TIME_RANGE_SELECTOR_INPUT"
+            theme={
+              {
+                "backgroundColor": "#FFF",
+                "backgroundColorDisabled": "#F0F3F7",
+                "borderColor": "#D1DBE8",
+                "borderColorError": "#E12D2D",
+                "borderColorOpen": "#0376DA",
+                "borderRadius": 0,
+                "borderSize": "1px",
+                "calendarBottomMargin": "40px",
+                "calendarHorizontalMargin": "24px",
+                "clearIconColor": "#A4B8D1",
+                "clearIconHoverColor": "#5E6D7A",
+                "color": "#1C2025",
+                "colorDisabled": "#A4B8D1",
+                "containerAnimationDuration": "150ms",
+                "containerBackgroundColor": "#FFF",
+                "containerBorderColor": "#D1DBE8",
+                "containerBorderRadius": undefined,
+                "containerBorderSize": "1px",
+                "containerPadding": undefined,
+                "containerShadowBlurRadius": "4px",
+                "containerShadowColor": "#D1DBE8",
+                "containerZIndex": 2500,
+                "dateInputMarginRight": "12px",
+                "dateTimeInputsBorderColor": "#D1DBE8",
+                "dateTimeInputsBorderSize": "1px",
+                "dateTimeInputsMarginBottom": "12px",
+                "dateTimeInputsPadding": "12px",
+                "endTimeErrorColor": "#E12D2D",
+                "endTimeErrorFontSize": "13px",
+                "endTimeErrorLineHeight": "18px",
+                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "fontSize": "15px",
+                "fontWeight": undefined,
+                "footerBorderColor": "#D1DBE8",
+                "footerBorderSize": "1px",
+                "footerPadding": "16px",
+                "heightLarge": "40px",
+                "heightSmall": "32px",
+                "iconColor": "#5E6D7A",
+                "iconMargin": "8px",
+                "iconMinSize": "24px",
+                "isClassic": true,
+                "letterSpacing": undefined,
+                "lineHeight": "24px",
+                "listBackgroundColor": "#F0F3F7",
+                "listBorderRightColor": "#D1DBE8",
+                "listBorderRightSize": "1px",
+                "listInputHorizontalSpacing": "4px",
+                "listInputMarginBottom": "-6px",
+                "listInputMarginLeft": "4px",
+                "listInputMarginRight": "3px",
+                "listInputMarginTop": "-7px",
+                "listInputMinWidth": 0,
+                "listInputVerticalSpacing": 0,
+                "listInputWidth": "28px",
+                "listItemColor": "#1C2025",
+                "listItemFontSize": "13px",
+                "listItemLineHeight": "18px",
+                "listItemPaddingHorizontal": "10px",
+                "listItemPaddingVertical": "8px",
+                "listItemSelectedColor": "#0376DA",
+                "listItemSelectedWidth": "4px",
+                "listWidth": "140px",
+                "paddingHorizontal": "12px",
+                "paddingVerticalLarge": "7px",
+                "paddingVerticalSmall": "3px",
+                "placeholderColor": "#A4B8D1",
+                "timeInputContainerMarginLeft": "16px",
+                "timeInputMarginRight": "12px",
+                "transitionTiming": "150ms",
+                "width": "380px",
+              }
+            }
+            title="02/12/1998 12:00 AM - 02/13/1998 12:00 AM"
+          />
+        </Reference>
+        <Popper
+          innerRef={[Function]}
+          placement="bottom-start"
+          positionFixed={true}
+        >
+          <Dropdown
+            clearButtonLabel="Clear"
+            customPredefinedRangeLabel="Custom"
+            dateFormat="MM/dd/yyyy"
+            dateTimeRange={
+              {
+                "endDate": 1998-02-13T00:00:00.000Z,
+                "startDate": 1998-02-12T00:00:00.000Z,
+              }
+            }
+            endTimeErrorMessage="Cannot be before start time"
+            endTimeLabel="End Time"
+            finishButtonLabel="Finish"
+            fromLabel="From"
+            hidePredefinedRanges={false}
+            hideTime={false}
+            onClose={[Function]}
+            onRangeChange={[Function]}
+            otherCalendarProps={{}}
+            predefinedRange={
+              {
+                "id": "CUSTOM",
+              }
+            }
+            predefinedRanges={
+              [
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Today",
+                  "id": "TODAY",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Last Hour",
+                  "id": "LAST_HOUR",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Yesterday",
+                  "id": "YESTERDAY",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Last X Days",
+                  "hasArgument": true,
+                  "id": "LAST_X_DAYS",
+                  "selectedDisplayName": [
+                    "Last",
+                    "Days",
+                  ],
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "This Week",
+                  "id": "THIS_WEEK",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "This Month",
+                  "id": "THIS_MONTH",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Last Month",
+                  "id": "LAST_MONTH",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Last X Months",
+                  "hasArgument": true,
+                  "id": "LAST_X_MONTHS",
+                  "selectedDisplayName": [
+                    "Last",
+                    "Months",
+                  ],
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "This Year",
+                  "id": "THIS_YEAR",
+                },
+                {
+                  "dateTimeRange": [Function],
+                  "displayName": "Last Year",
+                  "id": "LAST_YEAR",
+                },
+              ]
+            }
+            startTimeLabel="Start Time"
+            testId="DATE_TIME_RANGE_SELECTOR_DROPDOWN"
+            theme={
+              {
+                "backgroundColor": "#FFF",
+                "backgroundColorDisabled": "#F0F3F7",
+                "borderColor": "#D1DBE8",
+                "borderColorError": "#E12D2D",
+                "borderColorOpen": "#0376DA",
+                "borderRadius": 0,
+                "borderSize": "1px",
+                "calendarBottomMargin": "40px",
+                "calendarHorizontalMargin": "24px",
+                "clearIconColor": "#A4B8D1",
+                "clearIconHoverColor": "#5E6D7A",
+                "color": "#1C2025",
+                "colorDisabled": "#A4B8D1",
+                "containerAnimationDuration": "150ms",
+                "containerBackgroundColor": "#FFF",
+                "containerBorderColor": "#D1DBE8",
+                "containerBorderRadius": undefined,
+                "containerBorderSize": "1px",
+                "containerPadding": undefined,
+                "containerShadowBlurRadius": "4px",
+                "containerShadowColor": "#D1DBE8",
+                "containerZIndex": 2500,
+                "dateInputMarginRight": "12px",
+                "dateTimeInputsBorderColor": "#D1DBE8",
+                "dateTimeInputsBorderSize": "1px",
+                "dateTimeInputsMarginBottom": "12px",
+                "dateTimeInputsPadding": "12px",
+                "endTimeErrorColor": "#E12D2D",
+                "endTimeErrorFontSize": "13px",
+                "endTimeErrorLineHeight": "18px",
+                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "fontSize": "15px",
+                "fontWeight": undefined,
+                "footerBorderColor": "#D1DBE8",
+                "footerBorderSize": "1px",
+                "footerPadding": "16px",
+                "heightLarge": "40px",
+                "heightSmall": "32px",
+                "iconColor": "#5E6D7A",
+                "iconMargin": "8px",
+                "iconMinSize": "24px",
+                "isClassic": true,
+                "letterSpacing": undefined,
+                "lineHeight": "24px",
+                "listBackgroundColor": "#F0F3F7",
+                "listBorderRightColor": "#D1DBE8",
+                "listBorderRightSize": "1px",
+                "listInputHorizontalSpacing": "4px",
+                "listInputMarginBottom": "-6px",
+                "listInputMarginLeft": "4px",
+                "listInputMarginRight": "3px",
+                "listInputMarginTop": "-7px",
+                "listInputMinWidth": 0,
+                "listInputVerticalSpacing": 0,
+                "listInputWidth": "28px",
+                "listItemColor": "#1C2025",
+                "listItemFontSize": "13px",
+                "listItemLineHeight": "18px",
+                "listItemPaddingHorizontal": "10px",
+                "listItemPaddingVertical": "8px",
+                "listItemSelectedColor": "#0376DA",
+                "listItemSelectedWidth": "4px",
+                "listWidth": "140px",
+                "paddingHorizontal": "12px",
+                "paddingVerticalLarge": "7px",
+                "paddingVerticalSmall": "3px",
+                "placeholderColor": "#A4B8D1",
+                "timeInputContainerMarginLeft": "16px",
+                "timeInputMarginRight": "12px",
+                "transitionTiming": "150ms",
+                "width": "380px",
+              }
+            }
+            timeFormat="hh:mm a"
+            toLabel="To"
+          />
+        </Popper>
+      </Manager>
+    </Component>
+  </DateTimeRangeSelector>
+</ForwardRef>
+`;
+
+exports[`Date Time Range Selector should render correctly with placeholder 1`] = `
+<ForwardRef
+  dateTimeRange={
+    {
+      "endDate": 1998-02-13T00:00:00.000Z,
+      "startDate": 1998-02-12T00:00:00.000Z,
+    }
+  }
+  placeholder="TestTitle"
+  theme={
+    {
+      "backgroundColor": "#FFF",
+      "backgroundColorDisabled": "#F0F3F7",
+      "borderColor": "#D1DBE8",
+      "borderColorError": "#E12D2D",
+      "borderColorOpen": "#0376DA",
+      "borderRadius": 0,
+      "borderSize": "1px",
+      "calendarBottomMargin": "40px",
+      "calendarHorizontalMargin": "24px",
+      "clearIconColor": "#A4B8D1",
+      "clearIconHoverColor": "#5E6D7A",
+      "color": "#1C2025",
+      "colorDisabled": "#A4B8D1",
+      "containerAnimationDuration": "150ms",
+      "containerBackgroundColor": "#FFF",
+      "containerBorderColor": "#D1DBE8",
+      "containerBorderRadius": undefined,
+      "containerBorderSize": "1px",
+      "containerPadding": undefined,
+      "containerShadowBlurRadius": "4px",
+      "containerShadowColor": "#D1DBE8",
+      "containerZIndex": 2500,
+      "dateInputMarginRight": "12px",
+      "dateTimeInputsBorderColor": "#D1DBE8",
+      "dateTimeInputsBorderSize": "1px",
+      "dateTimeInputsMarginBottom": "12px",
+      "dateTimeInputsPadding": "12px",
+      "endTimeErrorColor": "#E12D2D",
+      "endTimeErrorFontSize": "13px",
+      "endTimeErrorLineHeight": "18px",
+      "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": undefined,
+      "footerBorderColor": "#D1DBE8",
+      "footerBorderSize": "1px",
+      "footerPadding": "16px",
+      "heightLarge": "40px",
+      "heightSmall": "32px",
+      "iconColor": "#5E6D7A",
+      "iconMargin": "8px",
+      "iconMinSize": "24px",
+      "isClassic": true,
+      "letterSpacing": undefined,
+      "lineHeight": "24px",
+      "listBackgroundColor": "#F0F3F7",
+      "listBorderRightColor": "#D1DBE8",
+      "listBorderRightSize": "1px",
+      "listInputHorizontalSpacing": "4px",
+      "listInputMarginBottom": "-6px",
+      "listInputMarginLeft": "4px",
+      "listInputMarginRight": "3px",
+      "listInputMarginTop": "-7px",
+      "listInputMinWidth": 0,
+      "listInputVerticalSpacing": 0,
+      "listInputWidth": "28px",
+      "listItemColor": "#1C2025",
+      "listItemFontSize": "13px",
+      "listItemLineHeight": "18px",
+      "listItemPaddingHorizontal": "10px",
+      "listItemPaddingVertical": "8px",
+      "listItemSelectedColor": "#0376DA",
+      "listItemSelectedWidth": "4px",
+      "listWidth": "140px",
+      "paddingHorizontal": "12px",
+      "paddingVerticalLarge": "7px",
+      "paddingVerticalSmall": "3px",
+      "placeholderColor": "#A4B8D1",
+      "timeInputContainerMarginLeft": "16px",
+      "timeInputMarginRight": "12px",
+      "transitionTiming": "150ms",
+      "width": "380px",
+    }
+  }
+>
+  <DateTimeRangeSelector
+    clearButtonLabel="Clear"
+    customCloseHandlers={[]}
+    customPredefinedRangeLabel="Custom"
+    dateFormat="MM/dd/yyyy"
+    dateTimeRange={
+      {
+        "endDate": 1998-02-13T00:00:00.000Z,
+        "startDate": 1998-02-12T00:00:00.000Z,
+      }
+    }
+    endTimeErrorMessage="Cannot be before start time"
+    endTimeLabel="End Time"
+    finishButtonLabel="Finish"
+    forwardedRef={null}
+    fromLabel="From"
+    hasError={false}
+    hidePredefinedRanges={false}
+    hideTime={false}
+    iconLeft={null}
+    isDisabled={false}
+    onClose={[Function]}
+    onOpen={[Function]}
+    onRangeChange={[Function]}
+    otherCalendarProps={{}}
+    placeholder="TestTitle"
+    predefinedRange={
+      {
+        "id": "CUSTOM",
+      }
+    }
+    predefinedRanges={
+      [
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Today",
+          "id": "TODAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Hour",
+          "id": "LAST_HOUR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Yesterday",
+          "id": "YESTERDAY",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Days",
+          "hasArgument": true,
+          "id": "LAST_X_DAYS",
+          "selectedDisplayName": [
+            "Last",
+            "Days",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Week",
+          "id": "THIS_WEEK",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Month",
+          "id": "THIS_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Month",
+          "id": "LAST_MONTH",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last X Months",
+          "hasArgument": true,
+          "id": "LAST_X_MONTHS",
+          "selectedDisplayName": [
+            "Last",
+            "Months",
+          ],
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "This Year",
+          "id": "THIS_YEAR",
+        },
+        {
+          "dateTimeRange": [Function],
+          "displayName": "Last Year",
+          "id": "LAST_YEAR",
+        },
+      ]
+    }
+    size="large"
+    startTimeLabel="Start Time"
+    testId="DATE_TIME_RANGE_SELECTOR"
+    theme={
+      {
+        "backgroundColor": "#FFF",
+        "backgroundColorDisabled": "#F0F3F7",
+        "borderColor": "#D1DBE8",
+        "borderColorError": "#E12D2D",
+        "borderColorOpen": "#0376DA",
+        "borderRadius": 0,
+        "borderSize": "1px",
+        "calendarBottomMargin": "40px",
+        "calendarHorizontalMargin": "24px",
+        "clearIconColor": "#A4B8D1",
+        "clearIconHoverColor": "#5E6D7A",
+        "color": "#1C2025",
+        "colorDisabled": "#A4B8D1",
+        "containerAnimationDuration": "150ms",
+        "containerBackgroundColor": "#FFF",
+        "containerBorderColor": "#D1DBE8",
+        "containerBorderRadius": undefined,
+        "containerBorderSize": "1px",
+        "containerPadding": undefined,
+        "containerShadowBlurRadius": "4px",
+        "containerShadowColor": "#D1DBE8",
+        "containerZIndex": 2500,
+        "dateInputMarginRight": "12px",
+        "dateTimeInputsBorderColor": "#D1DBE8",
+        "dateTimeInputsBorderSize": "1px",
+        "dateTimeInputsMarginBottom": "12px",
+        "dateTimeInputsPadding": "12px",
+        "endTimeErrorColor": "#E12D2D",
+        "endTimeErrorFontSize": "13px",
+        "endTimeErrorLineHeight": "18px",
+        "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": undefined,
+        "footerBorderColor": "#D1DBE8",
+        "footerBorderSize": "1px",
+        "footerPadding": "16px",
+        "heightLarge": "40px",
+        "heightSmall": "32px",
+        "iconColor": "#5E6D7A",
+        "iconMargin": "8px",
+        "iconMinSize": "24px",
+        "isClassic": true,
+        "letterSpacing": undefined,
+        "lineHeight": "24px",
+        "listBackgroundColor": "#F0F3F7",
+        "listBorderRightColor": "#D1DBE8",
+        "listBorderRightSize": "1px",
+        "listInputHorizontalSpacing": "4px",
+        "listInputMarginBottom": "-6px",
+        "listInputMarginLeft": "4px",
+        "listInputMarginRight": "3px",
+        "listInputMarginTop": "-7px",
+        "listInputMinWidth": 0,
+        "listInputVerticalSpacing": 0,
+        "listInputWidth": "28px",
+        "listItemColor": "#1C2025",
+        "listItemFontSize": "13px",
+        "listItemLineHeight": "18px",
+        "listItemPaddingHorizontal": "10px",
+        "listItemPaddingVertical": "8px",
+        "listItemSelectedColor": "#0376DA",
+        "listItemSelectedWidth": "4px",
+        "listWidth": "140px",
+        "paddingHorizontal": "12px",
+        "paddingVerticalLarge": "7px",
+        "paddingVerticalSmall": "3px",
+        "placeholderColor": "#A4B8D1",
+        "timeInputContainerMarginLeft": "16px",
+        "timeInputMarginRight": "12px",
+        "transitionTiming": "150ms",
+        "width": "380px",
+      }
+    }
+    timeFormat="hh:mm a"
+    toLabel="To"
+  >
+    <Component
+      theme={
+        {
+          "backgroundColor": "#FFF",
+          "backgroundColorDisabled": "#F0F3F7",
+          "borderColor": "#D1DBE8",
+          "borderColorError": "#E12D2D",
+          "borderColorOpen": "#0376DA",
+          "borderRadius": 0,
+          "borderSize": "1px",
+          "calendarBottomMargin": "40px",
+          "calendarHorizontalMargin": "24px",
+          "clearIconColor": "#A4B8D1",
+          "clearIconHoverColor": "#5E6D7A",
+          "color": "#1C2025",
+          "colorDisabled": "#A4B8D1",
+          "containerAnimationDuration": "150ms",
+          "containerBackgroundColor": "#FFF",
+          "containerBorderColor": "#D1DBE8",
+          "containerBorderRadius": undefined,
+          "containerBorderSize": "1px",
+          "containerPadding": undefined,
+          "containerShadowBlurRadius": "4px",
+          "containerShadowColor": "#D1DBE8",
+          "containerZIndex": 2500,
+          "dateInputMarginRight": "12px",
+          "dateTimeInputsBorderColor": "#D1DBE8",
+          "dateTimeInputsBorderSize": "1px",
+          "dateTimeInputsMarginBottom": "12px",
+          "dateTimeInputsPadding": "12px",
+          "endTimeErrorColor": "#E12D2D",
+          "endTimeErrorFontSize": "13px",
+          "endTimeErrorLineHeight": "18px",
+          "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": undefined,
+          "footerBorderColor": "#D1DBE8",
+          "footerBorderSize": "1px",
+          "footerPadding": "16px",
+          "heightLarge": "40px",
+          "heightSmall": "32px",
+          "iconColor": "#5E6D7A",
+          "iconMargin": "8px",
+          "iconMinSize": "24px",
+          "isClassic": true,
+          "letterSpacing": undefined,
+          "lineHeight": "24px",
+          "listBackgroundColor": "#F0F3F7",
+          "listBorderRightColor": "#D1DBE8",
+          "listBorderRightSize": "1px",
+          "listInputHorizontalSpacing": "4px",
+          "listInputMarginBottom": "-6px",
+          "listInputMarginLeft": "4px",
+          "listInputMarginRight": "3px",
+          "listInputMarginTop": "-7px",
+          "listInputMinWidth": 0,
+          "listInputVerticalSpacing": 0,
+          "listInputWidth": "28px",
+          "listItemColor": "#1C2025",
+          "listItemFontSize": "13px",
+          "listItemLineHeight": "18px",
+          "listItemPaddingHorizontal": "10px",
+          "listItemPaddingVertical": "8px",
+          "listItemSelectedColor": "#0376DA",
+          "listItemSelectedWidth": "4px",
+          "listWidth": "140px",
+          "paddingHorizontal": "12px",
+          "paddingVerticalLarge": "7px",
+          "paddingVerticalSmall": "3px",
+          "placeholderColor": "#A4B8D1",
+          "timeInputContainerMarginLeft": "16px",
+          "timeInputMarginRight": "12px",
+          "transitionTiming": "150ms",
+          "width": "380px",
+        }
+      }
+    >
+      <Manager>
+        <Reference>
+          <Input
+            hasError={false}
+            iconLeft={null}
+            isDisabled={false}
+            isOpen={false}
+            isValueSelected={true}
+            onClick={[Function]}
+            setInputRef={[Function]}
+            size="large"
+            testId="DATE_TIME_RANGE_SELECTOR_INPUT"
+            theme={
+              {
+                "backgroundColor": "#FFF",
+                "backgroundColorDisabled": "#F0F3F7",
+                "borderColor": "#D1DBE8",
+                "borderColorError": "#E12D2D",
+                "borderColorOpen": "#0376DA",
+                "borderRadius": 0,
+                "borderSize": "1px",
+                "calendarBottomMargin": "40px",
+                "calendarHorizontalMargin": "24px",
+                "clearIconColor": "#A4B8D1",
+                "clearIconHoverColor": "#5E6D7A",
+                "color": "#1C2025",
+                "colorDisabled": "#A4B8D1",
+                "containerAnimationDuration": "150ms",
+                "containerBackgroundColor": "#FFF",
+                "containerBorderColor": "#D1DBE8",
+                "containerBorderRadius": undefined,
+                "containerBorderSize": "1px",
+                "containerPadding": undefined,
+                "containerShadowBlurRadius": "4px",
+                "containerShadowColor": "#D1DBE8",
+                "containerZIndex": 2500,
+                "dateInputMarginRight": "12px",
+                "dateTimeInputsBorderColor": "#D1DBE8",
+                "dateTimeInputsBorderSize": "1px",
+                "dateTimeInputsMarginBottom": "12px",
+                "dateTimeInputsPadding": "12px",
+                "endTimeErrorColor": "#E12D2D",
+                "endTimeErrorFontSize": "13px",
+                "endTimeErrorLineHeight": "18px",
+                "fontFamily": "'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "fontSize": "15px",
+                "fontWeight": undefined,
+                "footerBorderColor": "#D1DBE8",
+                "footerBorderSize": "1px",
+                "footerPadding": "16px",
+                "heightLarge": "40px",
+                "heightSmall": "32px",
+                "iconColor": "#5E6D7A",
+                "iconMargin": "8px",
+                "iconMinSize": "24px",
+                "isClassic": true,
+                "letterSpacing": undefined,
+                "lineHeight": "24px",
+                "listBackgroundColor": "#F0F3F7",
+                "listBorderRightColor": "#D1DBE8",
+                "listBorderRightSize": "1px",
+                "listInputHorizontalSpacing": "4px",
+                "listInputMarginBottom": "-6px",
+                "listInputMarginLeft": "4px",
+                "listInputMarginRight": "3px",
+                "listInputMarginTop": "-7px",
+                "listInputMinWidth": 0,
+                "listInputVerticalSpacing": 0,
+                "listInputWidth": "28px",
+                "listItemColor": "#1C2025",
+                "listItemFontSize": "13px",
+                "listItemLineHeight": "18px",
+                "listItemPaddingHorizontal": "10px",
+                "listItemPaddingVertical": "8px",
+                "listItemSelectedColor": "#0376DA",
+                "listItemSelectedWidth": "4px",
+                "listWidth": "140px",
+                "paddingHorizontal": "12px",
+                "paddingVerticalLarge": "7px",
+                "paddingVerticalSmall": "3px",
+                "placeholderColor": "#A4B8D1",
+                "timeInputContainerMarginLeft": "16px",
+                "timeInputMarginRight": "12px",
+                "transitionTiming": "150ms",
+                "width": "380px",
+              }
+            }
+            title="02/12/1998 12:00 AM - 02/13/1998 12:00 AM"
+          />
+        </Reference>
+      </Manager>
+    </Component>
+  </DateTimeRangeSelector>
+</ForwardRef>
+`;

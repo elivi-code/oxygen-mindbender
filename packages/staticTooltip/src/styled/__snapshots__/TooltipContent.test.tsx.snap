@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TooltipContent> should render correctly with a default theme 1`] = `
+.c0 {
+  box-sizing: border-box;
+  min-height: 0.8rem;
+  min-width: 24px;
+  max-height: 110px;
+  overflow-x: auto;
+  word-break: break-word;
+}
+
+<div
+  class="c0"
+/>
+`;

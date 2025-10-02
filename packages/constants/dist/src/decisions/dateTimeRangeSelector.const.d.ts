@@ -1,0 +1,41 @@
+import { DateTimeSelectorTheme } from './dateTimeSelector.const';
+export interface DateTimeRangeSelectorTheme extends DateTimeSelectorTheme {
+    calendarHorizontalMargin: string;
+    calendarBottomMargin: string;
+    dateTimeInputsPadding: string;
+    dateTimeInputsMarginBottom: string;
+    dateTimeInputsBorderSize: string;
+    dateTimeInputsBorderColor: string;
+    dateInputMarginRight: string;
+    timeInputMarginRight: string;
+    timeInputContainerMarginLeft: string;
+    endTimeErrorColor: string;
+    endTimeErrorLineHeight: string;
+    endTimeErrorFontSize: string;
+    listBackgroundColor: string;
+    listBorderRightColor: string;
+    listBorderRightSize: string;
+    listWidth: string;
+    listItemFontSize: string;
+    listItemLineHeight: string;
+    listItemPaddingVertical: string;
+    listItemPaddingHorizontal: string;
+    listItemColor: string;
+    listItemSelectedColor: string;
+    listItemSelectedWidth: string;
+    listInputMarginTop: string;
+    listInputMarginBottom: string;
+    listInputMarginLeft: string;
+    listInputMarginRight: string;
+    listInputHorizontalSpacing: string;
+    listInputMinWidth: number | string;
+    listInputWidth: string;
+    listInputVerticalSpacing: number | string;
+}
+declare const dateTimeRangeSelector: DateTimeRangeSelectorTheme;
+declare const dateTimeRangeSelectorNovo: DateTimeRangeSelectorTheme;
+declare const dateTimeRangeSelectorNovoDark: DateTimeRangeSelectorTheme;
+declare const dateTimeRangeSelectorNeoLight: DateTimeRangeSelectorTheme;
+declare const dateTimeRangeSelectorNeoDark: DateTimeRangeSelectorTheme;
+export { dateTimeRangeSelector, dateTimeRangeSelectorNovo, dateTimeRangeSelectorNovoDark, dateTimeRangeSelectorNeoLight, dateTimeRangeSelectorNeoDark, };
+//# sourceMappingURL=dateTimeRangeSelector.const.d.ts.map
