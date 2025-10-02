@@ -2,12 +2,18 @@ import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { IconButton } from '@8x8/oxygen-button';
 import Tooltip from '@8x8/oxygen-tooltip';
 import CopyIcon from '@8x8/oxygen-icon/novo/CopyIcon';
-const CopyButton = ({ onCopy, textToCopy, tooltipText = 'Copy', copiedText = 'Copied', copiedDuration = 2000, isDisabled = false, testId, forwardedRef, onClick, ...rest }) => {
+import CheckIcon from '@8x8/oxygen-icon/novo/CheckIcon';
+const CopyButton = ({ onCopy, textToCopy, tooltipText = 'Copy', copiedText = 'Copied', copiedDuration = 1600, isDisabled = false, testId, forwardedRef, onClick, ...rest }) => {
     const [isCopied, setIsCopied] = useState(false);
+    const [showCheckIcon, setShowCheckIcon] = useState(false);
     const timeoutRef = useRef(null);
+    const iconTimeoutRef = useRef(null);
     useEffect(() => () => {
         if (timeoutRef.current) {
             clearTimeout(timeoutRef.current);
+        }
+        if (iconTimeoutRef.current) {
+            clearTimeout(iconTimeoutRef.current);
         }
     }, []);
     const handleCopy = useCallback(async (event) => {
@@ -46,19 +52,44 @@ const CopyButton = ({ onCopy, textToCopy, tooltipText = 'Copy', copiedText = 'Co
         }
         // Set copied state
         setIsCopied(true);
-        // Clear any existing timeout
+        // Show check icon
+        setShowCheckIcon(true);
+        // Clear any existing timeouts
         if (timeoutRef.current) {
             clearTimeout(timeoutRef.current);
         }
-        // Reset copied state after duration
+        if (iconTimeoutRef.current) {
+            clearTimeout(iconTimeoutRef.current);
+        }
+        // Reset both icon and copied state after copiedDuration to keep them in sync
+        iconTimeoutRef.current = setTimeout(() => {
+            setShowCheckIcon(false);
+            iconTimeoutRef.current = null;
+        }, copiedDuration);
         timeoutRef.current = setTimeout(() => {
             setIsCopied(false);
             timeoutRef.current = null;
         }, copiedDuration);
     }, [isDisabled, onClick, textToCopy, onCopy, copiedDuration]);
     const currentTooltipText = isCopied ? copiedText : tooltipText;
-    return (React.createElement(Tooltip, { title: currentTooltipText, orientation: "top", showOn: "hover" },
-        React.createElement(IconButton, { size: "smallXIconS", isDisabled: isDisabled, onClick: handleCopy, testId: testId, ref: forwardedRef, ...rest },
-            React.createElement(CopyIcon, null))));
+    const handleMouseDown = useCallback((e) => {
+        // Prevent all default behavior and stop event from reaching Floating UI handlers
+        e.preventDefault();
+        e.stopPropagation();
+        e.nativeEvent.stopImmediatePropagation();
+    }, []);
+    const handleClick = useCallback(async (event) => {
+        // Stop all event propagation to prevent any tooltip close handlers from firing
+        event.preventDefault();
+        event.stopPropagation();
+        event.nativeEvent.stopImmediatePropagation();
+        await handleCopy(event);
+    }, [handleCopy]);
+    const buttonElement = (React.createElement(IconButton, { size: "smallXIconS", isDisabled: isDisabled, onClick: handleClick, onMouseDown: handleMouseDown, testId: testId, ref: forwardedRef, ...rest }, showCheckIcon ? React.createElement(CheckIcon, null) : React.createElement(CopyIcon, null)));
+    // Don't show tooltip when button is disabled
+    if (isDisabled) {
+        return buttonElement;
+    }
+    return (React.createElement(Tooltip, { title: currentTooltipText, orientation: "top", showOn: "hover", offset: 9 }, buttonElement));
 };
 export default React.forwardRef((props, ref) => React.createElement(CopyButton, { ...props, forwardedRef: ref }));

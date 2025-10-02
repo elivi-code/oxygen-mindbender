@@ -20,7 +20,7 @@ export interface CopyButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEl
     copiedText?: string;
     /**
      * Duration in milliseconds to show "copied" state
-     * @default 2000
+     * @default 1600
      */
     copiedDuration?: number;
     /**

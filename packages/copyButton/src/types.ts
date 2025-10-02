@@ -22,7 +22,7 @@ export interface CopyButtonProps
   copiedText?: string;
   /**
    * Duration in milliseconds to show "copied" state
-   * @default 2000
+   * @default 1600
    */
   copiedDuration?: number;
   /**
